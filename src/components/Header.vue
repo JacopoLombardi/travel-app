@@ -1,8 +1,7 @@
 
 
-<!-- Javascript -->
-<script>
 
+<script>
 
 export default {
   data(){
@@ -19,17 +18,36 @@ export default {
 
 
 
-<!-- HTML -->
+
 <template>
 
+  <div class="d-flex justify-content-between align-items-center mx-4 mt-4">
+    <div>
+      <img class=" w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpUzJ8Ewv5LprWqtReDBdWENTAB7iNSctjZw&s" alt="">
+    </div>
+
+    
+    <div>
+      <span><i class="fa-solid fa-bars"></i></span>
+    </div>
+
+
+    <!-- <div>
+      <span><i class="fa-solid fa-cart-shopping"></i></span>
+      <span><i class="fa-regular fa-user"></i></span>
+    </div> -->
+
+  </div>
   
 </template>
 
 
 
-<!-- CSS -->
+
 <style lang="scss" scoped>
 
-@use '../assets/scss/partials/variables' as *;
+i {
+  font-size: 2rem;
+}
 
 </style>
