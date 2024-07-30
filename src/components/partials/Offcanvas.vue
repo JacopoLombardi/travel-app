@@ -1,3 +1,4 @@
+
 <script>
 export default {
    data() {
@@ -23,8 +24,8 @@ export default {
 <template>
 
    <!-- Offcanvas -->
-   <div class="offcanvas offcanvas-top h-100" id="offcanvasRight">
-      <div class="offcanvas-header">
+   <div class="offcanvas offcanvas-top" id="offcanvasRight">
+      <div class="offcanvas-header mx-3">
          <div>
             <img class="logo w-25"
                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpIRv09FABDhPNrwXfHg3_2CS_nqm-bBaGmw&s"
@@ -119,7 +120,7 @@ export default {
          </div>
 
 
-         <div class="accordion-item rounded-5 mx-4 mt-2 shadow">
+         <div class="accordion-item rounded-5 mx-4 mt-2 shadow mb-5">
             <h2 class="accordion-header" id="flush-headingFive">
                <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
@@ -149,8 +150,11 @@ export default {
 
 
 <style lang="scss" scoped>
+
 .offcanvas {
+   height: 100%;
    i {
+      font-size: 24px;
       margin-right: 15px;
    }
 
@@ -160,7 +164,7 @@ export default {
    }
 
    li {
-      color: rgb(146, 146, 146);
+      color: rgb(126, 126, 126);
       margin-top: 5px;
       span:hover {
          cursor: pointer;
@@ -168,4 +172,23 @@ export default {
       }
    }
 }
+
+
+
+
+// Media query per dispositivi con larghezza maggiore o uguale a 992px
+@media (min-width: 992px) {
+   .offcanvas {
+      height: 80%;
+      overflow: auto;
+      .offcanvas-header{
+         margin: 1rem 3rem 0 3rem;
+      }
+      .accordion {
+         margin: 0 10rem;   
+      }
+   }
+
+}
+
 </style>
