@@ -47,6 +47,21 @@
 
       <!-- Menu Desktop -->
       <div class="menu_desktop">
+
+
+
+
+        <!-- <div class="text-black _link">
+          <router-link to="/user">Utente</router-link>
+        </div>
+
+        <div class="text-black _link">
+          <router-link to="/">Home</router-link>
+        </div> -->
+
+
+        
+
         <ul class="d-flex">
           <li v-for="(item, index) in menuItems" :key="index">
             <div class="_box">
