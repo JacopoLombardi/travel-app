@@ -18,7 +18,11 @@
 
 <template>
 
-   <h1>Home</h1>
+   <div class="container bg-warning mt-5">
+
+      <h2>viaggi</h2>
+
+   </div>
    
 </template>
 
