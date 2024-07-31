@@ -18,9 +18,9 @@
 
 <template>
 
-   <div class="container bg-warning mt-5">
+   <div class="_travel_loved container bg-warning">
 
-      <h2>viaggi</h2>
+      <h2>i viaggi piu amati</h2>
 
    </div>
    
@@ -32,5 +32,8 @@
 
 <style lang="scss" scoped>
 
+._travel_loved {
+  margin-top: 150px;
+}
 
 </style>
