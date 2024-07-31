@@ -1,15 +1,19 @@
-
 <script>
-  export default {
-    data(){
-      return{
-        
-      };
-    },
-    methods:{
-      
-    },
-  };
+import Loved_travel from '../components/partials/Loved_travel.vue'
+
+export default {
+  components:{
+    Loved_travel
+  },
+  data() {
+    return {
+
+    };
+  },
+  methods: {
+
+  },
+};
 </script>
 
 
@@ -18,12 +22,10 @@
 
 <template>
 
-   <div class="_travel_loved container bg-warning">
+  <loved_travel/>
 
-      <h2>i viaggi piu amati</h2>
+  
 
-   </div>
-   
 </template>
 
 
@@ -32,8 +34,9 @@
 
 <style lang="scss" scoped>
 
-._travel_loved {
-  margin-top: 150px;
-}
+
+
+
+
 
 </style>

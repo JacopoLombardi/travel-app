@@ -114,6 +114,7 @@ export default {
     h1 {
       font-size: 30px;
       font-weight: 800;
+      text-transform: uppercase;
       margin-bottom: 20px;
     }
 
