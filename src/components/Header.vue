@@ -1,4 +1,3 @@
-
 <script>
 import Offcanvas from './partials/Offcanvas.vue'
 
@@ -87,7 +86,6 @@ export default {
 
 
 <style lang="scss" scoped>
-
 ._header {
   width: 100%;
   padding: 0 30px;
@@ -185,13 +183,19 @@ export default {
 
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
-  ._jumbotron ._title {
-    h1 {
-      font-size: 50px;
+  ._jumbotron {
+    img {
+      height: 550px;
     }
 
-    h4 {
-      font-size: 30px;
+    ._title {
+      h1 {
+        font-size: 50px;
+      }
+
+      h4 {
+        font-size: 30px;
+      }
     }
   }
 }
