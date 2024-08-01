@@ -28,7 +28,7 @@ export default {
 <template>
 
   <div class="_header d-flex justify-content-between align-items-center position-fixed z-3">
-
+    
     <!-- logo -->
     <div>
       <img class="_logo w-25"
@@ -43,18 +43,18 @@ export default {
 
       <Offcanvas />
     </div>
-
   </div>
-
 
 
 
   <!-- jumbotron -->
   <div class="_jumbotron position-relative">
 
+    <!-- sfondo jumbo -->
     <img
       src="https://images.prismic.io/blind/ZmsBb5m069VX1uO7_Hero-Fuerte.webp?auto=format%2Ccompress&fit=max&w=1920&q=100"
-      alt="">
+      alt="jumbotron_foto"
+    >
 
     <!-- titolo -->
     <div class="_title text-center text-white position-absolute">
@@ -93,8 +93,6 @@ export default {
 }
 
 ._jumbotron {
-  min-width: 100vw;
-
   img {
     width: 100%;
     height: 450px;
@@ -184,6 +182,7 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
   ._jumbotron {
+
     img {
       height: 550px;
     }
@@ -196,6 +195,10 @@ export default {
       h4 {
         font-size: 30px;
       }
+    }
+
+    ._search {
+      bottom: -6%;
     }
   }
 }
