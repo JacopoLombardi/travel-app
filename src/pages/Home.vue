@@ -1,5 +1,5 @@
 <script>
-import Loved_travel from '../components/partials/Loved_travel.vue'
+import Loved_travel from '../components/Loved_travel.vue'
 
 export default {
   components:{
@@ -25,6 +25,8 @@ export default {
   <loved_travel/>
 
   
+
+
 
 </template>
 
