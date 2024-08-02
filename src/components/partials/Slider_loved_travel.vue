@@ -114,6 +114,7 @@ export default {
 
 
 
+
 <template>
    <!-- slider -->
    <swiper
@@ -266,15 +267,15 @@ $border-radius: 20px;
          }
 
          button {
-         background-color: white;
-         color: rgb(255, 94, 0);
-         border-radius: 50%;
-         padding: 7px 15px;
-         position: absolute;
-         z-index: 12;
-         bottom: 20%;
-         right: 7%;
-      }
+            background-color: white;
+            color: rgb(255, 94, 0);
+            border-radius: 50%;
+            padding: 7px 15px;
+            position: absolute;
+            z-index: 12;
+            bottom: 20%;
+            right: 7%;
+         }
       }
    }
 }
