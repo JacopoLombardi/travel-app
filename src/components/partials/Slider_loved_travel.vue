@@ -136,12 +136,14 @@ export default {
             <div class="card-body-mobile card-body d-lg-none">
                <h5>{{ slide.title }}</h5>
                <p>{{ slide.price }}</p>
+               <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
 
             <!-- desk -->
             <div class="card-body-desk card-body d-none d-lg-block">
                <h5>{{ slide.title }}</h5>
                <p>{{ slide.price }}</p>
+               <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
 
             <div class="bg_hidden d-flex d-none d-lg-block">
@@ -181,6 +183,7 @@ $border-radius: 20px;
    }
 
    .card-body-mobile {
+      position: relative;
       background-color: rgb(255, 94, 0);
       border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
@@ -189,6 +192,16 @@ $border-radius: 20px;
          font-size: 15px;
          font-weight: 800;
          text-transform: uppercase;
+      }
+
+      button {
+         background-color: white;
+         color: rgb(255, 94, 0);
+         border-radius: 50%;
+         padding: 2px 10px;
+         position: absolute;
+         bottom: 15%;
+         right: 7%;
       }
    }
 }
@@ -212,14 +225,6 @@ $border-radius: 20px;
          filter: brightness(80%);
          position: relative;
          transition: all 0.20s ease-in-out;
-
-      }
-
-      .card-body-mobile {
-         background-color: rgb(255, 94, 0);
-         position: absolute;
-         width: 100%;
-
       }
 
       .bg_hidden {
@@ -248,6 +253,7 @@ $border-radius: 20px;
       }
 
       .card-body-desk {
+         width: 100%;
          position: absolute;
          padding-left: 20px;
          bottom: 0;
@@ -258,6 +264,17 @@ $border-radius: 20px;
             position: relative;
             z-index: 10;
          }
+
+         button {
+         background-color: white;
+         color: rgb(255, 94, 0);
+         border-radius: 50%;
+         padding: 7px 15px;
+         position: absolute;
+         z-index: 12;
+         bottom: 20%;
+         right: 7%;
+      }
       }
    }
 }
