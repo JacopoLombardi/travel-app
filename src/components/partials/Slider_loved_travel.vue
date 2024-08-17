@@ -69,7 +69,7 @@ export default {
 
          if (width < 576) {                         // Mobile
             this.slidesPerView = 2;
-            this.spaceBetween = 10;
+            this.spaceBetween = 170;
          } else if (width >= 768 && width < 992) {  // Tablet
             this.slidesPerView = 3;
             this.spaceBetween = -90;

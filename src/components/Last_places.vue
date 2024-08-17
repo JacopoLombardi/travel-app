@@ -29,7 +29,7 @@ export default {
 
          if (width < 576) {
             this.slidesPerView = 1;
-            this.spaceBetween = -30;
+            this.spaceBetween = 30;
          } else if (width >= 768 && width < 992) {
             this.slidesPerView = 1;
             this.spaceBetween = -60;
@@ -139,22 +139,21 @@ export default {
       align-items: center;
       position: absolute;
 
-      ._swiper {
-         padding-left: 19%;
-      }
-
       ._card {
-         width: 300px;
+         width: 250px;
          border: 2px solid white;
          border-radius: 25px;
          text-align: center;
          padding: 100px 0;
+         
          background-color: #ffffff15;
          backdrop-filter: blur(8px);
          position: relative;
+         left: 50%;
+         transform: translateX(-50%);
 
          h2 {
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 800;
             text-transform: uppercase;
             margin-bottom: 40px;
@@ -217,48 +216,28 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 720px */
 @media (min-width: 720px) {
    .last_places {
+
       h4 {
-      font-size: 30px;
-      margin: 50px 20px 0 20px;
-
-   }
-
-      .external_card {
-         ._swiper {
-            padding-left: 35%;
-         }
-         
+         font-size: 25px;
       }
    }
 }
 
 
-
-
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
    .last_places {
-         .external_card {
-      
-            ._swiper {
-               padding-left: 39%;
-            }
-         }
+
+      h4 {
+         font-size: 30px;
       }
    }
-
-
+}
 
 
 /* Media query per dispositivi con larghezza maggiore o uguale a 1500px */
 @media (min-width: 1500px) {
-   .last_places {
-      .external_card {
-         ._swiper {
-            padding-left: 42%;
-         }
-      }
-   }
+  
 }
 
 </style>
