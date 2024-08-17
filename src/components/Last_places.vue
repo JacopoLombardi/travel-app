@@ -42,10 +42,6 @@ export default {
          }
       },
 
-      onSwiper(swiper) {
-         console.log(swiper);
-      },
-
       updateBackground(swiper) {
          this.currentBackground = this.places[swiper.activeIndex].imageUrl;
       }
@@ -213,8 +209,8 @@ export default {
 
 
 
-/* Media query per dispositivi con larghezza maggiore o uguale a 720px */
-@media (min-width: 720px) {
+/* Media query per dispositivi con larghezza maggiore o uguale a 768px */
+@media (min-width: 768px) {
    .last_places {
 
       h4 {

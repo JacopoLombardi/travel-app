@@ -63,7 +63,7 @@ export default {
 $border-radius: 20px;
 
 ._travel_loved {
-  padding: 100px 0;
+  padding: 80px 0 50px 0;
   background-color: rgb(241, 241, 241);
 
   .row {

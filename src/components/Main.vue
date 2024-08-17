@@ -1,6 +1,5 @@
 
 
-<!-- Javascript -->
 <script>
 
 
@@ -19,7 +18,8 @@ export default {
 
 
 
-<!-- HTML -->
+
+
 <template>
   
   
@@ -27,7 +27,9 @@ export default {
 
 
 
-<!-- CSS -->
+
+
+
 <style lang="scss" scoped>
 
 
