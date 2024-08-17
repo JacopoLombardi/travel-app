@@ -1,6 +1,7 @@
 
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Pagination } from 'swiper/modules'; 
 import 'swiper/swiper-bundle.css';
 
 export default {
@@ -11,13 +12,13 @@ export default {
    data() {
       return {
          places: [
-            { name: 'Maiorca', price: 629 },
-            { name: 'Kos', price: 499 },
-            { name: 'Ibiza', price: 709 },
-            { name: 'Rodi', price: 399 },
-            { name: 'Fuerteventura', price: 349 }
+            { name: 'Maiorca', price: 629, imageUrl: 'https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress' },
+            { name: 'Kos', price: 499, imageUrl: 'https://images.prismic.io/blind/ZlSlwKWtHYXtT0yY_Kos-Cover.webp?auto=format,compress' },
+            { name: 'Ibiza', price: 709, imageUrl: 'https://images.prismic.io/blind/Zo-3PR5LeNNTxB3h_Ibiza-Cover.webp?auto=format,compress' },
+            { name: 'Rodi', price: 399, imageUrl: 'https://images.prismic.io/blind/ZlSlwKWtHYXtT0yZ_Rodi-Cover.webp?auto=format,compress' },
+            { name: 'Fuerteventura', price: 349, imageUrl: 'https://images.prismic.io/blind/ZqesVx5LeNNTxkbZ_fuerte.webp?auto=format,compress' }
          ],
-
+         currentBackground: 'https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress',
          slidesPerView: 1,
          spaceBetween: -30,
       };
@@ -26,16 +27,16 @@ export default {
       updateSlidesPerView() {
          const width = window.innerWidth;
 
-         if (width < 576) {                         // Mobile
+         if (width < 576) {
             this.slidesPerView = 1;
             this.spaceBetween = -30;
-         } else if (width >= 768 && width < 992) {  // Tablet
+         } else if (width >= 768 && width < 992) {
             this.slidesPerView = 1;
             this.spaceBetween = -60;
-         } else if (width >= 992 && width < 1500) {  // Laptop
+         } else if (width >= 992 && width < 1500) {
             this.slidesPerView = 1;
             this.spaceBetween = 30;
-         } else {                                   // Desktop 
+         } else {
             this.slidesPerView = 1;
             this.spaceBetween = 20;
          }
@@ -43,6 +44,10 @@ export default {
 
       onSwiper(swiper) {
          console.log(swiper);
+      },
+
+      updateBackground(swiper) {
+         this.currentBackground = this.places[swiper.activeIndex].imageUrl;
       }
    },
 
@@ -54,6 +59,8 @@ export default {
       window.removeEventListener('resize', this.updateSlidesPerView);
    }
 };
+
+
 </script>
 
 
@@ -61,21 +68,23 @@ export default {
 
 
 
-
 <template>
-   <div class="last_places text-white mb-5">
-      <h4>Ultimi posti per la tua estate</h4>
-      <img src="https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress" alt="">
+   <div
+     class="last_places text-white mb-5"
+     :style="{backgroundImage: `url(${currentBackground})`}"
+   >
+      <h4 class="col-12">Ultimi posti per la tua estate</h4>
 
       <div class="external_card">
-
          <swiper
             class="_swiper"
             :slides-per-view="slidesPerView"
             :space-between="spaceBetween"
             :loop="false"
-            pagination
+            :pagination="{ clickable: true }" 
             @swiper="onSwiper"
+            @slideChange="updateBackground"
+            modules="[Pagination]" 
          >
             <swiper-slide
               v-for="(place, index) in places"
@@ -87,16 +96,14 @@ export default {
                   <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
                </div>
             </swiper-slide>
-
-
-            <div class="_pagination"></div>
-
+            
          </swiper>
-
-
       </div>
+
    </div>
 </template>
+
+
 
 
 
@@ -107,25 +114,22 @@ export default {
 <style lang="scss" scoped>
 .last_places {
    position: relative;
-   height: 800px;
-
+   height: 600px;
    display: flex;
    justify-content: center;
 
+   background-size: cover;
+   background-position: center;
+   transition: all 0.4s ease;
+
    h4 {
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 800;
       text-transform: uppercase;
       text-align: center;
       max-width: 100%;
       margin: 50px 20px 0 20px;
       position: absolute;
-   }
-
-   img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
    }
 
    .external_card {
@@ -136,7 +140,7 @@ export default {
       position: absolute;
 
       ._swiper {
-         padding-left: 15%;
+         padding-left: 19%;
       }
 
       ._card {
@@ -144,13 +148,13 @@ export default {
          border: 2px solid white;
          border-radius: 25px;
          text-align: center;
-         padding: 160px 0;
+         padding: 100px 0;
          background-color: #ffffff15;
          backdrop-filter: blur(8px);
          position: relative;
 
          h2 {
-            font-size: 35px;
+            font-size: 30px;
             font-weight: 800;
             text-transform: uppercase;
             margin-bottom: 40px;
@@ -179,15 +183,33 @@ export default {
          }
       }
 
-      ._pagination {
-         font-size: 30px;
-         
-      }
+      // /* Stile per i punti di paginazione */
+      // .swiper-pagination-bullet {
+      //    width: 12px;
+      //    height: 12px;
+      //    background: white;  // Colore dei punti di paginazione
+      //    opacity: 0.7;
+      //    margin: 0 4px;
+      // }
+
+      // .swiper-pagination-bullet-active {
+      //    background: rgb(112, 50, 219);  // Colore del punto attivo
+      //    opacity: 1;
+      // }
+
+      // .swiper-pagination {
+      //    position: absolute;
+      //    bottom: 20px;
+      //    width: 100%;
+      //    text-align: center;
+      //    z-index: 10;
+      //    display: flex;
+      //    justify-content: center;
+      //    align-items: center;
+      //    height: 20px;  // Altezza forzata
+      // }
    }
 }
-
-
-
 
 
 
@@ -195,10 +217,17 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 720px */
 @media (min-width: 720px) {
    .last_places {
+      h4 {
+      font-size: 30px;
+      margin: 50px 20px 0 20px;
+
+   }
+
       .external_card {
          ._swiper {
-            padding-left: 30%;
+            padding-left: 35%;
          }
+         
       }
    }
 }
@@ -209,27 +238,10 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
    .last_places {
-         h4 {
-            font-size: 43px;
-         }
-   
          .external_card {
-            ._card {
-               width: 450px;    
-               height: 450px;
-
-               h2 {
-                  font-size: 45px;
-                  margin-bottom: 50px;
-               }
-   
-               p {
-                  font-size: 22px;
-               }
-            }
-   
+      
             ._swiper {
-               padding-left: 35%;
+               padding-left: 39%;
             }
          }
       }
@@ -243,11 +255,11 @@ export default {
    .last_places {
       .external_card {
          ._swiper {
-            padding-left: 38%;
+            padding-left: 42%;
          }
       }
    }
 }
 
-
 </style>
+

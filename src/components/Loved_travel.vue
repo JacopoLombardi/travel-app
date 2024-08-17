@@ -29,7 +29,7 @@ export default {
 
 <template>
   <div class="_travel_loved">
-    <div class="row flex-lg-nowrap">
+    <div class="row flex-lg-nowrap m-0">
 
       <!-- titolo -->
       <div class="_title d-flex ps-3 ps-lg-0 col-lg-2">
@@ -73,7 +73,7 @@ $border-radius: 20px;
 
   ._title {
     padding-bottom: 25px;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 
     h2 {
       color: rgb(92, 0, 221);
@@ -99,7 +99,7 @@ $border-radius: 20px;
 @media (min-width: 992px) {
 
   .row {
-    width: 93.5vw;
+    // width: 93.5vw;
   }
 
   ._travel_loved {
@@ -151,7 +151,7 @@ $border-radius: 20px;
 /* Media query per dispositivi con larghezza maggiore o uguale a 1500px */
 @media (min-width: 1500px) {
   .row {
-    width: 95.1vw;
+    // width: 95.1vw;
   }
 
   ._travel_loved {

@@ -166,11 +166,12 @@ export default {
 $border-radius: 20px;
 
 ._swiper {
-   margin-left: 2rem;
+   margin-left: 0.5rem;
 }
 
 .card {
-   width: 12rem;
+   width: 14rem;
+   height: 18rem;
    color: white;
    margin: 0 10px;
    border: none;
