@@ -87,8 +87,6 @@ $border-radius: 20px;
       color: rgb(149, 149, 149);
     }
   }
-
-
 }
 
 

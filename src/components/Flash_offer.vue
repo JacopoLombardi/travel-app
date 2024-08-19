@@ -202,8 +202,8 @@ export default {
 
       .btn {
         position: absolute;
-        right: 5%;
-        bottom: 10%;
+        right: 15px;
+        bottom: 15px;
         padding: 3px 9px;
         background-color: rgb(255, 234, 212);
         color: rgb(255, 136, 0);
