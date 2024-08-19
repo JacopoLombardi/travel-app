@@ -136,7 +136,8 @@ export default {
 
 ._university {
    background-color: rgba(176, 199, 255, 0.438);
-   padding: 70px 0;
+   padding: 50px 0 70px 25px;
+
 
    ._title {
       margin-bottom: 20px;
@@ -148,13 +149,13 @@ export default {
 
       h4 {
          font-weight: 800;
-         font-size: 20px;
+         font-size: 23px;
          text-transform: uppercase;
       }
 
       p {
          color: rgb(131, 158, 255);
-         font-size: 11px;
+         font-size: 13px;
       }
    }
 
@@ -220,6 +221,8 @@ export default {
 @media (min-width: 768px) {
 
    ._university {
+      padding: 70px 0 70px 25px;
+
       ._title {
          h3 {
             font-size: 70px;
