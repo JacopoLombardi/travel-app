@@ -6,6 +6,7 @@ import Flash_offer from '../components/Flash_offer.vue'
 import University from '../components/University.vue'
 import Our_philosophy from '../components/Our_philosophy.vue'
 import Reviews from '../components/Reviews.vue'
+import Partner from '../components/Partner.vue'
 
 
 
@@ -16,7 +17,8 @@ export default {
     Flash_offer,
     University,
     Our_philosophy,
-    Reviews
+    Reviews,
+    Partner
   },
   data() {
     return {
@@ -47,7 +49,9 @@ export default {
 
   <Reviews/>
 
+  <Partner/>
 
+  
 
 </template>
 

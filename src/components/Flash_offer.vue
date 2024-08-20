@@ -103,7 +103,7 @@ export default {
     >
       <SwiperSlide v-for="(slide, index) in slides" :key="index">
         <div class="card">
-          <img :src="slide.imageUrl" class="card-img-top" alt="" />
+          <img :src="slide.imageUrl" class="card-img-top" alt="">
           <div class="card-body">
             <span>{{ slide.tag }}</span>
             <div class="card-body-title">
