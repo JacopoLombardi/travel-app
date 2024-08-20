@@ -5,6 +5,7 @@ import Last_places from '../components/Last_places.vue'
 import Flash_offer from '../components/Flash_offer.vue'
 import University from '../components/University.vue'
 import Our_philosophy from '../components/Our_philosophy.vue'
+import Reviews from '../components/Reviews.vue'
 
 
 
@@ -14,7 +15,8 @@ export default {
     Last_places,
     Flash_offer,
     University,
-    Our_philosophy
+    Our_philosophy,
+    Reviews
   },
   data() {
     return {
@@ -42,6 +44,8 @@ export default {
   <University/>
 
   <Our_philosophy/>
+
+  <Reviews/>
 
 
 
