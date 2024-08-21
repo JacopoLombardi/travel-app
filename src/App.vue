@@ -38,7 +38,6 @@ export default {
 
   <Main />
 
-  <Footer />
 
   <router-view />
   
