@@ -148,7 +148,7 @@ export default {
 
 <style lang="scss" scoped>
 .flash-offer {
-  margin: 100px 0 50px;
+  margin: 70px 0 50px;
 
   ._swiper {
     padding-left: 1rem;

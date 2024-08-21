@@ -7,6 +7,7 @@ import University from '../components/University.vue'
 import Our_philosophy from '../components/Our_philosophy.vue'
 import Reviews from '../components/Reviews.vue'
 import Partner from '../components/Partner.vue'
+import Footer from '../components/Footer.vue'
 
 
 
@@ -18,7 +19,8 @@ export default {
     University,
     Our_philosophy,
     Reviews,
-    Partner
+    Partner,
+    Footer
   },
   data() {
     return {
@@ -51,7 +53,7 @@ export default {
 
   <Partner/>
 
-  
+  <Footer/>
 
 </template>
 
