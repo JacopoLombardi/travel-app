@@ -45,7 +45,7 @@ export default {
    <div class="footer_down d-md-flex">
 
       <!-- sponsor -->
-      <div class="d-flex justify-content-center px-3 col col-md-6">
+      <div class="d-flex justify-content-center col col-md-5">
 
          <div class="d-flex flex-column align-items-center col-6">
             <h6>Proudly part of</h6>
@@ -70,7 +70,7 @@ export default {
       
 
       <!-- payment -->
-      <div class="_payment pt-5 px-4 col col-md-6 flex-md-column">
+      <div class="_payment pt-5 px-4 col col-md-5 flex-md-column">
          <h6>Puoi pagare il tuo viaggio con</h6>
          <ul>
             <li 
@@ -169,6 +169,10 @@ export default {
 @media (min-width: 768px) {
 
    .footer_down {
+      padding: 0 10% 50px;
+      display: flex;
+      justify-content: space-between;
+
       ._payment {
          padding: 0 !important;
          display: flex;

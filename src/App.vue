@@ -1,6 +1,4 @@
 
-
-<!-- Javascript -->
 <script>
 
 // import componenti
@@ -31,13 +29,10 @@ export default {
 
 
 
-<!-- HTML -->
+
 <template>
 
   <Header />
-
-  <Main />
-
 
   <router-view />
   
@@ -45,7 +40,7 @@ export default {
 
 
 
-<!-- CSS -->
+
 <style lang="scss">
 
 @use './assets/scss/main';

@@ -1,4 +1,6 @@
+
 <script>
+import Loved_travel from '../../data/json_data/Loved_travel.json'
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
@@ -17,56 +19,18 @@ export default {
          required: true
       }
    },
-
    data() {
       return {
+         dataSlide: Loved_travel,
          swiperInstance: null,
-         slides: [
-            {
-               title: 'Thailandia',
-               price: 'Da 449 €',
-               img: 'https://images.prismic.io/blind/Zqn_GR5LeNNTxpBk_IMG_2301-Large.webp?auto=format,compress'
-            },
-            {
-               title: 'Sharm el-sheikh',
-               price: 'Da 349 €',
-               img: 'https://images.prismic.io/blind/Zkr-rCol0Zci9Rja_Egitto-Cover.webp?auto=format,compress'
-            },
-            {
-               title: 'Marocco',
-               price: 'Da 429 €',
-               img: 'https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress'
-            },
-            {
-               title: 'Zanzibar',
-               price: 'Da 429 €',
-               img: 'https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format,compress'
-            },
-            {
-               title: 'Kenya',
-               price: 'Da 569 €',
-               img: 'https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress'
-            },
-            {
-               title: 'Rodi',
-               price: 'Da 399 €',
-               img: 'https://images.prismic.io/blind/ZkyWPSol0Zci9UYe_Rodi.webp?auto=format,compress'
-            },
-            {
-               title: 'Kos',
-               price: 'Da 449 €',
-               img: 'https://images.prismic.io/blind/Zk4JqSol0Zci9W-7_Grecia.webp?auto=format,compress'
-            }
-         ],
          slidesPerView: 2,
          spaceBetween: 30,
+         slides: []
       };
    },
-
    methods: {
       updateSlidesPerView() {
          const width = window.innerWidth;
-
          if (width < 576) {                         // Mobile
             this.slidesPerView = 2;
             this.spaceBetween = 170;
@@ -81,8 +45,6 @@ export default {
             this.spaceBetween = -400;
          }
       },
-
-      //  funzioni per avanzamento dello slider
       prevSlide() {
          if (this.swiperInstance) {
             this.swiperInstance.slidePrev();
@@ -97,9 +59,11 @@ export default {
          this.swiperInstance = swiper;
          this.onPrevSlide(this.prevSlide);
          this.onNextSlide(this.nextSlide);
+      },
+      slideClicked(slide) {
+         this.$emit('slide-clicked', slide);
       }
    },
-
    mounted() {
       this.updateSlidesPerView();
       window.addEventListener('resize', this.updateSlidesPerView);
@@ -110,25 +74,21 @@ export default {
 };
 </script>
 
-
-
-
-
-
 <template>
    <!-- slider -->
    <swiper
-     class="_swiper"
-     :slides-per-view="slidesPerView"
-     :space-between="spaceBetween"
-     :loop="true"
-     pagination
-     @swiper="onSwiper"
+   class="_swiper"
+   :slides-per-view="slidesPerView"
+   :space-between="spaceBetween"
+   :loop="true"
+   pagination
+   @swiper="onSwiper"
    >
 
       <swiper-slide
-        v-for="(slide, index) in slides"
-        :key="index"
+         v-for="(slide, index) in dataSlide.slides"
+         :key="index"
+         @click="slideClicked(slide)"
       >
          <div class="card">
             <img :src="slide.img" :alt="slide.title">
@@ -136,26 +96,26 @@ export default {
             <!-- mobile / tablet -->
             <div class="card-body-mobile card-body d-lg-none">
                <h5>{{ slide.title }}</h5>
-               <p>{{ slide.price }}</p>
+               <p>Da {{ slide.price }}</p>
                <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
 
             <!-- desk -->
             <div class="card-body-desk card-body d-none d-lg-block">
                <h5>{{ slide.title }}</h5>
-               <p>{{ slide.price }}</p>
+               <p>Da {{ slide.price }}</p>
                <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
 
             <div class="bg_hidden d-flex d-none d-lg-block">
                <p>7 notti / 8 giorni</p>
             </div>
-
          </div>
       </swiper-slide>
-
+      
    </swiper>
 </template>
+
 
 
 

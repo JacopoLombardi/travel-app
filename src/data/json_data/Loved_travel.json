@@ -1,0 +1,40 @@
+{
+   "slides": [
+     {
+       "title": "Thailandia",
+       "price": "449 €",
+       "img": "https://images.prismic.io/blind/Zqn_GR5LeNNTxpBk_IMG_2301-Large.webp?auto=format,compress"
+     },
+     {
+       "title": "Sharm el-sheikh",
+       "price": "349 €",
+       "img": "https://images.prismic.io/blind/Zkr-rCol0Zci9Rja_Egitto-Cover.webp?auto=format,compress"
+     },
+     {
+       "title": "Marocco",
+       "price": "429 €",
+       "img": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress"
+     },
+     {
+       "title": "Zanzibar",
+       "price": "429 €",
+       "img": "https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format,compress"
+     },
+     {
+       "title": "Kenya",
+       "price": "569 €",
+       "img": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress"
+     },
+     {
+       "title": "Rodi",
+       "price": "399 €",
+       "img": "https://images.prismic.io/blind/ZkyWPSol0Zci9UYe_Rodi.webp?auto=format,compress"
+     },
+     {
+       "title": "Kos",
+       "price": "449 €",
+       "img": "https://images.prismic.io/blind/Zk4JqSol0Zci9W-7_Grecia.webp?auto=format,compress"
+     }
+   ]
+ }
+ 

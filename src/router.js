@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from './pages/Home.vue'
-import User from './pages/User.vue'
+import Travel_detail from './pages/Travel_detail.vue'
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -13,9 +13,9 @@ const router = createRouter({
 			component: Home,
 		},
       {
-			path: "/user",
-			name: "user",
-			component: User,
+			path: "/Travel_detail",
+			name: "Travel_detail",
+			component: Travel_detail,
 		},
 
    ]
