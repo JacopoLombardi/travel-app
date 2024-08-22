@@ -20,7 +20,6 @@ export default {
 <template>
   <div class="footer_up">
 
-
     <!-- newsletter -->
     <div class="_newsletter">
 
@@ -49,7 +48,6 @@ export default {
     </div>
 
 
-
     <!-- componente menu footer -->
     <Footer_up_menu/>
 
@@ -73,7 +71,6 @@ export default {
 
 
 
-
 <style lang="scss" scoped>
 h4 {
    text-transform: uppercase;
@@ -83,7 +80,7 @@ h4 {
 }
 
 .footer_up {
-   height: 700px;
+   height: auto;
    background-color: black;
    color: white !important;
    padding: 50px 20px;

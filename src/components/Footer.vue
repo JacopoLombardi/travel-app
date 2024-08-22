@@ -2,10 +2,12 @@
 
 <script>
 import Footer_up from "./partials/Footer_up.vue"
+import Footer_down from "./partials/Footer_down.vue"
 
 export default {
   components:{
-    Footer_up
+    Footer_up,
+    Footer_down
   },
   data(){
     return{
@@ -27,7 +29,7 @@ export default {
   
   <Footer_up/>
 
-  
+  <Footer_down/>
   
 </template>
 
