@@ -1,40 +1,317 @@
 {
-   "slides": [
-     {
-       "title": "Thailandia",
-       "price": "449 €",
-       "img": "https://images.prismic.io/blind/Zqn_GR5LeNNTxpBk_IMG_2301-Large.webp?auto=format,compress"
-     },
-     {
-       "title": "Sharm el-sheikh",
-       "price": "349 €",
-       "img": "https://images.prismic.io/blind/Zkr-rCol0Zci9Rja_Egitto-Cover.webp?auto=format,compress"
-     },
-     {
-       "title": "Marocco",
-       "price": "429 €",
-       "img": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress"
-     },
-     {
-       "title": "Zanzibar",
-       "price": "429 €",
-       "img": "https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format,compress"
-     },
-     {
-       "title": "Kenya",
-       "price": "569 €",
-       "img": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress"
-     },
-     {
-       "title": "Rodi",
-       "price": "399 €",
-       "img": "https://images.prismic.io/blind/ZkyWPSol0Zci9UYe_Rodi.webp?auto=format,compress"
-     },
-     {
-       "title": "Kos",
-       "price": "449 €",
-       "img": "https://images.prismic.io/blind/Zk4JqSol0Zci9W-7_Grecia.webp?auto=format,compress"
-     }
-   ]
- }
- 
+  "slides": [
+
+
+
+    
+    {
+      "title": "Thailandia",
+      "price": "449 €",
+      "img": "https://images.prismic.io/blind/Zqn_GR5LeNNTxpBk_IMG_2301-Large.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg",
+        "title": "per esploratori instancabili",
+        "badge": [
+          {
+            "name": "Snorkeling approved"
+          },
+          {
+            "name": "100% Party"
+          },
+          {
+            "name": "Adrenalinico"
+          },
+          {
+            "name": "A prova di GEN Z"
+          }
+        ],
+        "paragraph": [
+          {
+            "text": "Chiamano la Thailandia “La terra del Sorriso”, e probabilmente non solo per la gentilezza e l'allegria dei suoi abitanti. Una volta che esplori questo Paese, è impossibile smettere di sorridere."
+          },
+          {
+            "text": "Questo viaggio è pensato per te, che non vedi l'ora di perderti tra le spiagge thailandesi e di ascoltare il caos organizzato di questa città senza rinunciare alla natura incontaminata."
+          },
+          {
+            "text": "Qualsiasi sia il tuo ideale di viaggio, il <b> Club Phuket </b> ti permetterà di provare tutto questo (e molto altro) insieme ad altri <b> viaggiatori e viaggiatrici come te </b>: sarai tu a scegliere quali esperienze vivere, da solo o in compagnia di altri Utravelers."
+          },
+          {
+            "text": "Troverai anche un* Coach del post che ti consiglierà tutte le chicche e i segreti della destinazione!"
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        }
+      }
+    },
+
+
+
+
+
+
+    {
+      "title": "Sharm el-sheikh",
+      "price": "349 €",
+      "img": "https://images.prismic.io/blind/Zkr-rCol0Zci9Rja_Egitto-Cover.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618980015.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A40Z&sr=b&sp=rade&sig=%2Ff0wVz8eTn6oSoYaigMF08BBv6qTtahZHor85DWcGLY%3D&rsct=image%2Fjpg",
+        "title": "per eclettici viaggiatori",
+        "badge": [
+          {
+            "name": "Party & Chill"
+          },
+          {
+            "name": "Snorkeling approved"
+          },
+          {
+            "name": "7 meraviglie del mondo check"
+          },
+          {
+            "name": "A prova di GEN Z"
+          }
+        ],
+        "paragraph": [
+          {
+            "text": "Facci indovinare: sei qui perché hai sempre desiderato visitare <b> la culla della civiltà </b> e rimanere senza parole davanti alle antiche <b> piramidi al Cairo </b>? Sogni di <b> attraversare il deserto </b> e incontrare i beduini? O ancora vorresti ammirare la <b> barriera corallina </b> del <b> Mar Rosso </b>."
+          },
+          {
+            "text": "Con il <b> Club Sharm El-Sheikh </b> potrai vivere queste (e molte altre) esperienze insieme ad <b> altri viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire <b> il tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)."
+          },
+          {
+            "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione </b>! Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        }
+      }
+    },
+
+
+
+
+
+    {
+      "title": "Marocco",
+      "price": "429 €",
+      "img": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990955951.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A37Z&sr=b&sp=rade&sig=pcUuaR3yHW74EyfWJECKLfjnjh%2BFx8uit7b6tFcwFbo%3D&rsct=image%2Fjpg",
+        "title": "per esploratori sinceri",
+        "badge": [
+          {
+            "name": "Tè nel deserto"
+          },
+          {
+            "name": "Cucina local"
+          },
+          {
+            "name": "Souk e spezie"
+          },
+          {
+            "name": "A prova di GEN Z"
+          }
+        ],
+        "paragraph": [
+          {
+            "text": "Non hai ancora preso l'aereo e già senti la sensazione della <b> sabbia tra le dita </b>, il <b> calore del sole </b> sulla pelle e il <b> profumo delle spezie </b>. In <b> 8 giorni </b> riuscirai a vivere l'essenza del Marocco, scoprendo tutte le sue sfaccettature più magiche."
+          },
+          {
+            "text": "Questo viaggio inizia a Marrakech dove resterai <b> 5 notti </b>. Potrai lasciarti ammaliare dalla <b> cultura araba </b>, così ricca di <b> storia e colori </b>, girovagando tra le strade e i <b> mercati </b>."
+          },
+          {
+            "text": "La <b> seconda parte del viaggio </b> sarà un'esperienza incredibile: un <b> percorso di tre giorni direzione 'Deserto del Sahara' </b>, nel Merzouga, dove dormirai una <b> notte in un campo tendato </b>. Partirai da Marrakech e percorrerai l'Alto Atlante un strada costellata da villaggi berberi, ti fermerai ad Ait-Ben- Haddu e Ouarzazate e farai tappa a Dades, le Gole del Tondra e Tinghir."
+          },
+          {
+            "text": "Qualsiasi sia il tuo <b> mood di viaggio </b>, con il Club Marrakech potrai vivere queste (e molte altre) esperienze insieme ad altri <b> giovani viaggiatori </b> e scoprire la vera essenza della destinazione. Troverai anche un* <b> coach del posto </b> pront* a consigliarti le situazioni più local e a <b> raccontarti tutti i segreti di Marrakech! </b>"
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        }
+      }
+    },
+
+
+
+
+
+    {
+      "title": "Zanzibar",
+      "price": "429 €",
+      "img": "https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178580825.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A42Z&sr=b&sp=rade&sig=I9wwLqignetNR4bRxUtbpRR7CGiNovGjo4mIwtVRHFQ%3D&rsct=image%2Fjpg",
+        "title": "per chillatori esperti",
+        "badge": [
+          {
+            "name": "Hakuna matata"
+          },
+          {
+            "name": "Nuota nell'oceano indiano"
+          },
+          {
+            "name": "Tramonti top"
+          },
+          {
+            "name": "A prova di GEN Z"
+          }
+        ],
+        "paragraph": [
+          {
+            "text": "Nella vita ti poni obiettivi scialli: sentire <b> il rumore del mare </b>, osservare la pace e <b> la natura più incontaminata </b>, conoscere culture lontane. A Zanzibar potresti raggiungere la pace dei sensi gustando frutta fresca in mezzo al mare."
+          },
+          {
+            "text": "Qualsiasi sia il tuo <b> mood di viaggio </b>, il Club <b> Zanzibar </b> ti permetterà di provare tutto questo (e molto altro) insieme ad altri <b> viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire <b> il tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)"
+          },
+          {
+            "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        }
+      }
+    },
+
+
+
+
+
+
+    {
+      "title": "Kenya",
+      "price": "569 €",
+      "img": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003331268.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A51Z&sr=b&sp=rade&sig=37Ihp6qSmwv2WAxSpH78t2jVveLGh3mK3BBJlGBPAlo%3D&rsct=image%2Fjpg",
+        "title": "per sciallatori seriali",
+        "badge": [
+          {
+            "name": "Hakuna matata"
+          },
+          {
+            "name": "Snorkeling approved"
+          },
+          {
+            "name": "Safari"
+          },
+          {
+            "name": "A prova di GEN Z"
+          }
+        ],
+        "paragraph": [
+          {
+            "text": "Sogni di ammirare la <b> rupe dei re </b> e non vedi l'ora di <b> avventurarti nella savana </b>? Cerchi il giusto equilibrio tra <b> comfort, vida local e vita da mare </b>? Questo è il Club che fa per te!"
+          },
+          {
+            "text": "Qualunque sia lo spirito con cui parti, il <b> Club Kenya </b> ti permetterà di provare tutto quello che desideri insieme <b> ad altri viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire il <b> tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con le <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)."
+          },
+          {
+            "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        }
+      }
+    },
+
+
+
+
+
+    {
+      "title": "Rodi",
+      "price": "399 €",
+      "img": "https://images.prismic.io/blind/ZkyWPSol0Zci9UYe_Rodi.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824266341.webp?sv=2023-08-03&se=2074-05-15T15%3A37%3A47Z&sr=b&sp=rade&sig=4B86z0NxBkYFYhhrIDmVHId7HbYN%2F9SRHdyzDmFQtEQ%3D&rsct=image%2Fjpg",
+        "title": "per vacanzieri doc",
+        "badge": [
+          {
+            "name": "Relax e wildlife"
+          },
+          {
+            "name": "Pita gyros e souvlaki"
+          },
+          {
+            "name": "Tuffati nel Mediterraneo"
+          },
+          {
+            "name": "A prova di GEN Z"
+          }
+        ],
+        "paragraph": [
+          {
+            "text": "<b> Rodi </b> ti conquisterà per la sua natura selvaggia, per le calette sparse per l'isola e la vita notturna tipica greca."
+          },
+          {
+            "text": "Qualsiasi sia il tuo mood di viaggio, il <b> Club Rodi </b> ti permetterà di provare tutto questo (e molto altro) insieme <b> ad altri viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire il <b> tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con le <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)."
+          },
+          {
+            "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        }
+      }
+    },
+
+
+
+
+
+    {
+      "title": "Kos",
+      "price": "449 €",
+      "img": "https://images.prismic.io/blind/Zk4JqSol0Zci9W-7_Grecia.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824331859.webp?sv=2023-08-03&se=2074-05-15T15%3A38%3A52Z&sr=b&sp=rade&sig=qz%2F%2BTcYOAM2PtGz80q30MVGNsFDlCG9V0gxD7fDVo8c%3D&rsct=image%2Fjpg",
+        "title": "per chi crede nei miti",
+        "badge": [
+          {
+            "name": "Un salto in Turchia"
+          },
+          {
+            "name": "Pita gyros e souvlaki"
+          },
+          {
+            "name": "Tuffati nel Mediterraneo"
+          },
+          {
+            "name": "A prova di GEN Z"
+          }
+        ],
+        "paragraph": [
+          {
+            "text": "Kos è l'isola adatta a te che vuoi vivere di sole e mare per una settimana senza rinunciare al buon cibo e alla vita notturna, e perché no, magari facendo tappa anche in Turchia!"
+          },
+          {
+            "text": "Qualsiasi sia il tuo mood di viaggio, il <b> Club Kos </b> ti permetterà di provare tutto questo (e molto altro) insieme <b> ad altri viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire il <b> tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con le <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)."
+          },
+          {
+            "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        }
+      }
+    }
+
+
+
+
+
+  ]
+}
