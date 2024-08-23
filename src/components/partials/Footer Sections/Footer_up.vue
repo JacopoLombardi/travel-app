@@ -1,5 +1,5 @@
 <script>
-import Footer_up_menu from "./Footer_up_menu.vue"
+import Footer_up_menu from "./partial Footer/Footer_up_menu.vue"
 
 export default {
    components:{

@@ -1,13 +1,13 @@
 <script>
 
-import Jumbotron_home from '../components/Jumbotron_home.vue'
-import Loved_travel from '../components/Loved_travel.vue'
-import Last_places from '../components/Last_places.vue'
-import Flash_offer from '../components/Flash_offer.vue'
-import University from '../components/University.vue'
-import Our_philosophy from '../components/Our_philosophy.vue'
-import Reviews from '../components/Reviews.vue'
-import Partner from '../components/Partner.vue'
+import Jumbotron_home from '../components/partials/Home Sections/Jumbotron_home.vue'
+import Loved_travel from '../components/partials/Home Sections/Loved_travel.vue'
+import Last_places from '../components/partials/Home Sections/Last_places.vue'
+import Flash_offer from '../components/partials/Home Sections/Flash_offer.vue'
+import University from '../components/partials/Home Sections/University.vue'
+import Our_philosophy from '../components/partials/Home Sections/Our_philosophy.vue'
+import Reviews from '../components/partials/Home Sections/Reviews.vue'
+import Partner from '../components/partials/Home Sections/Partner.vue'
 import Footer from '../components/Footer.vue'
 
 

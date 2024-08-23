@@ -1,8 +1,8 @@
 
 
 <script>
-import Footer_up from "./partials/Footer_up.vue"
-import Footer_down from "./partials/Footer_down.vue"
+import Footer_up from "./partials/Footer Sections/Footer_up.vue"
+import Footer_down from "./partials/Footer Sections/Footer_down.vue"
 
 export default {
   components:{

@@ -1,6 +1,6 @@
 
 <script>
-import Slider from './partials/Slider_loved_travel.vue'
+import Slider from './partial Home/Slider_loved_travel.vue'
 
 export default {
   components: {
@@ -8,7 +8,6 @@ export default {
   },
   data() {
     return {
-      selectedSlide: null
     };
   },
   methods: {
@@ -17,10 +16,6 @@ export default {
     },
     registerNextSlide(callback) {
       this.nextSlide = callback;
-    },
-    handleSlideClick(slideData) {
-      this.selectedSlide = slideData;
-      console.log('Slide clicked:', this.selectedSlide);
     }
   }
 };
@@ -32,6 +27,7 @@ export default {
 <template>
   <div class="_travel_loved">
     <div class="row flex-lg-nowrap m-0">
+
       <!-- titolo -->
       <div class="_title d-flex ps-3 ps-lg-0 col-lg-2">
         <div>
@@ -45,17 +41,12 @@ export default {
         </div>
       </div>
 
-      <!-- componente Slider -->
-      <!-- query serve per passare dati complessi come array / oggetti -->
-      <router-link
-        :to="{ name: 'Travel_detail', query: { slideData: JSON.stringify(selectedSlide) } }"
-      >
-        <Slider
-          :onPrevSlide="registerPrevSlide"
-          :onNextSlide="registerNextSlide"
-          @slide-clicked="handleSlideClick" 
-        />
-      </router-link>
+      <!-- componente slider -->
+      <Slider
+        :onPrevSlide="registerPrevSlide"
+        :onNextSlide="registerNextSlide" 
+      />
+
     </div>
   </div>
 </template>

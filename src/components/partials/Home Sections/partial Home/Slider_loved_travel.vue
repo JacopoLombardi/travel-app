@@ -1,6 +1,6 @@
 
 <script>
-import Loved_travel from '../../data/json_data/Loved_travel.json'
+import Loved_travel from '../../../../data/json_data/Loved_travel.json'
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
@@ -60,9 +60,7 @@ export default {
          this.onPrevSlide(this.prevSlide);
          this.onNextSlide(this.nextSlide);
       },
-      slideClicked(slide) {
-         this.$emit('slide-clicked', slide);
-      }
+      
    },
    mounted() {
       this.updateSlidesPerView();
@@ -74,50 +72,58 @@ export default {
 };
 </script>
 
+
+
+
 <template>
    <!-- slider -->
    <swiper
-   class="_swiper"
-   :slides-per-view="slidesPerView"
-   :space-between="spaceBetween"
-   :loop="true"
-   pagination
-   @swiper="onSwiper"
+     class="_swiper"
+     :slides-per-view="slidesPerView"
+     :space-between="spaceBetween"
+     :loop="true"
+     pagination
+     @swiper="onSwiper"
    >
 
       <swiper-slide
          v-for="(slide, index) in dataSlide.slides"
          :key="index"
-         @click="slideClicked(slide)"
       >
-         <div class="card">
-            <img :src="slide.img" :alt="slide.title">
-
-            <!-- mobile / tablet -->
-            <div class="card-body-mobile card-body d-lg-none">
-               <h5>{{ slide.title }}</h5>
-               <p>Da {{ slide.price }}</p>
-               <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-
-            <!-- desk -->
-            <div class="card-body-desk card-body d-none d-lg-block">
-               <h5>{{ slide.title }}</h5>
-               <p>Da {{ slide.price }}</p>
-               <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-
-            <div class="bg_hidden d-flex d-none d-lg-block">
-               <p>7 notti / 8 giorni</p>
-            </div>
-         </div>
-      </swiper-slide>
       
+         <div class="card">
+            <!-- query serve per passare dati complessi come array / oggetti -->
+            <router-link
+            :to="{ name: 'Travel_detail', query: { slideData: JSON.stringify(slide) } }"
+            class="slide-link text-white"
+            >
+               <img :src="slide.img" :alt="slide.title">
+      
+               <!-- mobile / tablet -->
+               <div class="card-body-mobile card-body d-lg-none">
+                  <h5>{{ slide.title }}</h5>
+                  <p>Da {{ slide.price }}</p>
+                  <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
+               </div>
+      
+               <!-- desk -->
+               <div class="card-body-desk card-body d-none d-lg-block">
+                  <h5>{{ slide.title }}</h5>
+                  <p>Da {{ slide.price }}</p>
+                  <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
+               </div>
+      
+               <div class="bg_hidden d-flex d-none d-lg-block">
+                  <p>7 notti / 8 giorni</p>
+               </div>
+            </router-link>
+         </div>
+
+      </swiper-slide>
+
    </swiper>
-</template>
-
-
-
+ </template>
+ 
 
 
 
@@ -131,13 +137,14 @@ $border-radius: 20px;
 
 .card {
    width: 14rem;
-   height: 18rem;
+   height: 17.6rem;
    color: white;
    margin: 0 10px;
    border: none;
    border-radius: $border-radius;
 
    img {
+      width: 100%;
       height: 200px;
       object-fit: cover;
       border-top-left-radius: $border-radius;
