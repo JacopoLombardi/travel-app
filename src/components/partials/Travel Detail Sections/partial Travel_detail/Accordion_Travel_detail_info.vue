@@ -74,7 +74,7 @@ export default {
             </li>
           </ul>
         </div>
-        
+
       </div>
 
     </div>
@@ -125,7 +125,6 @@ export default {
 
 <style lang="scss" scoped>
 
-/* Accordion */
 .accordion {
     --bs-accordion-active-color: black;
     margin-top: 30px;
@@ -208,5 +207,76 @@ export default {
       }
     }
   }
+
+
+
+
+
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 768px */
+@media (min-width: 768px) {
+  
+  .accordion {
+    .accordion-item {
+      padding: 15px 15px;
+
+      .accordion-button {
+        font-size: 21px;
+
+        i {
+          margin-right: 20px;
+          font-size: 25px;
+        }
+      }
+
+      .accordion-body {
+        ul {
+          li {
+            .icon_box {
+              width: 30px;
+              margin-right: 10px;
+
+              i {
+                font-size: 1.4rem;
+              }
+            }
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+
+        h3 {
+          font-size: 21px;
+          margin-top: 40px;
+        }
+      }
+    }
+
+    .things_to_know {
+      h4 {
+        font-size: 19px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
+@media (min-width: 992px) {
+
+   
+
+  }
+
 
 </style>

@@ -178,4 +178,67 @@ export default {
 
 }
 
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 768px */
+@media (min-width: 768px) {
+  
+   /* Info */
+  ._info {
+    padding: 80px 5rem 70px 5rem;
+
+    h2 {
+      font-size: 28px;
+    }
+
+    ._badge {
+      margin-bottom: 30px;
+
+      .badge_box {
+        font-size: 15px;
+      }
+    }
+
+    ._text {
+      font-size: 15px;
+
+      p {
+        line-height: 120%;
+      }
+    }
+
+
+
+    /* Flight */
+    .add_flight {
+      ._title {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+
+        h4 {
+          font-size: 24px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 130%;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
+@media (min-width: 992px) {
+
+   
+
+  }
 </style>

@@ -1,11 +1,13 @@
 
 <script>
 import Travel_detail_jumbo_info from "../components/partials/Travel Detail Sections/Travel_detail_info.vue"
+import Your_stay from "../components/partials/Travel Detail Sections/Your_stay.vue"
 import Footer from "../components/Footer.vue"
 
 export default {
   components: {
     Travel_detail_jumbo_info,
+    Your_stay,
     Footer
   },
   data() {
@@ -37,6 +39,7 @@ export default {
     :data="slideData"
   />
 
+  <Your_stay/>
 
   <Footer/>
 
