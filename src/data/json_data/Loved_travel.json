@@ -3,7 +3,7 @@
 
 
 
-    
+
     {
       "title": "Thailandia",
       "price": "449 €",
@@ -12,18 +12,10 @@
         "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg",
         "title": "per esploratori instancabili",
         "badge": [
-          {
-            "name": "Snorkeling approved"
-          },
-          {
-            "name": "100% Party"
-          },
-          {
-            "name": "Adrenalinico"
-          },
-          {
-            "name": "A prova di GEN Z"
-          }
+          "Snorkeling approved",
+          "100% Party",
+          "Adrenalinico",
+          "A prova di GEN Z"
         ],
         "paragraph": [
           {
@@ -42,9 +34,76 @@
         "flight": {
           "title": "Aggiungi il volo",
           "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
-        }
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-mug-saucer",
+            "text": "Colazione"
+          },
+          {
+            "icon": "fa-solid fa-location-dot",
+            "text": "Esperienza inclusa: full day Phuket tour"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua italiana"
+          },
+          {
+            "icon": "fa-solid fa-bus-simple",
+            "text": "Trasferimenti da/per aeroporto (se acquisti il volo con noi)"
+          },
+          {
+            "icon": "fa-solid fa-gift",
+            "text": "Braccialetto da Dao Ethical Gifts"
+          },
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Pranzi e cene",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "Passaporto",
+            "text": "6 mesi di validità residua +2 pagine bianche."
+          },
+          {
+            "title": "Visto",
+            "text": "Non serve per soggiorni fino a 30 giorni ma è richiesto il biglietto aereo di uscita dal paese."
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ]
       }
     },
+
+
+
+
+
 
 
 
@@ -59,18 +118,10 @@
         "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618980015.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A40Z&sr=b&sp=rade&sig=%2Ff0wVz8eTn6oSoYaigMF08BBv6qTtahZHor85DWcGLY%3D&rsct=image%2Fjpg",
         "title": "per eclettici viaggiatori",
         "badge": [
-          {
-            "name": "Party & Chill"
-          },
-          {
-            "name": "Snorkeling approved"
-          },
-          {
-            "name": "7 meraviglie del mondo check"
-          },
-          {
-            "name": "A prova di GEN Z"
-          }
+          "Party & Chill",
+          "Snorkeling approved",
+          "7 meraviglie del mondo check",
+          "A prova di GEN Z"
         ],
         "paragraph": [
           {
@@ -86,9 +137,88 @@
         "flight": {
           "title": "Aggiungi il volo",
           "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
-        }
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-utensils",
+            "text": "Colazione e cena"
+          },
+          {
+            "icon": "fa-solid fa-martini-glass-citrus",
+            "text": "Open bar dalle 18 alle 23"
+          },
+          {
+            "icon": "fa-solid fa-location-dot",
+            "text": "Esperienza inclusa: White island"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua inglese"
+          },
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Pranzi",
+          "Trasferimenti a/r aeroporto (puoi aggiungerlo in fase di prenotazione)",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "",
+            "text": "Per entrare in Egitto è necessario il Passaporto o Carta d'Identità, con validità residua di almeno 6 mesi, accompagnata da 2 foto tessere."
+          },
+          {
+            "title": "Visto",
+            "text": "Da richiedere all'arrivo ($25 circa)"
+          },
+          {
+            "title": "Cultura locale",
+            "text": "Dal 28 feb 2025 al 29 mar 2025 sarà periodo di Ramadan: sarà un'occasione per conoscere la cultura locale ancora più da vicino!"
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ]
       }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -102,18 +232,10 @@
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990955951.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A37Z&sr=b&sp=rade&sig=pcUuaR3yHW74EyfWJECKLfjnjh%2BFx8uit7b6tFcwFbo%3D&rsct=image%2Fjpg",
         "title": "per esploratori sinceri",
         "badge": [
-          {
-            "name": "Tè nel deserto"
-          },
-          {
-            "name": "Cucina local"
-          },
-          {
-            "name": "Souk e spezie"
-          },
-          {
-            "name": "A prova di GEN Z"
-          }
+          "Tè nel deserto",
+          "Cucina local",
+          "Souk e spezie",
+          "A prova di GEN Z"
         ],
         "paragraph": [
           {
@@ -132,9 +254,84 @@
         "flight": {
           "title": "Aggiungi il volo",
           "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
-        }
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "5 notti in struttura, con colazione e cena"
+          },
+          {
+            "icon": "fa-solid fa-route",
+            "text": "2 notti nel deserto del Sahara in pensione completa, con guida parlante italiano e trasferimenti inclusi"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua inglese"
+          },
+          {
+            "icon": "fa-solid fa-bus-simple",
+            "text": "Trasferimenti a/r aeroporto"
+          },
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Pranzi",
+          "Area coworking",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "Passaporto",
+            "text": "Validità residua che supera la data di uscita dal paese."
+          },
+          {
+            "title": "Visto",
+            "text": "Non serve per soggiorni fino a 3 mesi."
+          },
+          {
+            "title": "Cultura locale",
+            "text": "Dal 28 feb 2025 al 29 mar 2025 sarà periodo di Ramadan, un'occasione per conoscere le tradizioni locali ancora più da vicino!"
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ]
       }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,18 +345,10 @@
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178580825.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A42Z&sr=b&sp=rade&sig=I9wwLqignetNR4bRxUtbpRR7CGiNovGjo4mIwtVRHFQ%3D&rsct=image%2Fjpg",
         "title": "per chillatori esperti",
         "badge": [
-          {
-            "name": "Hakuna matata"
-          },
-          {
-            "name": "Nuota nell'oceano indiano"
-          },
-          {
-            "name": "Tramonti top"
-          },
-          {
-            "name": "A prova di GEN Z"
-          }
+          "Hakuna matata",
+          "Nuota nell'oceano indiano",
+          "Tramonti top",
+          "A prova di GEN Z"
         ],
         "paragraph": [
           {
@@ -175,9 +364,82 @@
         "flight": {
           "title": "Aggiungi il volo",
           "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
-        }
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-utensils",
+            "text": "Pensione completa con bevande"
+          },
+          {
+            "icon": "fa-solid fa-location-dot",
+            "text": "Esperienza inclusa: tour delle spezie e Stonetown"
+          },
+          {
+            "icon": "fa-solid fa-martini-glass-citrus",
+            "text": "Open bar dalle 18 alle 23"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua italiana"
+          },
+          {
+            "icon": "fa-solid fa-bus-simple",
+            "text": "Trasferimenti a/r aeroporto (se acquisti un volo Neos con noi)"
+          },
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "Passaporto",
+            "text": "Deve avere almeno 6 mesi di validità residua."
+          },
+          {
+            "title": "Visto",
+            "text": "Puoi richiedere il visto con noi online, almeno una settimana prima della partenza."
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ]
       }
     },
+
+
+
+
+    
+
+
+
+
+
+
+
 
 
 
@@ -192,18 +454,10 @@
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003331268.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A51Z&sr=b&sp=rade&sig=37Ihp6qSmwv2WAxSpH78t2jVveLGh3mK3BBJlGBPAlo%3D&rsct=image%2Fjpg",
         "title": "per sciallatori seriali",
         "badge": [
-          {
-            "name": "Hakuna matata"
-          },
-          {
-            "name": "Snorkeling approved"
-          },
-          {
-            "name": "Safari"
-          },
-          {
-            "name": "A prova di GEN Z"
-          }
+          "Hakuna matata",
+          "Snorkeling approved",
+          "Safari",
+          "A prova di GEN Z"
         ],
         "paragraph": [
           {
@@ -219,9 +473,85 @@
         "flight": {
           "title": "Aggiungi il volo",
           "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
-        }
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-utensils",
+            "text": "Trattamento hard all-inclusive"
+          },
+          {
+            "icon": "fa-solid fa-location-dot",
+            "text": "Esperienza inclusa: Diani bike tour"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua inglese"
+          },
+          {
+            "icon": "fa-solid fa-bus-simple",
+            "text": "Trasferimenti a/r aeroporto (se acquisti un volo Neos con noi)"
+          },   
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "Passaporto",
+            "text": "Con almeno 6 mesi di validità residua."
+          },
+          {
+            "title": "Visto",
+            "text": "Puoi richiedere il visto ETA con noi online, almeno una settimana prima della partenza."
+          },
+          {
+            "title": "Vaccino",
+            "text": "Non sono richiesti vaccini obbligatori"
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ]
       }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -235,18 +565,10 @@
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824266341.webp?sv=2023-08-03&se=2074-05-15T15%3A37%3A47Z&sr=b&sp=rade&sig=4B86z0NxBkYFYhhrIDmVHId7HbYN%2F9SRHdyzDmFQtEQ%3D&rsct=image%2Fjpg",
         "title": "per vacanzieri doc",
         "badge": [
-          {
-            "name": "Relax e wildlife"
-          },
-          {
-            "name": "Pita gyros e souvlaki"
-          },
-          {
-            "name": "Tuffati nel Mediterraneo"
-          },
-          {
-            "name": "A prova di GEN Z"
-          }
+          "Relax e wildlife",
+          "Pita gyros e souvlaki",
+          "Tuffati nel Mediterraneo",
+          "A prova di GEN Z"
         ],
         "paragraph": [
           {
@@ -262,9 +584,68 @@
         "flight": {
           "title": "Aggiungi il volo",
           "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
-        }
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-mug-saucer",
+            "text": "Colazione"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua italiana"
+          }, 
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Pranzi e cene",
+          "Trasferimenti a/r aeroporto (puoi aggiungerlo in fase di prenotazione)",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ]
       }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -278,18 +659,10 @@
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824331859.webp?sv=2023-08-03&se=2074-05-15T15%3A38%3A52Z&sr=b&sp=rade&sig=qz%2F%2BTcYOAM2PtGz80q30MVGNsFDlCG9V0gxD7fDVo8c%3D&rsct=image%2Fjpg",
         "title": "per chi crede nei miti",
         "badge": [
-          {
-            "name": "Un salto in Turchia"
-          },
-          {
-            "name": "Pita gyros e souvlaki"
-          },
-          {
-            "name": "Tuffati nel Mediterraneo"
-          },
-          {
-            "name": "A prova di GEN Z"
-          }
+          "Un salto in Turchia",
+          "Pita gyros e souvlaki",
+          "Tuffati nel Mediterraneo",
+          "A prova di GEN Z"
         ],
         "paragraph": [
           {
@@ -305,7 +678,50 @@
         "flight": {
           "title": "Aggiungi il volo",
           "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
-        }
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-utensils",
+            "text": "Colazione e cena"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua italiana"
+          },
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Pranzi",
+          "Trasferimenti a/r aeroporto (puoi aggiungerlo in fase di prenotazione)",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ]
       }
     }
 
@@ -313,5 +729,6 @@
 
 
 
+    
   ]
 }
