@@ -1,12 +1,12 @@
 
 <script>
-import Travel_detail_jumbo_info from "../components/partials/Travel Detail Sections/Travel_detail_info.vue"
+import Travel_detail_info from "../components/partials/Travel Detail Sections/Travel_detail_info.vue"
 import Your_stay from "../components/partials/Travel Detail Sections/Your_stay.vue"
 import Footer from "../components/Footer.vue"
 
 export default {
   components: {
-    Travel_detail_jumbo_info,
+    Travel_detail_info,
     Your_stay,
     Footer
   },
@@ -35,11 +35,13 @@ export default {
 
 <template>
 
-  <Travel_detail_jumbo_info
+  <Travel_detail_info
     :data="slideData"
   />
 
-  <Your_stay/>
+  <Your_stay
+    :data="slideData"
+  />
 
   <Footer/>
 

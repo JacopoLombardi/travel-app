@@ -96,7 +96,12 @@
             "title": "Domande Frequenti",
             "text": "Dai un'occhiata alle nostre FAQ."
           }
-        ]
+        ],
+        "stay": {
+          "intro": "<b>The Aim Patong</b> - o similare",
+          "paragraph": "Quindi, in pratica, stai cercando un hotel vicino alla spiaggia, non troppo lontano dall'Aeroporto di Phuket, che abbia la colazione inclusa e, perché no, anche una piscina all'aperto? Praticamente stai parlando dell'Aim Patong Hotel! A meno di 10 minuti dalla famosa spiaggia di Patong, questo residence sarà il punto di partenza perfetto per te e per i tuoi compagni di viaggio. La simpatia dello staff ti farà capire velocemente perché la Thailandia è chiamata “Il paese dei sorrisi!",
+          "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1719397035857.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A16Z&sr=b&sp=rade&sig=whhouVVbWRGSk85GTqRbou6n5ljFqE5TVUSQ54TeW1I%3D&rsct=image%2Fjpg"
+        }
       }
     },
 
@@ -200,7 +205,12 @@
             "title": "Domande Frequenti",
             "text": "Dai un'occhiata alle nostre FAQ."
           }
-        ]
+        ],
+        "stay": {
+          "intro": "<b>Xperience Hill Top Beach</b> - o similare",
+          "paragraph": "“Datemi un Open Bar riservato e aperto dalle 18 alle 24 e conquisterò il mondo”, o comunque qualcosa del genere. L'Xperience Hill Top Beach è molto più di un hotel a Sharm El-Sheikh: è il nostro punto di partenza alla scoperta dell'Egitto. Non solo condividerai la struttura esclusivamente con altri Utravelers, ma potrai anche godere della spiaggia di Naama Bay quando vorrai: è a soli due passi!",
+          "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1698761189479.jpg?sv=2023-08-03&se=2073-10-18T14%3A06%3A29Z&sr=b&sp=rade&sig=Yq86KqSIf%2BVTu%2BQDNgpWguZNYNdWvR1HftklQJAs6zw%3D"
+        }
       }
     },
 
@@ -313,7 +323,20 @@
             "title": "Domande Frequenti",
             "text": "Dai un'occhiata alle nostre FAQ."
           }
-        ]
+        ],
+        "stay_special": {
+          "title": "Le Chant des Oliviers",
+          "intro": "<b>Dove soggiornerai: la base di partenza per tutte le tue avventure</b>",
+          "paragraph": "Vogliamo scommettere che la villa “Le Chant des Olives” diventerà il tuo posto del cuore in Marocco? Sarà per la piscina privata, ottima per rilassarsi dopo una lunga giornata nella Medina, il rooftop da cui ammirare le stelle o quell'enorme giardino (con tanto di amaca e seggiole per il power nap pomeridiano). O forse ancora il calore degli abitanti del posto, pronti a farti assaggiare i piatti tipici marocchini a colazione e a cena grazie alla formula mezza pensione (bevande escluse). All'interno della struttura è inoltre disponibile un area dedicata al coworking, accessibile mediante pagamento extra in loco, per coloro che vogliono alternare il lavoro alla vacanza. È infine prevista una city tax di circa 3€ a notte a persona.",
+          "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/d3a3cddb-e466-4c03-8134-a3a82e787d6a/1699011522966.JPG?sv=2023-08-03&se=2073-10-21T11%3A38%3A43Z&sr=b&sp=rade&sig=IBVp76IkNqYJqzjSPqtSemL8bTd6InnE4IEQrcR6puc%3D",
+          "badge": [
+            "Area relax",
+            "WiFi",
+            "Aria condizionata",
+            "Piscina",
+            "Servizio di pulizia"
+          ]
+        }
       }
     },
 
@@ -534,7 +557,12 @@
             "title": "Domande Frequenti",
             "text": "Dai un'occhiata alle nostre FAQ."
           }
-        ]
+        ],
+        "stay": {
+          "intro": "<b>Neptune Village Beach Resort & Spa</b> - o similare",
+          "paragraph": "La savana, la sua natura incontaminata, le sue spiagge bianche e il suo mare cristallino. Il viaggio in Kenya è il viaggio della vita, lo sappiamo: ma c'è di più. Il Neptune Village Beach Resort, a pochi passi da Diani Beach, ti farà assaporare la vera essenza dell'Africa anche quando non stai esplorando. Con i suoi bungalow, il suo giardino tropicale e la sua piscina privata (per non farci mancare nulla), vivrai ogni istante del tuo viaggio al massimo. E con il servizio All Inclusive bevande e piatti tipici ogni giorno! Come sempre, qualora non vi fosse disponibilità nella struttura descritta sarà nostra responsabilità fornire un'alternativa di pari livello o superiore.",
+          "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1698752373692.jpg?sv=2023-08-03&se=2073-10-18T11%3A39%3A34Z&sr=b&sp=rade&sig=Nr0UEp%2BvFUWBH4njMD6UzeyHGwWFWI1QJO7ekwGi8js%3D"
+        }
       }
     },
 
@@ -627,7 +655,12 @@
             "title": "Domande Frequenti",
             "text": "Dai un'occhiata alle nostre FAQ."
           }
-        ]
+        ],
+        "stay": {
+          "intro": "<b>Faliraki Premium</b> - o similare",
+          "paragraph": "La Grecia è una figata: ecco perché il tuo hotel a Rodi non può essere da meno. Il Faliraki Premium Hotel ha tutte le carte in tavola per diventare il tuo posto del cuore. Sarà forse la grande terrazza comune dove bersi una birra con i tuoi nuovi compagni di viaggio, la formula con colazione che ti farà scoprire tutti i piatti tipici della cucina greca o la pittoresca vista che vedrai ogni giorno dalla tua stanza? * *Ultima cosa prima di lasciarti andare: una volta arrivati, è previsto il pagamento di una tassa di soggiorno pari a 3€ a notte per camera.",
+          "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/f3ef5516-486c-49e0-92f9-eb843a16a84a/1717753542668.jpg?sv=2023-08-03&se=2074-05-26T09%3A45%3A42Z&sr=b&sp=rade&sig=kFrGmkn%2BLNdW%2FDIoAsvQVjjE4QXMDSb1KlVKQ5l5LwU%3D&rsct=image%2Fjpg"
+        }
       }
     },
 
@@ -721,7 +754,12 @@
             "title": "Domande Frequenti",
             "text": "Dai un'occhiata alle nostre FAQ."
           }
-        ]
+        ],
+        "stay": {
+          "intro": "<b>Blue Nest Hotel</b> - o similare",
+          "paragraph": "Terra di miti, di eroi, di storia, cultura (qualcos'altro?): la Grecia è una destinazione da scoprire e da amare! Il Blue Nest Hotel sarà il punto di partenza della tua avventura. Potrai goderti la sua piscina all'aperto insieme ai tuoi nuovi compagni di viaggio, potrai goderti la spiaggia, a pochi passi dall'hotel, in totale relax e dalla tua camera potrai ammirare una vista incredibile sul Mar Egeo. Cosa vuoi di più? * *Ultima cosa prima di lasciarti andare: una volta arrivati, è previsto il pagamento di una tassa di soggiorno pari a 3€ a notte per camera!",
+          "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/new-hotel/1704451876217.jpg?sv=2023-08-03&se=2073-12-23T10%3A51%3A16Z&sr=b&sp=rade&sig=XaEkDPTENV9L8FBk2N3%2F4ZToVh91OC%2FRsevqhqTMGOI%3D&rsct=image%2Fjpg"
+        }
       }
     }
 
