@@ -243,6 +243,362 @@
           "intro": "<b>Xperience Hill Top Beach</b> - o similare",
           "paragraph": "“Datemi un Open Bar riservato e aperto dalle 18 alle 24 e conquisterò il mondo”, o comunque qualcosa del genere. L'Xperience Hill Top Beach è molto più di un hotel a Sharm El-Sheikh: è il nostro punto di partenza alla scoperta dell'Egitto. Non solo condividerai la struttura esclusivamente con altri Utravelers, ma potrai anche godere della spiaggia di Naama Bay quando vorrai: è a soli due passi!",
           "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1698761189479.jpg?sv=2023-08-03&se=2073-10-18T14%3A06%3A29Z&sr=b&sp=rade&sig=Yq86KqSIf%2BVTu%2BQDNgpWguZNYNdWvR1HftklQJAs6zw%3D"
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1716201426025_1696784825228_IMG_7313.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A46Z&sr=b&sp=rade&sig=Qk55DJ6Sb8GiN3L5YaVnToJthuZ6%2FB4wtJeXcd%2FDD2s%3D&rsct=image%2Fjpg",
+              "badge": "Inclusa",
+              "title": "White island",
+              "description": "Wellness",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1716201426025_1696784825228_IMG_7313.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A46Z&sr=b&sp=rade&sig=Qk55DJ6Sb8GiN3L5YaVnToJthuZ6%2FB4wtJeXcd%2FDD2s%3D&rsct=image%2Fjpg",
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Wellness"
+                  }
+                ],
+                "text": [
+                  "Parti per un'indimenticabile escursione di un'<b> intera giornata alla White Island </b>, a Sharm El Sheikh. Durante questa esperienza, avrai l'opportunità di goderti il sole e il relax in uno scenario mozzafiato.",
+                  "La giornata include una sosta suggestiva su una splendida <b> lingua di sabbia bianca </b> che emerge dal mare, offrendo un panorama unico. Successivamente, ti avventurerai in <b> due tappe di snorkeling </b>, accompagnato da una guida esperta che ti mostrerà le vibranti e coloratissime barriere coralline di Sharm El Sheikh.",
+                  "A bordo, ti attende un abbondante <b> pranzo a buffet </b>, che renderà la tua esperienza ancora più piacevole. Questa escursione è l'occasione perfetta per esplorare le meraviglie sottomarine di Sharm e rilassarti in un ambiente paradisiaco."
+                  
+                ],
+                "text_only_utravel": "Questa è un'esperienza offerta da Utravel SOLO PER I CLIENTI CHE HANNO PRENOTATO SUL SITO WEB DI UTRAVEL (www.utravel.it)"
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696785620162_336912012.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A15Z&sr=b&sp=rade&sig=och7%2F7eY3Sr7o%2B8CZnnEh44t%2BGuNNQOrAuBqKF5kAeE%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Pacha",
+              "description": "Nightlife",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696785620162_336912012.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A15Z&sr=b&sp=rade&sig=och7%2F7eY3Sr7o%2B8CZnnEh44t%2BGuNNQOrAuBqKF5kAeE%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Nightlife"
+                  }
+                ],
+                "text": [
+                  "Nel centro di Naama Bay si trova una delle <b> disco più famose al mondo! </b>",
+                  "Aperto per la prima volta nel 2004, ha ospitato alcuni dei più grandi <b> artisti di musica elettronica </b> del mondo, tra cui David Guetta, Bob Sinclar, Roger Sanchez e altri.",
+                  "Il club è noto per la sua enorme pista da ballo all'aperto e per il <b> labirinto di piscine, sentieri e persino una cascata </b>.",
+                  "Non perderti questa super esperienza!"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696952212750_DSC03813.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A03Z&sr=b&sp=rade&sig=ar4K8C7zi0rMLN8dreqK6FcDBTECGm%2BGGNYOdCpWPfc%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Desert Buggies",
+              "description": "Adventure",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696952212750_DSC03813.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A03Z&sr=b&sp=rade&sig=ar4K8C7zi0rMLN8dreqK6FcDBTECGm%2BGGNYOdCpWPfc%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "A bordo di un Buggy proverai l'emozione di <b> sfrecciare nel deserto! </b>",
+                  "Farai la prima tappa davanti alla montagna dell'eco, la seconda in una tenda beduina per sorseggiare del thè alle erbe e la terza davanti alle montagne del deserto per ammirare lo <b> spettacolo del tramonto </b>.",
+                  "Ma, cosa importantissima, non dimentichiamoci assolutamente di coprirci bene tutto il corpo indossando felpe e pantaloni lunghi, occhiali da sole vecchi e un foulard in modo da <b> non diventare delle sfingi di sabbia! </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702641611941_146.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A11Z&sr=b&sp=rade&sig=up4hLlV%2Bi%2FNGv5%2BEEkxbHYdCOsLjzoFzt7cPIhVjSmk%3D&rsct=image%2Fjpg",
+              "badge": "36€ - 54€",
+              "title": "Dahab Tour",
+              "description": "Adventure",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702641611941_146.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A11Z&sr=b&sp=rade&sig=up4hLlV%2Bi%2FNGv5%2BEEkxbHYdCOsLjzoFzt7cPIhVjSmk%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "36€ - 54€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "<b> Partenza da Sharm El Sheikh: </b> La tua giornata inizierà con un comodo trasferimento dal tuo alloggio a Sharm El Sheikh. Sei pronto per un'indimenticabile avventura?",
+                  "<b> Snorkeling al Blue Hole di Dahab (30 min): </b> Per la prima tappa ci dirigeremo verso il celebre Blue Hole di Dahab, una delle migliori destinazioni per lo snorkeling al mondo. Indosserai l'attrezzatura subacquea e ti immergerai nelle acque cristalline del Mar Rosso. Esplorando il mondo sottomarino, ammirerai colorati coralli e varietà di pesci tropicali.",
+                  "<b> Pranzo: </b> Dopo il divertimento in acqua, ci concederemo una pausa per un delizioso pranzo tipico egiziano a base di pollo, riso e patate.",
+                  "<b> Canyon Salama - Escursione a Piedi: </b> Dopo un breve viaggio attraverso il deserto, arriveremo al Canyon Salama. Questo affascinante canyon sarà il nostro primo punto di esplorazione. Ti muoverai tra le maestose formazioni rocciose con le tue guide esperte, immergendoti nella bellezza naturale e imparando sulla storia e la geologia della regione.",
+                  "<b> Passeggiata a Dahab: </b> Prima di rientrare ci godremo una passeggiata nel caratteristico centro di Dahab, ammirandone il lungomare!",
+                  "<b> Ritorno al Tuo Alloggio: </b> Alla fine della giornata, ti accompagneremo di nuovo al tuo alloggio a Sharm El Sheikh. "
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699029315909_calin-stan-Mv15X2n8JVE-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A18Z&sr=b&sp=rade&sig=SaxzUsoXskecj%2F2scGW2PIicXeYLU7iOxp5wQESf978%3D&rsct=image%2Fjpg",
+              "badge": "200€ - 300€",
+              "title": "Luxor",
+              "description": "Culture",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699029315909_calin-stan-Mv15X2n8JVE-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A18Z&sr=b&sp=rade&sig=SaxzUsoXskecj%2F2scGW2PIicXeYLU7iOxp5wQESf978%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "200€ - 300€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Se hai sempre sognato di girovagare tra i <b> templi della Valle dei Re </b>, non perderti questa esperienza, che come una macchina del tempo ti farà tornare indietro a più di 2000 anni fa!",
+                  "A bordo di un veicolo climatizzato raggiungerai l'aeroporto per imbarcarti sul tuo volo per Luxor. All'arrivo ci sarà una <b> guida e un van pronto ad aspettarti </b>, in direzione sito archeologico!",
+                  "Dopo il tempio di Karnak ammmirerai il <b> Viale delle Sfingi </b>, il corridoio ipostilo con i 134 enormi pilastri e gli obelischi della regina Hatshepsut e del faraone Thutmose I.",
+                  "Proseguirai verso la necropoli tebana sulla riva occidentale del <b> Nilo </b> per vedere dove furono sepolti i faraoni. Passeggerai per la <b> Valle dei Re e visiterai le tombe appartenenti a 3 diverse dinastie </b>. Ammirerai un capolavoro dell'architettura antica nel <b> tempio funerario di Hatshepsut </b>.",
+                  "Ed infine prima di tornare visiterai i <b> Colossi di Memnone </b>, 2 delle statue più grandi d'Egitto, che risalgono all'era del faraone Amenofi III.",
+                  "Al termine della giornata, tornerai in aereo a Sharm el-Sheikh, dove un transfer privato ti riaccompagnerà al tuo hotel!"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702048257177_145.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A41Z&sr=b&sp=rade&sig=7cSyZH0Q18elfxKjnPkeSF7ZJBzpeU7UV2ZLm2Sw9wE%3D&rsct=image%2Fjpg",
+              "badge": "32€ - 48€",
+              "title": "Monte Sinai",
+              "description": "Adventure",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702048257177_145.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A41Z&sr=b&sp=rade&sig=7cSyZH0Q18elfxKjnPkeSF7ZJBzpeU7UV2ZLm2Sw9wE%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "32€ - 48€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "<b> L'esperienza inizierà </b> con un transfer che dopo circa 4 ore ti porterà all'inizio del trekking, che <b> inizierà in notte fonda per sfruttare le fresche ore notturne della regione! </b>",
+                  "Per raggiungere il luogo sacro <b> dove Mosé ricevette i 10 Comandamenti </b>; una scalinata di 750 gradini ti condurrà a 2.285 metri di altezza.",
+                  "La salita richiederà circa 2-3 ore, a seconda del ritmo tenuto dai partecipanti. Se il livello fisico del gruppo lo consente, potresti arrivare in cima prima del previsto. In questo modo, avrai tempo per rilassarti e <b> ammirare il sole sorgere sul deserto </b> e illuminarne lentamente i monti, in uno spettacolo fortemente suggestivo.",
+                  "Lasciati incantare da quest'alba straordinaria e scatta foto indimenticabili prima di iniziare la discesa, che durerà altre 2 ore circa. Una volta tornato giu sarà fatta una pausa per fare <b> colazione </b> e per riposare un po dopo la lunga marcia.",
+                  "Se aperto, successivamente si farà visita al <b> Monastero di Santa Caterina </b>, dichiarato dall'UNESCO patrimonio dell'umanità. Si tratta del <b> più antico monastero cristiano funzionante al mondo </b> insieme al Monastero di Sant'Antonio, che si trova al di là del Mar Rosso, nel deserto del Cairo meridionale.",
+                  "Terminata la visita del monastero, potrai rilassarti durante il viaggio di ritorno al tuo hotel di Sharm el-Sheikh."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696850510956_dolcevita.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A53Z&sr=b&sp=rade&sig=JTsaQIa8Yk1zbvYeh6eGexhcPVe7od89iBh08ibqDes%3D&rsct=image%2Fjpg",
+              "badge": "28€ - 42€",
+              "title": "Desert party",
+              "description": "Nightlife",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696850510956_dolcevita.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A53Z&sr=b&sp=rade&sig=JTsaQIa8Yk1zbvYeh6eGexhcPVe7od89iBh08ibqDes%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "28€ - 42€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Nightlife"
+                  }
+                ],
+                "text": [
+                  "La <b> serata più attesa di tutta Sharm </b> ti aspetta in mezzo al deserto del Sinai!!",
+                  "Pront* a scatenarti in mezzo a splendide dune di sabbia e il cielo stellato? Qui sei nel luogo perfetto per <b> sfuggire alla frenesia della città </b> e vivere la bellezza del deserto egiziano.",
+                  "La festa dispone di una splendida piscina, di comode aree salotto e di una pista da ballo sempre affollata. Per non parlare della musica: <b> i deejay di alto livello creano remix di successi internazionali </b> e musica locale egiziana!",
+                  "<b> Imperdibile </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699292274939_photo1675264472%2520%25284%2529%2520-%2520Medium.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A02Z&sr=b&sp=rade&sig=6kq17wNz3IVz3abFo7SEkvhHHkjRMcF5WhOxG%2FvPlx4%3D&rsct=image%2Fjpg",
+              "badge": "24€ - 36€",
+              "title": "Ras Mohamed National Park",
+              "description": "Adventure",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699292274939_photo1675264472%2520%25284%2529%2520-%2520Medium.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A02Z&sr=b&sp=rade&sig=6kq17wNz3IVz3abFo7SEkvhHHkjRMcF5WhOxG%2FvPlx4%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "24€ - 36€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Sali a bordo del bus <b> a suon di musica </b> per iniziare il tour della riserva naturale che si apre proprio dalla <b> porta di Allah </b> in cui non mancherà la prima foto ricordo.",
+                  "Continuerai con la prima tappa <b> snorkeling </b>, farai un pit stop al <b> lago magico </b>, ti soffermerai nella spiaggia delle mangrovie e infine raggiungerai la <b> tenda beduina </b> per un buon pranzo a base di carne, riso e verdure."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699297994230_Club%2520Egitto%2520-%2520Large.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A51Z&sr=b&sp=rade&sig=2Fx4KSZ7OdR8%2FffGrb9Hj5u9AFLZFCkjw13nHE8aep8%3D&rsct=image%2Fjpg",
+              "badge": "12€ - 18€",
+              "title": "Snorkeling a el Fanar",
+              "description": "Wellness",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699297994230_Club%2520Egitto%2520-%2520Large.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A51Z&sr=b&sp=rade&sig=2Fx4KSZ7OdR8%2FffGrb9Hj5u9AFLZFCkjw13nHE8aep8%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "12€ - 18€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Wellness"
+                  }
+                ],
+                "text": [
+                  "Chiamata così perché situata vicino al faro, <b> El Fanar è una delle spiagge in Egitto dove potersi rilassare sotto un ombrellone </b>, fare snorkeling (e sub) tra la <b> barriera corallina </b>, una delle più belle e colorate dell'intera costa, ma anche mangiare in un buon ristorante e concedersi un massaggio o un trattamento al viso!"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698665888562_WhatsApp%2520Image%25202023-10-30%2520at%252012.35.39.jpeg?sv=2023-08-03&se=2074-05-24T12%3A30%3A13Z&sr=b&sp=rade&sig=dc7gQmkg1vdRsk7Ydbyd2gE3CQ0X0KsX4wI96vl5z%2FM%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Boat Dinner",
+              "description": "Local Food",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698665888562_WhatsApp%2520Image%25202023-10-30%2520at%252012.35.39.jpeg?sv=2023-08-03&se=2074-05-24T12%3A30%3A13Z&sr=b&sp=rade&sig=dc7gQmkg1vdRsk7Ydbyd2gE3CQ0X0KsX4wI96vl5z%2FM%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Local Food"
+                  }
+                ],
+                "text": [
+                  "Goditi una <b> cena tipica egiziana </b> a base di pesce a bordo di un affascinante veliero a Sharm El Sheikh, mentre assisti a <b> spettacoli di danza del ventre </b>, e godi della magia della <b> musica dal vivo </b>.",
+                  "Scopri i sapori freschi del mare in un'atmosfera unica, dove l'arte culinaria si mescola con l'arte dello spettacolo <b> in mezzo alle acque cristalline del Mar Rosso </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699292584585_8A798D38-FF16-429A-8ADB-A81EA8BE8B3D%2520-%2520Large.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A01Z&sr=b&sp=rade&sig=HNnaSBSUKAJ3pGQJYGjh0%2Bzz8SbQh%2F2KETzL1knymRs%3D&rsct=image%2Fjpg",
+              "badge": "200€ - 300€",
+              "title": "Cairo",
+              "description": "Culture",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699292584585_8A798D38-FF16-429A-8ADB-A81EA8BE8B3D%2520-%2520Large.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A01Z&sr=b&sp=rade&sig=HNnaSBSUKAJ3pGQJYGjh0%2Bzz8SbQh%2F2KETzL1knymRs%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "200€ - 300€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Sei pront* per un affascinante viaggio nel tempo, indietro alle lezioni di storia delle scuole elementari? Inizia presto la mattina, dirigendoti verso l'aeroporto per raggiungere <b> Il Cairo, una delle città più popolate al mondo </b>.",
+                  "La prima tappa ti porterà al <b> Museo Egizio </b>, il più grande al mondo. Sebbene sarebbero necessarie due giornate per esplorarlo completamente, faremo del nostro meglio per mostrarti le sue perle più preziose.",
+                  "Ti sposterai poi sulle <b> rive del Nilo </b>, dove ti aspetta un pranzo in autentico stile egiziano. Avrai anche l'opportunità di goderti una breve crociera sul fiume (facoltativa, non inclusa).",
+                  "Nel pomeriggio, esplorerai l'<b> Altopiano di Giza </b>, che domina la città del Cairo. Potrai ammirare la Piramide di Khufu, comunemente conosciuta come <b> Cheope </b>, insieme alle <b> Piramidi di Chefren e Micerino </b>, il Tempio della Valle di Chefren e la maestosa <b> Grande Sfinge di Giza </b>.",
+                  "Questo straordinario complesso di strutture ha una storia che risale a <b> quasi 5.000 anni fa </b>. Per chi desidera, c'è anche la possibilità di esplorare l'interno di una delle piramidi (facoltativo, non incluso).",
+                  "Dopo la visita alle piramidi, farai una breve sosta in un negozio di souvenir locali prima di dirigerti in aeroporto per il <b> ritorno a Sharm in tarda serata </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696785279299_Taj-Mahal-Club-Sharm-El-Sheikh-2023-2024-2025-2026.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A26%3A14Z&sr=b&sp=rade&sig=ZBQp26BgM9C4xGaaog2ACqSDXl8TG4jJ%2B7hFitjMjXA%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Taj Mahal",
+              "description": "Nightlife",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696785279299_Taj-Mahal-Club-Sharm-El-Sheikh-2023-2024-2025-2026.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A26%3A14Z&sr=b&sp=rade&sig=ZBQp26BgM9C4xGaaog2ACqSDXl8TG4jJ%2B7hFitjMjXA%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Nightlife"
+                  }
+                ],
+                "text": [
+                  "Il <b> locale più trendy di Sharm </b> ti aspetta in zona El Fanar con i suoi suggestivi allestimenti e giochi di musica e colori!",
+                  "<b> Il loro motto è #sip #swim #celebrate </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702043558753_white-space.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A28Z&sr=b&sp=rade&sig=UO9jzlfBD0GvWh7CV5TH8qd6uFZcP%2FL0g9sJC0T0M7I%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Space Club",
+              "description": "Nightlife",
+              "detail": {
+                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702043558753_white-space.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A28Z&sr=b&sp=rade&sig=UO9jzlfBD0GvWh7CV5TH8qd6uFZcP%2FL0g9sJC0T0M7I%3D&rsct=image%2Fjpg",
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Nightlife"
+                  }
+                ],
+                "text": [
+                  "<b> Atmosfera araba, musica latina e gente internazionale! Ready for \"El Perreo\"? Yalla! </b>"
+                ]
+              }
+            }
+          ]
         }
       }
     },
