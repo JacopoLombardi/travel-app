@@ -135,7 +135,7 @@ export default {
   ._paragraph {
     margin: 15px 0 40px 0;
     color: rgb(100, 100, 100);
-    font-size: 14px;
+    font-size: 13px;
     line-height: 19px;
   }
 

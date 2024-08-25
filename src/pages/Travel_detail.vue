@@ -2,12 +2,14 @@
 <script>
 import Travel_detail_info from "../components/partials/Travel Detail Sections/Travel_detail_info.vue"
 import Your_stay from "../components/partials/Travel Detail Sections/Your_stay.vue"
+import Explore from "../components/partials/Travel Detail Sections/Explore.vue"
 import Footer from "../components/Footer.vue"
 
 export default {
   components: {
     Travel_detail_info,
     Your_stay,
+    Explore,
     Footer
   },
   data() {
@@ -40,6 +42,10 @@ export default {
   />
 
   <Your_stay
+    :data="slideData"
+  />
+
+  <Explore
     :data="slideData"
   />
 

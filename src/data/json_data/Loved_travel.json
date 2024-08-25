@@ -101,7 +101,24 @@
           "intro": "<b>The Aim Patong</b> - o similare",
           "paragraph": "Quindi, in pratica, stai cercando un hotel vicino alla spiaggia, non troppo lontano dall'Aeroporto di Phuket, che abbia la colazione inclusa e, perché no, anche una piscina all'aperto? Praticamente stai parlando dell'Aim Patong Hotel! A meno di 10 minuti dalla famosa spiaggia di Patong, questo residence sarà il punto di partenza perfetto per te e per i tuoi compagni di viaggio. La simpatia dello staff ti farà capire velocemente perché la Thailandia è chiamata “Il paese dei sorrisi!",
           "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1719397035857.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A16Z&sr=b&sp=rade&sig=whhouVVbWRGSk85GTqRbou6n5ljFqE5TVUSQ54TeW1I%3D&rsct=image%2Fjpg"
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire.",
+            "Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_explore_thumb": [
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702255328123_il_fullxfull.3856558470_qf6e.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A29%3A13Z&sr=b&sp=rade&sig=TWCRr0%2B3QlJK6qR1ttxWlX3FHCceUeUoHJXGjPrb8cA%3D&rsct=image%2Fjpg",
+              "badge": "Inclusa",
+              "title": "Phuket Tour",
+              "description": "Culture"
+            }
+          ]
         }
+
       }
     },
 
@@ -110,7 +127,18 @@
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
