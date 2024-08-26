@@ -1,74 +1,80 @@
 
 <script>
-import Loved_travel from '../../../../data/json_data/Loved_travel.json'
+import Loved_travel from '../../../../data/json_data/Loved_travel.json';
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
 export default {
-   components: {
-      Swiper,
-      SwiperSlide
-   },
-   props: {
-      onPrevSlide: {
-         type: Function,
-         required: true
-      },
-      onNextSlide: {
-         type: Function,
-         required: true
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  props: {
+    onPrevSlide: {
+      type: Function,
+      required: true,
+    },
+    onNextSlide: {
+      type: Function,
+      required: true,
+    },
+  },
+  data() {
+    return {
+      dataSlide: Loved_travel,
+      swiperInstance: null,
+      slidesPerView: 2,
+      spaceBetween: 30,
+      slides: [],
+    };
+  },
+  methods: {
+    updateSlidesPerView() {
+      const width = window.innerWidth;
+      if (width < 576) { // Mobile
+        this.slidesPerView = 2;
+        this.spaceBetween = 170;
+      } else if (width >= 768 && width < 992) { // Tablet
+        this.slidesPerView = 3;
+        this.spaceBetween = -90;
+      } else if (width >= 992 && width < 1500) { // Laptop
+        this.slidesPerView = 3;
+        this.spaceBetween = -300;
+      } else { // Desktop
+        this.slidesPerView = 4;
+        this.spaceBetween = -400;
       }
-   },
-   data() {
-      return {
-         dataSlide: Loved_travel,
-         swiperInstance: null,
-         slidesPerView: 2,
-         spaceBetween: 30,
-         slides: []
-      };
-   },
-   methods: {
-      updateSlidesPerView() {
-         const width = window.innerWidth;
-         if (width < 576) {                         // Mobile
-            this.slidesPerView = 2;
-            this.spaceBetween = 170;
-         } else if (width >= 768 && width < 992) {  // Tablet
-            this.slidesPerView = 3;
-            this.spaceBetween = -90;
-         } else if (width >= 992 && width < 1500) {  // Laptop
-            this.slidesPerView = 3;
-            this.spaceBetween = -300;
-         } else {                                   // Desktop 
-            this.slidesPerView = 4;
-            this.spaceBetween = -400;
-         }
-      },
-      prevSlide() {
-         if (this.swiperInstance) {
-            this.swiperInstance.slidePrev();
-         }
-      },
-      nextSlide() {
-         if (this.swiperInstance) {
-            this.swiperInstance.slideNext();
-         }
-      },
-      onSwiper(swiper) {
-         this.swiperInstance = swiper;
-         this.onPrevSlide(this.prevSlide);
-         this.onNextSlide(this.nextSlide);
-      },
-      
-   },
-   mounted() {
-      this.updateSlidesPerView();
-      window.addEventListener('resize', this.updateSlidesPerView);
-   },
-   beforeDestroy() {
-      window.removeEventListener('resize', this.updateSlidesPerView);
-   }
+    },
+    prevSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slidePrev();
+      }
+    },
+    nextSlide() {
+      if (this.swiperInstance) {
+        this.swiperInstance.slideNext();
+      }
+    },
+    onSwiper(swiper) {
+      this.swiperInstance = swiper;
+      this.onPrevSlide(this.prevSlide);
+      this.onNextSlide(this.nextSlide);
+    },
+    saveSlideDataAndNavigate(slide) {
+      // Salva i dati della slide nel sessionStorage
+      sessionStorage.setItem('selectedSlideData', JSON.stringify(slide));
+      // Naviga alla pagina di dettaglio
+      this.$router.push({ name: 'Travel_detail' });
+    },
+  },
+  mounted() {
+    this.updateSlidesPerView();
+    window.addEventListener('resize', this.updateSlidesPerView);
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.updateSlidesPerView);
+  },
 };
 </script>
 
@@ -76,56 +82,49 @@ export default {
 
 
 <template>
-   <!-- slider -->
-   <swiper
-     class="_swiper"
-     :slides-per-view="slidesPerView"
-     :space-between="spaceBetween"
-     :loop="true"
-     pagination
-     @swiper="onSwiper"
-   >
+  <!-- slider -->
+  <swiper
+    class="_swiper"
+    :slides-per-view="slidesPerView"
+    :space-between="spaceBetween"
+    :loop="true"
+    pagination
+    @swiper="onSwiper"
+  >
+    <swiper-slide
+      v-for="(slide, index) in dataSlide.slides"
+      :key="index"
+    >
+      <div class="card">
+        <!-- Usa il metodo per salvare i dati e navigare -->
+        <a
+          href="#"
+          @click.prevent="saveSlideDataAndNavigate(slide)"
+          class="slide-link text-white"
+        >
+          <img :src="slide.img" :alt="slide.title">
+          <!-- mobile / tablet -->
+          <div class="card-body-mobile card-body d-lg-none">
+            <h5>{{ slide.title }}</h5>
+            <p>Da {{ slide.price }}</p>
+            <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+          <!-- desk -->
+          <div class="card-body-desk card-body d-none d-lg-block">
+            <h5>{{ slide.title }}</h5>
+            <p>Da {{ slide.price }}</p>
+            <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+          <div class="bg_hidden d-flex d-none d-lg-block">
+            <p>7 notti / 8 giorni</p>
+          </div>
+        </a>
+      </div>
+    </swiper-slide>
+  </swiper>
+</template>
 
-      <swiper-slide
-         v-for="(slide, index) in dataSlide.slides"
-         :key="index"
-      >
-      
-         <div class="card">
-            <!-- query serve per passare dati complessi come array / oggetti -->
-            <router-link
-            :to="{ name: 'Travel_detail', query: { slideData: JSON.stringify(slide) } }"
-            class="slide-link text-white"
-            >
-               <img :src="slide.img" :alt="slide.title">
-      
-               <!-- mobile / tablet -->
-               <div class="card-body-mobile card-body d-lg-none">
-                  <h5>{{ slide.title }}</h5>
-                  <p>Da {{ slide.price }}</p>
-                  <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
-               </div>
-      
-               <!-- desk -->
-               <div class="card-body-desk card-body d-none d-lg-block">
-                  <h5>{{ slide.title }}</h5>
-                  <p>Da {{ slide.price }}</p>
-                  <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
-               </div>
-      
-               <div class="bg_hidden d-flex d-none d-lg-block">
-                  <p>7 notti / 8 giorni</p>
-               </div>
-            </router-link>
-         </div>
-
-      </swiper-slide>
-
-   </swiper>
- </template>
  
-
-
 
 
 <style lang="scss" scoped>

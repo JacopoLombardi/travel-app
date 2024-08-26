@@ -1,12 +1,15 @@
 
 <script>
+import Explore_offcanvas from "./partial Travel_detail/Explore_offcanvas.vue"
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
 export default {
   components: {
     Swiper,
-    SwiperSlide
+    SwiperSlide,
+    Explore_offcanvas
   },
   props: {
     data: Object
@@ -14,6 +17,8 @@ export default {
   data() {
     return {
       selectedSlideData: null,
+      slidesPerView: 2,
+      spaceBetween: 10
     };
   },
   computed: {
@@ -25,13 +30,32 @@ export default {
   methods: {
     openOffCanvas(item) {
       this.selectedSlideData = item;
-      
+
       // Codice per aprire l'offcanvas
       const offcanvasElement = document.getElementById('offcanvasBottom');
       const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
       bsOffcanvas.show();
-    }
-  }
+    },
+
+    updateSlidesPerView() {
+      const width = window.innerWidth;
+
+      if ( width < 600) {
+         this.slidesPerView = 2;
+      } else if (width >= 600 && width < 768) {
+         this.slidesPerView = 3;
+      }
+
+      this.spaceBetween = 10;
+   },
+  },
+  mounted() {
+    this.updateSlidesPerView();
+    window.addEventListener('resize', this.updateSlidesPerView);
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.updateSlidesPerView);
+  },
 };
 </script>
 
@@ -63,14 +87,12 @@ export default {
       <!-- swiper -->
       <swiper
          class="_swiper"
-         :slides-per-view="1"
-         :space-between="-130"
+         :slides-per-view="slidesPerView"
+         :space-between="spaceBetween"
          :loop="true"
-         pagination
-         @swiper="onSwiper"
       >
          <swiper-slide
-            class="_slide"
+            class="_slide d-flex justify-content-center"
             v-for="(item, index) in explore.slide_thumb"
             :key="index"
          >
@@ -93,84 +115,10 @@ export default {
       </swiper>
 
 
-      <!-- offcanvas -->
-      <div
-        class="offcanvas offcanvas-bottom"
-        tabindex="-1"
-        id="offcanvasBottom"
-        aria-labelledby="offcanvasBottomLabel"
-      >
-
-
-         <div class="box_edge">
-            <div class="_edge"></div>
-         </div>
-
-         <!-- up -->
-         <div class="box_up">
-            <div>
-               <img :src="selectedSlideData?.img" :alt="selectedSlideData?.title">
-               <button
-                  type="button"
-                  class="btn border rounded-5"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-               >
-                  <i class="fa-solid fa-x"></i>
-               </button>
-               <p 
-                  class="_badge"
-                  :class="selectedSlideData?.detail.badge === 'Esperienza inclusa' ? 'badge_included' : 'badge_not_included'"
-               >
-                  {{ selectedSlideData?.detail.badge }} 
-                  <i :class="selectedSlideData?.detail.icon"></i>
-               </p>
-            </div>
-         </div>
-         
-         <!-- down -->
-         <div class="box_down">
-            <h4>{{ selectedSlideData?.title }}</h4>
-            <ul class="_tag d-flex">
-               <li
-                  v-for="item in selectedSlideData?.detail.tag"
-                  :key="item"
-               >
-                  <p>
-                     <i :class="item.icon"></i>
-                     {{ item.name }}
-                  </p>
-               </li>
-            </ul>
-
-            <ul>
-               <li
-                  v-for="item in selectedSlideData?.detail.text"
-                  :key="item"
-               >
-                  <p v-html="item"></p>
-               </li>
-               
-               <!-- Mostra only_utravel una volta se esiste -->
-               <li>
-                  <p 
-                     v-if="selectedSlideData?.detail.text_only_utravel"
-                     class="only_utravel"
-                     v-html="selectedSlideData?.detail.text_only_utravel"
-                  ></p>
-               </li>
-            </ul>
-
-            <!-- instax -->
-            <div 
-               v-if="selectedSlideData?.detail.instax"
-               class="_instax">
-               <img src="../../../../public/img/instax.png" alt="instax">
-            </div>
-
-         </div>
-
-      </div>
+      <!-- componente offcanvas -->
+      <Explore_offcanvas
+         :data="selectedSlideData"
+      />
 
    </div>
 </template>
@@ -179,7 +127,6 @@ export default {
 
 
 <style lang="scss" scoped>
-
 ._explore {
    padding: 50px 1rem;
    background-color: rgb(55, 31, 134);
@@ -210,75 +157,71 @@ export default {
             line-height: 17px;
          }
 
-         &:last-child ._paragraph{
+         &:last-child ._paragraph {
             color: rgba(210, 210, 210, 0.597);
             font-style: oblique;
             font-weight: 500;
             margin-top: 8px;
          }
-
       }
    }
 
+._swiper {
+   margin-top: 40px;
 
+   .card {
+      width: 100%;
+      height: 220px;
+      max-width: 300px;
+      background-color: transparent;
+      border-radius: 20px;
+      border: none;
+      position: relative;
+      cursor: pointer;
 
-
-   ._slide {
-   
-      // card
-      .card {
-         width: 50%;
-         max-width: 300px;
-         aspect-ratio: 1;
-         background-color: transparent;
+      img {
          border-radius: 20px;
-         margin-top: 40px;
-         border: none;
-         position: relative;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         position: absolute;
+         filter: brightness(75%);
+      }
 
-         img {
+      .card-body {
+         color: white;
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         padding: 15px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: flex-start;
+
+         .badge_included,
+         .badge_not_included {
+            font-size: 14px;
             border-radius: 20px;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: absolute;
-            filter: brightness(75%);
-         }
-
-         .card-body {
-            color: white;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            padding: 15px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
+            padding: 6px 15px;
+            position: relative;
+            align-self: flex-end;
          }
 
          .badge_included {
             background-color: rgb(238, 255, 240);
             color: rgb(38, 220, 14);
-            font-size: 14px;
-            border-radius: 20px;
-            padding: 6px 15px;
-            position: relative;
-            align-self: flex-end;
          }
 
          .badge_not_included {
             background-color: rgb(255, 231, 218);
             color: rgb(255, 114, 13);
-            font-size: 14px;
-            border-radius: 20px;
-            padding: 6px 15px;
-            position: relative;
-            align-self: flex-end;
          }
 
-         .card-body .card-body-title {
+         .card-body-title {
+            align-self: flex-start;
+
             h5 {
                font-size: 15px;
                font-weight: 700;
@@ -289,129 +232,149 @@ export default {
                font-size: 14px;
             }
          }
-
-         .card-body .card-body-title {
-            align-self: flex-start;
-         }
-
-         &:hover {
-            cursor: pointer;
-         }
       }
    }
+}
+}
 
 
 
 
 
-
-   .offcanvas {
-      height: 85vh;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
-      padding: 0 0 35px 0;
-      overflow: auto;
-
-      .box_edge {
-         background-color: #fff;
-         position: fixed;
-         width: 100%;
-         z-index: 2;
-         border-top-left-radius: 20px;
-         border-top-right-radius: 20px;
-
-         ._edge {
-            background-color: #e6e6e6;
-            width: 45px;
-            height: 5px;
-            border-radius: 20px;
-            margin: 1rem auto;
-         }
+/* Media query per dispositivi con larghezza minore o uguale a 400px */
+@media (max-width: 400px) {
+   ._explore {
+      ._badge {
+         font-size: 15px;
+         padding: 6px 14px;
       }
 
-      .box_up {
-         margin: 37px 0 20px 0;
-         position: relative;
 
-         img {
-            width: 100%;
-            height: 280px;
-            object-fit: cover;
-         }
-
-         button {
-            background-color: #ededed;
-            font-size: 14px;
-            position: absolute;
-            top: 15px;
-            right: 15px;
-         }
-
-         ._badge {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            background-color: #eefff0;
-            color: #26dc0e;
-            font-size: 13px;
-            padding: 8px 15px;
-         }
-
-         .badge_included {
-            background-color: #eefff0;
-            color: #26dc0e;
-         }
-
+      .card {
+         .badge_included,
          .badge_not_included {
-            background-color: #ffe7da;
-            color: #ff720d;
-         }
-      }
-
-      .box_down {
-         margin: 0 2rem;
-
-         h4 {
-            font-size: 22px;
-            margin-bottom: 10px;
+            font-size: 10px;
+            padding: 4px 10px;
          }
 
-         ._tag {
-            border-bottom: 1px solid rgba(206, 206, 206, 0.613);
-            padding-bottom: 20px;
-            color: #494949;
-            font-weight: 600;
+         .card-body-title {
+            h5 {
+               font-size: 13px;
+            }
 
             p {
-               margin-right: 2rem;
+               font-size: 11px;
             }
          }
-
-         ul:last-of-type {
-            li {
-               p {
-                  color: #707070;
-                  font-size: 15px;
-                  margin-top: 20px;
-                  line-height: 19px;
-               }
-
-               .only_utravel {
-                  font-weight: 700;
-                  text-decoration: underline;
-               }
-            }
-         }
-      }
-
-
-      &::-webkit-scrollbar {
-         width: 0;
       }
    }
+}
 
 
 
 
+/* Media query per dispositivi con larghezza maggiore o uguale a 768px */
+@media (min-width: 768px) {
+   ._explore {
+      padding: 80px 5rem;
+
+      ._badge {
+         font-size: 18px;
+         padding: 7px 18px;
+      }
+
+      h2 {
+         font-size: 25px;
+      }
+
+      ul {
+         li {
+            ._paragraph {
+               font-size: 16px;
+               line-height: 20px;
+            }
+
+            &:last-child ._paragraph {
+               margin-top: 14px;
+            }
+         }
+      }
+
+      ._swiper {
+
+      
+      .card {
+         height: 400px;
+         max-width: 500px;
+
+         .card-body {
+
+         .card-body-title {
+            h5 {
+               font-size: 20px;
+            }
+
+            p {
+               font-size: 17px;
+            }
+         }
+      }
+      }
+   }
+}
+}
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
+@media (min-width: 992px) {
+   ._explore {
+      padding: 120px 5rem;
+
+      display: flex;
+      align-items: center;
+
+      ._text {
+         width: 30%;
+         margin-right: 7rem;
+         ul {
+            li {
+            ._paragraph {
+               font-size: 18px;
+            }
+            }
+         }
+      }
+
+
+
+      ._swiper {
+         width: 70%;
+         margin-top: 0;
+         .card {
+            max-width: 500px;
+
+            .card-body {
+            .badge_included,
+            .badge_not_included {
+               font-size: 17px;
+               padding: 8px 18px;
+               font-weight: 700;
+            }
+
+            .card-body-title {
+               h5 {
+               font-size: 28px;
+               }
+
+               p {
+               font-size: 18px;
+               }
+            }
+         }
+         }
+      }
+   }
 }
 </style>

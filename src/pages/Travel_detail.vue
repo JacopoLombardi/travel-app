@@ -18,8 +18,8 @@ export default {
     };
   },
   mounted() {
-    // ricevo i dati della slide selezzionata tramite query
-    const slideDataString = this.$route.query.slideData;
+    // Recupera i dati della slide selezionata dal sessionStorage
+    const slideDataString = sessionStorage.getItem('selectedSlideData');
     if (slideDataString) {
       try {
         this.slideData = JSON.parse(slideDataString);
@@ -27,8 +27,8 @@ export default {
       } catch (error) {
         console.error('Failed to parse slideData:', error);
       }
-    }
-  }
+    } 
+  },
 };
 </script>
 
@@ -56,7 +56,8 @@ export default {
 
 
 
-<style lang="scss" scoped>
 
+
+<style lang="scss" scoped>
 
 </style>
