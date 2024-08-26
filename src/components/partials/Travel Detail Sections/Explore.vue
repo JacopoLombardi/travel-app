@@ -108,22 +108,24 @@ export default {
 
          <!-- up -->
          <div class="box_up">
-            <img :src="selectedSlideData?.detail.img" :alt="selectedSlideData?.title">
-            <button
-               type="button"
-               class="btn border rounded-5"
-               data-bs-dismiss="offcanvas"
-               aria-label="Close"
-            >
-               <i class="fa-solid fa-x"></i>
-            </button>
-            <p 
-               class="_badge"
-               :class="selectedSlideData?.detail.badge === 'Esperienza inclusa' ? 'badge_included' : 'badge_not_included'"
-            >
-               {{ selectedSlideData?.detail.badge }} 
-               <i :class="selectedSlideData?.detail.icon"></i>
-            </p>
+            <div>
+               <img :src="selectedSlideData?.img" :alt="selectedSlideData?.title">
+               <button
+                  type="button"
+                  class="btn border rounded-5"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+               >
+                  <i class="fa-solid fa-x"></i>
+               </button>
+               <p 
+                  class="_badge"
+                  :class="selectedSlideData?.detail.badge === 'Esperienza inclusa' ? 'badge_included' : 'badge_not_included'"
+               >
+                  {{ selectedSlideData?.detail.badge }} 
+                  <i :class="selectedSlideData?.detail.icon"></i>
+               </p>
+            </div>
          </div>
          
          <!-- down -->
@@ -149,7 +151,7 @@ export default {
                   <p v-html="item"></p>
                </li>
                
-               <!-- Mostra solo_utravel una volta se esiste -->
+               <!-- Mostra only_utravel una volta se esiste -->
                <li>
                   <p 
                      v-if="selectedSlideData?.detail.text_only_utravel"
@@ -158,9 +160,18 @@ export default {
                   ></p>
                </li>
             </ul>
+
+            <!-- instax -->
+            <div 
+               v-if="selectedSlideData?.detail.instax"
+               class="_instax">
+               <img src="../../../../public/img/instax.png" alt="instax">
+            </div>
+
          </div>
 
       </div>
+
 
    </div>
 </template>
@@ -291,6 +302,10 @@ export default {
    }
 
 
+
+
+
+
    .offcanvas {
       height: 85vh;
       border-top-left-radius: 20px;
@@ -299,19 +314,24 @@ export default {
       overflow: auto;
 
       .box_edge {
-         display: flex;
-         justify-content: center;
-         margin: 15px 0;
+         background-color: #fff;
+         position: fixed;
+         width: 100%;
+         z-index: 2;
+         border-top-left-radius: 20px;
+         border-top-right-radius: 20px;
+
          ._edge {
-            background-color: rgb(226, 226, 226);
-            width: 50px;
-            height: 6px;
+            background-color: #e6e6e6;
+            width: 45px;
+            height: 5px;
             border-radius: 20px;
+            margin: 1rem auto;
          }
       }
 
       .box_up {
-         margin-bottom: 20px;
+         margin: 37px 0 20px 0;
          position: relative;
 
          img {
@@ -321,7 +341,7 @@ export default {
          }
 
          button {
-            background-color: white;
+            background-color: #ededed;
             font-size: 14px;
             position: absolute;
             top: 15px;
@@ -332,39 +352,35 @@ export default {
             position: absolute;
             bottom: 20px;
             left: 20px;
-            background-color: rgb(238, 255, 240);
-            color: rgb(38, 220, 14);
+            background-color: #eefff0;
+            color: #26dc0e;
             font-size: 13px;
             padding: 8px 15px;
          }
 
          .badge_included {
-            background-color: rgb(238, 255, 240);
-            color: rgb(38, 220, 14);
+            background-color: #eefff0;
+            color: #26dc0e;
          }
 
          .badge_not_included {
-            background-color: rgb(255, 231, 218);
-            color: rgb(255, 114, 13);
+            background-color: #ffe7da;
+            color: #ff720d;
          }
       }
 
-
-
-
       .box_down {
-         margin: 0 2rem 0 2rem;
+         margin: 0 2rem;
 
          h4 {
             font-size: 22px;
             margin-bottom: 10px;
-
          }
 
          ._tag {
             border-bottom: 1px solid rgba(206, 206, 206, 0.613);
             padding-bottom: 20px;
-            color: rgb(73, 73, 73);
+            color: #494949;
             font-weight: 600;
 
             p {
@@ -372,29 +388,31 @@ export default {
             }
          }
 
-         ul:last-child {
+         ul:last-of-type {
             li {
                p {
-                  color: rgb(112, 112, 112);
+                  color: #707070;
                   font-size: 15px;
                   margin-top: 20px;
                   line-height: 19px;
                }
-               
+
                .only_utravel {
                   font-weight: 700;
                   text-decoration: underline;
                }
             }
          }
-
-         
       }
+
 
       &::-webkit-scrollbar {
-         width: 0px;
+         width: 0;
       }
    }
-   
+
+
+
+
 }
 </style>

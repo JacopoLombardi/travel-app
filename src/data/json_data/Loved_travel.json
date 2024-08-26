@@ -109,12 +109,34 @@
             "Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
             "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
           ],
-          "slide_explore_thumb": [
+          "slide_thumb": [
             {
               "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702255328123_il_fullxfull.3856558470_qf6e.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A29%3A13Z&sr=b&sp=rade&sig=TWCRr0%2B3QlJK6qR1ttxWlX3FHCceUeUoHJXGjPrb8cA%3D&rsct=image%2Fjpg",
               "badge": "Inclusa",
               "title": "Phuket Tour",
-              "description": "Culture"
+              "description": "Culture",
+              "detail": {
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Benvenuto/a in una giornata che sarà ricca di scoperte mentre esplorerai a bordo di un coloratissimo Tuk Tuk gli affascinanti luoghi di Phuket. Il tuo giro dell'isola ti condurrà attraverso alcune delle destinazioni più iconiche, immergendoti nella cultura, nella spiritualità e nella bellezza naturale dell'isola.",
+                  "<b> Phuket Town: </b> Inizierai la giornata con una visita a Phuket Town, un affascinante centro urbano ricco di storia e cultura. Passeggerai tra le strade pittoresche, esplorerai i mercati locali e ammirerai l'architettura coloniale sino-portoghese.",
+                  "<b> Monkey Hill: </b> Farai dopo una tappa a Monkey Hill per un incontro con la fauna locale. Interagirai con le scimmie che popolano la zona e godrai dell'atmosfera vivace di questo luogo unico.",
+                  "<b> Wat Chalong: </b> Proseguirari la tua giornata con una visita a Wat Chalong, uno dei templi più importanti di Phuket. Ammirerai l'architettura tradizionale thailandese, esplorerai gli edifici sacri e ti immergerai nella spiritualità della zona.",
+                  "<b> Big Buddha: </b> Penultima tappa, il maestoso Big Buddha, una statua impressionante che sovrasta l'isola. Godrai di una vista panoramica mozzafiato e coglierai l'opportunità di contemplazione in questo luogo spirituale.",
+                  "<b> Laem Promthep: </b> La giornata terminerà con un tramonto a Laem Promthep sulla punta meridionale dell'isola. Ammirerai il panorama sull'oceano e lascerai che la bellezza naturale ti incanti."
+                ]
+              }
             }
           ]
         }
@@ -248,6 +270,7 @@
           "title": "Esperienze consigliate",
           "text": [
             "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+
             "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
           ],
           "slide_thumb": [
@@ -257,7 +280,6 @@
               "title": "White island",
               "description": "Wellness",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1716201426025_1696784825228_IMG_7313.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A46Z&sr=b&sp=rade&sig=Qk55DJ6Sb8GiN3L5YaVnToJthuZ6%2FB4wtJeXcd%2FDD2s%3D&rsct=image%2Fjpg",
                 "badge": "Esperienza inclusa",
                 "icon": "fa-regular fa-circle-check ms-1",
                 "tag": [
@@ -272,7 +294,9 @@
                 ],
                 "text": [
                   "Parti per un'indimenticabile escursione di un'<b> intera giornata alla White Island </b>, a Sharm El Sheikh. Durante questa esperienza, avrai l'opportunità di goderti il sole e il relax in uno scenario mozzafiato.",
+
                   "La giornata include una sosta suggestiva su una splendida <b> lingua di sabbia bianca </b> che emerge dal mare, offrendo un panorama unico. Successivamente, ti avventurerai in <b> due tappe di snorkeling </b>, accompagnato da una guida esperta che ti mostrerà le vibranti e coloratissime barriere coralline di Sharm El Sheikh.",
+
                   "A bordo, ti attende un abbondante <b> pranzo a buffet </b>, che renderà la tua esperienza ancora più piacevole. Questa escursione è l'occasione perfetta per esplorare le meraviglie sottomarine di Sharm e rilassarti in un ambiente paradisiaco."
                   
                 ],
@@ -285,7 +309,6 @@
               "title": "Pacha",
               "description": "Nightlife",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696785620162_336912012.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A15Z&sr=b&sp=rade&sig=och7%2F7eY3Sr7o%2B8CZnnEh44t%2BGuNNQOrAuBqKF5kAeE%3D&rsct=image%2Fjpg",
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -300,8 +323,11 @@
                 ],
                 "text": [
                   "Nel centro di Naama Bay si trova una delle <b> disco più famose al mondo! </b>",
+
                   "Aperto per la prima volta nel 2004, ha ospitato alcuni dei più grandi <b> artisti di musica elettronica </b> del mondo, tra cui David Guetta, Bob Sinclar, Roger Sanchez e altri.",
+
                   "Il club è noto per la sua enorme pista da ballo all'aperto e per il <b> labirinto di piscine, sentieri e persino una cascata </b>.",
+
                   "Non perderti questa super esperienza!"
                 ]
               }
@@ -312,7 +338,7 @@
               "title": "Desert Buggies",
               "description": "Adventure",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696952212750_DSC03813.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A03Z&sr=b&sp=rade&sig=ar4K8C7zi0rMLN8dreqK6FcDBTECGm%2BGGNYOdCpWPfc%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -327,7 +353,9 @@
                 ],
                 "text": [
                   "A bordo di un Buggy proverai l'emozione di <b> sfrecciare nel deserto! </b>",
+
                   "Farai la prima tappa davanti alla montagna dell'eco, la seconda in una tenda beduina per sorseggiare del thè alle erbe e la terza davanti alle montagne del deserto per ammirare lo <b> spettacolo del tramonto </b>.",
+
                   "Ma, cosa importantissima, non dimentichiamoci assolutamente di coprirci bene tutto il corpo indossando felpe e pantaloni lunghi, occhiali da sole vecchi e un foulard in modo da <b> non diventare delle sfingi di sabbia! </b>"
                 ]
               }
@@ -338,7 +366,7 @@
               "title": "Dahab Tour",
               "description": "Adventure",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702641611941_146.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A11Z&sr=b&sp=rade&sig=up4hLlV%2Bi%2FNGv5%2BEEkxbHYdCOsLjzoFzt7cPIhVjSmk%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -353,10 +381,15 @@
                 ],
                 "text": [
                   "<b> Partenza da Sharm El Sheikh: </b> La tua giornata inizierà con un comodo trasferimento dal tuo alloggio a Sharm El Sheikh. Sei pronto per un'indimenticabile avventura?",
+
                   "<b> Snorkeling al Blue Hole di Dahab (30 min): </b> Per la prima tappa ci dirigeremo verso il celebre Blue Hole di Dahab, una delle migliori destinazioni per lo snorkeling al mondo. Indosserai l'attrezzatura subacquea e ti immergerai nelle acque cristalline del Mar Rosso. Esplorando il mondo sottomarino, ammirerai colorati coralli e varietà di pesci tropicali.",
+
                   "<b> Pranzo: </b> Dopo il divertimento in acqua, ci concederemo una pausa per un delizioso pranzo tipico egiziano a base di pollo, riso e patate.",
+
                   "<b> Canyon Salama - Escursione a Piedi: </b> Dopo un breve viaggio attraverso il deserto, arriveremo al Canyon Salama. Questo affascinante canyon sarà il nostro primo punto di esplorazione. Ti muoverai tra le maestose formazioni rocciose con le tue guide esperte, immergendoti nella bellezza naturale e imparando sulla storia e la geologia della regione.",
+
                   "<b> Passeggiata a Dahab: </b> Prima di rientrare ci godremo una passeggiata nel caratteristico centro di Dahab, ammirandone il lungomare!",
+
                   "<b> Ritorno al Tuo Alloggio: </b> Alla fine della giornata, ti accompagneremo di nuovo al tuo alloggio a Sharm El Sheikh. "
                 ]
               }
@@ -367,7 +400,7 @@
               "title": "Luxor",
               "description": "Culture",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699029315909_calin-stan-Mv15X2n8JVE-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A18Z&sr=b&sp=rade&sig=SaxzUsoXskecj%2F2scGW2PIicXeYLU7iOxp5wQESf978%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -382,10 +415,15 @@
                 ],
                 "text": [
                   "Se hai sempre sognato di girovagare tra i <b> templi della Valle dei Re </b>, non perderti questa esperienza, che come una macchina del tempo ti farà tornare indietro a più di 2000 anni fa!",
+
                   "A bordo di un veicolo climatizzato raggiungerai l'aeroporto per imbarcarti sul tuo volo per Luxor. All'arrivo ci sarà una <b> guida e un van pronto ad aspettarti </b>, in direzione sito archeologico!",
+
                   "Dopo il tempio di Karnak ammmirerai il <b> Viale delle Sfingi </b>, il corridoio ipostilo con i 134 enormi pilastri e gli obelischi della regina Hatshepsut e del faraone Thutmose I.",
+
                   "Proseguirai verso la necropoli tebana sulla riva occidentale del <b> Nilo </b> per vedere dove furono sepolti i faraoni. Passeggerai per la <b> Valle dei Re e visiterai le tombe appartenenti a 3 diverse dinastie </b>. Ammirerai un capolavoro dell'architettura antica nel <b> tempio funerario di Hatshepsut </b>.",
+
                   "Ed infine prima di tornare visiterai i <b> Colossi di Memnone </b>, 2 delle statue più grandi d'Egitto, che risalgono all'era del faraone Amenofi III.",
+
                   "Al termine della giornata, tornerai in aereo a Sharm el-Sheikh, dove un transfer privato ti riaccompagnerà al tuo hotel!"
                 ]
               }
@@ -396,7 +434,7 @@
               "title": "Monte Sinai",
               "description": "Adventure",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702048257177_145.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A41Z&sr=b&sp=rade&sig=7cSyZH0Q18elfxKjnPkeSF7ZJBzpeU7UV2ZLm2Sw9wE%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -411,10 +449,15 @@
                 ],
                 "text": [
                   "<b> L'esperienza inizierà </b> con un transfer che dopo circa 4 ore ti porterà all'inizio del trekking, che <b> inizierà in notte fonda per sfruttare le fresche ore notturne della regione! </b>",
+
                   "Per raggiungere il luogo sacro <b> dove Mosé ricevette i 10 Comandamenti </b>; una scalinata di 750 gradini ti condurrà a 2.285 metri di altezza.",
+
                   "La salita richiederà circa 2-3 ore, a seconda del ritmo tenuto dai partecipanti. Se il livello fisico del gruppo lo consente, potresti arrivare in cima prima del previsto. In questo modo, avrai tempo per rilassarti e <b> ammirare il sole sorgere sul deserto </b> e illuminarne lentamente i monti, in uno spettacolo fortemente suggestivo.",
+
                   "Lasciati incantare da quest'alba straordinaria e scatta foto indimenticabili prima di iniziare la discesa, che durerà altre 2 ore circa. Una volta tornato giu sarà fatta una pausa per fare <b> colazione </b> e per riposare un po dopo la lunga marcia.",
+
                   "Se aperto, successivamente si farà visita al <b> Monastero di Santa Caterina </b>, dichiarato dall'UNESCO patrimonio dell'umanità. Si tratta del <b> più antico monastero cristiano funzionante al mondo </b> insieme al Monastero di Sant'Antonio, che si trova al di là del Mar Rosso, nel deserto del Cairo meridionale.",
+
                   "Terminata la visita del monastero, potrai rilassarti durante il viaggio di ritorno al tuo hotel di Sharm el-Sheikh."
                 ]
               }
@@ -425,7 +468,7 @@
               "title": "Desert party",
               "description": "Nightlife",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696850510956_dolcevita.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A53Z&sr=b&sp=rade&sig=JTsaQIa8Yk1zbvYeh6eGexhcPVe7od89iBh08ibqDes%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -440,7 +483,9 @@
                 ],
                 "text": [
                   "La <b> serata più attesa di tutta Sharm </b> ti aspetta in mezzo al deserto del Sinai!!",
+
                   "Pront* a scatenarti in mezzo a splendide dune di sabbia e il cielo stellato? Qui sei nel luogo perfetto per <b> sfuggire alla frenesia della città </b> e vivere la bellezza del deserto egiziano.",
+
                   "La festa dispone di una splendida piscina, di comode aree salotto e di una pista da ballo sempre affollata. Per non parlare della musica: <b> i deejay di alto livello creano remix di successi internazionali </b> e musica locale egiziana!",
                   "<b> Imperdibile </b>."
                 ]
@@ -452,7 +497,7 @@
               "title": "Ras Mohamed National Park",
               "description": "Adventure",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699292274939_photo1675264472%2520%25284%2529%2520-%2520Medium.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A02Z&sr=b&sp=rade&sig=6kq17wNz3IVz3abFo7SEkvhHHkjRMcF5WhOxG%2FvPlx4%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -467,6 +512,7 @@
                 ],
                 "text": [
                   "Sali a bordo del bus <b> a suon di musica </b> per iniziare il tour della riserva naturale che si apre proprio dalla <b> porta di Allah </b> in cui non mancherà la prima foto ricordo.",
+
                   "Continuerai con la prima tappa <b> snorkeling </b>, farai un pit stop al <b> lago magico </b>, ti soffermerai nella spiaggia delle mangrovie e infine raggiungerai la <b> tenda beduina </b> per un buon pranzo a base di carne, riso e verdure."
                 ]
               }
@@ -477,7 +523,7 @@
               "title": "Snorkeling a el Fanar",
               "description": "Wellness",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699297994230_Club%2520Egitto%2520-%2520Large.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A51Z&sr=b&sp=rade&sig=2Fx4KSZ7OdR8%2FffGrb9Hj5u9AFLZFCkjw13nHE8aep8%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -501,7 +547,7 @@
               "title": "Boat Dinner",
               "description": "Local Food",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698665888562_WhatsApp%2520Image%25202023-10-30%2520at%252012.35.39.jpeg?sv=2023-08-03&se=2074-05-24T12%3A30%3A13Z&sr=b&sp=rade&sig=dc7gQmkg1vdRsk7Ydbyd2gE3CQ0X0KsX4wI96vl5z%2FM%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -516,6 +562,7 @@
                 ],
                 "text": [
                   "Goditi una <b> cena tipica egiziana </b> a base di pesce a bordo di un affascinante veliero a Sharm El Sheikh, mentre assisti a <b> spettacoli di danza del ventre </b>, e godi della magia della <b> musica dal vivo </b>.",
+
                   "Scopri i sapori freschi del mare in un'atmosfera unica, dove l'arte culinaria si mescola con l'arte dello spettacolo <b> in mezzo alle acque cristalline del Mar Rosso </b>."
                 ]
               }
@@ -526,7 +573,7 @@
               "title": "Cairo",
               "description": "Culture",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699292584585_8A798D38-FF16-429A-8ADB-A81EA8BE8B3D%2520-%2520Large.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A01Z&sr=b&sp=rade&sig=HNnaSBSUKAJ3pGQJYGjh0%2Bzz8SbQh%2F2KETzL1knymRs%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -541,10 +588,15 @@
                 ],
                 "text": [
                   "Sei pront* per un affascinante viaggio nel tempo, indietro alle lezioni di storia delle scuole elementari? Inizia presto la mattina, dirigendoti verso l'aeroporto per raggiungere <b> Il Cairo, una delle città più popolate al mondo </b>.",
+
                   "La prima tappa ti porterà al <b> Museo Egizio </b>, il più grande al mondo. Sebbene sarebbero necessarie due giornate per esplorarlo completamente, faremo del nostro meglio per mostrarti le sue perle più preziose.",
+
                   "Ti sposterai poi sulle <b> rive del Nilo </b>, dove ti aspetta un pranzo in autentico stile egiziano. Avrai anche l'opportunità di goderti una breve crociera sul fiume (facoltativa, non inclusa).",
+
                   "Nel pomeriggio, esplorerai l'<b> Altopiano di Giza </b>, che domina la città del Cairo. Potrai ammirare la Piramide di Khufu, comunemente conosciuta come <b> Cheope </b>, insieme alle <b> Piramidi di Chefren e Micerino </b>, il Tempio della Valle di Chefren e la maestosa <b> Grande Sfinge di Giza </b>.",
+
                   "Questo straordinario complesso di strutture ha una storia che risale a <b> quasi 5.000 anni fa </b>. Per chi desidera, c'è anche la possibilità di esplorare l'interno di una delle piramidi (facoltativo, non incluso).",
+
                   "Dopo la visita alle piramidi, farai una breve sosta in un negozio di souvenir locali prima di dirigerti in aeroporto per il <b> ritorno a Sharm in tarda serata </b>."
                 ]
               }
@@ -555,7 +607,7 @@
               "title": "Taj Mahal",
               "description": "Nightlife",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1696785279299_Taj-Mahal-Club-Sharm-El-Sheikh-2023-2024-2025-2026.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A26%3A14Z&sr=b&sp=rade&sig=ZBQp26BgM9C4xGaaog2ACqSDXl8TG4jJ%2B7hFitjMjXA%3D&rsct=image%2Fjpg",
+                
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
@@ -580,8 +632,7 @@
               "title": "Space Club",
               "description": "Nightlife",
               "detail": {
-                "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702043558753_white-space.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A28Z&sr=b&sp=rade&sig=UO9jzlfBD0GvWh7CV5TH8qd6uFZcP%2FL0g9sJC0T0M7I%3D&rsct=image%2Fjpg",
-                "badge": "Acquistabile in App",
+                
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
                   {
@@ -598,6 +649,9 @@
                 ]
               }
             }
+
+
+
           ]
         }
       }
@@ -726,6 +780,245 @@
             "Piscina",
             "Servizio di pulizia"
           ]
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire.",
+            "Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1695114727673_IMG_5279.jpeg?sv=2023-08-03&se=2074-05-24T12%3A29%3A43Z&sr=b&sp=rade&sig=npMTut0AZ5qzCqQmJ1SZNSd1STGxKXiyxKAxKxeN9dQ%3D&rsct=image%2Fjpg",
+              "badge": "Inclusa",
+              "title": "Desert tour",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Scopri il Deserto del Sahara con un tour di 3 giorni da <b> Marrakech </b>, esplorando gli splendidi paesaggi della Valle del Dades e i segreti della kasbah di Ourzazat; attraversando le dune di Erg Chebb durante il tramonto e dormire in un accampamento beduino nel deserto sotto le stelle!",
+
+                  "<span class=\"text-warning\"> <b> Giorno 1: </b> </span> <b> Marrakech - Ait-Ben-Haddou - Dades </b> (<span class=\"text-decoration-underline\"> 5h circa di viaggio </span>)",
+
+                  "Il viaggio inizia in mattinata, da <b> Marrakech </b>, attraversando le montagne dell'Alto Atlante, e facendo vari pit-stop nei villaggi berberi presenti lungo il tragitto, raggiungerai Ait-Ben-Haddou, sito patrimonio <b> UNESCO </b>, famoso per la sua kasbah e il suo villaggio fortificato utilizzato come set per alcuni epici film hollywoodiani! Tra i quali il Gladiatore!.",
+
+                  "Dopo continueraI il tuo viaggio verso <b> Ouarzazate </b>, conosciuta come la Porta del Sahara, lì ad aspettarti ci sarà una guida local pronta a svelarti tutti i segreti della sua antica Kasbah. <span class=\"text-decoration-underline\"> Intorno alle 18 </span> arriverai in hotel, dove avrai il tempo di rilassarti in piscina o andando in SPA (a pagamento). L'hotel è fornito di bar con alcolici ed intorno a mezzanotte apre la disco!",
+
+                  "<p> <b> Pranzo </b>: Ristorante ad Ait Zineb, prima di iniziare la visita di Ait Ben Haddou. </p> <p> <b> Cena </b>: buffet in hotel. </p> <p> <b> Hotel </b>: Hotel Karam o similare. </p>",
+
+                  "<span class=\"text-warning\"> <b> Giorno 2: </b> </span> <b> Dades - Gole di Todra - Merzouga </b> (<span class=\"text-decoration-underline\"> 5h circa di viaggio </span>)",
+
+                  "Dopo colazione, partirai dall'hotel alla volta di <b> Tinghir </b> e delle sue incredibili Gole di Todra dove esplorerai il Canyon e se vorrai potrai comprare qualche tipico abito Berbero! ",
+
+                  "Dopo pranzo ti dirigerai verso <b> Maerzouga </b>, dove ad aspettarti ci saranno delle <span class=\"text-decoration-underline\"> jeep 4x4 </span> pronte a condurti verso il deserto di sabbia e le altissime dune dell'Erg Chebbi!Arrivato all'accampamento ammirerai il tramonto attraversando dune alte più di 20 metri in uno degli scenari più pittoreschi che il pianeta terra ha da offrire!",
+
+                  "Tornato in accampamento, ad aspettarti ci sarà una cena marocchina preparata dagli stessi beduini che durante la serata offriranno intrattenimento e ti mostreranno come suonare i tradizionali tamburi!",
+
+                  "<p> <b> Colazione: </b> buffet in hotel. </p> <p> <b> Pranzo: </b> Ristorante ad Ourzazate. </p> <p> <b> Cena: </b> a buffet nel campo beduino. </p> <p> <b> Hotel: </b> campo Kasbah Leila o similare (sistemazioni doppie/triple con bagno privato). </p>",
+
+                  "<span class=\"text-warning\"> <b> Giorno 3: </b> </span> <b> Merzouga - Ouarzazate - Marrakech </b> (<span class=\"text-decoration-underline\"> 9h circa di viaggio </span>)",
+
+                  "Dopo una sveglia presto per ammirare l'alba prima di colazione (opzionale), un autista ti riaccompagnerà a <b> Marrakech </b> in un lungo viaggio attraversando i villaggi di Alnif, Nkob e Agdz!",
+
+                  "<p> <b> Colazione: </b> a buffet nel campo beduino. </p> <p> <b> Pranzo: </b> ristorante in uno dei villaggi durante il percorso. </p>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699348055793_rigel-No_Y3bn4lNQ-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A22Z&sr=b&sp=rade&sig=8D8bNHZZehS0Hk49G8K5gFBdCydnIDLsUoR%2B0gIr15w%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Essaouira",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Perditi tra i vicoli di questo caratteristico paesino di pescatori e assapora il pesce appena pescato in riva al mare.",
+
+                  "Ma quali sono le particolarità da non perdere assolutamente ad <b> Essaouira? </b> <ul> <li> - Il porto dove i pescatori vendono il loro pesce appena pescato. </li>     <li> - La cittadella di <b> Skala Kasbah </b>. </li>     <li> - ll <b> Castelo Real </b> costruito nel 1506. </li>    <li> - I caffè locali e le loro terrazze sul mare. </li>     <li> - La bellissima spiaggia famosa per surf, windsurf e kitesurf. </li> </ul>",
+
+                  "<b> Il pranzo non è incluso </b> e la guida neanche perchè vogliamo che sia tu a perderti tra queste meravigliose vie e ad assaggiare ciò che più ti piace!",
+
+                  "Durata trasporto = <span class=\"text-decoration-underline\"> 3h circa a tratta </span>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699348410275_danai-tsoutreli-tqLc6On9KIA-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A21Z&sr=b&sp=rade&sig=PH1%2FnqENobKwd0UMRVmw80U0XFnamXiZdsfMoqxTBNE%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Cascate di Ouzoud",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Uno dei posti più visitati e fotografati in <b> Marocco! </b>",
+
+                  "Situate vicino all'alto Atlas le cascate si trovano in mezzo ad una distesa di verde. <br> Una volta raggiunto il sito percorrerai una via in mezzo alla natura dove potrai incontrare delle simpatiche scimmiette curiose e molto socievoli. <br> Non avere paura, sono abituate a stare in mezzo alla gente! L'unico consiglio che ti diamo è di non tenere oggetti di valore in vista... potrebbero piacergli i tuoi occhiali da sole e decidere di non darteli più!",
+
+                  "Durata trasporto: <span class=\"text-decoration-underline\"> 3h circa a tratta </span>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1694722050551_9d.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A45Z&sr=b&sp=rade&sig=dCwLP%2F2q6sxrjpdyRllAwqlEW6StmnYSqZ1q69zE3fw%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "Ourika Valley",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Situata nell'Alto Atlas, la <b> Valle di Ourika </b> è sede di numerosi villaggi berberi. Il giusto modo per scappare da <b> Marrakech </b> e godersi il verde di questi meravigliosi paesaggi. Prima di raggiungere la Valle ti fermerai per <span class=\"text-decoration-underline\"> 2 pit stop </span> lungo il tragitto. Durante il primo vedrai come viene lavorato il famoso <b> Argan </b> del Marocco, durante il secondo entrerai in una casa beduina per assaporare il té caratteristico. Infine raggiungerai il villaggio berbero di <b> Setti Fatma </b> nella valle del fiume Ourika. Qui potrai esplorare la valle a piedi e percorrere un percorso lungo le montagne fino a raggiungere le due cascate. ",
+
+                  "Durata trasporto: <span class=\"text-decoration-underline\"> 3h circa </span>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704808681863_PHOTO-2024-01-03-21-25-03.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A33Z&sr=b&sp=rade&sig=kQ%2FqnV0ee2%2FQ%2B6ikO3k3btmvP4QUmAW%2BgtGHSJAsO14%3D&rsct=image%2Fjpg",
+              "badge": "32€ - 48€",
+              "title": "Desert dinner",
+              "description": "Local Food",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "32€ - 48€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Local Food"
+                  }
+                ],
+                "text": [
+                  "Preparati per una serata incantevole e autentica nel <b> deserto di Agafay </b>, dove la bellezza del Marocco si fonde con la magia del paesaggio desertico.",
+
+                  "<b> Dettagli dell'Esperienza: </b>",
+
+                  "<p> <b> -  Pick-up dall'Hotel: </b> </p>      <p> La tua esperienza inizia con un comodo pick-up direttamente dal tuo hotel, portandoti verso l'affascinante deserto di <b> Agafay </b>. </p>",
+
+                  "<p> <b> - Arrivo nel Deserto di Agafay </b> </p>      <p> Giungerai nel cuore del deserto, circondato da un panorama mozzafiato di dune e cieli aperti. L'atmosfera magica ti avvolgerà mentre il sole inizia a dipingersi di tonalità calde. </p>",
+
+                  "<p> <b> - Cena Tipica Marocchina </b> </p>      <p> Assapora i gusti autentici del <b> Marocco </b> con una cena tipica, preparata con ingredienti freschi e spezie esotiche. Il taijin, piatto tradizionale, e altre prelibatezze delizieranno il tuo palato. </p>",
+
+                  "<p> <b> - Show Serale </b> </p>      <p> Mentre gusti i piatti deliziosi, sarai intrattenuto da uno spettacolo serale che celebra la ricca tradizione artistica marocchina. Balli tradizionali, musiche avvolgenti e performance coinvolgenti creeranno un'atmosfera incantata. </p>",
+
+                  "<p> <b> -  Relax in Piscina </b> </p>      <p> Prima della cena , avrai la possibilità di immergerti in una piscina a sfioro a cielo aperto, circondato dal silenzio e dalla magia del deserto. </p>",
+
+                  "<p> <b> - Rientro in Hotel </b> </p>      <p> Dopo aver vissuto appieno questa esperienza unica, sarai accompagnato di nuovo al tuo hotel. </p>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699453549737_pexels-g%25C3%25BCl%25C5%259Fah-aydo%25C4%259Fan-18873067.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A34Z&sr=b&sp=rade&sig=UB%2Bkt1NcG%2BfaEuaJRFRXRY8tqDpq6bCqjsZpWdd5aWM%3D&rsct=image%2Fjpg",
+              "badge": "128€ - 192€",
+              "title": "Volo in mongolfiera",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "128€ - 192€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Sogni di sorvolare i cieli africani sopra una delle aeree piú desertiche ed iconiche al mondo? <br> Sali sulla nostra <b> mongolfiera </b> per vedere una delle albe migliori della tua vita!",
+
+                  "Sarai prelevat* dall'hotel qualche ora prima dell'alba, da lì dopo <span class=\"text-decoration-underline\"> circa 1 oretta </span> arriverai nel punto di lancio dove potrai ammirare tutto il processo di montaggio e preparazione, gustandoti un buon tè marocchino! Dopo di ciò spiccherai il volo (<span class=\"text-decoration-underline\"> 1h circa </span>) tra i cieli maghrebbini!Spoiler... l'atterraggio ti sorprenderà!",
+
+                  "Al rientro, nel campo base ad aspettarti ci sarà una colazione tipica marocchina e soprattutto il secondo round di tè!"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1705550136767_1704908506550_90.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A57Z&sr=b&sp=rade&sig=IO017pZAvDL%2BD09IXqISt13mVnNyBYu3qsNaqW1Owl8%3D&rsct=image%2Fjpg",
+              "badge": "8€ - 12€",
+              "title": "Medina Tour",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "8€ - 12€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Immergiti nell'incantevole cuore di <b> Marrakech </b> con un city tour che abbraccia le gemme storiche della città. Il percorso include le seguenti tappe:",
+
+                  "<p> <b> Palais de la Bahia: </b> </p>    <p> Esplorerai il maestoso Palazzo della Bellezza, un capolavoro architettonico con giardini lussureggianti, cortili intricati e ambienti regali. Ammirerai l'arte e la maestria che caratterizzano questo palazzo. </p>",
+
+                  "<p> <b> Mosquée Koutoubia (visita esterna): </b> </p>    <p> Ammirerai la grandiosa architettura della Moschea Koutoubia, un'icona di <b> Marrakech </b>. La sua imponente torre minareto si staglia nel cielo, offrendo una vista spettacolare e una connessione con la ricca storia della città. </p>",
+
+                  "<p> <b> Medina Antica di Marrakech: </b> </p>    <p> Passeggerai accompagnato da un local attraverso le stradine affollate e i mercati tradizionali della Medina, scoprendo l'atmosfera vibrante e i tesori nascosti che caratterizzano la parte antica della città. </p>",
+
+                  "<p> <b> Place Jemaa el Fnaa: </b> </p>    <p> Sperimenterai la vivacità della famosa piazza Jemaa el Fnaa, cuore pulsante della Medina. Qui troverai artisti di strada, mercanti, incantatori di serpenti e un'atmosfera unica che si anima specialmente al tramonto. </p>",
+
+                  "<p> <b> Medersa Ben Youssef: </b> </p>    <p> Per terminare esplorerai la magnifica Medersa Ben Youssef, una antica scuola coranica che vanta una ricca storia e dettagli architettonici mozzafiato. </p>",
+
+                  "Questo city tour ti condurrà attraverso i luoghi più iconici di <b> Marrakech </b>, offrendoti una panoramica completa della sua storia e della sua bellezza intramontabile."
+                ]
+              }
+            }
+
+
+          ]
         }
       }
     },
@@ -853,6 +1146,224 @@
             "Piscina",
             "Servizio di pulizia"
           ]
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire.",
+            "Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1722414298743.webp?sv=2023-08-03&se=2074-07-19T08%3A25%3A01Z&sr=b&sp=rade&sig=EcaZUuiB8njICuQqr9vOjaxwGj%2BrkJS6Mdwt%2FrgdFGA%3D&rsct=image%2Fjpg",
+              "badge": "Inclusa",
+              "title": "Stone Town e Tour delle spezie",
+              "description": "Culture",
+              "detail": {
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Questa è un'esperienza offerta da Utravel <b> SOLO AI CLIENTI CHE HANNO PRENOTATO SUL SITO WEB DI UTRAVEL (www.utravel.it) </b>",
+
+                  "Questa esperienza offre un <b> viaggio affascinante attraverso le tradizioni culinarie e culturali di Zanzibar </b>, con una combinazione unica di un tour delle spezie, una visita a Stone Town e una tappa alla chiesa anglicana, che funge anche da museo della schiavitù.",
+
+                  "<b> Il tour delle spezie </b> ti porterà attraverso l'incantevole campagna di Zanzibar, dove potrai esplorare le piantagioni locali e imparare tutto sulle varie spezie esotiche che crescono sull'isola. Sarai guidato da esperti locali che condivideranno con te la loro conoscenza sulle spezie, le erbe e le piante medicinali, oltre a fornire informazioni sulla storia e sull'importanza economica di questo settore per l'isola.",
+
+                  "Dopo il tour delle spezie, avrai l'opportunità di esplorare <b> Stone Town </b>, il cuore storico e culturale di Zanzibar. Qui potrai passeggiare per le strette strade lastricate, ammirare l'architettura swahili tradizionale e scoprire i segreti nascosti di questa città antica e affascinante.",
+
+                  "Una tappa imperdibile è la <b> visita alla chiesa anglicana </b>, che oltre a essere un luogo di culto, funge anche da museo della schiavitù, dove potrai conoscere la triste storia del commercio degli schiavi e il suo impatto sull'isola.",
+
+                  "In sintesi, questo tour ti offre l'opportunità di esplorare la <b> ricca diversità di Zanzibar </b>, dall'aroma delle spezie alle antiche strade di Stone Town, fino alla significativa chiesa anglicana, offrendoti un'<b> esperienza completa e indimenticabile sull'isola </b>."
+                ],
+                "text_only_utravel": "Questa è un'esperienza offerta da Utravel SOLO PER I CLIENTI CHE HANNO PRENOTATO SUL SITO WEB DI UTRAVEL (www.utravel.it)",
+                "instax": true
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699611128530_photo1689860678.jpeg?sv=2023-08-03&se=2074-05-24T12%3A29%3A02Z&sr=b&sp=rade&sig=IsEbC60I2erw3bH%2BBWd1tJR9J8uksy%2FO%2FUNWfyVGbms%3D&rsct=image%2Fjpg",
+              "badge": "64€ - 96€",
+              "title": "Prison Island & Nakupenda",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "64€ - 96€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "<b> Ecco per te un vero must per chi si trova a Zanzibar! </b>",
+
+                  "Inizierai con la prima tappa a Prison Island, isola sulla quale avrai la possibilità di conoscere dei \"locali\" particolari: le <b> maestose e centenarie tartarughe giganti! </b>",
+
+                  "Subito dopo salperai alla volta di <b> Nakupenda </b>, una meravigliosa lingua di sabbia che ogni giorno con la bassa marea emerge dal mare. Qua avrai la possibilità di fare snorkeling e di mangiare <b> pesce alla brace preparato dagli zanzibarini </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699541010699_danai-tsoutreli-SdNXzc7daBM-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A59Z&sr=b&sp=rade&sig=SCLzmHl1XHfRlYH8B7tIYlwAfXjRVDDm2OfwmuerrEU%3D&rsct=image%2Fjpg",
+              "badge": "56€ - 84€",
+              "title": "Atollo di Mnemba",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "56€ - 84€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "<b> Esplora le acque più trasparenti di tutta Zanzibar! </b>",
+
+                  "L''isoletta, completamente circondata da una ricchissima barriera corallina, è privata e vi si può accedere solo se ospiti del lussuoso resort che si nasconde tra i verdi palmeti.",
+
+                  "Ma non ti scoraggiare, potrai comunque immergerti nei dintorni dell'isola e se <b> sarai fortunat* avrai la possibilità di scorgere qualche delfino che popola la zona </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1710414158471_Zanzibar%2520-%2520Medium.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A57Z&sr=b&sp=rade&sig=SSW7hqnzzNVwrUazn7W5cXum9cnBxivK4oql0XsIK0w%3D&rsct=image%2Fjpg",
+              "badge": "64€ - 96€",
+              "title": "Pungume Island",
+              "description": "Wellness",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "64€ - 96€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Wellness"
+                  }
+                ],
+                "text": [
+                  "Giornata di esplorazione a Zanzibar, ricca di avventure tra i tesori marini, le delizie culinarie e la <b> natura selvaggia </b>. Questa esperienza unica ti condurrà attraverso alcune delle gemme più affascinanti dell'arcipelago.",
+
+                  "<p> <b> Partenza e Snorkeling a Pungume Island: </b> </p>     <p> Incontra la tua guida e imbarcati per un'emozionante giornata di snorkeling. La prima tappa sarà l'incantevole Pungume Island, dove avrai l'opportunità di esplorare le acque cristalline, i coralli vivaci e ammirare le stelle marine. </p>",
+
+                  "<p> <b> Pranzo su una lingua di Sabbia: </b> </p>     <p> Dopo l'esperienza subacquea, raggiungi Nyemembe Island per un pranzo indimenticabile. Gusta i sapori locali su una lingua di sabbia circondata da acque turchesi, creando un'atmosfera paradisiaca. </p>",
+
+                  "<p> <b> Merenda di Frutta a Coco Beach: </b> </p>     <p> Dopo il pranzo, proseguirai verso Coco Beach per una rilassante merenda di frutta tropicale. Goditi la brezza marina e ammira il panorama sulla spiaggia mentre assapori le delizie fresche della frutta locale. </p>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699532447193_muhuji-mshana-xi-ZrRhUC4s-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A25%3A46Z&sr=b&sp=rade&sig=hiDGa6kYuocNPTQD5zO1uMdxpIzoN1H7DZIpqc2SO54%3D&rsct=image%2Fjpg",
+              "badge": "368€ - 552€",
+              "title": "Safari Mikumi National Park",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "368€ - 552€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Preparati per un'avventura straordinaria mentre ti immergi nella bellezza naturale e nella fauna selvatica del <b> Mikumi National Park in Tanzania </b>. Il nostro tour full day da Zanzibar ti porterà attraverso un'esperienza epica di safari, con tutti i dettagli organizzati per garantirti una giornata indimenticabile.",
+
+                  "<p> <b> Partenza da Zanzibar </b> </p>      <p> La tua avventura inizia presto, pick up alle 5:00 del mattino circa dall'hotel, direzione aereoporto (circa 2,5h). Con un volo interno da Zanzibar (7:30 am), raggiungerai direttamente il Mikumi National Park. Il volo ti regalerà già uno sguardo mozzafiato sulle coste e l'entroterra della Tanzania. </p>",
+
+                  "<p> <b> Arrivo al Mikumi National Park </b> </p>      <p> Una volta atterrat* (intorno alle 9 am), verrai accolt* dal nostro esperto team locale e inizierà la vera avventura. Il Mikumi National Park è una delle gemme nascoste della Tanzania, noto per la sua biodiversità e la possibilità di avvistare una vasta gamma di animali selvatici! </p>",
+
+                  "<p> <b> Safari a Tutto Tondo </b> </p>      <p> Il cuore della giornata sarà dedicato a un safari emozionante attraverso il parco. Con veicoli appositamente attrezzati e guide esperte, avrai la possibilità di avvistare 4 dei \"Big Five\" (leoni, elefanti, bufali, leopardi) e molte altre specie animali in libertà. </p>",
+
+                  "<p> <b> Esperienza Unica </b> </p>      <p> Il Mikumi National Park è noto per la sua vasta pianura aperta, che offre una visuale incredibile degli animali selvatici e delle loro attività. Sarai circondato dalla bellezza naturale e potrai catturare fotografie spettacolari dei tuoi incontri con la fauna selvatica. </p>",
+
+                  "<p> <b> Rientro a Zanzibar </b> </p>      <p> Nel tardo pomeriggio, faremo rientro in volo a Zanzibar. Questa avventura full day lascerà una traccia indelebile nei tuoi ricordi di viaggio e ti regalerà l'opportunità di vivere l'emozione di un safari in Africa! </p>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699532695102_photo1690350494.jpeg?sv=2023-08-03&se=2074-05-24T12%3A28%3A26Z&sr=b&sp=rade&sig=mR4OO8H85ZigU99BrWNUIcbx%2BdbUMhwzRqyoPI3gC4k%3D&rsct=image%2Fjpg",
+              "badge": "32€ - 48€",
+              "title": "Jozani Forest",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "32€ - 48€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Benvenut* nell'unico parco nazionale dell'isola, o forse nella <b> più grande farmacia naturale </b>!",
+
+                  "Ogni sua pianta è ricca di proprietà benefiche che vengono utilizzate a scopi medicinali. Inoltre il parco è anche l'unica casa che ospita il <b> Colobo Rosso </b>, una specie di adorabili scimmiette dal dorso rosso oggi in via di estinzione.",
+
+                  "Una guida ti accompagnerà tra gli alberi della foresta fino a farti raggiungere la zona abitata dal Colobo Rosso! Non perderti un selfie con questi <b> simpatici animali </b>.",
+
+                  "Essendo sullo stesso livello del mare spesso la foresta è attraversata da flussi di acqua salata, ed è proprio lì, non molto lontano dalla zona abitata dalle scimmie, che nascono suggestive <b> piante di mangrovie </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699614698180_dieuvain-musaghi-adIrRChmZx8-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A52Z&sr=b&sp=rade&sig=zw3kA2fShumH20aXsTuc29FNDLTvLYIEudrIMbd5sdo%3D&rsct=image%2Fjpg",
+              "badge": "29€ - 43€",
+              "title": "Mtende Beach & Kuza Cave",
+              "description": "Wellness",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "29€ - 43€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Wellness"
+                  }
+                ],
+                "text": [
+                  "Esperienza da 2 in uno, dove passerai da una caratteristica <b> spiaggia inserita in un'insenatura </b> tra due rocce ad una <b> piscina naturale che si trova all'interno di una grotta </b> (bagno obbligatorio!).",
+  
+                  "Dicono che la sua acqua sia magica, <b> vuoi scoprire quali sono i suoi poteri? </b>"
+                ]
+              }
+            }
+
+
+
+          ]
         }
       }
     },
@@ -967,6 +1478,355 @@
           "intro": "<b>Neptune Village Beach Resort & Spa</b> - o similare",
           "paragraph": "La savana, la sua natura incontaminata, le sue spiagge bianche e il suo mare cristallino. Il viaggio in Kenya è il viaggio della vita, lo sappiamo: ma c'è di più. Il Neptune Village Beach Resort, a pochi passi da Diani Beach, ti farà assaporare la vera essenza dell'Africa anche quando non stai esplorando. Con i suoi bungalow, il suo giardino tropicale e la sua piscina privata (per non farci mancare nulla), vivrai ogni istante del tuo viaggio al massimo. E con il servizio All Inclusive bevande e piatti tipici ogni giorno! Come sempre, qualora non vi fosse disponibilità nella struttura descritta sarà nostra responsabilità fornire un'alternativa di pari livello o superiore.",
           "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1698752373692.jpg?sv=2023-08-03&se=2073-10-18T11%3A39%3A34Z&sr=b&sp=rade&sig=Nr0UEp%2BvFUWBH4njMD6UzeyHGwWFWI1QJO7ekwGi8js%3D"
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire.",
+            "Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1722434725782.png?sv=2023-08-03&se=2074-07-19T14%3A05%3A26Z&sr=b&sp=rade&sig=DCsM5LxetaR39Vv26KkyPaxomKSOWzwkeDZti9NtePo%3D&rsct=image%2Fjpg",
+              "badge": "Inclusa",
+              "title": "Bike Tour",
+              "description": "Culture",
+              "detail": {
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Questa avventura vi permettera di <b> immergervi nella vita rurale del Kenya </b>. Sarete accompagnati presso il punto ritiro delle biciclette, dove vi verranno fornite tutte le informazioni a riguardo.",
+
+                  "Durante il tour avrete la possibilità di <b> visitare una scuola elementare </b> con bambini di età compresa tra i 3 e gli 8 anni, eventuali oggetti ad uso scolastico sono accettati in segno di <b> beneficienza </b>.",
+
+                  "Visiterete anche il <b> mercato locale </b> del villaggio e una fattoria per immergervi sempre di piu nella quotidianita del luogo e osservare gli <b> abitanti nelle loro attività quotidiane </b>. "
+                ],
+                "instax": true
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1710163227195_PHOTO-2024-03-11-13-15-31.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A06Z&sr=b&sp=rade&sig=Y9%2Fnw%2FmtMYeTCFAWkXv7FR21Rm%2F6Wwn9TExfMMQI0oM%3D&rsct=image%2Fjpg",
+              "badge": "108€ - 162€",
+              "title": "Watamu",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "108€ - 162€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Partendo da Diani, ti avventurerai in un viaggio di 4 ore, attraversando paesaggi e città fino a raggiungere <b> l'area di Watamu </b>.",
+
+                  "La prima tappa sarà l'incantevole <b> Isola dell'Amore </b>, un luogo che incanta con le sue acque cristalline e le spiagge di sabbia bianca. Qui potrai rilassarti, fare snorkeling o semplicemente goderti il panorama mozzafiato.",
+
+                  "Dopo una mattina di relax sull'Isola dell'Amore, ti dirigerai verso un delizioso pranzo a base di frutti di mare, dove potrai gustare le prelibatezze locali e sperimentare i <b> sapori autentici della costa keniota </b>.",
+
+                  "Successivamente, visiterai le <b> Gedi Ruins </b>, un sito archeologico affascinante che racconta la storia e la cultura della regione. Con l'assistenza di una guida esperta, esplorerai le antiche rovine e scoprirai i segreti nascosti di questa città perduta.",
+
+                  "Dopo la visita alle Gedi Ruins, ti dirigerai verso l'<b> Hills Kitchen Marafa </b>, situato a circa un'ora e mezza di distanza dalle rovine di Gedi. Qui potrai esplorare i paesaggi unici del Marafa, conosciuto anche come Hell's Kitchen, caratterizzato da formazioni rocciose e paesaggi desertici mozzafiato.",
+
+                  "Dopo una giornata piena di avventure, farai ritorno a Diani, con il pick-up previsto per le 18:30 e il rientro previsto intorno alle 23:00. Durante il viaggio di ritorno, avrai l'opportunità di fermarti in un <b> mercato lungo la strada per acquistare qualche snack e rifornimenti per la serata </b>.",
+
+                  "In sintesi, questo tour offre un'esperienza completa e indimenticabile, combinando relax, cultura e avventura, e ti offre l'opportunità di scoprire alcune delle gemme nascoste della costa keniota." 
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699891928093_https---2218d07a87856724b2759ba79fd477dc.cdn.bubble.io-f1697829159781x494521455977458000-Lo-squalo-balena-alle-Maldive-2-360x220.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A58Z&sr=b&sp=rade&sig=0W8rHGp9zCkUhJfYBWBv2Ao8o1fbo12%2BlaHxA2oL0TE%3D&rsct=image%2Fjpg",
+              "badge": "53€ - 79€",
+              "title": "Safari Blu",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "53€ - 79€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Perché fermarsi ad un safari sulla terraferma quando è possibile anche esplorare, <b> avvistare e nuotare con animali marini? </b>",
+
+                  "Con questa esperienza in barca avrete la possibilità di nuotare con delfini e squali balena, considerato <b> il pesce più grande del mondo! </b>",
+
+                  "Possibilità di vedere lo squalo balena da Ottobre a Luglio = 50% Possibilità di vedere lo squalo balena da Agosto a inizio Ottobre = 90%"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1689632188136_Screenshot%25202023-07-18%2520alle%252000.15.38.png?sv=2023-08-03&se=2074-05-24T12%3A28%3A47Z&sr=b&sp=rade&sig=C51unE%2F2MaDER59F1Vrev9kTsYvXmSe1ZeNIydNJWBk%3D&rsct=image%2Fjpg",
+              "badge": "44€ - 66€",
+              "title": "Funzi Island",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "44€ - 66€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "L'arcipelago di Funzi è situato a circa 35 km a sud di Diani e nasconde un <b> paesaggio mozzafiato </b>.",
+
+                  "E' considerato area protetta e, se sarai fortunat*, avrai la <b> possibilità di avvistare coccodrilli e numerose specie di uccelli </b>.",
+
+                  "Un bus verrà a prenderti direttamente in hotel e ti porterà al <b> fiume Ramisi </b> dove, a bordo di una barca motorizzata, inizierai il tuo tour attraverso la <b> foresta delle mangrovie per raggiungere una paradisiaca lingua di sabbia </b>.",
+
+                  "Se lo vorrai, prima del pranzo, avrai la possibilità di visitare un villaggio locale.",
+                  
+                  "Il pranzo a base di pesce è incluso e verrà servito in un ristorante immerso <b> nella giungla sull'isola di Funzi </b>. A fine pasto potrai rilassarti prima di risalire a bordo della barca che ti riporterà sulla terra ferma. Il rientro in hotel è previsto per le ore 18:00 circa."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1689631799850_Screenshot%25202023-07-18%2520alle%252000.09.31.png?sv=2023-08-03&se=2074-05-24T12%3A28%3A52Z&sr=b&sp=rade&sig=s%2Bj3dzJTrNBQfpXhaplP2e1s9ohGLI1mrqcWluevO2g%3D&rsct=image%2Fjpg",
+              "badge": "14€ - 22€",
+              "title": "Glass boat",
+              "description": "Sport",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "14€ - 22€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Sport"
+                  }
+                ],
+                "text": [
+                  "<b> Vorresti vedere la barriera corallina ma non hai voglia di fare snorkeling? </b>",
+
+                  "Approfitta dell'uscita in barca col fondale in vetro per vedere i meravigliosi <b> fondali marini di Diani Beach </b> e i pesci colorati che li popolano!"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1700990401044_thumb_8620551_cover_header.jpeg?sv=2023-08-03&se=2074-05-24T12%3A27%3A28Z&sr=b&sp=rade&sig=tJQDK2ds9odz4Slc%2BP7aMbfdaXEGRJcKrd7akg9MC%2Fw%3D&rsct=image%2Fjpg",
+              "badge": "48€ - 72€",
+              "title": "Jetski",
+              "description": "Sport",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "48€ - 72€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Sport"
+                  }
+                ],
+                "text": [
+                  "Preparati per un'avventura adrenalinica a Diani Beach con il nostro <b> emozionante giro in Jetski di 30 minuti </b>.",
+
+                  "Sulla costa incantevole del Kenya, questa esperienza ti permetterà di sfrecciare sulle acque cristalline dell'Oceano Indiano, offrendoti un <b> mix unico di eccitazione e bellezza naturale </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699345762403_gallery_image_8_1689328785584.png?sv=2023-08-03&se=2074-05-24T12%3A28%3A14Z&sr=b&sp=rade&sig=0buCZyO%2BDX23p%2BLgtHWsbsuyxySE78FAUDbOoLFDHjE%3D&rsct=image%2Fjpg",
+              "badge": "224€ - 336€",
+              "title": "Safari allo Tzavo Est (2 giorni)",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "224€ - 336€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "<span class=\"text-warning\"> <b> Giorno 1: </b> </span> <b> Tzavo Est National Park </b>",
+
+                  "Partenza alle 5:30 circa dal tuo Resort, dopo una breve colazione anticipata in hotel; la jeep partirà in direzione <b> Parco Nazionale dello Tsavo Est </b>. A causa della sua eccezionale biodiversità, il parco viene considerato una delle riserve naturali più preziose al mondo. All'interno possiamo trovare per la Flora: Arbusti, baobab e foreste pluviali; mentre per la Fauna: babbuini, elefanti, zebre, giraffe, leoni, ghepardi, leopardi e molto altro! Alle 10 circa farai una pausa bagno/snack!",
+
+                  "Alle <b> 11:30 </b> circa arriverai al <b> Lodge </b>, dove effettuerai il ceck-in e ti fermerai per pranzo; subito dopo pranzo inizierà il primo game drive (mezz'ora circa).",
+
+                  "Alle <b> 16:00 </b> inizierà il secondo game drive fino alle ore <b> 18:00 </b> circa.",
+
+                  "Dalle <b> 18 </b> alle <b> 19 </b> rientrerai in hotel per una fase di relax prima di cena!",
+
+                  "Cena al lodge alle <b> 20:30 </b> circa",
+
+                  "<span class=\"text-warning\"> <b> Giorno 2: </b> </span> <b> Tzavo Est + rientro </b>",
+
+                  "La giornata inizia con il terzo game drive, dalle <b> 6:30 </b> alle <b> 8:00 </b>.",
+
+                  "Post Game Drive rientrai al Lodge per la colazione e il ceck out (9:30 max)",
+
+                  "Dopo di ciò ti ridirigerai verso il tuo resort dopo circa 6 h di viaggio intervallate da una <b> pausa pranzo </b> alle 13:00 in un ristorante lungo la strada",
+
+                  "<b> Arrivo previsto in resort = 17:30 circa </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1701421294486_IMG_2929.JPG?sv=2023-08-03&se=2074-05-24T12%3A26%3A58Z&sr=b&sp=rade&sig=t5EUtvPz3xwW%2FvIwQJ24V8oPD01rWcrp%2FV2hsHF9a%2BE%3D&rsct=image%2Fjpg",
+              "badge": "360€ - 540€",
+              "title": "Safari allo Tzavo Est (3 giorni)",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "360€ - 540€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "<span class=\"text-warning\"> <b> Giorno 1: </b> </span> <b> Tzavo Est National Park </b>",
+
+                  "Partenza alle 5:30 circa dal tuo Resort, dopo una breve colazione anticipata in hotel; la jeep partirà in direzione <b> Parco Nazionale dello Tsavo Est </b>. A causa della sua eccezionale biodiversità, il parco viene considerato una delle riserve naturali più preziose al mondo. All'interno possiamo trovare per la Flora: Arbusti, baobab e foreste pluviali; mentre per la Fauna: <b> babbuini, elefanti, zebre, giraffe, leoni, ghepardi, leopardi e molto altro! </b> Alle 10 circa farai una pausa bagno/snack!",
+
+                  "<b> Alle 11:30 circa arriverai al Lodge </b>, dove effettuerai il ceck in e ti fermerai per pranzo; subito dopo pranzo inizierà il primo Game drive (mezz'ora circa)",
+
+                  "<b> Alle 16:00 inizierà il secondo game drive </b> fino alle ore 18:00 circa.",
+
+                  "<b> Dalle 18 alle 19 </b> rientrerai in hotel per una fase di relax prima di cena!",
+
+                  "Cena alle <b> 20:30 </b> circa",
+
+                  "<span class=\"text-warning\"> <b> Giorno 2: </b> </span> <b> Tzavo Est National Park </b>",
+
+                  "La giornata inizia con <b> il terzo game drive, dalle 6:30 alle 8:00 </b>.",
+
+                  "Post Game Drive rientrai al Lodge per la <b> colazione </b> e il ceck out qualora cambierai lodge (9:30 max)",
+
+                  "4° Game Drive dalle <b> 10 alle 12 circa </b>, seguito dal pranzo",
+
+                  "5° Game Drive dalle <b> 15 alle 18 circa </b>",
+
+                  "Cena alle 20 in hotel.",
+
+                  "<span class=\"text-warning\"> <b> Giorno 3: </b> </span> <b> Tzavo Est + rientro </b>",
+
+                  "6° Game Drive dalle 6:30 alle 8 circa; post Game Drive rientrai nel lodge per la colazione e il ceck out <b> (9:30 max) </b>",
+
+                  "7° game drive <b> attraversando il National Park (10-11:30) </b>; dopo di ciò ti dirigerai verso il tuo hotel a Diani Beach, non prima di esserti fermato in un risrtante (13:00) durante il cammino per pranzare!",
+
+                  "Arrivo previsto in resort = <b> 17 circa </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724320342915.webp?sv=2023-08-03&se=2074-08-10T09%3A52%3A22Z&sr=b&sp=rade&sig=u95nX7E6YCKR2DSYut8zwlRS8OQQ1GRkWbZC2BUCcHE%3D&rsct=image%2Fjpg",
+              "badge": "368€ - 552€",
+              "title": "Safari Tzavo Est + Amboseli (3 giorni)",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "368€ - 552€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "<span class=\"text-warning\"> <b> Giorno 1: </b> </span> <b> Tzavo Est National Park (4h) </b>",
+
+                  "Partenza alle <b> 5:30 </b> circa dal tuo Resort, dopo una breve colazione anticipata in hotel; la jeep partirà in direzione <b> Parco Nazionale dello Tsavo Est </b>. A causa della sua eccezionale biodiversità, il parco viene considerato una delle riserve naturali più preziose al mondo. All'interno possiamo trovare per la Flora: Arbusti, baobab e foreste pluviali; mentre per la Fauna: babbuini, elefanti, zebre, giraffe, leoni, ghepardi, leopardi e molto altro! Alle 10 circa farai una pausa bagno/snack!",
+
+                  "Alle <b> 11:30 </b> circa arriverai al <b> Lodge </b>, dove effettuerai il ceck in e ti fermerai per pranzo; subito dopo pranzo inizierà il primo Game drive (mezz'ora circa)",
+
+                  "Alle <b> 16:00 </b> inizierà il secondo game drive fino alle ore <b> 18:00 </b> circa.",
+
+                  "Dalle <b> 18 </b> alle <b> 19 </b> rientrerai in hotel per una fase di relax prima di cena!",
+
+                  "Cena alle <b> 20:30 </b> circa",
+
+                  "<span class=\"text-warning\"> <b> Giorno 2: </b> </span> <b> Amboselli </b>",
+
+                  "Ore <b> 6:00 </b> colazione e partenza. Game drive per raggiungere il Parco Amboseli. Verso le <b> 12:30 </b> arriveremo al lodge alle pendici del monte <b> Kilimangiaro </b>, consegnata la stanza ci vedremo al ristorante per il pranzo a buffet.",
+
+                  "Successivamente avrai tempo libero prima di ripartire per il game drive del pomeriggio verso le ore <b> 16:00 </b>, ci dirigeremo verso il Lake Amboseli <br> Ritorneremo al campo/lodge per cena e pernottamento.",
+
+                  "<span class=\"text-warning\"> <b> Giorno 3: </b> </span> <b> Ritorno a Diani </b>",
+
+                  "Ore <b> 6:00 </b> colazione e partenza per game drive, in direzione dell'uscita del parco, verso la città di Voi, nella quale ci fermeremo per il pranzo e per un breve riposo. ",
+
+                  "Verso le ore <b> 15:30 </b> ripartiremo per fare ritorno a Diani, dove arriveremo nel tardo pomeriggio. (4h circa)"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1689631934857_Screenshot%25202023-07-18%2520alle%252000.11.20.png?sv=2023-08-03&se=2074-05-24T12%3A28%3A51Z&sr=b&sp=rade&sig=dTY3qA1lLFxdk9eMsZOnzDNtPZMSDG%2FS7mReUx%2Fu4yo%3D&rsct=image%2Fjpg",
+              "badge": "42€ - 64€",
+              "title": "Wasini Island",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "42€ - 64€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Dopo esser salit* a bordo della barca ti dirigerai verso <b> l'isola di Wasini </b> e se sarai fortunat* avrai la possibilità di <b> avvistare i delfini e nuotarci! </b>",
+
+                  "Dopo una tappa snorkeling per vedere la <b> barriera corallina </b> immersa tra le acque cristalline, raggiungerai l'isola di Wasini dove, dopo un pranzo a base di pesce, <b> visiterai il villaggio </b>."
+                ]
+              }
+            }
+            
+           
+          ]
         }
       }
     },
@@ -1065,6 +1925,321 @@
           "intro": "<b>Faliraki Premium</b> - o similare",
           "paragraph": "La Grecia è una figata: ecco perché il tuo hotel a Rodi non può essere da meno. Il Faliraki Premium Hotel ha tutte le carte in tavola per diventare il tuo posto del cuore. Sarà forse la grande terrazza comune dove bersi una birra con i tuoi nuovi compagni di viaggio, la formula con colazione che ti farà scoprire tutti i piatti tipici della cucina greca o la pittoresca vista che vedrai ogni giorno dalla tua stanza? * *Ultima cosa prima di lasciarti andare: una volta arrivati, è previsto il pagamento di una tassa di soggiorno pari a 3€ a notte per camera.",
           "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/f3ef5516-486c-49e0-92f9-eb843a16a84a/1717753542668.jpg?sv=2023-08-03&se=2074-05-26T09%3A45%3A42Z&sr=b&sp=rade&sig=kFrGmkn%2BLNdW%2FDIoAsvQVjjE4QXMDSb1KlVKQ5l5LwU%3D&rsct=image%2Fjpg"
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1711618030240_0e.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A23Z&sr=b&sp=rade&sig=1REZ7373yQaRHgSB7PqHJpE2CRztn3ODwMcKaCOfDmg%3D&rsct=image%2Fjpg",
+              "badge": "28€ - 42€",
+              "title": "Isola di Symi",
+              "description": "Wellness",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "28€ - 42€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Wellness"
+                  }
+                ],
+                "text": [
+                  "La tua avventura inizia con il <b> pick up direttamente dal tuo hotel </b>. Una volta al porto di Rodi, imbarcati e prendi il largo verso <b> Symi </b>, lasciandoti alle spalle il frastuono della città per abbracciare la tranquillità dell'isola.",
+
+                  "Arrivati al pittoresco porto di Symi, ti imbarcherai in una barca per raggiungere la famosa <b> St George Beach </b>, famosa per le sue acqua cristalline, dove avrai l'opportunità di rinfrescarti.",
+
+                  "Dopo questo stop rigenerante farai ritorno a Symi, dove avrai l'opportunità di esplorare questo <b> incantevole villaggio di pescatori </b>. Ammira le graziose case neoclassiche dai colori pastello e immergiti nell'atmosfera rilassata che pervade le sue tranquille strade. Fai una passeggiata tra i negozi caratteristici alla ricerca di souvenir locali, come le spugne di mare naturali o le <b> spezie aromatiche </b> per la cucina. Se preferisci, concediti una pausa pranzo in una delle taverne sul mare, assaporando i deliziosi piatti locali mentre ammiri la vista sull'<b> azzurro Mar Egeo </b>.",
+
+                  "Infine, concediti un momento di relax durante il viaggio di ritorno a Rodi."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1718492694752.jpg?sv=2023-08-03&se=2074-06-03T23%3A04%3A55Z&sr=b&sp=rade&sig=ebzlOtI%2BoLEZDLtEVuAx0xtFWmj7y8HH%2By43eGwNiQA%3D&rsct=image%2Fjpg",
+              "badge": "56€ - 84€",
+              "title": "Waterski & wakeboard",
+              "description": "Sport",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "56€ - 84€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Sport"
+                  }
+                ],
+                "text": [
+                  "<b> Le vacanze estive </b> danno sempre le vibes giuste per provare nuove esperienze e sport!",
+
+                  "Ti basta solo scegliere tra <b> Waterski e Wakeboard </b>, confidiamo in te che imparerai velocemente! <br> <b> Anzi...Subbbito! </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1718491858785.jpg?sv=2023-08-03&se=2074-06-03T22%3A50%3A59Z&sr=b&sp=rade&sig=XkytJdkhD9sau3uNiVNptZJkfpdkaOQwuEA%2BPvnmb0E%3D&rsct=image%2Fjpg",
+              "badge": "42€ - 72€",
+              "title": "Parasailing doppio",
+              "description": "Sport",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "42€ - 72€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Sport"
+                  }
+                ],
+                "text": [
+                  "<b> Hai mai sognato di volare sopra il \"blu dipinto di blu\"? </b>",
+
+                  "Se è si, il parasailing può essere quello che fa per te e meglio farlo in compagnia per darsi conforto!"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1718490928637.jpeg?sv=2023-08-03&se=2074-06-03T22%3A35%3A28Z&sr=b&sp=rade&sig=M%2BMxnoC0MlKoXW0ECvgQZP2nB1wWdc39v0wrzFhSccs%3D&rsct=image%2Fjpg",
+              "badge": "62€ - 94€",
+              "title": "Jetski",
+              "description": "Sport",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "62€ - 94€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Sport"
+                  }
+                ],
+                "text": [
+                  "<b> Pront* a sfrecciare tra le acque mediterranee? </b>",
+
+                  "Goditi <b> 20 minuti </b> di Jetski, non te ne pentirai!"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1723790522764.jpg?sv=2023-08-03&se=2074-08-04T06%3A42%3A02Z&sr=b&sp=rade&sig=9YCzXJ%2BZm3EIBnXb5U5BC9LoU9OOc4fiEEsY9nTkEzU%3D&rsct=image%2Fjpg",
+              "badge": "36€ - 54€",
+              "title": "Marmaris",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "36€ - 54€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Vivi esperienze e assaporra aromi e odori d'Oriente, <b> nella vicina Marmaris, in Turchia </b>. ",
+
+                  "Lo splendore della città vecchia, il cibo e il vivace il mercato <b> ti immergeranno nell'atmosfera orientale di questa meravigliosa città </b>. ",
+
+                  "Con i nostri traghetti veloci, comodi e sicuri potrai trascorrere più tempo a destinazione e meno lungo il percorso. <b> Quando arriverai a destinazione potrai scegliere di unirti al tour di gruppo o scoprire la destinazione nel modo che desideri! </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1711624989103_20191028103319599_acropoli-di-lindos-isola-di-rodi3.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A09Z&sr=b&sp=rade&sig=5An8WZjyQZfQmkfpJ4kPG1Z%2BdDc1IOIXVBMikAqvcRg%3D&rsct=image%2Fjpg",
+              "badge": "16€ - 24€",
+              "title": "Alla scoperta di Lindos",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "16€ - 24€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Esplora il <b> patrimonio storico </b> della magnifica isola di Rodi con questa emozionante esperienza guidata verso il sito archeologico di <b> Lindos! </b>",
+
+                  "Dopo il pick up ti dirigerai verso il pittoresco villaggio di Lindos, dove potrai scattare foto indimenticabili dal punto panoramico e partecipare a una <b> visita guidata orientativa </b> per scoprire i segreti di questa <b> antica città-stato </b>. Avrai anche del tempo libero per pranzare, esplorare i negozi di souvenir o salire fino all'<b> Acropoli </b> di Lindos per un'esperienza ancora più suggestiva.",
+
+                  "Concludi la giornata tornando al punto di incontro in tempo per il ritorno, dopo aver vissuto un'indimenticabile avventura alla scoperta di una delle meraviglie di Rodi."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1721728521451.jpg?sv=2023-08-03&se=2074-07-11T09%3A55%3A21Z&sr=b&sp=rade&sig=B0AEaKM9mDWdx%2FWgNUlyvZ94j%2FNQsCBgD%2B7kMBeyqFk%3D&rsct=image%2Fjpg",
+              "badge": "144€ - 216€",
+              "title": "Buggies doppio",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "144€ - 216€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "<b> Consiste in un'esperienza off-road di 3 ore tra i meravigliosi sentieri nascosti dell'isola. </b>",
+
+                  "Questo tour ottimizza i <b> punti panoramici straordinari di Rodi </b> e include una sosta per <b> degustazioni </b>.",
+
+                  "Per poter guidare, <b> è necessario possedere la patente di guida da almeno 2 anni ed avere almeno 21 anni </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1717753131632.JPG?sv=2023-08-03&se=2074-05-26T09%3A38%3A52Z&sr=b&sp=rade&sig=h%2FYe4jRYx0UNIfkFhSPyylinHw4HpPFx6LsYb1B%2B1Oo%3D&rsct=image%2Fjpg",
+              "badge": "43€ - 65€",
+              "title": "Party Boat",
+              "description": "Nightlife",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "43€ - 65€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Nightlife"
+                  }
+                ],
+                "text": [
+                  "<b> Pronti alla festa in barca più folle di Faliraki? </b>",
+
+                  "Ridi, balla, nuota, fai nuove amicizie e goditi la tua vacanza...anche perchè <b> te la sei meritata! </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1711622537771_hotel-residence-tramonto.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A26Z&sr=b&sp=rade&sig=i3Vl5q4%2FD2Y01a68krHmSwDq%2F0P113GNkYtYX2ceBsU%3D&rsct=image%2Fjpg",
+              "badge": "24€ - 36€",
+              "title": "Crociera al tramonto",
+              "description": "Wellness",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "24€ - 36€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Wellness"
+                  }
+                ],
+                "text": [
+                  "Il tuo viaggio inizia con un <b> incontro presso una piccola chiesa nel porto di Faliraki </b>, dove incontrerai tua guida e salirai a bordo della barca.",
+
+                  "Rilassati mentre lasci l'incantevole porto e ti addentri nelle acque blu. Goditi la vista mozzafiato mentre ti dirigi verso <b> Anthony Quinn e Ladiko Bay </b>.",
+
+                  "Cogli l'occasione per immortalare il <b> tramonto dal mare </b>, lasciandoti trasportare dalla musica rilassante e brindando a questo spettacolo naturale prima di fare ritorno al punto di partenza nel porto di Faliraki."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1717788495346.jpg?sv=2023-08-03&se=2074-05-26T19%3A28%3A15Z&sr=b&sp=rade&sig=i5D9gEsf5DAys7u%2BOA3feiQWZDt7bLi9pV6h365pWXQ%3D&rsct=image%2Fjpg",
+              "badge": "34€ - 52€",
+              "title": "Sunset E-bike tour a Rodi",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "34€ - 52€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Vivi un <b> tour rilassante in e-bike </b> e pedala tra castelli, monumenti e una vista mozzafiato del tramonto nel punto più bello dell'isola.",
+
+                  "Percorreremo una distanza di circa <b> 18 K </b>m. ",
+
+                  "Inizieremo il nostro tour dal nostro negozio nel centro della città di Rodi. Vi accoglieremo con un soft drink o un caffè. Proveremo le ebike, faremo un giro di prova e <b> spiegheremo brevemente il percorso che seguiremo </b>.",
+
+                  "Pedaleremo verso il <b> porto di Mandraki </b> e ci perderemo negli splendidi vicoli della città vecchia dove esploreremo i luoghi più importanti come la piazza <b> Ippokratous </b>, la via <b> Socratous </b> e saliremo per la strada dei cavalieri, facendo una breve visita al palazzo del Gran Maestro; passeremo dopo dalla <b> moschea di Solimano e dalla Torre dell'Orologio! </b>",
+
+                  "Successivamente pedaleremo costeggiando le mura medievali e ammireremo le porte più belle come <b> Porta della Libertà e Porta del Mare </b>, passando anche da Porta Rossa.",
+
+                  "<b> Esploreremo le parti meno turistiche della città vecchia </b> ed ne conosceremo i segreti e i miti nascosti, attraverseremo il fossato e raggiungeremo i mulini a vento e la fortezza di San Nicola dove scopriremo dove un tempo sorgeva il <b> Colosso di Rodi </b>.",
+
+                  "Dopo ci dirigeremo verso il <b> Monte Smith per raggiungere l'Acropoli di Rodi </b>, dove ci potremmo godere la splendida vista panoramica sulla città e il <b> tramonto da un'incredibile posizione segreta </b>.",
+
+                  "Un modo unico per esplorare velocemente e senza fatica la città di Rodi per scoprire le principali attrazioni e ammirare un panorama unico o un <b> tramonto indimenticabile </b>.",
+
+                  "<b> *Devi essere in grado di guidare la bicicletta in totale controllo sulla strada. Questo è per la tua sicurezza e per il buon funzionamento del tour </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1717970218760.jpg?sv=2023-08-03&se=2074-05-28T21%3A56%3A58Z&sr=b&sp=rade&sig=N3tIO%2Bk5vvdq5tCTyCGnuEsr4q6rWFvGP8QdgGbuV7w%3D&rsct=image%2Fjpg",
+              "badge": "25€ - 37€",
+              "title": "Rodi Selvaggia",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "25€ - 37€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Preparati ad un viaggio unico nella <b> Giungla di Rodi </b> con il personaggio più \"particolare\" dell'isola, <b> Nikos Papas! </b>",
+
+                  "Lui stesso ti darà il benvenuto nella sua dimora, facendoti vivere la <b> vera e propria ospitalità greca! </b>",
+
+                  "<b> L'intera giornata sarà una sorpresa, vestitevi comodi! </b>"
+                ]
+              }
+            }
+
+
+
+          ]
         }
       }
     },
@@ -1164,9 +2339,85 @@
           "intro": "<b>Blue Nest Hotel</b> - o similare",
           "paragraph": "Terra di miti, di eroi, di storia, cultura (qualcos'altro?): la Grecia è una destinazione da scoprire e da amare! Il Blue Nest Hotel sarà il punto di partenza della tua avventura. Potrai goderti la sua piscina all'aperto insieme ai tuoi nuovi compagni di viaggio, potrai goderti la spiaggia, a pochi passi dall'hotel, in totale relax e dalla tua camera potrai ammirare una vista incredibile sul Mar Egeo. Cosa vuoi di più? * *Ultima cosa prima di lasciarti andare: una volta arrivati, è previsto il pagamento di una tassa di soggiorno pari a 3€ a notte per camera!",
           "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/new-hotel/1704451876217.jpg?sv=2023-08-03&se=2073-12-23T10%3A51%3A16Z&sr=b&sp=rade&sig=XaEkDPTENV9L8FBk2N3%2F4ZToVh91OC%2FRsevqhqTMGOI%3D&rsct=image%2Fjpg"
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "",
+              "badge": "Inclusa",
+              "title": "",
+              "description": "",
+              "detail": {
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": ""
+                  }
+                ],
+                "text": [
+                  "",
+
+                  "",
+
+                  ""
+                ]
+              }
+            },
+            {
+              "img": "",
+              "badge": "",
+              "title": "",
+              "description": "",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": ""
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": ""
+                  }
+                ],
+                "text": [
+                  "",
+
+                  "",
+
+                  ""
+                ]
+              }
+            }
+
+
+
+
+
+          ]
         }
       }
     }
+
+
+
+
+
+
+
+
 
 
 
