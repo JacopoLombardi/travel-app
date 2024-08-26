@@ -13,7 +13,7 @@ export default {
   },
   data() {
     return {
-      selectedSlideData: null, // Dati della slide selezionata
+      selectedSlideData: null,
     };
   },
   computed: {
@@ -24,7 +24,8 @@ export default {
   },
   methods: {
     openOffCanvas(item) {
-      this.selectedSlideData = item; // Imposta i dati della slide selezionata
+      this.selectedSlideData = item;
+      
       // Codice per aprire l'offcanvas
       const offcanvasElement = document.getElementById('offcanvasBottom');
       const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
@@ -33,7 +34,6 @@ export default {
   }
 };
 </script>
-
 
 
 
@@ -171,7 +171,6 @@ export default {
          </div>
 
       </div>
-
 
    </div>
 </template>

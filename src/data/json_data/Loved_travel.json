@@ -2348,60 +2348,259 @@
           ],
           "slide_thumb": [
             {
-              "img": "",
-              "badge": "Inclusa",
-              "title": "",
-              "description": "",
-              "detail": {
-                "badge": "Esperienza inclusa",
-                "icon": "fa-regular fa-circle-check ms-1",
-                "tag": [
-                  {
-                    "icon": "fa-solid fa-coins me-1",
-                    "name": "Inclusa nel club"
-                  },
-                  {
-                    "icon": "fa-solid fa-tag me-1",
-                    "name": ""
-                  }
-                ],
-                "text": [
-                  "",
-
-                  "",
-
-                  ""
-                ]
-              }
-            },
-            {
-              "img": "",
-              "badge": "",
-              "title": "",
-              "description": "",
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1719914533853.jpg?sv=2023-08-03&se=2074-06-20T10%3A02%3A14Z&sr=b&sp=rade&sig=NGIQz2r5g11d2hBBAINUOOj3w9avc2QQypkA4nWyOJk%3D&rsct=image%2Fjpg",
+              "badge": "48€ - 72€",
+              "title": "Flyboard (15 min)",
+              "description": "Adventure",
               "detail": {
                 "badge": "Acquistabile in App",
                 "icon": "fa-solid fa-mobile-screen ms-1",
                 "tag": [
                   {
                     "icon": "fa-solid fa-coins me-1",
-                    "name": ""
+                    "name": "48€ - 72€"
                   },
                   {
                     "icon": "fa-solid fa-tag me-1",
-                    "name": ""
+                    "name": "Adventure"
                   }
                 ],
                 "text": [
-                  "",
+                  "Preparati per un'avventura indimenticabile con un'<b> esperienza di flyboard di 15 minuti a Kos </b>. Questo emozionante sport acquatico ti permette di volare sopra le acque cristalline del Mar Egeo, offrendo una <b> scarica di adrenalina unica </b>.",
 
-                  "",
+                  "<p> <b> Accoglienza e Briefing: </b> </p>     <p> Al tuo arrivo, sarai accolto da un istruttore esperto che ti fornirà un briefing completo sulle misure di sicurezza e sulle tecniche di base del flyboard. Non è necessaria alcuna esperienza precedente, poiché l'istruttore ti guiderà passo dopo passo. </p>",
 
-                  ""
+                  "<p> <b> Preparazione e Attrezzatura: </b> </p>     <p> Indosserai un giubbotto di salvataggio e l'attrezzatura necessaria, inclusi gli stivali del flyboard collegati a una moto d'acqua tramite un tubo. Questa configurazione ti permetterà di sfruttare la potenza dell'acqua per sollevarti in aria. </p>",
+
+                  "<p> <b> Inizio dell'Avventura: </b> </p>     <p> Dopo un breve riscaldamento e alcune prove in acqua, inizierai a sollevarsi dal mare, fluttuando a diversi metri sopra la superficie. L'istruttore sarà sempre a disposizione per fornire consigli e assistenza. </p>",
+
+                  "<p> <b> Conclusione: </b> </p>     <p> Al termine dei 15 minuti, tornerai alla base, dove potrai rilassarti e rivivere i momenti salienti della tua avventura con gli amici o la famiglia. L'istruttore ti fornirà feedback e suggerimenti per migliorare le tue abilità per la prossima volta. </p>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1719908463400.png?sv=2023-08-03&se=2074-06-20T08%3A21%3A04Z&sr=b&sp=rade&sig=cQPwRjDP1FOZaavEYSUKZ%2Bt9%2BEghxgEOe9DGQIAp0mE%3D&rsct=image%2Fjpg",
+              "badge": "34€ - 50€",
+              "title": "Parasailing doppio",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "34€ - 50€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Hai mai sognato di volare sopra il \"<b> blu dipinto di blu </b>\"?",
+
+                  "Se è si,il parasailing può essere quello che fa per te e <b> meglio farlo in compagnia per darsi conforto! </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1719913976413.jpg?sv=2023-08-03&se=2074-06-20T09%3A52%3A59Z&sr=b&sp=rade&sig=tSiKQ1ubnDT98czzSzlz4o2STPgNIsOw2rLTTwvl4jY%3D&rsct=image%2Fjpg",
+              "badge": "44€ - 66€",
+              "title": "Jetski (20 min)",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "44€ - 66€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Preparati per un'<b> avventura adrenalinica a Kos </b> con il nostro emozionante giro in Jetski di 20 minuti.",
+
+                  "Questa esperienza ti permetterà di <b> sfrecciare sulle acque cristalline del Mar Mediterraneo </b>, offrendoti un mix unico di eccitazione e bellezza naturale."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1721124822863.jpg?sv=2023-08-03&se=2074-07-04T10%3A13%3A43Z&sr=b&sp=rade&sig=3Ybdfnq1gOGT2FgQrbdqId9T%2FzjU2bxhqHrgrVL54lg%3D&rsct=image%2Fjpg",
+              "badge": "84€ - 126€",
+              "title": "Discover Scuba Diving",
+              "description": "Sport",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "84€ - 126€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Sport"
+                  }
+                ],
+                "text": [
+                  "<b> Se sai nuotare, puoi immergerti! </b>",
+
+                  "Progettato per principianti e <b> appassionati di immersioni che non possiedono una certificazione subacquea </b> e desiderano godersi un'avventura sottomarina.",
+
+                  "Lasciati introdurre nel meraviglioso mondo delle immersioni subacquee scoprendo l'incredibile regno sottomarino dell'isola di Kos con un'<b> immersione guidata di 1 ora </b>."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1722413149501.webp?sv=2023-08-03&se=2074-07-19T08%3A05%3A50Z&sr=b&sp=rade&sig=Ne2el5EIQHZjSo9XZQiLTtFkX6TAeNVD%2FRN8GUq2BIQ%3D&rsct=image%2Fjpg",
+              "badge": "20€ - 30€",
+              "title": "City tour Asklipieion e Kos Old Town",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "20€ - 30€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Scopri il fascino dell'antica Grecia con una visita al <b> sito archeologico di Asklipieion </b>, un luogo di culto e cura per i Greci antichi. Questo sito, reso famoso ai tempi di Ippocrate e della sua scuola, è considerato la prima scuola di medicina e il primo ospedale dell'umanità.",
+
+                  "Dopo aver esplorato Asklipieion, il tour prosegue nella <b> città di Kos </b>, situata a circa 4 km dal sito archeologico. Durante la visita, potrai ammirare i punti più interessanti della città, tra cui la piazzetta con il platano di Ippocrate, l'antica Agorà e la piazza centrale, conosciuta come <b> Piazza della Libertà </b>.",
+
+                  "Per il pranzo, avrai l'opportunità di gustare piatti tradizionali in una taverna tipicamente greca, immergendoti completamente nella cultura locale."
+                ],
+                "instax": true
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708705441719_98-6.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A20Z&sr=b&sp=rade&sig=kjz3l4Z2IFhRgM09BaXhWBV710SOL6DwylrluYre7bc%3D&rsct=image%2Fjpg",
+              "badge": "22€ - 34€",
+              "title": "Nisyros + vulcano",
+              "description": "Adventure",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "22€ - 34€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Adventure"
+                  }
+                ],
+                "text": [
+                  "Parti dal <b> porto di Kardamena </b>, Kos, e inizia un viaggio di un'ora attraverso le acque verso l'affascinante <b> isola vulcanica di Nisiro </b>. Una volta sbarcati, salirai su un autobus che ti condurrà rapidamente al vulcano, mentre una guida ti racconterà la storia e le peculiarità dell'isola.",
+
+                  "Apprenderai interessanti dettagli sul vulcano e l'isola mentre ti avvicini al cratere. Senti il potente ruggito della lava sotto i tuoi piedi mentre esplori il cratere e ammira le piscine di fango bollente e i geyser, sarà come essere in un paesaggio lunare.",
+
+                  "Tornat* al porto avrai del tempo libero per girovagare per il pittoresco <b> villaggio di Mandraki </b>. Attraverso le strette vie fiancheggiate da case bianche e blu, raggiungerai il <b> monastero di Panagia Spiliani </b>, celebrato come uno dei gioielli delle isole greche.",
+
+                  "Ritornerai in città per il pranzo (non incluso nel tour) o per lo shopping, prima di salire di nuovo a bordo e fare ritorno a Kos intorno alle 15:30."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1721119405498.jpg?sv=2023-08-03&se=2074-07-04T08%3A43%3A25Z&sr=b&sp=rade&sig=HGqdAUKqM59cLSxmX%2B19pS3SMTI4N4hXZWMnxnsmZ8I%3D&rsct=image%2Fjpg",
+              "badge": "42€ - 62€",
+              "title": "Greek night",
+              "description": "Local Food",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "42€ - 62€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Local Food"
+                  }
+                ],
+                "text": [
+                  "L'autobus ti preleverà dal tuo hotel e ti porterà al <b> ristorante Fantasia </b> nel villaggio di <b> montagna di Zia </b>. Lì potrai gustare una cena in stile tradizionale greco, con vini locali, mentre sarai intrattenuto da cantanti, ballerini e musicisti greci.",
+
+                  "Una serata fantastica <b> da veri local! </b>"
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708703872349_castleofstpeter_bodrum.webp?sv=2023-08-03&se=2074-05-24T12%3A28%3A20Z&sr=b&sp=rade&sig=xNVlltxlxnPTfULxnQxq30cBIbut1nVbg5uEXsfLSvM%3D&rsct=image%2Fjpg",
+              "badge": "32€ - 48€",
+              "title": "Bodrum",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "32€ - 48€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Parti da Kos per una giornata di avventure verso la vibrante <b> Bodrum </b>, in Turchia.",
+
+                  "La barca salperà dal porto di Kos, a volta arrivato a Bodrum, lasciati incantare dalla ricca storia e dalla vivace atmosfera di questa affascinante città costiera. Ammira il famoso <b> Castello di San Pietro </b>, risalente al XV secolo, che domina il porto e offre viste spettacolari sulla città e sul mare.",
+
+                  "Esplora il mercato locale, ricco di colori e profumi esotici, dove potrai acquistare souvenir unici e gustare delizie culinarie locali. Concediti una passeggiata lungo il pittoresco lungomare, affollato di caffè, ristoranti e negozi alla moda.",
+
+                  "Avrai anche l'opportunità di visitare il <b> Mausoleo di Alicarnasso </b>, una delle Sette Meraviglie del Mondo Antico, e di esplorare i suoi antichi resti (non incluso, opzionale).",
+
+                  "Dopo una giornata piena di scoperte e avventure, ritorna a Kos con il traghetto, portando con te ricordi indimenticabili di questa esperienza unica."
+                ]
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708702456007_145-5.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A08Z&sr=b&sp=rade&sig=l07FC2ImX%2BGYMxF9KQg47iJAYdCiJHcISm8sJ0RTJKQ%3D&rsct=image%2Fjpg",
+              "badge": "28€ - 42€",
+              "title": "3 islands",
+              "description": "Wellness",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "28€ - 42€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Wellness"
+                  }
+                ],
+                "text": [
+                  "Arriva al porto di Kos e sali a bordo della nostra nave per un'indimenticabile avventura verso <b> Kalymnos, Pserimos e Plati </b>.",
+
+                  "La nostra avventura sulla barca inizia alle 8:00, da li raggiungeremo la <b> prima tappa sull'isola di Pserimos </b>. Qui avrai del tempo libero per rilassarti sulla spiaggia di sabbia dorata e fare il bagno nelle acque cristalline. Mentre ti godi il sole greco, il nostro equipaggio preparerà un delizioso pasto con barbecue e insalata greca per te.",
+
+                  "Dopo questa prima tappa, la nostra barca si dirigerà verso la <b> seconda destinazione, l'incantevole isola di Kalymnos </b>.",
+
+                  "Kalymnos è una gemma di bellezza naturale, con la maggior parte delle attività legate al mare e all'arrampicata. Il suo capoluogo, Kalymnos (o <b> Pothia </b>), è un vivace centro turistico e il principale porto dell'isola. Qui troverai anche monumenti storici e numerose opzioni di intrattenimento, ristoranti e caffè.",
+
+                  "Ultima ma non meno importante è la <b> terza tappa, l'affascinante isola di Plati </b>. Qui inizia la festa! Ammira le magnifiche viste, prendi il sole e assapora i migliori cocktail e drink sotto il caldo sole greco. Potrai anche fare <b> snorkeling! </b>",
+
+                  "Al termine di questa splendida giornata intorno alle isole, faremo ritorno al porto di Kos alle 18:00 circa!"
                 ]
               }
             }
-
 
 
 
@@ -2410,12 +2609,6 @@
         }
       }
     }
-
-
-
-
-
-
 
 
 
