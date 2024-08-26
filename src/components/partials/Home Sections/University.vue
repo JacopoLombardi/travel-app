@@ -28,8 +28,8 @@ export default {
           imageUrl: 'https://images.prismic.io/blind/654124c10b105250cf53c57c_HighAngleBoatonBlueOcean.jpg?auto=format,compress',
         }
       ],
-      slidesPerView: 1,
-      spaceBetween: -30,
+      slidesPerView: 1.3,
+      spaceBetween: 20,
     };
   },
 
@@ -37,18 +37,15 @@ export default {
     updateSlidesPerView() {
       const width = window.innerWidth;
 
-      if (width < 350) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -50;
-      } else if (width >= 350 && width < 450) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -90;
+      if (width < 450) {
+        this.slidesPerView = 1.3;
+        this.spaceBetween = 20;
       } else if (width >= 450 && width < 576) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -190;
+        this.slidesPerView = 1.8;
+        this.spaceBetween = 20;
       } else if (width >= 576 && width < 768) {
-        this.slidesPerView = 2;
-        this.spaceBetween = -40;
+        this.slidesPerView = 2.2;
+        this.spaceBetween = 20;
       }
     },
   },
@@ -78,7 +75,7 @@ export default {
 
       <!-- swiper mobile -->
       <Swiper
-         class="_swiper d-md-none"
+         class="_swiper d-md-none me-3 ms-md-0"
          :slides-per-view="slidesPerView"
          :space-between="spaceBetween"
          :loop="false"
@@ -160,7 +157,7 @@ export default {
    }
 
    .card {
-      width: 230px;
+      width: 100%;
       height: 320px;
       border-radius: 20px;
       position: relative;
@@ -262,7 +259,7 @@ export default {
 
                p {
                   position: absolute;
-                  font-size: 13px;
+                  font-size: 16px;
                   bottom: 20%;
                   margin-left: 14px;
                }
@@ -272,6 +269,11 @@ export default {
                h5 {
                   position: relative;
                   z-index: 2;
+                  font-size: 22px;
+               }
+
+               p {
+                  font-size: 17px;
                }
             }
 

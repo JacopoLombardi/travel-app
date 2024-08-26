@@ -55,7 +55,7 @@ export default {
         },
       ],
       slidesPerView: 1,
-      spaceBetween: -30,
+      spaceBetween: 20,
     };
   },
   methods: {
@@ -66,13 +66,13 @@ export default {
         this.slidesPerView = 1;
         this.spaceBetween = 0;
       } else if (width >= 350 && width < 450) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -60;
+        this.slidesPerView = 1.3;
+        this.spaceBetween = 0;
       } else if (width >= 450 && width < 576) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -150;
-      } else if (width >= 576 && width < 768) {
         this.slidesPerView = 2;
+        this.spaceBetween = 0;
+      } else if (width >= 576 && width < 768) {
+        this.slidesPerView = 2.5;
         this.spaceBetween = 0;
       }
     },
@@ -101,7 +101,10 @@ export default {
       :space-between="spaceBetween"
       :loop="false"
     >
-      <SwiperSlide v-for="(slide, index) in slides" :key="index">
+      <SwiperSlide
+        v-for="(slide, index) in slides"
+        :key="index"
+      >
         <div class="card">
           <img :src="slide.imageUrl" class="card-img-top" alt="">
           <div class="card-body">
@@ -155,7 +158,7 @@ export default {
   }
 
   .card {
-    width: 270px;
+    width: 90%;
     height: 270px;
     border-radius: 20px;
     border: none;
@@ -179,17 +182,17 @@ export default {
       span {
         background-color: rgb(255, 234, 212);
         color: rgb(255, 136, 0);
-        font-size: 14px;
+        font-size: 13px;
         text-transform: capitalize;
         border-radius: 20px;
-        padding: 7px 14px;
+        padding: 4px 12px;
       }
 
       .card-body-title {
         width: 75%;
 
         h5 {
-          font-size: 20px;
+          font-size: 17px;
           text-transform: uppercase;
           font-weight: 800;
           margin-top: 14px;
@@ -197,6 +200,7 @@ export default {
 
         p {
           font-weight: 500;
+          line-height: 15px;
         }
       }
 
@@ -223,6 +227,13 @@ export default {
       margin: 10px;
 
       .card-body {
+
+        span {
+          font-size: 16px;
+          font-weight: 700;
+          padding: 8px 16px;
+        }
+
         .card-body-title {
           width: 82%;
 

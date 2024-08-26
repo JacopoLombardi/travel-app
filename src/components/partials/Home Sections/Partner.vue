@@ -18,8 +18,8 @@ export default {
          {name: 'kappa FuturFestival', description: 'The Future is in Torino!', tag: 'eventi', action: 'scopri di più', imageUrl: 'https://images.prismic.io/blind/659d17b9531ac2845a273d24_WideKappa2000x842.jpeg?auto=format%2Ccompress&fit=max&w=2048'},
          {name: 'tutti i partner', description: 'Insieme ai nostri partner, ci impegniamo ogni giorno per creare esperienze di viaggio indimenticabili.', tag: 'partner', action: 'dai un\'occhiata', imageUrl: 'https://images.prismic.io/blind/6538d5660b105250cf53a45f_WideScalapay16_9.jpg?auto=format%2Ccompress&fit=max&w=1920'},
       ],
-      slidesPerView: 1,
-      spaceBetween: -50,
+      slidesPerView: 1.2,
+      spaceBetween: 10,
     };
   },
 
@@ -27,34 +27,16 @@ export default {
    updateSlidesPerView() {
       const width = window.innerWidth;
 
-      // mobile
-      if (width < 350) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -50;
-      } else if (width >= 350 && width < 450) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -65;
-      } else if (width >= 450 && width < 576) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -80;
-      } else if (width >= 576 && width < 768) {
-        this.slidesPerView = 1;
-        this.spaceBetween = -100;
+      if (width < 450) {
+        this.slidesPerView = 1.2;
+        this.spaceBetween = 10;
+      } else if (width >= 500 && width < 768) {
+        this.slidesPerView = 1.7;
+        this.spaceBetween = 10;
+      } else if (width >= 768 && width < 992) {
+        this.slidesPerView = 2.5;
+        this.spaceBetween = 20;
       }
-      //   desktop
-        else if (width >= 768 && width < 1000) {
-        this.slidesPerView = 2;
-        this.spaceBetween = -60;
-      }  else if (width >= 1000 && width < 1400) {
-        this.slidesPerView = 2;
-        this.spaceBetween = -90;
-      }  else if (width >= 1400 && width < 1800) {
-        this.slidesPerView = 2;
-        this.spaceBetween = -120;
-      }  else if (width >= 1800) {
-        this.slidesPerView = 2;
-        this.spaceBetween = -140;
-      } 
     },
   },
   mounted() {
@@ -127,7 +109,7 @@ export default {
    }
 
    .card {
-      width: 80%;
+      width: 100%;
       height: 280px;
       border-radius: 20px;
       margin-left: 1.5rem;
@@ -209,7 +191,6 @@ export default {
 
       .card {
          margin-left: 0;
-         width: 80%;
          height: 300px;
       }
    }

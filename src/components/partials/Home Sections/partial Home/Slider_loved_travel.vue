@@ -24,26 +24,26 @@ export default {
     return {
       dataSlide: Loved_travel,
       swiperInstance: null,
-      slidesPerView: 2,
-      spaceBetween: 30,
+      slidesPerView: 1.5,
+      spaceBetween: 15,
       slides: [],
     };
   },
   methods: {
     updateSlidesPerView() {
       const width = window.innerWidth;
-      if (width < 576) { // Mobile
+      if (width < 500) { 
+        this.slidesPerView = 1.5;
+        this.spaceBetween = 15;
+      } else if (width >= 500 && width < 768) { 
         this.slidesPerView = 2;
-        this.spaceBetween = 170;
-      } else if (width >= 768 && width < 992) { // Tablet
+        this.spaceBetween = 15;
+      } else if (width >= 768 && width < 992) { 
         this.slidesPerView = 3;
-        this.spaceBetween = -90;
-      } else if (width >= 992 && width < 1500) { // Laptop
-        this.slidesPerView = 3;
-        this.spaceBetween = -300;
-      } else { // Desktop
+        this.spaceBetween = 20;
+      } else { 
         this.slidesPerView = 4;
-        this.spaceBetween = -400;
+        this.spaceBetween = 30;
       }
     },
     prevSlide() {
@@ -135,7 +135,7 @@ $border-radius: 20px;
 }
 
 .card {
-   width: 14rem;
+   width: 100%;
    height: 17.6rem;
    color: white;
    margin: 0 10px;
@@ -183,7 +183,7 @@ $border-radius: 20px;
 
 
    .card {
-      width: 18rem;
+      width: 100%;
       height: 25rem;
       overflow: hidden;
 
@@ -249,8 +249,4 @@ $border-radius: 20px;
 
 
 
-
-
-/* Media query per dispositivi con larghezza maggiore o uguale a 1500px */
-@media (min-width: 1500px) {}
 </style>
