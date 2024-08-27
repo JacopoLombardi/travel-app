@@ -83,70 +83,66 @@ export default {
 
 <template>
    <div class="_explore" v-if="explore">
-         <div class="_text">
-            <div class="_badge">
-               <p>Explore</p>
-            </div>
-            
-            <h2>{{ explore.title }}</h2>
-      
-            <ul>
-               <li v-for="item in explore.text" :key="item">
-               <p class="_paragraph">{{ item }}</p>
-               </li>
-            </ul>
+      <div class="_text">
+         <div class="_badge">
+            <p>Explore</p>
          </div>
          
-         <!-- swiper -->
-         <swiper
-            class="_swiper"
-            :slides-per-view="slidesPerView"
-            :space-between="spaceBetween"
-            :loop="true"
+         <h2>{{ explore.title }}</h2>
+   
+         <ul>
+            <li v-for="item in explore.text" :key="item">
+            <p class="_paragraph">{{ item }}</p>
+            </li>
+         </ul>
+      </div>
+      
+      <!-- swiper -->
+      <swiper
+         class="_swiper"
+         :slides-per-view="slidesPerView"
+         :space-between="spaceBetween"
+         :loop="true"
+      >
+         <swiper-slide
+            class="_slide d-flex justify-content-center"
+            v-for="(item, index) in explore.slide_thumb"
+            :key="index"
          >
-            <swiper-slide
-               class="_slide d-flex justify-content-center"
-               v-for="(item, index) in explore.slide_thumb"
-               :key="index"
+            <div
+            class="card"
+            @click="cardClick(item)"
             >
-               <div
-               class="card"
-               @click="cardClick(item)"
-               >
-               <img :src="item.img" :alt="item.title">
-               <div class="card-body">
-                  <span :class="item.badge === 'Inclusa' ? 'badge_included' : 'badge_not_included'">
-                     {{ item.badge }}
-                  </span>
-                  <div class="card-body-title">
-                     <h5 class="card-title">{{ item.title }}</h5>
-                     <p class="card-text">{{ item.description }}</p>
-                  </div>
+            <img :src="item.img" :alt="item.title">
+            <div class="card-body">
+               <span :class="item.badge === 'Inclusa' ? 'badge_included' : 'badge_not_included'">
+                  {{ item.badge }}
+               </span>
+               <div class="card-body-title">
+                  <h5 class="card-title">{{ item.title }}</h5>
+                  <p class="card-text">{{ item.description }}</p>
                </div>
-               </div>
-            </swiper-slide>
-         </swiper>
-      
+            </div>
+            </div>
+         </swiper-slide>
+      </swiper>
+   
 
+      <!-- componente offcanvas -->
+      <Explore_offcanvas 
+         :data="selectedSlideData" 
+      />
+   
 
-         <!-- componente offcanvas -->
-         <Explore_offcanvas 
-            :data="selectedSlideData" 
-         />
-      
-
-
-         <!-- componente modale -->
-         <Modale_Travel_detail 
-            :data="selectedSlideData"
-         />
-         
-         
+      <!-- componente modale -->
+      <Modale_Travel_detail 
+         :data="selectedSlideData"
+      />
  
+
    </div>
  </template>
  
-
 
 
 

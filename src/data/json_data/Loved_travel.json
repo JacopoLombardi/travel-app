@@ -3,7 +3,6 @@
 
 
 
-
     {
       "title": "Thailandia",
       "price": "449 €",
@@ -139,7 +138,28 @@
               }
             }
           ]
+        },
+        "reach_hotel": {
+          "info": [
+            {
+              "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+              "title": "Thailandia",
+              "description": "184/16, Phangmuang Sai Ko Road, near Jungceylon Patong Kathu Phuket 83150, Thailandia"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento collettivo",
+              "description": "Tranquill* non ti lasciamo a piedi! Il trasferimento da/per l'aeroporto di Phuket (HKT) è incluso nel tuo viaggio se hai acquistato il tuo volo con noi. Essendo un trasferimento collettivo è prevista una possibile attesa in aeroporto di alcuni tuoi compagni."
+            }
+          ],
+          "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.00194798743112!2d98.30156471475043!3d7.891808048488197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30503aa444c16461%3A0x86a485a8104f4593!2sThe%20Aim%20Patong%20Hotel!5e0!3m2!1sit!2sus!4v1724789603866!5m2!1sit!2sus\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160); \" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
         }
+
+
+
+
+
+
 
       }
     },
@@ -156,6 +176,11 @@
 
 
 
+
+
+
+
+    
 
 
 
@@ -649,11 +674,36 @@
                 ]
               }
             }
-
-
-
           ]
+        },
+        "reach_hotel": {
+          "info": [
+            {
+              "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+              "title": "Sharm El-Sheikh",
+              "description": "Sharm Al Shiekh, South Sinai Governorate 8762605, Egypt"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento collettivo",
+              "description": "Se hai aggiunto il volo tramite Utravel potrai acquistare in fase di prenotazione un trasferimento collettivo andata/ritorno l'aeroporto al costo di 15€. Non dimenticare di aggiungerlo al carrello!"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento privato",
+              "description": "Se hai acquistato un volo in autonomia potrai acquistare in fase di prenotazione un trasferimento privato andata/ritorno, non dimenticare di aggiungerlo nel carrello! Per garantire il servizio dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza."
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-car fs-4\"></i>",
+              "title": "Con il taxi",
+              "description": "Al tuo arrivo o alla partenza puoi richiedere un taxi in autonomia."
+            }
+          ],
+          "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d881.8511948706736!2d34.31772809529769!3d27.858833572338288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14533a1a94b58443%3A0x447c57e0201d6313!2sXperience%20St.%20George%20Coral%20Beach!5e0!3m2!1sen!2sit!4v1724792533162!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
         }
+
+
+
       }
     },
 
@@ -1016,10 +1066,28 @@
                 ]
               }
             }
-
-
           ]
+        },
+        "reach_hotel": {
+          "info": [
+            {
+              "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+              "title": "Marocco",
+              "description": "Douar Tagoryant Sidi Abdelaghiyat، 40000, Morocco"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento collettivo",
+              "description": "Tranquill*, non ti lasciamo a piedi. I trasferimenti da/per aeroporto sono inclusi! Se hai acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+            }
+          ],
+          "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408.9151526669971!2d-7.8540360925207215!3d31.558465837653863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaff9e6293aa04f%3A0x1581b0a416479260!2sLe%20Chant%20Des%20Oliviers!5e0!3m2!1sen!2sit!4v1724792915119!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
         }
+
+
+
+
+
       }
     },
 
@@ -1360,11 +1428,29 @@
                 ]
               }
             }
-
-
-
           ]
+        },
+        "reach_hotel": {
+          "info": [
+            {
+              "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+              "title": "Zanzibar",
+              "description": "Michamvi Kae, Tanzania"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento collettivo",
+              "description": "Tranquill*, non ti lasciamo a piedi. Se hai acquistato un volo Neos con noi, i trasferimenti da/per l'aeroporto di Zanzibar (ZNZ) sono inclusi. Novità: per le partenze da novembre in poi, se acquisti un volo di qualsiasi compagnia tramite il nostro sito, il trasferimento sarà compreso! Se hai acquistato il volo in autonomia e hai aggiunto il trasferimento nella sezione \"Extra\" durante il check-out, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio. Il servizio è disponibile solo nel primo e nell'ultimo giorno di Club."
+            }
+          ],
+          "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441.7632713928937!2d39.49383392100557!3d-6.144107209770893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185d311def463d71%3A0x73b18979064a2c8c!2sOleza%20Boutique%20Hotel!5e0!3m2!1sen!2sit!4v1724793226778!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
         }
+
+
+
+
+
+
       }
     },
 
@@ -1824,10 +1910,28 @@
                 ]
               }
             }
-            
-           
           ]
+        },
+        "reach_hotel": {
+          "info": [
+            {
+              "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+              "title": "Kenya",
+              "description": "Diani Beach, Kenya"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento collettivo",
+              "description": "Tranquill*, non ti lasciamo a piedi. Se hai acquistato un volo Neos con noi, i trasferimenti da/per l'aeroporto di Mombasa (MBA) sono inclusi. Novità: per le partenze da novembre in poi, se acquisti un volo di qualsiasi compagnia tramite il nostro sito, il trasferimento sarà compreso! Se hai acquistato il volo in autonomia e hai aggiunto il trasferimento nella sezione \"Extra\" durante il check-out, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio. Il servizio è disponibile solo nel primo e nell'ultimo giorno di Club."
+            }
+          ],
+          "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1033.6104064321685!2d39.55995698948562!3d-4.362662147335278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18404d68477cad41%3A0xef6d85f009ef8a2!2sNeptune%20Village%20Beach%20Resort%20%26%20Spa!5e0!3m2!1sen!2sit!4v1724793456247!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
         }
+
+
+
+
+
       }
     },
 
@@ -2236,11 +2340,33 @@
                 ]
               }
             }
-
-
-
           ]
+        },
+        "reach_hotel": {
+          "info": [
+            {
+              "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+              "title": "Rodi",
+              "description": "Ermoi, ΡΟΔΟΣ 851 05, Greece"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento collettivo",
+              "description": "Puoi scegliere di raggiungere l'hotel con comodità aggiungendo come extra nel carrello un trasferimento privato da/per l'aeroporto! Nel caso in cui avessi acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-car fs-4\"></i>",
+              "title": "Taxi",
+              "description": "All'uscita dell'aeroporto puoi chiamare un taxi e raggiungere l'hotel in circa 20 minuti. Organizzati con i tuoi compagni di viaggio!"
+            }
+          ],
+          "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468.633001168445!2d28.19965100275695!3d36.33988956227161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14956511b6d45aa7%3A0xca0401c98ef8d951!2sFaliraki%20Premium%20Hotel!5e0!3m2!1sen!2sit!4v1724793639799!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
         }
+
+
+
+
+
       }
     },
 
@@ -2601,17 +2727,36 @@
                 ]
               }
             }
-
-
-
-
           ]
+        },
+        "reach_hotel": {
+          "info": [
+            {
+              "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+              "title": "Kos",
+              "description": "Unnamed Rd,, Kos 853 00, Greece"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+              "title": "Trasferimento collettivo",
+              "description": "Puoi scegliere di raggiungere l'hotel con comodità aggiungendo come extra nel carrello un trasferimento collettivo da/per l'aeroporto! Nel caso in cui avessi acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio"
+            },
+            {
+              "icon": "<i class=\"fa-solid fa-car fs-4\"></i>",
+              "title": "Taxi",
+              "description": "All'uscita dell'aeroporto puoi chiamare un taxi e raggiungere l'hotel in circa 25 minuti. Organizzati con i tuoi compagni di viaggio!"
+            }
+          ],
+          "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d355.36945492908035!2d27.2097831555369!3d36.887718587196986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be08660bb4e8d7%3A0x6c1022f7b36fcd41!2sBlue%20Nest%20Hotel%20Kos!5e0!3m2!1sen!2sit!4v1724793832651!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
         }
+
+
+
+
+
+
       }
     }
-
-
-
 
 
 

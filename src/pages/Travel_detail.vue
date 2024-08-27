@@ -3,6 +3,8 @@
 import Travel_detail_info from "../components/partials/Travel Detail Sections/Travel_detail_info.vue"
 import Your_stay from "../components/partials/Travel Detail Sections/Your_stay.vue"
 import Explore from "../components/partials/Travel Detail Sections/Explore.vue"
+import Reach_hotel from "../components/partials/Travel Detail Sections/Reach_hotel.vue"
+
 import Footer from "../components/Footer.vue"
 
 export default {
@@ -10,6 +12,7 @@ export default {
     Travel_detail_info,
     Your_stay,
     Explore,
+    Reach_hotel,
     Footer
   },
   data() {
@@ -46,6 +49,10 @@ export default {
   />
 
   <Explore
+    :data="slideData"
+  />
+
+  <Reach_hotel
     :data="slideData"
   />
 
