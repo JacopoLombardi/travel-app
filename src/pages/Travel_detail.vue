@@ -1,6 +1,6 @@
 
 <script>
-import Travel_detail_info from "../components/partials/Travel Detail Sections/Travel_detail_info.vue"
+import Info from "../components/partials/Travel Detail Sections/Info.vue"
 import Your_stay from "../components/partials/Travel Detail Sections/Your_stay.vue"
 import Explore from "../components/partials/Travel Detail Sections/Explore.vue"
 import Reach_hotel from "../components/partials/Travel Detail Sections/Reach_hotel.vue"
@@ -9,7 +9,7 @@ import Footer from "../components/Footer.vue"
 
 export default {
   components: {
-    Travel_detail_info,
+    Info,
     Your_stay,
     Explore,
     Reach_hotel,
@@ -40,7 +40,7 @@ export default {
 
 <template>
 
-  <Travel_detail_info
+  <Info
     :data="slideData"
   />
 

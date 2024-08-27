@@ -1,10 +1,10 @@
 
 <script>
-import Accordion_Travel_detail_info from "./partial Travel_detail/Accordion_Travel_detail_info.vue"
+import Accordion_info from "./partial Travel_detail/Accordion_info.vue"
 
 export default {
   components: {
-    Accordion_Travel_detail_info
+    Accordion_info
   },
   props: {
     data: Object,
@@ -69,7 +69,7 @@ export default {
 
 
       <!-- Componente Accordion -->
-      <Accordion_Travel_detail_info
+      <Accordion_info
         :detail="detail"
       />
 

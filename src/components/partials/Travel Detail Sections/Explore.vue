@@ -1,7 +1,7 @@
 
 <script>
-import Explore_offcanvas from "./partial Travel_detail/Explore_offcanvas.vue"
-import Modale_Travel_detail from "./partial Travel_detail/Modale_Travel_detail.vue"
+import Offcanvas_explore from "./partial Travel_detail/Offcanvas_explore.vue"
+import Modale_explore from "./partial Travel_detail/Modale_explore.vue"
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
@@ -10,8 +10,8 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
-    Explore_offcanvas,
-    Modale_Travel_detail
+    Offcanvas_explore,
+    Modale_explore
   },
   props: {
     data: Object
@@ -77,7 +77,7 @@ export default {
   },
 };
 </script>
-
+ 
 
 
 
@@ -127,19 +127,16 @@ export default {
          </swiper-slide>
       </swiper>
    
-
       <!-- componente offcanvas -->
-      <Explore_offcanvas 
+      <Offcanvas_explore 
          :data="selectedSlideData" 
       />
    
-
       <!-- componente modale -->
-      <Modale_Travel_detail 
+      <Modale_explore 
          :data="selectedSlideData"
       />
  
-
    </div>
  </template>
  
