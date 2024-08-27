@@ -5,15 +5,7 @@ export default {
    props: {
       data: Object
    },
-   data(){
-      return{
-
-      };
-   },
-
-   methods:{
-
-   },
+   
    computed: {
       explore() {
          return this.data?.detail.explore;

@@ -1,6 +1,7 @@
 
 <script>
 import Explore_offcanvas from "./partial Travel_detail/Explore_offcanvas.vue"
+import Modale_Travel_detail from "./partial Travel_detail/Modale_Travel_detail.vue"
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
@@ -9,7 +10,8 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
-    Explore_offcanvas
+    Explore_offcanvas,
+    Modale_Travel_detail
   },
   props: {
     data: Object
@@ -28,26 +30,43 @@ export default {
     },
   },
   methods: {
+     // funzione per aprire l'offcanvas
     openOffCanvas(item) {
       this.selectedSlideData = item;
-
-      // Codice per aprire l'offcanvas
       const offcanvasElement = document.getElementById('offcanvasBottom');
       const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
       bsOffcanvas.show();
     },
 
+    // funzione per aprire la modale
+    openModal(item) {
+        this.selectedSlideData = item;
+        const modalElement = document.getElementById('exampleModal');
+        const bsModal = new bootstrap.Modal(modalElement);
+        bsModal.show();
+    },
+
     updateSlidesPerView() {
       const width = window.innerWidth;
-
       if ( width < 600) {
          this.slidesPerView = 2;
-      } else if (width >= 600 && width < 768) {
+      } else {
          this.slidesPerView = 3;
       }
-
       this.spaceBetween = 10;
    },
+
+   // Funzione che gestisce il click sulla card in base alla risoluzione dello schermo
+   cardClick(item) {
+      this.selectedSlideData = item;
+      const screenWidth = window.innerWidth;
+
+      if (screenWidth < 768) {
+        this.openOffCanvas(item);
+      } else {
+        this.openModal(item);
+      }
+    }
   },
   mounted() {
     this.updateSlidesPerView();
@@ -63,43 +82,37 @@ export default {
 
 
 <template>
-  <div
-     class="_explore"
-     v-if="explore"
-   >
-      <div class="_text">
-         <div class="_badge">
-            <p>Explore</p>
+   <div class="_explore" v-if="explore">
+         <div class="_text">
+            <div class="_badge">
+               <p>Explore</p>
+            </div>
+            
+            <h2>{{ explore.title }}</h2>
+      
+            <ul>
+               <li v-for="item in explore.text" :key="item">
+               <p class="_paragraph">{{ item }}</p>
+               </li>
+            </ul>
          </div>
          
-         <h2>{{ explore.title }}</h2>
-
-         <ul>
-            <li
-              v-for="item in explore.text"
-              :key="item"
-            >
-               <p class="_paragraph">{{ item }}</p>
-            </li>
-         </ul>
-      </div>
-      
-      <!-- swiper -->
-      <swiper
-         class="_swiper"
-         :slides-per-view="slidesPerView"
-         :space-between="spaceBetween"
-         :loop="true"
-      >
-         <swiper-slide
-            class="_slide d-flex justify-content-center"
-            v-for="(item, index) in explore.slide_thumb"
-            :key="index"
+         <!-- swiper -->
+         <swiper
+            class="_swiper"
+            :slides-per-view="slidesPerView"
+            :space-between="spaceBetween"
+            :loop="true"
          >
-            <div
-              class="card"
-              @click="openOffCanvas(item)"
+            <swiper-slide
+               class="_slide d-flex justify-content-center"
+               v-for="(item, index) in explore.slide_thumb"
+               :key="index"
             >
+               <div
+               class="card"
+               @click="cardClick(item)"
+               >
                <img :src="item.img" :alt="item.title">
                <div class="card-body">
                   <span :class="item.badge === 'Inclusa' ? 'badge_included' : 'badge_not_included'">
@@ -110,18 +123,29 @@ export default {
                      <p class="card-text">{{ item.description }}</p>
                   </div>
                </div>
-            </div>
-         </swiper-slide>
-      </swiper>
+               </div>
+            </swiper-slide>
+         </swiper>
+      
 
 
-      <!-- componente offcanvas -->
-      <Explore_offcanvas
-         :data="selectedSlideData"
-      />
+         <!-- componente offcanvas -->
+         <Explore_offcanvas 
+            :data="selectedSlideData" 
+         />
+      
 
+
+         <!-- componente modale -->
+         <Modale_Travel_detail 
+            :data="selectedSlideData"
+         />
+         
+         
+ 
    </div>
-</template>
+ </template>
+ 
 
 
 
