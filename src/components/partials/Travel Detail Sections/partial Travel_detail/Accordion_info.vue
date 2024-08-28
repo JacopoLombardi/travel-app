@@ -264,19 +264,4 @@ export default {
     }
   }
 }
-
-
-
-
-
-
-
-/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
-@media (min-width: 992px) {
-
-   
-
-  }
-
-
 </style>

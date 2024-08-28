@@ -62,18 +62,12 @@ export default {
     updateSlidesPerView() {
       const width = window.innerWidth;
 
-      if (width < 350) {
-        this.slidesPerView = 1;
-        this.spaceBetween = 0;
-      } else if (width >= 350 && width < 450) {
-        this.slidesPerView = 1.3;
-        this.spaceBetween = 0;
-      } else if (width >= 450 && width < 576) {
-        this.slidesPerView = 2;
-        this.spaceBetween = 0;
+      if (width >= 250 && width < 576) {
+        this.slidesPerView = 1.2;
+        this.spaceBetween = -10;
       } else if (width >= 576 && width < 768) {
         this.slidesPerView = 2.5;
-        this.spaceBetween = 0;
+        this.spaceBetween = -10;
       }
     },
   },
@@ -86,7 +80,6 @@ export default {
   },
 };
 </script>
-
 
 
 
@@ -148,19 +141,16 @@ export default {
 
 
 
-
 <style lang="scss" scoped>
+
 .flash-offer {
   margin: 70px 0 50px;
-
-  ._swiper {
-    padding-left: 1rem;
-  }
 
   .card {
     width: 90%;
     height: 270px;
     border-radius: 20px;
+    margin: 0 10px;
     border: none;
     position: relative;
 
@@ -199,8 +189,8 @@ export default {
         }
 
         p {
-          font-weight: 500;
-          line-height: 15px;
+          line-height: 13px;
+          font-size: 12px;
         }
       }
 

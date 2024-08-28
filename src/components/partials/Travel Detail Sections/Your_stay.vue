@@ -261,11 +261,6 @@ export default {
       ._intro {
         font-size: 20px;
       }
-
-      ._badge {
-        background-color: rgba(215, 249, 255, 0.782);
-        color: rgb(0, 217, 255);
-      }
     }
   }
 }
@@ -318,12 +313,13 @@ export default {
 
           img {
             width: 68%;
-            height: 350px;
+            height: 450px;
             border-radius: 20px;
           }
 
           ._banner {
             width: 30%;
+            height: 450px;
             text-align: center;
             justify-content: center;
             border-radius: 20px;
@@ -335,7 +331,7 @@ export default {
 
             p {
               font-size: 15px;
-              margin: 20px 0;
+              margin: 20px 50px;
             }
           }
         }

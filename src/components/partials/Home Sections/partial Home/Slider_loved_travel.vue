@@ -42,8 +42,8 @@ export default {
         this.slidesPerView = 3;
         this.spaceBetween = 20;
       } else { 
-        this.slidesPerView = 4;
-        this.spaceBetween = 30;
+        this.slidesPerView = 4.3;
+        this.spaceBetween = 40;
       }
     },
     prevSlide() {
@@ -129,10 +129,6 @@ export default {
 
 <style lang="scss" scoped>
 $border-radius: 20px;
-
-._swiper {
-   margin-left: 0.5rem;
-}
 
 .card {
    width: 100%;

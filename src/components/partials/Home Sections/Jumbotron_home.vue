@@ -101,7 +101,7 @@ export default {
   }
 
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   i {
@@ -160,6 +160,11 @@ export default {
 
     ._search {
       bottom: -6%;
+
+      p {
+        font-size: 18px;
+        margin-left: 20px;
+      }
     }
   }
 }

@@ -91,7 +91,7 @@ $border-radius: 20px;
 @media (min-width: 992px) {
 
   ._travel_loved {
-    padding-left: 5.5rem;
+    padding-left: 5rem;
 
     ._title {
       background-color: rgb(255, 255, 255);
@@ -99,7 +99,7 @@ $border-radius: 20px;
       border-radius: $border-radius;
       margin-right: 20px;
       padding: 1.5rem 1.5rem 1.5rem 1.5rem !important;
-      width: 17.5rem;
+      width: 17rem;
 
       justify-content: space-between;
       align-items: end;
@@ -131,18 +131,5 @@ $border-radius: 20px;
     }
   }
 
-}
-
-
-
-
-/* Media query per dispositivi con larghezza maggiore o uguale a 1500px */
-@media (min-width: 1500px) {
-
-  ._travel_loved {
-    ._title {
-      margin-right: 30px;
-    }
-  }
 }
 </style>

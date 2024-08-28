@@ -39,13 +39,13 @@ export default {
 
       if (width < 450) {
         this.slidesPerView = 1.3;
-        this.spaceBetween = 20;
+        this.spaceBetween = 15;
       } else if (width >= 450 && width < 576) {
         this.slidesPerView = 1.8;
-        this.spaceBetween = 20;
+        this.spaceBetween = 15;
       } else if (width >= 576 && width < 768) {
-        this.slidesPerView = 2.2;
-        this.spaceBetween = 20;
+        this.slidesPerView = 2.5;
+        this.spaceBetween = 15;
       }
     },
   },
@@ -62,7 +62,6 @@ export default {
 
 
 
-
 <template>
    <div class="_university">
       
@@ -75,13 +74,13 @@ export default {
 
       <!-- swiper mobile -->
       <Swiper
-         class="_swiper d-md-none me-3 ms-md-0"
+         class="_swiper d-md-none"
          :slides-per-view="slidesPerView"
          :space-between="spaceBetween"
          :loop="false"
       >
          <SwiperSlide v-for="(slide, index) in slides" :key="index">
-            <div class="card p-0">
+            <div class="card">
                <img :src="slide.imageUrl" class="card-img-top" alt="" />
                <div class="card-body">
                   <div class="card-body-title">
@@ -97,7 +96,7 @@ export default {
       </Swiper>
 
       <!-- desktop -->
-       <div class="d-none d-md-flex justify-content-center">
+      <div class="d-none d-md-flex justify-content-center">
          <div 
             class="card p-0"
             v-for="(slide, index) in slides"
@@ -118,13 +117,11 @@ export default {
                   <p>7 notti / 8 giorni</p>
                </div>
             </div>
-
          </div>
       </div>
+
     </div>
-
 </template>
-
 
 
 
@@ -133,11 +130,11 @@ export default {
 
 ._university {
    background-color: rgba(176, 199, 255, 0.438);
-   padding: 50px 0 70px 25px;
-
+   padding: 50px 0 70px;
 
    ._title {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+      margin-left: 25px;
 
       h3 {
          color: rgb(131, 158, 255);
@@ -160,6 +157,7 @@ export default {
       width: 100%;
       height: 320px;
       border-radius: 20px;
+      margin-left: 20px;
       position: relative;
       border: none;
 

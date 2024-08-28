@@ -1,101 +1,97 @@
 
 <script>
-
 export default {
-   props: {
-      data: Object
-   },
-   
-   computed: {
-      explore() {
-         return this.data?.detail.explore;
-      },
-   }
+  props: {
+    data: Object,
+    id: String
+  },
+  computed: {
+    explore() {
+      return this.data?.detail?.explore;
+    }
+  }
 };
 </script>
-
-
-
 
 <template>
   <!-- offcanvas -->
   <div
-      class="offcanvas offcanvas-bottom"
-      tabindex="-1"
-      id="offcanvasBottom"
-      aria-labelledby="offcanvasBottomLabel"
-   >
+    class="offcanvas offcanvas-bottom"
+    tabindex="-1"
+    :id="id"
+    aria-labelledby="offcanvasBottomLabel"
+  >
+    <div class="box_edge">
+      <div class="_edge"></div>
+    </div>
 
-      <div class="box_edge">
-         <div class="_edge"></div>
+    <!-- up -->
+    <div class="box_up">
+      <div>
+        <img :src="data?.img" :alt="data?.title">
+        <button
+          type="button"
+          class="btn border rounded-5"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-solid fa-x"></i>
+        </button>
+        <p 
+          class="_badge"
+          :class="data?.detail?.badge === 'Esperienza inclusa' ? 'badge_included' : 'badge_not_included'"
+        >
+          {{ data?.detail?.badge }} 
+          <i :class="data?.detail?.icon"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- down -->
+    <div class="box_down">
+      <h4>{{ data?.title }}</h4>
+      <ul class="_tag d-flex">
+        <li
+          v-for="item in data?.detail?.tag"
+          :key="item"
+        >
+          <p>
+            <i :class="item.icon"></i>
+            {{ item.name }}
+          </p>
+        </li>
+      </ul>
+
+      <ul>
+        <li
+          v-for="item in data?.detail?.text"
+          :key="item"
+        >
+          <p v-html="item"></p>
+        </li>
+        
+        <!-- Mostra only_utravel una volta se esiste -->
+        <li>
+          <p 
+            v-if="data?.detail?.text_only_utravel"
+            class="only_utravel"
+            v-html="data?.detail?.text_only_utravel"
+          ></p>
+        </li>
+      </ul>
+
+      <!-- instax -->
+      <div 
+        v-if="data?.detail?.instax"
+        class="_instax"
+      >
+        <img src="/img/instax.png" alt="instax">
       </div>
 
-      <!-- up -->
-      <div class="box_up">
-         <div>
-            <img :src="data?.img" :alt="data?.title">
-            <button
-               type="button"
-               class="btn border rounded-5"
-               data-bs-dismiss="offcanvas"
-               aria-label="Close"
-            >
-               <i class="fa-solid fa-x"></i>
-            </button>
-            <p 
-               class="_badge"
-               :class="data?.detail.badge === 'Esperienza inclusa' ? 'badge_included' : 'badge_not_included'"
-            >
-               {{ data?.detail.badge }} 
-               <i :class="data?.detail.icon"></i>
-            </p>
-         </div>
-      </div>
-         
-      <!-- down -->
-      <div class="box_down">
-         <h4>{{ data?.title }}</h4>
-         <ul class="_tag d-flex">
-            <li
-               v-for="item in data?.detail.tag"
-               :key="item"
-            >
-               <p>
-                  <i :class="item.icon"></i>
-                  {{ item.name }}
-               </p>
-            </li>
-         </ul>
-
-         <ul>
-            <li
-               v-for="item in data?.detail.text"
-               :key="item"
-            >
-               <p v-html="item"></p>
-            </li>
-            
-            <!-- Mostra only_utravel una volta se esiste -->
-            <li>
-               <p 
-                  v-if="data?.detail.text_only_utravel"
-                  class="only_utravel"
-                  v-html="data?.detail.text_only_utravel"
-               ></p>
-            </li>
-         </ul>
-
-         <!-- instax -->
-         <div 
-            v-if="data?.detail.instax"
-            class="_instax">
-            <img src="/img/instax.png" alt="instax">
-         </div>
-
-      </div>
-
-   </div>
+    </div>
+  </div>
 </template>
+
 
 
 
@@ -200,11 +196,6 @@ export default {
             }
          }
       }
-   }
-
-
-   &::-webkit-scrollbar {
-      width: 0;
    }
 }
 

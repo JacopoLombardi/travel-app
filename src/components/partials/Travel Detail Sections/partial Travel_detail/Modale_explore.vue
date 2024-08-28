@@ -3,7 +3,8 @@
 
 export default {
    props: {
-      data: Object
+      data: Object,
+      id: String
    },
 
    computed: {
@@ -21,7 +22,7 @@ export default {
   <!-- modale -->
   <div
     class="modal fade _modale"
-    id="exampleModal"
+    :id="id"
     tabindex="-1"
     aria-labelledby="exampleModalLabel"
     aria-hidden="true"
@@ -192,10 +193,6 @@ export default {
                text-decoration: underline;
             }
          }
-      }
-
-      &::-webkit-scrollbar {
-         width: 0;
       }
    }
 }

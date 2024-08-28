@@ -149,8 +149,9 @@ export default {
     color: white;
     text-align: center;
     width: 100%;
-    font-size: clamp(2rem, 12vw, 4.5rem);
+    font-size: clamp(2rem, 12vw, 5rem);
     font-weight: 700;
+    text-transform: uppercase;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -179,7 +180,7 @@ export default {
 
   h2 {
     color: orangered;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 22px;
     margin-bottom: 20px;
     text-transform: uppercase;

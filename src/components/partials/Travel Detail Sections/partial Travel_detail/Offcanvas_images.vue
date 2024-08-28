@@ -52,7 +52,7 @@ export default {
 
 
       <!-- destinazione -->
-      <div class="_box">
+      <div class="_box mt-5">
          <h3>Destinazione</h3>
          <ul>
             <li
@@ -148,11 +148,6 @@ export default {
             }
          }
       }
-   }
-
-
-   &::-webkit-scrollbar {
-      width: 0;
    }
 }
 

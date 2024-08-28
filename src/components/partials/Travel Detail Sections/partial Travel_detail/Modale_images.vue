@@ -124,10 +124,6 @@ export default {
             }
          }
       }
-
-      &::-webkit-scrollbar {
-         width: 0;
-      }
    }
 }
 

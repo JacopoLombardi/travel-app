@@ -1,8 +1,7 @@
 
 <script>
-import Offcanvas_explore from "./partial Travel_detail/Offcanvas_explore.vue"
-import Modale_explore from "./partial Travel_detail/Modale_explore.vue"
-
+import Offcanvas_explore from "./partial Travel_detail/Offcanvas_explore.vue";
+import Modale_explore from "./partial Travel_detail/Modale_explore.vue";
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
@@ -20,47 +19,46 @@ export default {
     return {
       selectedSlideData: null,
       slidesPerView: 2,
-      spaceBetween: 10
+      spaceBetween: 10,
+      uniqueId: Math.random().toString(36).substr(2, 9) // Genera un ID univoco per ogni istanza
     };
   },
   computed: {
-    // funzione che abbrevia la chiamata dei dati nel template
     explore() {
-      return this.data?.detail.explore;
+      return this.data?.detail?.explore;
     },
+    offcanvasId() {
+      return `offcanvas-${this.uniqueId}`; // ID dinamico per l'offcanvas
+    },
+    modalId() {
+      return `modal-${this.uniqueId}`; // ID dinamico per la modale
+    }
   },
   methods: {
-     // funzione per aprire l'offcanvas
     openOffCanvas(item) {
       this.selectedSlideData = item;
-      const offcanvasElement = document.getElementById('offcanvasBottom');
-      const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
-      bsOffcanvas.show();
+      const offcanvasElement = document.getElementById(this.offcanvasId);
+      if (offcanvasElement) {
+        const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
+        bsOffcanvas.show();
+      }
     },
-
-    // funzione per aprire la modale
     openModal(item) {
-        this.selectedSlideData = item;
-        const modalElement = document.getElementById('exampleModal');
+      this.selectedSlideData = item;
+      const modalElement = document.getElementById(this.modalId);
+      if (modalElement) {
         const bsModal = new bootstrap.Modal(modalElement);
         bsModal.show();
+      }
     },
-
     updateSlidesPerView() {
       const width = window.innerWidth;
-      if ( width < 600) {
-         this.slidesPerView = 2;
-      } else {
-         this.slidesPerView = 3;
-      }
+      this.slidesPerView = width < 600 ? 2 : 3;
       this.spaceBetween = 10;
-   },
-
-   // Funzione che gestisce il click sulla card in base alla risoluzione dello schermo
-   cardClick(item) {
+    },
+    cardClick(item) {
       this.selectedSlideData = item;
       const screenWidth = window.innerWidth;
-
       if (screenWidth < 768) {
         this.openOffCanvas(item);
       } else {
@@ -74,71 +72,72 @@ export default {
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.updateSlidesPerView);
-  },
+  }
 };
 </script>
- 
-
-
 
 <template>
-   <div class="_explore" v-if="explore">
-      <div class="_text">
-         <div class="_badge">
-            <p>Explore</p>
-         </div>
-         
-         <h2>{{ explore.title }}</h2>
-   
-         <ul>
-            <li v-for="item in explore.text" :key="item">
-            <p class="_paragraph">{{ item }}</p>
-            </li>
-         </ul>
+  <div class="_explore" v-if="explore">
+    <div class="_text">
+      <div class="_badge">
+        <p>Explore</p>
       </div>
       
-      <!-- swiper -->
-      <swiper
-         class="_swiper"
-         :slides-per-view="slidesPerView"
-         :space-between="spaceBetween"
-         :loop="true"
+      <h2>{{ explore.title }}</h2>
+  
+      <ul>
+        <li v-for="item in explore.text" :key="item">
+          <p class="_paragraph">{{ item }}</p>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- swiper -->
+    <swiper
+      class="_swiper"
+      :slides-per-view="slidesPerView"
+      :space-between="spaceBetween"
+      :loop="true"
+    >
+      <swiper-slide
+        class="_slide d-flex justify-content-center"
+        v-for="(item, index) in explore.slide_thumb"
+        :key="index"
       >
-         <swiper-slide
-            class="_slide d-flex justify-content-center"
-            v-for="(item, index) in explore.slide_thumb"
-            :key="index"
-         >
-            <div
-            class="card"
-            @click="cardClick(item)"
-            >
-            <img :src="item.img" :alt="item.title">
-            <div class="card-body">
-               <span :class="item.badge === 'Inclusa' ? 'badge_included' : 'badge_not_included'">
-                  {{ item.badge }}
-               </span>
-               <div class="card-body-title">
-                  <h5 class="card-title">{{ item.title }}</h5>
-                  <p class="card-text">{{ item.description }}</p>
-               </div>
+        <div
+          class="card"
+          @click="cardClick(item)"
+        >
+          <img :src="item.img" :alt="item.title">
+          <div class="card-body">
+            <span :class="item.badge === 'Inclusa' ? 'badge_included' : 'badge_not_included'">
+              {{ item.badge }}
+            </span>
+            <div class="card-body-title">
+              <h5 class="card-title">{{ item.title }}</h5>
+              <p class="card-text">{{ item.description }}</p>
             </div>
-            </div>
-         </swiper-slide>
-      </swiper>
-   
-      <!-- componente offcanvas -->
-      <Offcanvas_explore 
-         :data="selectedSlideData" 
-      />
-   
-      <!-- componente modale -->
-      <Modale_explore 
-         :data="selectedSlideData"
-      />
- 
-   </div>
- </template>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper>
+  
+    <!-- componente offcanvas -->
+    <Offcanvas_explore 
+      :data="selectedSlideData" 
+      :id="offcanvasId"
+    />
+  
+    <!-- componente modale -->
+    <Modale_explore 
+      :data="selectedSlideData"
+      :id="modalId"
+    />
+    
+  </div>
+</template>
+
+
  
 
 
