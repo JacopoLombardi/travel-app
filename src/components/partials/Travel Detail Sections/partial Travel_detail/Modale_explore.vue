@@ -19,7 +19,13 @@ export default {
 
 <template>
   <!-- modale -->
-  <div class="modal fade _modale" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div
+    class="modal fade _modale"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+   >
       <div class="modal-dialog modal-dialog-centered custom-modal-width">
          <div class="modal-content rounded-5">
 

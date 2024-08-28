@@ -9,6 +9,46 @@
       "img": "https://images.prismic.io/blind/Zqn_GR5LeNNTxpBk_IMG_2301-Large.webp?auto=format,compress",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700578087378.jpg?sv=2023-08-03&se=2073-11-08T14%3A48%3A08Z&sr=b&sp=rade&sig=r3rvVapK%2FHpslKEY2WklR8JCtXp8EdGssUnSm1Uhhfk%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/clubGallery/new-club/1719392897964.jpg?sv=2023-08-03&se=2074-06-14T09%3A08%3A18Z&sr=b&sp=rade&sig=LeDlnmEcFKOCtea4yrH2yhUsuPLF31QznKEQhz78A4c%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700578097464.jpg?sv=2023-08-03&se=2073-11-08T14%3A48%3A18Z&sr=b&sp=rade&sig=qnsluEYUgZlSJgL38v9PvbK2suy%2F8sUEsufZ67KakCM%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/clubGallery/new-club/1719392882154.jpg?sv=2023-08-03&se=2074-06-14T09%3A08%3A02Z&sr=b&sp=rade&sig=vXRc%2F9ZwCp%2BZIa5j3p6o7MQ0lD1QhgJTwEY6p0yi81A%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700578100047.jpg?sv=2023-08-03&se=2073-11-08T14%3A48%3A21Z&sr=b&sp=rade&sig=5H9lRGZ44eiXzUPYrE%2FtitUWIBQIU3yJWe3KlmTqfUo%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700578103042.jpg?sv=2023-08-03&se=2073-11-08T14%3A48%3A24Z&sr=b&sp=rade&sig=OUrFHeAYhRgNYixGObN7KuDRLKhjtkrxyh6T5EP6aOc%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/clubGallery/new-club/1719392891614.jpg?sv=2023-08-03&se=2074-06-14T09%3A08%3A12Z&sr=b&sp=rade&sig=3zTdkof9JWH5rCHeGnqubO%2BkHbFrpkhdF1yYvEgeNwc%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700578412809.jpg?sv=2023-08-03&se=2073-11-08T14%3A53%3A33Z&sr=b&sp=rade&sig=3aN9xPWOxggG7AzrObyP4AjvSaN%2B9XWg3QGpj8DaJpY%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/clubGallery/new-club/1719392887922.jpg?sv=2023-08-03&se=2074-06-14T09%3A08%3A08Z&sr=b&sp=rade&sig=Fv3gcnMXi46940QYWCQgEIjMu0PKE8ms7SpkNqgqc48%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1719397054288.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A35Z&sr=b&sp=rade&sig=I5%2FrYwsVtgTPgix614w1gsE3Ybh9kZ%2Flvnv9KyZQX%2Bw%3D&rsct=image%2Fjpg",
+              
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1719397055974.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A36Z&sr=b&sp=rade&sig=8qmgYKVk6aOrxpIhNKzfwhAHF5L6F5efwQIKM9JEafg%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1719397063186.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A43Z&sr=b&sp=rade&sig=60CxExi%2F31wOieoA%2FLceCjd6moM45gBy7RaMH2wVhso%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1719397074949.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A58Z&sr=b&sp=rade&sig=dBekN7XiaH9WkOEkNQ%2BJByPG%2BwjE53R%2Bymxd8Juwysk%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1719397070892.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A51Z&sr=b&sp=rade&sig=KH6cYgnIUCRFju1opUrn14nJERjqpUiBcXmPVftDwzc%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1719397074131.jpg?sv=2023-08-03&se=2074-06-14T10%3A17%3A54Z&sr=b&sp=rade&sig=PX7OAnl4IwFw%2B5fKfFF3WDfJ98nQrN9BVxAJLakUEbs%3D&rsct=image%2Fjpg"
+            ]
+          }
+        ],
         "title": "per esploratori instancabili",
         "badge": [
           "Snorkeling approved",
@@ -201,6 +241,48 @@
       "img": "https://images.prismic.io/blind/Zkr-rCol0Zci9Rja_Egitto-Cover.webp?auto=format,compress",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618980015.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A40Z&sr=b&sp=rade&sig=%2Ff0wVz8eTn6oSoYaigMF08BBv6qTtahZHor85DWcGLY%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714656238932.jpg?sv=2023-08-03&se=2074-04-20T13%3A23%3A58Z&sr=b&sp=rade&sig=E94jvOOL7mpVbLZzMjNXLKwswrkJ1DocAZrBr08hnqI%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714656233958.jpg?sv=2023-08-03&se=2074-04-20T13%3A23%3A54Z&sr=b&sp=rade&sig=dMfK4V2RBK9vLsYM8Bd8hH8v68a2j%2F2PdIbBzdRs0wY%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698922765083.jpg?sv=2023-08-03&se=2073-10-20T10%3A59%3A25Z&sr=b&sp=rade&sig=WPpBMGlpmVXV6AqBxiFaQ7l1aq%2FY0O6uDCU4JukEMt8%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714656247747.jpg?sv=2023-08-03&se=2074-04-20T13%3A24%3A09Z&sr=b&sp=rade&sig=znUmmlYlcUuLAzBevooa1TMWO9XwM%2FK9IjGbK6e08Hw%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699626232034.jpg?sv=2023-08-03&se=2073-10-28T14%3A23%3A52Z&sr=b&sp=rade&sig=Vy7X2TwnTbpYqFoO%2BAVLT%2F7kMPgd2mgE5l%2FKQASB5Qo%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698922758351.jpg?sv=2023-08-03&se=2073-10-20T10%3A59%3A18Z&sr=b&sp=rade&sig=n1IGXCpZr%2FIv%2FcQyK4lzcX%2BqvNOY62yJbphLfOyEb3Q%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714656204714.jpg?sv=2023-08-03&se=2074-04-20T13%3A23%3A25Z&sr=b&sp=rade&sig=xGo9ORjOfNAclZRO%2FnQf2S2MCNrIrXFqGan%2B%2Bc5cmXI%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714656218828.jpg?sv=2023-08-03&se=2074-04-20T13%3A23%3A41Z&sr=b&sp=rade&sig=%2BTj8SP%2B3eA9mkYNft3sQGEW7YE9uLMu3mGnoESoYiFs%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714656212953.jpg?sv=2023-08-03&se=2074-04-20T13%3A23%3A33Z&sr=b&sp=rade&sig=DUGzothaOay94n%2FQvMgrMGSX7Kt4KB9GHNvuwgIESWs%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714656255207.jpg?sv=2023-08-03&se=2074-04-20T13%3A24%3A15Z&sr=b&sp=rade&sig=kM2wlloqIDoK%2FUcTlIOXya6%2BYMmK%2Fk5Npzu5TAHyDR0%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761203023.jpg?sv=2023-08-03&se=2073-10-18T14%3A06%3A43Z&sr=b&sp=rade&sig=5MTlqnS7btRxmFlzW2weEsie8rtsIbY2%2BI122zsnt58%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761212611.jpg?sv=2023-08-03&se=2073-10-18T14%3A06%3A53Z&sr=b&sp=rade&sig=joxL3AzdFmuTnB4XZXFXjHBqX96n28YVGof46XN4ZGA%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761219537.jpg?sv=2023-08-03&se=2073-10-18T14%3A07%3A00Z&sr=b&sp=rade&sig=kgy0TBqbRcaYxvgnt7NUujoWfgifAkHdrwJ0p1ubWWI%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761233177.jpg?sv=2023-08-03&se=2073-10-18T14%3A07%3A13Z&sr=b&sp=rade&sig=RZqBg15I%2BVDxHcEYwSjBZSOdDRZi9UFtPBhKjZvhPjs%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761292273.jpg?sv=2023-08-03&se=2073-10-18T14%3A08%3A12Z&sr=b&sp=rade&sig=QZGvPelnU3wrIrDGih9JK9GB2e0T8sxOWIzHWqMkwTE%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761315057.jpg?sv=2023-08-03&se=2073-10-18T14%3A08%3A35Z&sr=b&sp=rade&sig=oCnrydOKPGi0nQrp7hSetLgni%2BLVAQo8B%2Ba%2BBa14dow%3D"
+            ]
+          }
+        ],
         "title": "per eclettici viaggiatori",
         "badge": [
           "Party & Chill",
@@ -733,6 +815,52 @@
       "img": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990955951.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A37Z&sr=b&sp=rade&sig=pcUuaR3yHW74EyfWJECKLfjnjh%2BFx8uit7b6tFcwFbo%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714398596561.jpg?sv=2023-08-03&se=2074-04-17T13%3A49%3A57Z&sr=b&sp=rade&sig=e3Y1o9ork07%2BOZsG%2F0aX0tilxnP%2FUmgc58vBCFM2vUY%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714398396724.jpg?sv=2023-08-03&se=2074-04-17T13%3A46%3A38Z&sr=b&sp=rade&sig=SrCEW1HD4KoDH9eyPkxrsGcWwCUoLTYX8kysU7d5pWI%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698933242416.jpg?sv=2023-08-03&se=2073-10-20T13%3A54%3A08Z&sr=b&sp=rade&sig=mkj40n1CBrW6i94pg0Us7Jbxo7LXwKJBOOaHA5qx4fI%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698933247382.jpg?sv=2023-08-03&se=2073-10-20T13%3A54%3A08Z&sr=b&sp=rade&sig=unvRWvtB64cL7ZM5m7PUmncUf0SRxvrrXxlm0OXT9L0%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698933258633.jpg?sv=2023-08-03&se=2073-10-20T13%3A54%3A19Z&sr=b&sp=rade&sig=WyKXg7iHG%2BxsJ1HyrJgX%2BKf%2BR7bvq3fyd3jOUrHa1CA%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714398513028.jpg?sv=2023-08-03&se=2074-04-17T13%3A48%3A33Z&sr=b&sp=rade&sig=r%2BFRZF%2BVp7kh3Ux6x%2FFGUJHU0CNOPBKAIXSyEEYV6Xk%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698933254315.jpg?sv=2023-08-03&se=2073-10-20T13%3A54%3A14Z&sr=b&sp=rade&sig=Zz4fcSDAsd%2BxX8qZjwK%2FuSOeBE5QTvZbx0fKNXozMRQ%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714398783963.jpg?sv=2023-08-03&se=2074-04-17T13%3A53%3A05Z&sr=b&sp=rade&sig=BUpp1B%2BFgS0M9h3vYdx%2BuGgsciE9y6IwFgpFLwTjsGU%3D&rsct=image%2Fjpg",
+              
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714405399482.jpg?sv=2023-08-03&se=2074-04-17T15%3A43%3A20Z&sr=b&sp=rade&sig=kGVmmTGyDP2e%2Bs811h92NOZouMl8kiyf1sS7ZMbJ%2ByU%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714405549879.jpg?sv=2023-08-03&se=2074-04-17T15%3A45%3A50Z&sr=b&sp=rade&sig=hm2hhiCa1rmCdvjedvSQzEtdxEGR2Q1hCTKL%2FzSQOs0%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/d3a3cddb-e466-4c03-8134-a3a82e787d6a/1699275359159.JPG?sv=2023-08-03&se=2073-10-24T12%3A55%3A59Z&sr=b&sp=rade&sig=9QaAtG0vkJm4yaAoBfLIr3vYOrsGd7l%2BK%2FQ8YYEsUBI%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761290159.jpeg?sv=2023-08-03&se=2073-10-18T14%3A08%3A10Z&sr=b&sp=rade&sig=ddHQJBqoF4GN8nd%2BKZfJ3tcwwxSHNvFtKY502NUzYBA%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761299335.jpeg?sv=2023-08-03&se=2073-10-18T14%3A08%3A19Z&sr=b&sp=rade&sig=VJ380ImMmqYTC1Dw04OuqSe5Ipz6BxkZkCXNkO1DqpE%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761309128.jpeg?sv=2023-08-03&se=2073-10-18T14%3A08%3A29Z&sr=b&sp=rade&sig=vCaTY5ElKvqWaQGK70rGdtn2KOWiabgmOhpgvpogrt8%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761318146.jpeg?sv=2023-08-03&se=2073-10-18T14%3A08%3A38Z&sr=b&sp=rade&sig=kqh%2FW9sSf6DcDAHr63m0UGLoU47WCS1ZMHuvyKKfkA0%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761323514.jpeg?sv=2023-08-03&se=2073-10-18T14%3A08%3A43Z&sr=b&sp=rade&sig=QKiip3Mh%2Bam%2FgvoOhVSnK9TTfLs4GkQtfsuvYRaFC%2FY%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761327893.jpeg?sv=2023-08-03&se=2073-10-18T14%3A08%3A48Z&sr=b&sp=rade&sig=wS7c7ojbYQfdcKgZMiTcAridq%2F%2B%2BoZw4EzgwsK8Xmjs%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698761337368.jpeg?sv=2023-08-03&se=2073-10-18T14%3A08%3A57Z&sr=b&sp=rade&sig=aUNmtsLCdG48F6DNemBta3E8nVRZRgZSCV0T1saEv0I%3D"
+            ]
+          }
+        ],
         "title": "per esploratori sinceri",
         "badge": [
           "Tè nel deserto",
@@ -1117,6 +1245,42 @@
       "img": "https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format,compress",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178580825.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A42Z&sr=b&sp=rade&sig=I9wwLqignetNR4bRxUtbpRR7CGiNovGjo4mIwtVRHFQ%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699521222208.jpg?sv=2023-08-03&se=2073-10-27T09%3A13%3A42Z&sr=b&sp=rade&sig=HdOfG7Su7UJdk%2FwMy%2B2hbtOLH84WZ01Z8VbAnm2HkZI%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714752539616.jpg?sv=2023-08-03&se=2074-04-21T16%3A08%3A59Z&sr=b&sp=rade&sig=KYen6Wo3UoW66%2FR73VMERsVzZumTtbpZz5SnaH1MU7M%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714752344410.jpg?sv=2023-08-03&se=2074-04-21T16%3A05%3A45Z&sr=b&sp=rade&sig=us32aX0HUGBTp%2FbOnr77rQCaKz5%2Fwq0jeQWtJPLnhB8%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714752358540.jpg?sv=2023-08-03&se=2074-04-21T16%3A05%3A59Z&sr=b&sp=rade&sig=jzHDtbuEa8Lk9r5lZYFV18IAtUcpd3KkZeP1EVlBfRk%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714752327681.jpg?sv=2023-08-03&se=2074-04-21T16%3A05%3A28Z&sr=b&sp=rade&sig=5%2BtuTeRH40QuC%2BuAISy5QXhoim%2Fe2QDfXpVEQC8Hjbs%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714752485280.jpg?sv=2023-08-03&se=2074-04-21T16%3A08%3A06Z&sr=b&sp=rade&sig=SCe78ajl%2F5BapMjW5jJSrmDufmnHERupWXDVMjyqJJU%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714752387473.jpg?sv=2023-08-03&se=2074-04-21T16%3A06%3A28Z&sr=b&sp=rade&sig=AdnZ2XWI51CBx4GaM7oGMLJcz9InIoxtEg%2BDzQHX6QA%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714989922345.jpg?sv=2023-08-03&se=2074-04-24T10%3A05%3A22Z&sr=b&sp=rade&sig=FN3WQfwwmelRi3s3hcC7VekkbND6npcR38U%2FN6bw9Uo%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714989916770.jpg?sv=2023-08-03&se=2074-04-24T10%3A05%3A18Z&sr=b&sp=rade&sig=V4x%2BzvD7Gi4k69g%2BRq89%2FHsKecbyqgz0hM0x81VVC%2Bs%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1710864020631.jpg?sv=2023-08-03&se=2074-03-07T16%3A00%3A21Z&sr=b&sp=rade&sig=1l2dgtbcY2%2FafhaSoF4tR%2BflQJ69xyOq5rGsxPTeVFU%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1710864029312.jpg?sv=2023-08-03&se=2074-03-07T16%3A00%3A30Z&sr=b&sp=rade&sig=QyB5Gqby1kw%2BnId3Cl6PeqaD5OCsQZZfHuxqKmfJPoQ%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1710864033463.jpg?sv=2023-08-03&se=2074-03-07T16%3A00%3A33Z&sr=b&sp=rade&sig=Tl6iQAxM5tBcBWOZf2mOeSMe6Sq9IUAFHFD49R0meow%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1710864040309.jpg?sv=2023-08-03&se=2074-03-07T16%3A00%3A40Z&sr=b&sp=rade&sig=x2Z5kx3CHcwRRDsYcjLzTk9U4MhmSTbjqnI7YfA5DJM%3D&rsct=image%2Fjpg"
+            ]
+          }
+        ],
         "title": "per chillatori esperti",
         "badge": [
           "Hakuna matata",
@@ -1477,6 +1641,50 @@
       "img": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003331268.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A51Z&sr=b&sp=rade&sig=37Ihp6qSmwv2WAxSpH78t2jVveLGh3mK3BBJlGBPAlo%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698935883974.jpg?sv=2023-08-03&se=2073-10-20T14%3A38%3A04Z&sr=b&sp=rade&sig=3Z%2FHRDsDYzJhxvq1OD23yI8ZKR9JwFiKqkGTfM5GcHo%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714749813394.jpg?sv=2023-08-03&se=2074-04-21T15%3A23%3A33Z&sr=b&sp=rade&sig=migkQbyrOLs7U19WaJwyhGlLBerGH7ao%2FF387UTQSTw%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714749925729.jpg?sv=2023-08-03&se=2074-04-21T15%3A25%3A30Z&sr=b&sp=rade&sig=8LAer2i0cVyjTBiL9Vso5N24BmXsx6Gs67fRzSkonsY%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698935880401.jpg?sv=2023-08-03&se=2073-10-20T14%3A38%3A00Z&sr=b&sp=rade&sig=rGoDTmhjQjpKAOq6gHjDEtmDbcrc3XSU2cnfod9%2FWPg%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714750012402.jpg?sv=2023-08-03&se=2074-04-21T15%3A26%3A53Z&sr=b&sp=rade&sig=06FCcYvvyFMEk3GbriEiTf1Ddt6RZP71aEayuXEQZDU%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714749874680.jpg?sv=2023-08-03&se=2074-04-21T15%3A24%3A34Z&sr=b&sp=rade&sig=xtguJ79AJlXMbprJgnV4me5JkbCkF8ivcOYh%2BnO8Rdw%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714750897990.jpg?sv=2023-08-03&se=2074-04-21T15%3A41%3A39Z&sr=b&sp=rade&sig=EqcHTzmwYnbh38qGFggApFHxqzInc1ImgRc%2BjORjyZo%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714750063463.jpg?sv=2023-08-03&se=2074-04-21T15%3A27%3A44Z&sr=b&sp=rade&sig=1Ir%2FEwGmq1km%2FMkN10Rny%2FkjZszSkRzVPliwKWhNV18%3D&rsct=image%2Fjpg",
+              
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714750450202.jpg?sv=2023-08-03&se=2074-04-21T15%3A34%3A10Z&sr=b&sp=rade&sig=%2Fz5tpwsEwtmtb9ZMxThi%2BV%2FzO2KklggN0uZU7mUgMHI%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714750718604.jpg?sv=2023-08-03&se=2074-04-21T15%3A38%3A39Z&sr=b&sp=rade&sig=UGk7%2FLec2Xh%2FstRbmsahmjgv7gNyq3KiUurvg5YbRdU%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/759cef04-a274-497e-a6c3-afdc8405ee8e/1699275449921.jpg?sv=2023-08-03&se=2073-10-24T12%3A57%3A30Z&sr=b&sp=rade&sig=Bmo0ILReNzn7kBFmGXpb2epnv%2BoyixzZN%2Fv5KAYPhM8%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698752395267.jpg?sv=2023-08-03&se=2073-10-18T11%3A39%3A55Z&sr=b&sp=rade&sig=QDnTk56jiHjmfK0lA9eTxPUpr6KOfRiAfBB1tnG%2Fe3g%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698752398677.jpg?sv=2023-08-03&se=2073-10-18T11%3A39%3A59Z&sr=b&sp=rade&sig=cVSzdanF2hUPpz7YX6bOjPAsxTnbrRKEHjePjRJqbRs%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698752380780.jpg?sv=2023-08-03&se=2073-10-18T11%3A39%3A41Z&sr=b&sp=rade&sig=5JnFK0ocEVJFCWadXiUbnxKvW0EP3qPr6hxyI1nvc4E%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698752401777.jpg?sv=2023-08-03&se=2073-10-18T11%3A40%3A01Z&sr=b&sp=rade&sig=Hz7LywHiWuzahSuW2v9yqoexpS2p2GRloFIIwjwuSJU%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698752385246.jpg?sv=2023-08-03&se=2073-10-18T11%3A39%3A45Z&sr=b&sp=rade&sig=x%2Bx83Rs05TQ84mwMVOET1VTwuXCKvWPx6egKiwYRcik%3D",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698752390304.jpg?sv=2023-08-03&se=2073-10-18T11%3A39%3A50Z&sr=b&sp=rade&sig=QraL6WxdvlXsx34Aga8gw6Xo1IlUj6aLi%2BT12tehqM0%3D"
+            ]
+          }
+        ],
         "title": "per sciallatori seriali",
         "badge": [
           "Hakuna matata",
@@ -1960,6 +2168,48 @@
       "img": "https://images.prismic.io/blind/ZkyWPSol0Zci9UYe_Rodi.webp?auto=format,compress",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824266341.webp?sv=2023-08-03&se=2074-05-15T15%3A37%3A47Z&sr=b&sp=rade&sig=4B86z0NxBkYFYhhrIDmVHId7HbYN%2F9SRHdyzDmFQtEQ%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704298963179.jpg?sv=2023-08-03&se=2073-12-21T16%3A22%3A43Z&sr=b&sp=rade&sig=VSec0ao969KnxtDfWJ2pnGjPIkFEEYyjl9dcNTfSIRs%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713860899224.jpg?sv=2023-08-03&se=2074-04-11T08%3A28%3A20Z&sr=b&sp=rade&sig=Ajobu15veOZUpwOeOFvD1ie9N9e0NKw%2F%2B2HtxauiNa0%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704298953627.jpg?sv=2023-08-03&se=2073-12-21T16%3A22%3A34Z&sr=b&sp=rade&sig=0n0hpZe59b3NEqe0KhI91PzCjWvT4sv2bbSoTiVoCC0%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713876263900.jpg?sv=2023-08-03&se=2074-04-11T12%3A44%3A23Z&sr=b&sp=rade&sig=nEgZqjBUZEzixzSlPOCCOXMTcKSRKsgFVzvDQR%2FM1wg%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713863807479.jpg?sv=2023-08-03&se=2074-04-11T09%3A16%3A48Z&sr=b&sp=rade&sig=QIzszamdhfJwn5Yci1iAIyhmbiHflsk5fcJFMHJadwA%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713863856504.jpg?sv=2023-08-03&se=2074-04-11T09%3A17%3A37Z&sr=b&sp=rade&sig=6ajOMyFLPVro3PzIwitvrUNDXxAa5mM60RTb58P1glk%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713863888107.jpg?sv=2023-08-03&se=2074-04-11T09%3A18%3A09Z&sr=b&sp=rade&sig=Ru%2FR4LaxqbI6pVLVeFcuZ9uEmgZM8fB8G44wJv7Q6Is%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713876452378.jpg?sv=2023-08-03&se=2074-04-11T12%3A47%3A33Z&sr=b&sp=rade&sig=IDx2CJGfgU6mOBRl9%2BljsS7lxAbcpCs2UASbZOcgcrg%3D&rsct=image%2Fjpg",
+              
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713866112481.jpg?sv=2023-08-03&se=2074-04-11T09%3A55%3A13Z&sr=b&sp=rade&sig=tI6i9Rt8DDrLPVGHS%2BpMxPEWHPhMUx7EonFI%2FndIDqA%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713866320827.jpg?sv=2023-08-03&se=2074-04-11T09%3A58%3A41Z&sr=b&sp=rade&sig=RFoEQObMcBBKNbEacZvF2DoUbfIGKkpQzQcRzxDpl5Q%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704294852776.jpg?sv=2023-08-03&se=2073-12-21T15%3A14%3A13Z&sr=b&sp=rade&sig=Kuww8qq8IzEv%2BZIKptmC0Qp%2F7s9zmF%2FvoO2dKEp4XK8%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704294863736.jpg?sv=2023-08-03&se=2073-12-21T15%3A14%3A24Z&sr=b&sp=rade&sig=spxUvWZjwd2LAyjYF1oHP%2FWzaQQP%2FGlOTdnLzlFPUGM%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704294867440.jpg?sv=2023-08-03&se=2073-12-21T15%3A14%3A28Z&sr=b&sp=rade&sig=fQoKl4h7fYjABDwDQ%2FpwzBI4pYGjL%2BU2DR2zwO95Eoc%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704294869457.jpg?sv=2023-08-03&se=2073-12-21T15%3A14%3A29Z&sr=b&sp=rade&sig=rh9gUBGtbDbgDjPl8qqmPb4xcBkfEqN5pg2kOPUeTBk%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704294871316.jpg?sv=2023-08-03&se=2073-12-21T15%3A14%3A31Z&sr=b&sp=rade&sig=tT7TUZv0WGSaKWixZBLc4ocCFPv7QBR2MldaNK6WVMI%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/f3ef5516-486c-49e0-92f9-eb843a16a84a/1717753510059.jpg?sv=2023-08-03&se=2074-05-26T09%3A45%3A10Z&sr=b&sp=rade&sig=LwmljmyIBkNTfHh%2BvH4a1l9TX7IpP%2FDjXzBxK0JkkjQ%3D&rsct=image%2Fjpg"
+            ]
+          }
+        ],
         "title": "per vacanzieri doc",
         "badge": [
           "Relax e wildlife",
@@ -2396,6 +2646,58 @@
       "img": "https://images.prismic.io/blind/Zk4JqSol0Zci9W-7_Grecia.webp?auto=format,compress",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824331859.webp?sv=2023-08-03&se=2074-05-15T15%3A38%3A52Z&sr=b&sp=rade&sig=qz%2F%2BTcYOAM2PtGz80q30MVGNsFDlCG9V0gxD7fDVo8c%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704454940043.jpg?sv=2023-08-03&se=2073-12-23T11%3A42%3A21Z&sr=b&sp=rade&sig=fJYyx%2FJKwxClpukwjNbA9ZblGKWWs3WNmTMigV1JkwE%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713857568827.jpg?sv=2023-08-03&se=2074-04-11T07%3A32%3A49Z&sr=b&sp=rade&sig=iTKeSrBWXVDBfqC8FL8e9Jd7Xt9EWD9oOyBkaER0sd8%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713857431234.jpg?sv=2023-08-03&se=2074-04-11T07%3A30%3A31Z&sr=b&sp=rade&sig=%2FprN9bC5tsPraryhjfjx9pcm%2F7Dq6b5%2B3tEnk2%2B1YIo%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704454949822.jpg?sv=2023-08-03&se=2073-12-23T11%3A42%3A29Z&sr=b&sp=rade&sig=ZrMkORdvB%2BRTFsLoVoAZTB4zf%2BgKkJLGKIkv4I%2BH4Hg%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704454948424.jpg?sv=2023-08-03&se=2073-12-23T11%3A42%3A29Z&sr=b&sp=rade&sig=D2x6C%2BeZcp0J9NV9d3HH2ykvhP9cpYwNtLYAFVv13As%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713857355774.jpg?sv=2023-08-03&se=2074-04-11T07%3A29%3A16Z&sr=b&sp=rade&sig=RxT8uAdrypIdb7h2CoQuEUh2UdQRRAF9VOIHV5q3jvM%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713857176660.jpg?sv=2023-08-03&se=2074-04-11T07%3A26%3A18Z&sr=b&sp=rade&sig=wwqgb%2FzUUJUkderHT1aFLBcpWbGjBIsRYpGqOiR1kyw%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713860388539.jpg?sv=2023-08-03&se=2074-04-11T08%3A19%3A49Z&sr=b&sp=rade&sig=WlW8ovYIxS68HGlDYNhi%2Bgl0k7Ath55FTIIux%2BsUJzo%3D&rsct=image%2Fjpg",
+              
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713860492231.jpg?sv=2023-08-03&se=2074-04-11T08%3A21%3A32Z&sr=b&sp=rade&sig=0hHvehCe8LhSIs6r5FIptv4fD2V7JwIC%2Fo2cFjYcIuE%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713860708233.jpg?sv=2023-08-03&se=2074-04-11T08%3A25%3A09Z&sr=b&sp=rade&sig=KCStdXs316XwYSBTVkw6HahX76A6Id0E6Uh%2BRXUKrLU%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451889917.jpg?sv=2023-08-03&se=2073-12-23T10%3A51%3A30Z&sr=b&sp=rade&sig=n7dwk%2FdX4TBkNgYyRpaT8EceM2%2FAeC1%2F5RFCS6dKXY0%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451904968.jpg?sv=2023-08-03&se=2073-12-23T10%3A51%3A44Z&sr=b&sp=rade&sig=Gu3ttutcWMmJR%2BjdgUsHRIOlyvlC9Gngu9GugREjTog%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451909036.jpg?sv=2023-08-03&se=2073-12-23T10%3A51%3A49Z&sr=b&sp=rade&sig=%2BO5jMYcyMSbBNCAmAFjLxB7xwKWL1viZT14Tidf9c0U%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451914182.jpg?sv=2023-08-03&se=2073-12-23T10%3A51%3A54Z&sr=b&sp=rade&sig=HrpdPBwtrybkdzZ5wgjsH3U0wbPSeC9dAvsIr6rA%2BeA%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451921131.jpg?sv=2023-08-03&se=2073-12-23T10%3A52%3A01Z&sr=b&sp=rade&sig=tUgIcDiaGg0FgFDuMj1H9tsSg9POqj%2FrjSPtlAf4wRA%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451923901.jpg?sv=2023-08-03&se=2073-12-23T10%3A52%3A04Z&sr=b&sp=rade&sig=N7euWhidGfsY4uwe%2Bf9IbbGCCh5A8mAJWJx6MECZQkk%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451927002.jpg?sv=2023-08-03&se=2073-12-23T10%3A52%3A07Z&sr=b&sp=rade&sig=DvMdbdTAtG5p14l29MMNoTNFZwx5pEKurW5Jt7DNXUg%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451929809.jpg?sv=2023-08-03&se=2073-12-23T10%3A52%3A10Z&sr=b&sp=rade&sig=dDFlltF1Q4%2FTFXWOdvcPH9w2Nflv1siSvW%2FZnnFc9KU%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451940327.jpg?sv=2023-08-03&se=2073-12-23T10%3A52%3A20Z&sr=b&sp=rade&sig=MCDjvMJNH9KADk6ZYMVS5D6UFQD3cVgUGuMXxRy1wIc%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451942773.jpg?sv=2023-08-03&se=2073-12-23T10%3A52%3A23Z&sr=b&sp=rade&sig=JxDunwe0Bb4BON7cFVLHez9RAHCEu51lL6rljyhpvEM%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1704451944443.jpg?sv=2023-08-03&se=2073-12-23T10%3A52%3A24Z&sr=b&sp=rade&sig=Nr6yyRZFWlkGG4xrqpvdr836xckt0Bs5AItvec5IFxU%3D&rsct=image%2Fjpg"
+            ]
+          }
+        ],
         "title": "per chi crede nei miti",
         "badge": [
           "Un salto in Turchia",

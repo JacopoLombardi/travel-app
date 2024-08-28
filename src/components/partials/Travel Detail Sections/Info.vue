@@ -1,19 +1,52 @@
 
 <script>
-import Accordion_info from "./partial Travel_detail/Accordion_info.vue"
+import Offcanvas_images from "./partial Travel_detail/Offcanvas_images.vue";
+import Modale_images from "./partial Travel_detail/Modale_images.vue";
+
+import Accordion_info from "./partial Travel_detail/Accordion_info.vue";
 
 export default {
   components: {
-    Accordion_info
+    Offcanvas_images,
+    Modale_images,
+    Accordion_info,
   },
   props: {
     data: Object,
   },
+  data() {
+    return {
+      selectedSlideData: [], // Inizializza come un array vuoto
+    };
+  },
+  methods: {
+  openOffCanvas(item) {
+    this.selectedSlideData = item;
+    const offcanvasElement = document.getElementById('offcanvasBottom');
+    const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
+    bsOffcanvas.show();
+  },
+  openModal(item) {
+    this.selectedSlideData = item; // Assegna le immagini selezionate
+    const modalElement = document.getElementById('exampleModal');
+    const bsModal = new bootstrap.Modal(modalElement);
+    bsModal.show(); // Mostra la modale
+  },
+  cardClick(item) {
+    this.selectedSlideData = item;
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth < 768) {
+      this.openOffCanvas(item);
+    } else {
+      this.openModal(item);
+    }
+  }
+},
   computed: {
-    // funzione che abbrevia la chiamata dei dati nel template
     detail() {
       return this.data?.detail;
-    }
+    },
   },
 };
 </script>
@@ -28,7 +61,25 @@ export default {
     <div class="_jumbotron">
       <img :src="detail.img" :alt="data.title">
       <h1>{{ data.title }}</h1>
+      <button
+        @click="cardClick(detail.travel_images)"
+        class="btn"
+      >
+        <i class="fa-regular fa-images me-1"></i> 
+        Foto del viaggio
+      </button>
     </div>
+
+
+    <!-- Componente offcanvas immagini -->
+    <Offcanvas_images
+      :data="selectedSlideData"
+    />
+
+    <!-- Componente modale immagini -->
+    <Modale_images 
+      :data="selectedSlideData"
+    />
 
 
     <!-- Info -->
@@ -104,6 +155,18 @@ export default {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  button {
+    background-color: rgb(255, 225, 211);
+    color: orangered;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px 14px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
   }
 }
 
@@ -185,6 +248,14 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
   
+  // jumbotron
+  ._jumbotron {
+      button {
+        font-size: 18px;
+    }
+  }
+
+
    /* Info */
   ._info {
     padding: 80px 5rem 70px 5rem;
@@ -231,14 +302,4 @@ export default {
   }
 }
 
-
-
-
-
-/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
-@media (min-width: 992px) {
-
-   
-
-  }
 </style>

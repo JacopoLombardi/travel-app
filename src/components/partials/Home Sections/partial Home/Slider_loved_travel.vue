@@ -136,7 +136,7 @@ $border-radius: 20px;
 
 .card {
    width: 100%;
-   height: 17.6rem;
+   height: 19.6rem;
    color: white;
    margin: 0 10px;
    border: none;
@@ -144,7 +144,7 @@ $border-radius: 20px;
 
    img {
       width: 100%;
-      height: 200px;
+      height: 230px;
       object-fit: cover;
       border-top-left-radius: $border-radius;
       border-top-right-radius: $border-radius;
