@@ -1,7 +1,8 @@
 
 <script>
+import Last_places from '../../../data/json_data/Last_places.json';
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Pagination } from 'swiper/modules'; 
 import 'swiper/swiper-bundle.css';
 
 export default {
@@ -11,13 +12,7 @@ export default {
    },
    data() {
       return {
-         places: [
-            { name: 'Maiorca', price: 629, imageUrl: 'https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress' },
-            { name: 'Kos', price: 499, imageUrl: 'https://images.prismic.io/blind/ZlSlwKWtHYXtT0yY_Kos-Cover.webp?auto=format,compress' },
-            { name: 'Ibiza', price: 709, imageUrl: 'https://images.prismic.io/blind/Zo-3PR5LeNNTxB3h_Ibiza-Cover.webp?auto=format,compress' },
-            { name: 'Rodi', price: 399, imageUrl: 'https://images.prismic.io/blind/ZlSlwKWtHYXtT0yZ_Rodi-Cover.webp?auto=format,compress' },
-            { name: 'Fuerteventura', price: 349, imageUrl: 'https://images.prismic.io/blind/ZqesVx5LeNNTxkbZ_fuerte.webp?auto=format,compress' }
-         ],
+         dataSlide: Last_places,
          currentBackground: 'https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress',
          slidesPerView: 1,
          spaceBetween: -30,
@@ -43,7 +38,14 @@ export default {
       },
 
       updateBackground(swiper) {
-         this.currentBackground = this.places[swiper.activeIndex].imageUrl;
+         this.currentBackground = this.dataSlide.slides[swiper.activeIndex].img;
+      },
+
+      saveSlideDataAndNavigate(slide) {
+         // Salva i dati della slide nel sessionStorage
+         sessionStorage.setItem('selectedSlideData', JSON.stringify(slide));
+         // Naviga alla pagina di dettaglio
+         this.$router.push({ name: 'Travel_detail' });
       }
    },
 
@@ -55,11 +57,7 @@ export default {
       window.removeEventListener('resize', this.updateSlidesPerView);
    }
 };
-
-
 </script>
-
-
 
 
 
@@ -83,26 +81,57 @@ export default {
             modules="[Pagination]" 
          >
             <swiper-slide
-              v-for="(place, index) in places"
+              v-for="(slide, index) in dataSlide.slides"
               :key="index"
             >
-               <div class="_card">
-                  <h2>{{ place.name }}</h2>
-                  <p>a Partire da {{ place.price }} &euro;</p>
-                  <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
-               </div>
+               <!-- Usa il metodo per salvare i dati e navigare -->
+               <a
+                  href="#"
+                  @click.prevent="saveSlideDataAndNavigate(slide)"
+                  class="slide-link text-white"
+               >
+                  <div class="_card">
+                     <h2>{{ slide.title }}</h2>
+                     <p>a Partire da {{ slide.price }}</p>
+                     <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
+                  </div>
+               </a>
+
             </swiper-slide>
-            
          </swiper>
       </div>
 
    </div>
+
+
+
+
+
+
+
+<b>  </b>
+
+
+
+
+<p>  </p>
+
+
+
+
+
+<p> <b>  </b> </p>      <p>  </p>
+
+
+
+
+
+
+
+
+
+
 </template>
-
-
-
-
-
 
 
 

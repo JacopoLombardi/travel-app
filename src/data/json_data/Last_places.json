@@ -1,0 +1,511 @@
+{
+   "slides": [
+     {
+       "title": "Maiorca",
+       "price": "679 €",
+       "img": "https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress",
+       "detail": {
+         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257667651.webp?sv=2023-08-03&se=2074-04-27T12%3A27%3A48Z&sr=b&sp=rade&sig=We8wk%2FfsLEZ1NfqaeriEk98vmiGIBDnBP3o7sY6u%2B8k%3D&rsct=image%2Fjpg",
+         "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704884710145.jpg?sv=2023-08-03&se=2073-12-28T11%3A05%3A11Z&sr=b&sp=rade&sig=WQJmAXSNfihMaOx0iVnZEIDHj1QAcLl7WLFfX7RVQbQ%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704884535376.jpg?sv=2023-08-03&se=2073-12-28T11%3A02%3A16Z&sr=b&sp=rade&sig=%2BH05E%2FCp8dbPWOkvUwcONSA%2BLsobP4D07aHgAstTvB4%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713875319211.jpg?sv=2023-08-03&se=2074-04-11T12%3A28%3A39Z&sr=b&sp=rade&sig=wzhPD1OUTN14RMyT4zYa8Moxyt9tlqVKP05gniuZq%2FQ%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713875337859.jpg?sv=2023-08-03&se=2074-04-11T12%3A28%3A58Z&sr=b&sp=rade&sig=PUYnFGcYkFZefggQ3SlTa%2BIsFGyARruyL5IplSBjADY%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704884698886.jpg?sv=2023-08-03&se=2073-12-28T11%3A05%3A00Z&sr=b&sp=rade&sig=t2wNDrKauTkBcX2cWdXd3RVbMiPIAG1l96T8Hkpf3Ck%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704884582135.jpg?sv=2023-08-03&se=2073-12-28T11%3A03%3A02Z&sr=b&sp=rade&sig=fbWVPXJbndQcH36YvXqKjgqDcpD%2FeWLvHPmKM8gShPc%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1704884850917.jpg?sv=2023-08-03&se=2073-12-28T11%3A07%3A31Z&sr=b&sp=rade&sig=W%2BWCOCVlMfS3QJnMjBSlqWoGMxHYuPf19KmDvMOYKsI%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713877101691.jpg?sv=2023-08-03&se=2074-04-11T12%3A58%3A22Z&sr=b&sp=rade&sig=jhuWjbMQwfFxBvGYF%2Fcy8D1Rm4wT2hfziSICAjoKB7M%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713875710287.jpg?sv=2023-08-03&se=2074-04-11T12%3A35%3A11Z&sr=b&sp=rade&sig=BPUf2sOw0FUAmHG%2BkfXyaGWu3rYjYGiwqF7ehBO%2B%2FSo%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306747557.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A27Z&sr=b&sp=rade&sig=zjrC0b262qJXzkTgFqyhag7TgzzH5GpPyF6vNVTN1Ig%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306758594.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A38Z&sr=b&sp=rade&sig=VHoCWd8WSqD64d74p8PCTwgxI16iZxv%2FtpLojGl8MvM%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306761352.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A41Z&sr=b&sp=rade&sig=sFsgg45DFmyrY6lx%2FZBpxrBZ19Si8%2FX%2BX16U1kegu9I%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306762972.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A43Z&sr=b&sp=rade&sig=TVWbDLWkOO1oF5GYbU0z4FsvKMyMGZ6vMEPnes78Orw%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306766872.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A47Z&sr=b&sp=rade&sig=9fC6%2Fw6CugUB3RXEEzMpnc5cFBQewCSZpfY28ZNBItg%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306768673.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A49Z&sr=b&sp=rade&sig=y5W7gF9BOEczyL%2FLNvAGTdX8WKkBR4uONOtssVcwens%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306775269.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A55Z&sr=b&sp=rade&sig=OiZfWR5UYJbNCZPHCy3YQ4v%2FWl%2FuCYQmbvkikTEw4lA%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306777812.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A58Z&sr=b&sp=rade&sig=%2Bl7XXWEYi%2Fmm%2FaTNYFVkGk8YJyLbh1AS12EzlPun6r8%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306779246.jpg?sv=2023-08-03&se=2074-01-25T11%3A52%3A59Z&sr=b&sp=rade&sig=c3Ux%2FXx3o9MnmfYXtgTIy14WHyq1NmZaWf6mUTUtYHM%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306787151.jpg?sv=2023-08-03&se=2074-01-25T11%3A53%3A07Z&sr=b&sp=rade&sig=TDjjjfIYOOLOK76ByUI6xiiZkihH%2BXPDMcvbUpSAJZA%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306785389.jpg?sv=2023-08-03&se=2074-01-25T11%3A53%3A05Z&sr=b&sp=rade&sig=ly1e%2Bd1VMrIA32cwC1TikCVfPEbBzs3bonc%2F5JCiRDw%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306789038.jpg?sv=2023-08-03&se=2074-01-25T11%3A53%3A09Z&sr=b&sp=rade&sig=M978C4KJT%2Fa8%2Brcb89%2B%2BJZEPcWauQ0P6jnX1R33%2FZVU%3D&rsct=image%2Fjpg",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306792508.jpg?sv=2023-08-03&se=2074-01-25T11%3A53%3A12Z&sr=b&sp=rade&sig=SeBcyNeG%2FG55FfPkT%2FZDms63HDqSlC9tzykhYRYP%2BH8%3D&rsct=image%2Fjpg"
+            ]
+          }
+        ],
+        "title": "Per chi sogna la vacanza perfetta",
+        "badge": [
+          "Paella e sangría",
+          "Tuffati nel Mediterraneo",
+          "100% Party",
+          "A prova di GEN Z"
+        ],
+        "paragraph": [
+          {
+            "text": "A <b> Palma di Maiorca </b> il sole tramonta dopo le 9 di sera e tu non vorrai più andar via dalla spiaggia, l'<b> acqua qui è cristallina! </b> Qui, oltre alla vita da mare puoi scegliere se esplorare la <b> cittadina di Maiorca di giorno o fare serata a Magaluf la notte </b>."
+          },
+          {
+            "text": "Qualsiasi sia il tuo ideale di viaggio, il Club Palma ti permetterà di provare tutto questo (e molto altro) insieme <b> ad altri viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire <b> il tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con le <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)"
+          },
+          {
+            "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-mug-saucer",
+            "text": "Esperienza inclusa: Alcudia e Formentor tour"
+          },
+          {
+            "icon": "fa-solid fa-location-dot",
+            "text": "Coach in lingua italiana"
+          },
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Pranzi e cene",
+          "Trasferimenti a/r aeroporto",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ],
+
+        "stay": {
+           "intro": "<b> HM Martinique </b> - o similare",
+           "paragraph": "Se ti dimentichi il costume da bagno, questo viaggio non sarà lo stesso. L'HM Martinique è a due passi dalla più importante spiaggia di Magaluf e, come se non bastasse, ha ben tre piscine all'aperto. In questo hotel hai la colazione inclusa: per non perdere tempo e poter esplorare l'isola in tutta tranquillità! Come sempre, qualora non vi fosse disponibilità nella struttura descritta sarà nostra responsabilità fornire un'alternativa di pari livello o superiore.",
+           "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/00709c8e-fd59-471b-964f-bc73b1c87ddb/1707306716292.jpg?sv=2023-08-03&se=2074-01-25T11%3A51%3A57Z&sr=b&sp=rade&sig=Xad6y1e%2B8K9rCxn%2FfYgHo%2B81bPNcdm7EvKwfUZgiG%2FE%3D&rsct=image%2Fjpg"
+       },
+       "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1722413792178.webp?sv=2023-08-03&se=2074-07-19T08%3A16%3A32Z&sr=b&sp=rade&sig=XjodIHNaKsxxjLofD6jUBaJCVwPszkUlwLSIqLiYu14%3D&rsct=image%2Fjpg",
+              "badge": "Inclusa",
+              "title": "Alcudia, Formentor e Boat tour",
+              "description": "Culture",
+              "detail": {
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Scopri una delle zone più speciali di Maiorca, la spiaggia di Formentor e il centro storico di Alcudia.",
+
+                  "L'esperienza inizia esplorando l'incantevole città murata di Alcudia, situata su una piccola penisola tra la baia di Pollença e quella di Alcudia, dove avrai tempo libero per visitare il mercato di prodotti artigianali e tipici dell'isola.",
+
+                  "Continuerai con un tour panoramico lungo la costa, dove potrai godere delle splendide viste delle scogliere che costeggiano tutto il litorale fino ad arrivare alla spiaggia di Formentor. ",
+
+                  "Se il tempo lo permette, potrai fare un bagno o semplicemente scoprire gli angoli di questa località per scattare foto o riposarti.",
+
+                  "Farai anche una traversata in barca fino al Porto di Pollença, dove l'autobus sarà in attesa per iniziare il ritorno."
+                ],
+                "instax": true
+              }
+            },
+            {
+              "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1712759297826_tranviasoller866.jpg?sv=2023-08-03&se=2074-05-24T12%3A25%3A57Z&sr=b&sp=rade&sig=gVP7zBeaGrAOIRwYcmgCl95rsSl1djjf3oAjVlRJeAc%3D&rsct=image%2Fjpg",
+              "badge": "68€ - 102€",
+              "title": "Tour de la isla",
+              "description": "Culture",
+              "detail": {
+                "badge": "Acquistabile in App",
+                "icon": "fa-solid fa-mobile-screen ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "68€ - 102€"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": "Culture"
+                  }
+                ],
+                "text": [
+                  "Scopri la bellezza di Maiorca con un emozionante tour di 8 ore che combina treno, tram e battello. Ecco il programma della giornata:",
+
+                  "<p> <b> Partenza dalla Cattedrale di Palma </b> </p>      <p> Inizia la tua avventura dalla storica Cattedrale di Palma, un punto di riferimento iconico nel cuore della città. </p>",
+
+                  "<p> <b> Viaggio a Sóller </b> </p>      <p> Salta a bordo di un treno panoramico che ti porterà attraverso i suggestivi paesaggi della Serra de Tramontana fino a Sóller, uno dei borghi più affascinanti della regione. </p>",
+
+                  "<p> <b> Tram Leggendario </b> </p>      <p> A Sóller, prendi il leggendario tram che ti condurrà al pittoresco porto di Sóller, un'esperienza unica che ti farà sentire come se fossi tornato indietro nel tempo. </p>",
+
+                  "<p> <b> Gita in Barca </b> </p>      <p> Se le condizioni meteorologiche lo permettono, da Porto di Sóller partirai per una gita in barca verso la spiaggia di La Calobra. Questa peculiare insenatura, circondata da imponenti montagne e il famoso Torrent de Pareis, offre uno scenario mozzafiato. </p>",
+
+                  "<p> <b> Tempo Libero a La Calobra </b> </p>      <p> A La Calobra, goditi il tempo libero per una nuotata nelle acque cristalline o per pranzare in uno dei ristoranti locali, immersi in un ambiente naturale spettacolare. </p>",
+
+                  "<p> <b> Visita al Santuario di LLuc </b> </p>      <p> Durante il viaggio di ritorno a Palma, faremo una sosta al Santuario di LLuc. Questo monumento del XVIII secolo, dichiarato monumento storico-artistico, è un luogo di grande importanza culturale e spirituale. </p>",
+
+                  "<p> <b> Itinerario Flessibile </b> </p>      <p> A seconda degli orari di treno, tram e nave, l'itinerario potrebbe essere svolto in ordine inverso, garantendo sempre un'esperienza indimenticabile. </p>",
+
+                  "<b> Unisciti a noi per questa giornata indimenticabile e scopri alcune delle gemme più nascoste di Maiorca attraverso un viaggio che combina avventura, bellezza naturale e patrimonio culturale. </b>"
+                ]
+              }
+            },
+            {
+               "img": "",
+               "badge": "",
+               "title": "",
+               "description": "",
+               "detail": {
+                 "badge": "Acquistabile in App",
+                 "icon": "fa-solid fa-mobile-screen ms-1",
+                 "tag": [
+                   {
+                     "icon": "fa-solid fa-coins me-1",
+                     "name": ""
+                   },
+                   {
+                     "icon": "fa-solid fa-tag me-1",
+                     "name": ""
+                   }
+                 ],
+                 "text": [
+                   "",
+ 
+                   "",
+ 
+                   "",
+ 
+                   ""
+                 ]
+               }
+             },
+             {
+               "img": "",
+               "badge": "",
+               "title": "",
+               "description": "",
+               "detail": {
+                 "badge": "Acquistabile in App",
+                 "icon": "fa-solid fa-mobile-screen ms-1",
+                 "tag": [
+                   {
+                     "icon": "fa-solid fa-coins me-1",
+                     "name": ""
+                   },
+                   {
+                     "icon": "fa-solid fa-tag me-1",
+                     "name": ""
+                   }
+                 ],
+                 "text": [
+                   "",
+ 
+                   "",
+ 
+                   "",
+ 
+                   ""
+                 ]
+               }
+             },
+             {
+               "img": "",
+               "badge": "",
+               "title": "",
+               "description": "",
+               "detail": {
+                 "badge": "Acquistabile in App",
+                 "icon": "fa-solid fa-mobile-screen ms-1",
+                 "tag": [
+                   {
+                     "icon": "fa-solid fa-coins me-1",
+                     "name": ""
+                   },
+                   {
+                     "icon": "fa-solid fa-tag me-1",
+                     "name": ""
+                   }
+                 ],
+                 "text": [
+                   "",
+ 
+                   "",
+ 
+                   "",
+ 
+                   ""
+                 ]
+               }
+             },
+             {
+               "img": "",
+               "badge": "",
+               "title": "",
+               "description": "",
+               "detail": {
+                 "badge": "Acquistabile in App",
+                 "icon": "fa-solid fa-mobile-screen ms-1",
+                 "tag": [
+                   {
+                     "icon": "fa-solid fa-coins me-1",
+                     "name": ""
+                   },
+                   {
+                     "icon": "fa-solid fa-tag me-1",
+                     "name": ""
+                   }
+                 ],
+                 "text": [
+                   "",
+ 
+                   "",
+ 
+                   "",
+ 
+                   ""
+                 ]
+               }
+             },
+             {
+               "img": "",
+               "badge": "",
+               "title": "",
+               "description": "",
+               "detail": {
+                 "badge": "Acquistabile in App",
+                 "icon": "fa-solid fa-mobile-screen ms-1",
+                 "tag": [
+                   {
+                     "icon": "fa-solid fa-coins me-1",
+                     "name": ""
+                   },
+                   {
+                     "icon": "fa-solid fa-tag me-1",
+                     "name": ""
+                   }
+                 ],
+                 "text": [
+                   "",
+ 
+                   "",
+ 
+                   "",
+ 
+                   ""
+                 ]
+               }
+             }
+
+
+
+
+
+
+
+
+
+
+          ]
+       }
+
+        
+
+
+
+
+
+       }
+     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     {
+      "title": "Kos",
+      "price": "499 €",
+      "img": "https://images.prismic.io/blind/ZlSlwKWtHYXtT0yY_Kos-Cover.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg"
+      }
+
+
+
+
+
+
+
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "title": "Ibiza",
+      "price": "709 €",
+      "img": "https://images.prismic.io/blind/Zo-3PR5LeNNTxB3h_Ibiza-Cover.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg"
+      }
+
+
+
+
+
+
+    },
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "title": "Rodi",
+      "price": "399 €",
+      "img": "https://images.prismic.io/blind/ZlSlwKWtHYXtT0yZ_Rodi-Cover.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg"
+      }
+
+
+
+
+
+
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "title": "Fuerteventura",
+      "price": "349 €",
+      "img": "https://images.prismic.io/blind/ZqesVx5LeNNTxkbZ_fuerte.webp?auto=format,compress",
+      "detail": {
+        "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg"
+      }
+
+
+
+
+
+
+    }
+
+
+
+
+
+   ]
+}
+   

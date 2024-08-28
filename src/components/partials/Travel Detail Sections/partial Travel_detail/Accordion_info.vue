@@ -307,7 +307,7 @@ export default {
           .icon_box {
             display: flex;
             width: 30px;
-            margin-right: 5px;
+            margin-right: 10px;
 
             i {
               text-align: center;
@@ -344,6 +344,7 @@ export default {
 
         h4 {
           font-size: 20px;
+          font-weight: 700;
           margin-bottom: 3px;
         }
       }

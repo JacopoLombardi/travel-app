@@ -96,6 +96,7 @@ export default {
       :key="index"
     >
       <div class="card">
+
         <!-- Usa il metodo per salvare i dati e navigare -->
         <a
           href="#"
@@ -103,13 +104,15 @@ export default {
           class="slide-link text-white"
         >
           <img :src="slide.img" :alt="slide.title">
+
           <!-- mobile / tablet -->
           <div class="card-body-mobile card-body d-lg-none">
             <h5>{{ slide.title }}</h5>
             <p>Da {{ slide.price }}</p>
             <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
-          <!-- desk -->
+
+          <!-- desktop -->
           <div class="card-body-desk card-body d-none d-lg-block">
             <h5>{{ slide.title }}</h5>
             <p>Da {{ slide.price }}</p>
@@ -119,12 +122,13 @@ export default {
             <p>7 notti / 8 giorni</p>
           </div>
         </a>
+
       </div>
     </swiper-slide>
   </swiper>
 </template>
 
- 
+
 
 
 <style lang="scss" scoped>
