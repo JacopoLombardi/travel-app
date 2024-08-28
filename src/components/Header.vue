@@ -48,7 +48,9 @@ export default {
 
     <!-- logo -->
     <div>
-      <img class="_logo" src="../../img/Logo.jpg" alt="logo">
+      <router-link to="/">
+        <img class="_logo" src="/img/Logo.jpg" alt="logo">
+      </router-link>
     </div>
 
     <!-- menu -->
@@ -73,29 +75,42 @@ export default {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   align-items: center;
   justify-content: space-between;
-
   z-index: 3;
   position: fixed;
   top: 0;
   left: 0;
+
+  // Modifiche quando l'utente ha scrollato
+  &.scrolled {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(134, 134, 134);
+  }
+
+  ._logo {
+    width: 60px;
+  }
+
+  .menu_hamburger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    i {
+      margin-top: 4px;
+    }
+  }
 }
 
-._header.scrolled {
-  background-color: white;
-  box-shadow: 0px 0px 20px rgb(134, 134, 134);
-}
 
-img._logo {
-  width: 60px;
-}
 
-.menu_hamburger {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
+// Media query per dispositivi con larghezza maggiore o uguale a 992px
+@media (min-width: 992px) {
+  ._header {
+    padding: 20px 100px;
 
-  i {
-    margin-top: 4px;
+    ._logo {
+      width: 60px;
+    }
   }
 }
 </style>

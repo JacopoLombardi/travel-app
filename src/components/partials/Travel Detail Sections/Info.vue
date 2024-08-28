@@ -137,12 +137,13 @@ export default {
 /* Jumbotron */
 ._jumbotron {
   position: relative;
-
+  
   img {
     object-fit: cover;
     height: 400px;
     width: 100vw;
-    filter: brightness(80%);
+    filter: brightness(75%);
+    box-shadow: inset 30px 30px #000000;
   }
 
   h1 {
@@ -200,8 +201,8 @@ export default {
   }
 
   ._text {
-    font-size: 14px;
-    line-height: 110%;
+    font-size: 13px;
+    line-height: 19px;
 
     p {
       margin-bottom: 15px;
@@ -277,7 +278,7 @@ export default {
       font-size: 15px;
 
       p {
-        line-height: 120%;
+        line-height: 21px;
       }
     }
 

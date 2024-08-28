@@ -40,7 +40,7 @@ export default {
                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
                <!-- destinazione -->
-               <div class="_box">
+               <div class="_box border-bottom pb-5">
                   <h3>Destinazione</h3>
                   <ul>
                      <li

@@ -52,7 +52,7 @@ export default {
 
 
       <!-- destinazione -->
-      <div class="_box mt-5">
+      <div class="_box mt-5 border-bottom pb-5">
          <h3>Destinazione</h3>
          <ul>
             <li
@@ -66,7 +66,7 @@ export default {
 
 
       <!-- struttura -->
-      <div class="_box mt-5">
+      <div class="_box">
          <h3>Struttura</h3>
          <ul>
             <li
@@ -122,7 +122,7 @@ export default {
 
 
    ._box {
-      margin: 40px 0 20px 0;
+      margin: 20px 1rem 20px 1rem;
       position: relative;
 
       h3 {
@@ -170,7 +170,7 @@ export default {
       }
 
       ._box {
-         margin: 70px 0 20px 0;
+         margin: 70px 1rem 20px 1rem;
 
          h3 {
          font-size: 20px;
