@@ -1,0 +1,267 @@
+
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              ""
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              "",
+
+              "",
+              
+              "",
+
+              ""
+            ]
+          }
+        ],
+        "title": "per eclettici viaggiatori",
+        "badge": [
+          "Party & Chill",
+          "Snorkeling approved",
+          "7 meraviglie del mondo check",
+          "A prova di GEN Z"
+        ],
+        "paragraph": [
+          {
+            "text": "Facci indovinare: sei qui perché hai sempre desiderato visitare <b> la culla della civiltà </b> e rimanere senza parole davanti alle antiche <b> piramidi al Cairo </b>? Sogni di <b> attraversare il deserto </b> e incontrare i beduini? O ancora vorresti ammirare la <b> barriera corallina </b> del <b> Mar Rosso </b>."
+          },
+          {
+            "text": "Con il <b> Club Sharm El-Sheikh </b> potrai vivere queste (e molte altre) esperienze insieme ad <b> altri viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire <b> il tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)."
+          },
+          {
+            "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione </b>! Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+          }
+        ],
+        "flight": {
+          "title": "Aggiungi il volo",
+          "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+        },
+        "included": [
+          {
+            "icon": "fa-regular fa-moon",
+            "text": "7 notti in hotel"
+          },
+          {
+            "icon": "fa-solid fa-utensils",
+            "text": "Colazione e cena"
+          },
+          {
+            "icon": "fa-solid fa-martini-glass-citrus",
+            "text": "Open bar dalle 18 alle 23"
+          },
+          {
+            "icon": "fa-solid fa-location-dot",
+            "text": "Esperienza inclusa: White island"
+          },
+          {
+            "icon": "fa-regular fa-circle-user",
+            "text": "Coach in lingua inglese"
+          },
+          {
+            "icon": "fa-solid fa-headset",
+            "text": "Assistenza Utravel"
+          },
+          {
+            "icon": "fa-solid fa-tablet-screen-button",
+            "text": "App dedicata"
+          },
+          {
+            "icon": "fa-solid fa-users",
+            "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+          }
+        ],
+        "notIncluded": [
+          "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+          "Pranzi",
+          "Trasferimenti a/r aeroporto (puoi aggiungerlo in fase di prenotazione)",
+          "Tassa di soggiorno",
+          "Tutto quello che non è indicato in 'Cosa è incluso'"
+        ],
+        "thingsToKnow": [
+          {
+            "title": "",
+            "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+          },
+          {
+            "title": "",
+            "text": "Per entrare in Egitto è necessario il Passaporto o Carta d'Identità, con validità residua di almeno 6 mesi, accompagnata da 2 foto tessere."
+          },
+          {
+            "title": "Visto",
+            "text": "Da richiedere all'arrivo ($25 circa)"
+          },
+          {
+            "title": "Cultura locale",
+            "text": "Dal 28 feb 2025 al 29 mar 2025 sarà periodo di Ramadan: sarà un'occasione per conoscere la cultura locale ancora più da vicino!"
+          },
+          {
+            "title": "Domande Frequenti",
+            "text": "Dai un'occhiata alle nostre FAQ."
+          }
+        ],
+        "stay": {
+          "intro": "<b>  </b> - o similare",
+          "paragraph": "“Datemi un Open Bar riservato e aperto dalle 18 alle 24 e conquisterò il mondo”, o comunque qualcosa del genere. L'Xperience Hill Top Beach è molto più di un hotel a Sharm El-Sheikh: è il nostro punto di partenza alla scoperta dell'Egitto. Non solo condividerai la struttura esclusivamente con altri Utravelers, ma potrai anche godere della spiaggia di Naama Bay quando vorrai: è a soli due passi!",
+          "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1698761189479.jpg?sv=2023-08-03&se=2073-10-18T14%3A06%3A29Z&sr=b&sp=rade&sig=Yq86KqSIf%2BVTu%2BQDNgpWguZNYNdWvR1HftklQJAs6zw%3D"
+        },
+        "explore": {
+          "title": "Esperienze consigliate",
+          "text": [
+            "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+
+            "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+          ],
+          "slide_thumb": [
+            {
+              "img": "",
+              "badge": "Inclusa",
+              "title": "",
+              "description": "",
+              "detail": {
+                "badge": "Esperienza inclusa",
+                "icon": "fa-regular fa-circle-check ms-1",
+                "tag": [
+                  {
+                    "icon": "fa-solid fa-coins me-1",
+                    "name": "Inclusa nel club"
+                  },
+                  {
+                    "icon": "fa-solid fa-tag me-1",
+                    "name": ""
+                  }
+                ],
+                "text": [
+                  "",
+
+                  "",
+
+                  "",
+
+                  "",
+
+                  "",
+
+                  ""
+                ]
+              }
+            },
+            {
+               "img": "",
+               "badge": "",
+               "title": "",
+               "description": "",
+               "detail": {
+                  "badge": "Acquistabile in App",
+                  "icon": "fa-solid fa-mobile-screen ms-1",
+                  "tag": [
+                     {
+                        "icon": "fa-solid fa-coins me-1",
+                        "name": ""
+                     },
+                     {
+                        "icon": "fa-solid fa-tag me-1",
+                        "name": ""
+                     }
+                  ],
+                  "text": [
+                     "",
+
+                     "",
+
+                     "",
+
+                     "",
+
+                     "",
+
+                     ""
+                  ]
+               }
+            }
+
+
+
+
+
+
+         ]
+      },
+      "reach_hotel": {
+         "info": [
+         {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "",
+            "description": ""
+         },
+         {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimento collettivo",
+            "description": "Se hai aggiunto il volo tramite Utravel potrai acquistare in fase di prenotazione un trasferimento collettivo andata/ritorno l'aeroporto al costo di 15€. Non dimenticare di aggiungerlo al carrello!"
+         },
+         {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimento privato",
+            "description": "Se hai acquistato un volo in autonomia potrai acquistare in fase di prenotazione un trasferimento privato andata/ritorno, non dimenticare di aggiungerlo nel carrello! Per garantire il servizio dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza."
+         },
+         {
+            "icon": "<i class=\"fa-solid fa-car fs-4\"></i>",
+            "title": "Con il taxi",
+            "description": "Al tuo arrivo o alla partenza puoi richiedere un taxi in autonomia."
+         }
+         ],
+         "map": ""
+      }
+
+   }
+
+
+
+
+
+   

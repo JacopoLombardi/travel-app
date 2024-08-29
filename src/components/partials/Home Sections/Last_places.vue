@@ -119,12 +119,15 @@ export default {
 
 
 
-
 <p> <b>  </b> </p>      <p>  </p>
 
 
 
 
+
+
+
+<!--       width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);      -->
 
 
 

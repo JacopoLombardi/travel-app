@@ -159,6 +159,7 @@ export default {
 
       h4 {
          margin-bottom: 5px;
+         width: 90%;
       }
 
       ._tag {
@@ -207,7 +208,8 @@ export default {
 
    .modal-content {
       .box_img {
-         width: 150%;
+         width: 100%;
+         min-width: 250px;
 
          ._badge {
             font-size: 14px;
@@ -221,12 +223,12 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
    .custom-modal-width {
-      max-width: 50%; 
+      max-width: 60%; 
    }
 
    .modal-content {
       .box_img {
-         width: 300%;
+         width: 100%;
          max-width: 400px;
 
          ._badge {

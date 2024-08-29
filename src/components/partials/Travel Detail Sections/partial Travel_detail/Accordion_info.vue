@@ -102,7 +102,7 @@ export default {
               :key="index"
             >
               <h4>{{ item.title }}</h4>
-              <p>{{ item.text }}</p>
+              <p v-html="item.text"></p>
             </li>
           </ul>
         </div>
@@ -242,7 +242,7 @@ export default {
 
           p {
             font-size: 13px;
-            line-height: 120%;
+            line-height: 17px;
             width: 80%;
           }
         }
@@ -266,8 +266,8 @@ export default {
 
     h4 {
       font-size: 14px;
-      margin: 0;
       font-weight: 700;
+      margin-bottom: 3px;
     }
   }
 }
