@@ -220,11 +220,11 @@ export default {
 
       ._title {
          h3 {
-            font-size: 70px;
+            font-size: 60px;
          }
 
          h4 {
-            font-size: 30px;
+            font-size: 28px;
          }
 
          p {
@@ -238,7 +238,8 @@ export default {
          overflow: hidden;
 
          img {
-            transition: all 0.2s ease-in-out;
+            border-radius: 20px 20px 0 0;
+            transition: all 0.25s ease-in-out;
          }
 
          .card-body {
@@ -251,14 +252,14 @@ export default {
                background-color: rgb(131, 158, 255);
                height: 70px;
                width: 100%;
-               bottom: -110%;
+               bottom: -100%;
                left: 0;
-               transition: all 0.2s ease-in-out;
+               transition: all 0.25s ease-in-out;
 
                p {
                   position: absolute;
-                  font-size: 16px;
-                  bottom: 20%;
+                  font-size: 14px;
+                  bottom: 15%;
                   margin-left: 14px;
                }
             }
@@ -267,11 +268,11 @@ export default {
                h5 {
                   position: relative;
                   z-index: 2;
-                  font-size: 22px;
+                  font-size: 18px;
                }
 
                p {
-                  font-size: 17px;
+                  font-size: 15px;
                }
             }
 
@@ -292,4 +293,32 @@ export default {
    }
 }
 
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
+@media (min-width: 992px) {
+   ._university {
+      .card {
+         .card-body {
+            .bg_hidden {
+               height: 78px;
+
+               p {
+                  font-size: 16px;
+               }
+            }
+
+            .card-body-title {
+               h5 {
+                  font-size: 22px;
+               }
+
+               p {
+                  font-size: 17px;
+               }
+            }
+         }
+      }
+   }
+}
 </style>

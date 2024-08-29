@@ -200,6 +200,7 @@ export default {
 
 
 
+
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
    .custom-modal-width {

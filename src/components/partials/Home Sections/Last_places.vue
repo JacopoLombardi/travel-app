@@ -71,75 +71,41 @@ export default {
 
       <div class="external_card">
          <swiper
-            class="_swiper"
-            :slides-per-view="slidesPerView"
-            :space-between="spaceBetween"
-            :loop="false"
-            :pagination="{ clickable: true }" 
-            @swiper="onSwiper"
-            @slideChange="updateBackground"
-            modules="[Pagination]" 
+           class="_swiper"
+           :slides-per-view="slidesPerView"
+           :space-between="spaceBetween"
+           :loop="false"
+           :pagination="{ clickable: true }"
+           @swiper="onSwiper"
+           @slideChange="updateBackground"
+           modules="[Pagination]"
          >
             <swiper-slide
               v-for="(slide, index) in dataSlide.slides"
               :key="index"
             >
+
                <!-- Usa il metodo per salvare i dati e navigare -->
-               <a
-                  href="#"
-                  @click.prevent="saveSlideDataAndNavigate(slide)"
-                  class="slide-link text-white"
-               >
-                  <div class="_card">
+               <div class="_card">
+                  <a href="#" @click.prevent="saveSlideDataAndNavigate(slide)" class="slide-link text-white">
                      <h2>{{ slide.title }}</h2>
                      <p>a Partire da {{ slide.price }}</p>
                      <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
-                  </div>
-               </a>
+                  </a>
+               </div>
 
             </swiper-slide>
          </swiper>
       </div>
 
    </div>
-
-
-
-
-
-
-
-<b>  </b>
-
-
-
-
-<p>  </p>
-
-
-
-
-<p> <b>  </b> </p>      <p>  </p>
-
-
-
-
-
-
-
-<!--       width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);      -->
-
-
-
-
-
-
 </template>
 
 
 
 
 <style lang="scss" scoped>
+
 .last_places {
    position: relative;
    height: 600px;
@@ -172,13 +138,17 @@ export default {
          border: 2px solid white;
          border-radius: 25px;
          text-align: center;
-         padding: 100px 0;
          
          background-color: #ffffff15;
          backdrop-filter: blur(8px);
          position: relative;
          left: 50%;
          transform: translateX(-50%);
+
+         a {
+            padding: 100px 0;
+            display: block;
+         }
 
          h2 {
             font-size: 25px;
@@ -209,32 +179,6 @@ export default {
             }
          }
       }
-
-      // /* Stile per i punti di paginazione */
-      // .swiper-pagination-bullet {
-      //    width: 12px;
-      //    height: 12px;
-      //    background: white;  // Colore dei punti di paginazione
-      //    opacity: 0.7;
-      //    margin: 0 4px;
-      // }
-
-      // .swiper-pagination-bullet-active {
-      //    background: rgb(112, 50, 219);  // Colore del punto attivo
-      //    opacity: 1;
-      // }
-
-      // .swiper-pagination {
-      //    position: absolute;
-      //    bottom: 20px;
-      //    width: 100%;
-      //    text-align: center;
-      //    z-index: 10;
-      //    display: flex;
-      //    justify-content: center;
-      //    align-items: center;
-      //    height: 20px;  // Altezza forzata
-      // }
    }
 }
 
@@ -248,8 +192,23 @@ export default {
       h4 {
          font-size: 25px;
       }
+
+      .external_card {
+         ._card {
+            width: 320px;
+            
+            a {
+               padding: 120px 0;
+            }
+
+            h2 {
+               font-size: 32px;
+            }
+         }
+      }
    }
 }
+
 
 
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
@@ -261,12 +220,5 @@ export default {
       }
    }
 }
-
-
-/* Media query per dispositivi con larghezza maggiore o uguale a 1500px */
-@media (min-width: 1500px) {
-  
-}
-
 </style>
 

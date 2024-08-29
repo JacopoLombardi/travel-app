@@ -1,25 +1,41 @@
 
+   
 <script>
-
 export default {
    props: {
       data: Object
    },
-   
    computed: {
-      destinationImages() {
+    destinationImages() {
+      // Verifica che data sia definito e sia un array
+      if (!Array.isArray(this.data)) {
+        console.error('Expected data to be an array');
+        return [];
+      }
       // Filtra e unisci solo le immagini della destinazione
-      return this.data.reduce((accumulator, item) => {
+      const filteredImages = this.data.reduce((accumulator, item) => {
         return item.url_destination ? accumulator.concat(item.url_destination) : accumulator;
       }, []);
+      
+      console.log('Filtered Destination:', filteredImages);
+      return filteredImages;
     },
+    
     structureImages() {
+      // Verifica che data sia definito e sia un array
+      if (!Array.isArray(this.data)) {
+        console.error('Expected data to be an array');
+        return [];
+      }
       // Filtra e unisci solo le immagini della struttura
-      return this.data.reduce((accumulator, item) => {
+      const filteredImages = this.data.reduce((accumulator, item) => {
         return item.url_structure ? accumulator.concat(item.url_structure) : accumulator;
       }, []);
-    },
-   }
+      
+      console.log('Filtered Structure:', filteredImages);
+      return filteredImages;
+    }
+  }
 };
 </script>
 

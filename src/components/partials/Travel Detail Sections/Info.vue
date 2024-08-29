@@ -17,37 +17,49 @@ export default {
   data() {
     return {
       selectedSlideData: [], // Inizializza come un array vuoto
+      isSmallScreen: window.innerWidth < 768, // Stato iniziale basato sulla larghezza dello schermo
     };
   },
   methods: {
-  openOffCanvas(item) {
-    this.selectedSlideData = item;
-    const offcanvasElement = document.getElementById('offcanvasBottom');
-    const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
-    bsOffcanvas.show();
-  },
-  openModal(item) {
-    this.selectedSlideData = item; // Assegna le immagini selezionate
-    const modalElement = document.getElementById('exampleModal');
-    const bsModal = new bootstrap.Modal(modalElement);
-    bsModal.show(); // Mostra la modale
-  },
-  cardClick(item) {
-    this.selectedSlideData = item;
-    const screenWidth = window.innerWidth;
-
-    if (screenWidth < 768) {
-      this.openOffCanvas(item);
-    } else {
-      this.openModal(item);
+    openOffCanvas(item) {
+      this.selectedSlideData = item;
+      const offcanvasElement = document.getElementById('offcanvasBottom');
+      if (offcanvasElement) {
+        const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
+        bsOffcanvas.show();
+      }
+    },
+    openModal(item) {
+      this.selectedSlideData = item;
+      const modalElement = document.getElementById('exampleModal');
+      if (modalElement) {
+        const bsModal = new bootstrap.Modal(modalElement);
+        bsModal.show();
+      }
+    },
+    handleResize() {
+      this.isSmallScreen = window.innerWidth < 768;
+    },
+    cardClick(item) {
+      this.selectedSlideData = item;
+      if (this.isSmallScreen) {
+        this.openOffCanvas(item);
+      } else {
+        this.openModal(item);
+      }
     }
-  }
-},
+  },
   computed: {
     detail() {
       return this.data?.detail;
     },
   },
+  mounted() {
+    window.addEventListener('resize', this.handleResize);
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.handleResize);
+  }
 };
 </script>
 
@@ -73,11 +85,13 @@ export default {
 
     <!-- Componente offcanvas immagini -->
     <Offcanvas_images
+      v-if="isSmallScreen"
       :data="selectedSlideData"
     />
 
     <!-- Componente modale immagini -->
     <Modale_images 
+      v-if="!isSmallScreen"
       :data="selectedSlideData"
     />
 
@@ -253,7 +267,7 @@ export default {
   // jumbotron
   ._jumbotron {
       button {
-        font-size: 18px;
+        font-size: 20px;
     }
   }
 

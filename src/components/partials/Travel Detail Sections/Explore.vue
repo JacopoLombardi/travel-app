@@ -2,6 +2,7 @@
 <script>
 import Offcanvas_explore from "./partial Travel_detail/Offcanvas_explore.vue";
 import Modale_explore from "./partial Travel_detail/Modale_explore.vue";
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
@@ -20,7 +21,8 @@ export default {
       selectedSlideData: null,
       slidesPerView: 2,
       spaceBetween: 10,
-      uniqueId: Math.random().toString(36).substr(2, 9) // Genera un ID univoco per ogni istanza
+      uniqueId: Math.random().toString(36).substr(2, 9), // Genera un ID univoco per ogni istanza
+      isSmallScreen: window.innerWidth < 768 // Stato iniziale basato sulla larghezza dello schermo
     };
   },
   computed: {
@@ -56,10 +58,13 @@ export default {
       this.slidesPerView = width < 600 ? 2 : 3;
       this.spaceBetween = 10;
     },
+    handleResize() {
+      this.isSmallScreen = window.innerWidth < 768;
+      this.updateSlidesPerView();
+    },
     cardClick(item) {
       this.selectedSlideData = item;
-      const screenWidth = window.innerWidth;
-      if (screenWidth < 768) {
+      if (this.isSmallScreen) {
         this.openOffCanvas(item);
       } else {
         this.openModal(item);
@@ -68,81 +73,87 @@ export default {
   },
   mounted() {
     this.updateSlidesPerView();
-    window.addEventListener('resize', this.updateSlidesPerView);
+    window.addEventListener('resize', this.handleResize);
   },
   beforeDestroy() {
-    window.removeEventListener('resize', this.updateSlidesPerView);
+    window.removeEventListener('resize', this.handleResize);
   }
 };
 </script>
 
+
+
+
+
 <template>
-  <div class="_explore" v-if="explore">
-    <div class="_text">
-      <div class="_badge">
-        <p>Explore</p>
+   <div class="_explore" v-if="explore">
+      <div class="_text">
+         <div class="_badge">
+            <p>Explore</p>
+         </div>
+         
+         <h2>{{ explore.title }}</h2>
+      
+         <ul>
+            <li v-for="item in explore.text" :key="item">
+               <p class="_paragraph">{{ item }}</p>
+            </li>
+         </ul>
       </div>
       
-      <h2>{{ explore.title }}</h2>
-  
-      <ul>
-        <li v-for="item in explore.text" :key="item">
-          <p class="_paragraph">{{ item }}</p>
-        </li>
-      </ul>
-    </div>
-    
-    <!-- swiper -->
-    <swiper
-      class="_swiper"
-      :slides-per-view="slidesPerView"
-      :space-between="spaceBetween"
-      :loop="true"
-    >
-      <swiper-slide
-        class="_slide d-flex justify-content-center"
-        v-for="(item, index) in explore.slide_thumb"
-        :key="index"
+      <!-- swiper -->
+      <swiper
+         class="_swiper"
+         :slides-per-view="slidesPerView"
+         :space-between="spaceBetween"
+         :loop="true"
       >
-        <div
-          class="card"
-          @click="cardClick(item)"
-        >
-          <img :src="item.img" :alt="item.title">
-          <div class="card-body">
-            <span :class="item.badge === 'Inclusa' ? 'badge_included' : 'badge_not_included'">
-              {{ item.badge }}
-            </span>
-            <div class="card-body-title">
-              <h5 class="card-title">{{ item.title }}</h5>
-              <p class="card-text">{{ item.description }}</p>
+         <swiper-slide
+            class="_slide d-flex justify-content-center"
+            v-for="(item, index) in explore.slide_thumb"
+            :key="index"
+         >
+            <div
+               class="card"
+               @click="cardClick(item)"
+            >
+               <img :src="item.img" :alt="item.title">
+               <div class="card-body">
+                  <span :class="item.badge === 'Inclusa' ? 'badge_included' : 'badge_not_included'">
+                     {{ item.badge }}
+                  </span>
+                  <div class="card-body-title">
+                     <h5 class="card-title">{{ item.title }}</h5>
+                     <p class="card-text">{{ item.description }}</p>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </swiper-slide>
-    </swiper>
-  
-    <!-- componente offcanvas -->
-    <Offcanvas_explore 
-      :data="selectedSlideData" 
-      :id="offcanvasId"
-    />
-  
-    <!-- componente modale -->
-    <Modale_explore 
-      :data="selectedSlideData"
-      :id="modalId"
-    />
-    
-  </div>
-</template>
-
-
+         </swiper-slide>
+      </swiper>
+      
+      <!-- componente offcanvas, visibile solo su schermi piccoli -->
+      <Offcanvas_explore 
+         v-if="isSmallScreen"
+         :data="selectedSlideData" 
+         :id="offcanvasId"
+      />
+      
+      <!-- componente modale, visibile solo su schermi grandi -->
+      <Modale_explore 
+         v-if="!isSmallScreen"
+         :data="selectedSlideData"
+         :id="modalId"
+      />
+     
+   </div>
+ </template>
  
 
 
 
+
 <style lang="scss" scoped>
+
 ._explore {
    padding: 50px 1rem;
    background-color: rgb(55, 31, 134);
@@ -182,75 +193,75 @@ export default {
       }
    }
 
-._swiper {
-   margin-top: 40px;
+   ._swiper {
+      margin-top: 40px;
 
-   .card {
-      width: 100%;
-      height: 220px;
-      max-width: 300px;
-      background-color: transparent;
-      border-radius: 20px;
-      border: none;
-      position: relative;
-      cursor: pointer;
-
-      img {
+      .card {
+         width: 100%;
+         height: 220px;
+         max-width: 300px;
+         background-color: transparent;
          border-radius: 20px;
-         width: 100%;
-         height: 100%;
-         object-fit: cover;
-         position: absolute;
-         filter: brightness(75%);
-      }
+         border: none;
+         position: relative;
+         cursor: pointer;
 
-      .card-body {
-         color: white;
-         position: absolute;
-         width: 100%;
-         height: 100%;
-         top: 0;
-         padding: 15px;
-         display: flex;
-         flex-direction: column;
-         justify-content: space-between;
-         align-items: flex-start;
-
-         .badge_included,
-         .badge_not_included {
-            font-size: 14px;
+         img {
             border-radius: 20px;
-            padding: 6px 15px;
-            position: relative;
-            align-self: flex-end;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            filter: brightness(75%);
          }
 
-         .badge_included {
-            background-color: rgb(238, 255, 240);
-            color: rgb(38, 220, 14);
-         }
+         .card-body {
+            color: white;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
 
-         .badge_not_included {
-            background-color: rgb(255, 231, 218);
-            color: rgb(255, 114, 13);
-         }
-
-         .card-body-title {
-            align-self: flex-start;
-
-            h5 {
-               font-size: 15px;
-               font-weight: 700;
-               margin: 0;
+            .badge_included,
+            .badge_not_included {
+               font-size: 14px;
+               border-radius: 20px;
+               padding: 6px 15px;
+               position: relative;
+               align-self: flex-end;
             }
 
-            p {
-               font-size: 14px;
+            .badge_included {
+               background-color: rgb(238, 255, 240);
+               color: rgb(38, 220, 14);
+            }
+
+            .badge_not_included {
+               background-color: rgb(255, 231, 218);
+               color: rgb(255, 114, 13);
+            }
+
+            .card-body-title {
+               align-self: flex-start;
+
+               h5 {
+                  font-size: 15px;
+                  font-weight: 700;
+                  margin: 0;
+               }
+
+               p {
+                  font-size: 14px;
+               }
             }
          }
       }
    }
-}
 }
 
 
@@ -317,24 +328,22 @@ export default {
       }
 
       ._swiper {
+         .card {
+            height: 400px;
+            max-width: 500px;
 
-      
-      .card {
-         height: 400px;
-         max-width: 500px;
+            .card-body {
 
-         .card-body {
+            .card-body-title {
+               h5 {
+                  font-size: 20px;
+               }
 
-         .card-body-title {
-            h5 {
-               font-size: 20px;
-            }
-
-            p {
-               font-size: 17px;
+               p {
+                  font-size: 17px;
+               }
             }
          }
-      }
       }
    }
 }
@@ -362,7 +371,6 @@ export default {
             }
          }
       }
-
 
 
       ._swiper {
