@@ -190,7 +190,7 @@ export default {
     margin: 15px 0 40px 0;
     color: rgb(100, 100, 100);
     font-size: 13px;
-    line-height: 19px;
+    line-height: 18px;
   }
 
   .img_hotel {
@@ -326,7 +326,7 @@ export default {
         }
 
         ._paragraph {
-          font-size: 18px;
+          font-size: 17px;
           line-height: 24px;
         }
       }
@@ -354,7 +354,7 @@ export default {
         font-size: 18px;
       }
       ._paragraph {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 21px;
       }
 
@@ -381,8 +381,6 @@ export default {
         }
 
         ._paragraph {
-          font-size: 19px;
-          line-height: 26px;
           max-width: 800px;
         }
       }
@@ -409,11 +407,6 @@ export default {
         font-size: 20px;
       }
 
-      ._paragraph {
-        font-size: 19px;
-        line-height: 26px;
-      }
-
       ._intro {
         font-size: 22px;
       }
@@ -426,11 +419,11 @@ export default {
 
           ._img {
             margin-left: 1rem;
+            
             img {
               width: 100%;
               height: 450px;
               border-radius: 20px;
-              
             }
 
             button {

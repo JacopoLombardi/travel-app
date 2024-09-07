@@ -74,14 +74,14 @@ export default {
 
       <!-- swiper mobile -->
       <Swiper
-         class="_swiper d-md-none"
+         class="_swiper d-md-none px-4"
          :slides-per-view="slidesPerView"
          :space-between="spaceBetween"
          :loop="false"
       >
          <SwiperSlide v-for="(slide, index) in slides" :key="index">
             <div class="card">
-               <img :src="slide.imageUrl" class="card-img-top" alt="" />
+               <img :src="slide.imageUrl" class="card-img-top" alt="">
                <div class="card-body">
                   <div class="card-body-title">
                      <h5 class="card-title">{{slide.name}}</h5>
@@ -157,7 +157,6 @@ export default {
       width: 100%;
       height: 320px;
       border-radius: 20px;
-      margin-left: 20px;
       position: relative;
       border: none;
 

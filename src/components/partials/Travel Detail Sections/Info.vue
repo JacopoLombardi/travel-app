@@ -277,7 +277,7 @@ export default {
     padding: 80px 5rem 70px 5rem;
 
     h2 {
-      font-size: 28px;
+      font-size: 25px;
     }
 
     ._badge {
@@ -315,6 +315,19 @@ export default {
       }
     }
 
+  }
+}
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
+@media (min-width: 992px) {
+  ._info {
+
+    h2 {
+      font-size: 30px;
+    }
   }
 }
 

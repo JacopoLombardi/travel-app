@@ -219,6 +219,50 @@
             }
           ]
         },
+        "reviews": [
+          {
+            "name": "LAUDILELIA ROCHA DA SILVA OLIVEIRA",
+            "date": "13 marzo 2024",
+            "starsNumber": 5,
+            "text": "Viaggio stupendo!!! é stato organizzato benissimo, tante esperienze da poter fare e sopratutto un super guru \"Manu\". Consigliatissimo"
+          },
+          {
+            "name": "Maxim Scopelliti",
+            "date": "12 marzo 2024",
+            "starsNumber": 5,
+            "text": "Una esperienza fantastica, grande Manu alla prossima :)"
+          },
+          {
+            "name": "Anonimo",
+            "date": "8 marzo 2024",
+            "starsNumber": 5,
+            "text": "Bellissimo viaggio in un luogo stupendo! Ho conosciuto un sacco di persone fantastiche che hanno reso questa vacanza indimenticabile, incluso il nostro fantastico Guru Manu sempre presente con noi!"
+          },
+          {
+            "name": "Francesca",
+            "date": "8 marzo 2024",
+            "starsNumber": 5,
+            "text": "Bei posti, bella compagnia e avere Manu come guru è sempre una garanzia ❣️"
+          },
+          {
+            "name": "Anonimo",
+            "date": "7 marzo 2024",
+            "starsNumber": 5,
+            "text": "Prima volta in Asia, la Thailandia è sorprendente: persone fantastiche e disponibili, posti wow e cibo super buono. Ho viaggiato con persone super propense al Viaggio con la V maiuscola, con la libertà di poter fare quello che si voleva, ma la certezza di trovare sempre persone di compagnia con cui fare le cose ❤️"
+          },
+          {
+            "name": "MARTINA PIA OLIVIERI",
+            "date": "8 marzo 2024",
+            "starsNumber": 5,
+            "text": "Coach Manu fantastico, è stato un viaggio indimenticabile in posti favolosi! Gruppo di persone con cui abbiamo legato da subito, Thailandia Fantastica 🥰🥰🥰🥰"
+          },
+          {
+            "name": "Lory",
+            "date": "8 marzo 2024",
+            "starsNumber": 5,
+            "text": "Viaggio stupendo! Il coach Manu ha organizzato tutto in maniera impeccabile, sempre pronto ad aiutarci e a starci vicino qualora avessimo qualche problema, ha contribuito a creare un bellissimo gruppo. Le escursioni proposte sono una più bella dell'altra. L'unica nota negativa è che dura troppo poco!!!!"
+          }
+        ],
         "reach_hotel": {
           "info": [
             {
@@ -798,6 +842,104 @@
             }
           ]
         },
+        "reviews": [
+          {
+            "name": "Jacopo Cerudelli",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Esperienza davvero fantastica incluse le esperienze e la compagnia di tutte le Persone che sono state presenti, incluso Omar che è stato davvero fantastico ad aiutarci in tutto, L'unica parte che si può migliorare è riguardo il villaggio/hotel però per il resto davvero tutto bello"
+          },
+          {
+            "name": "Marroni Greta",
+            "date": "17 gennaio 2024",
+            "starsNumber": 4,
+            "text": "Servizio ottimo ma spesso cambiavano gli orari delle attività (nell'app c'era un orario sbagliato)"
+          },
+          {
+            "name": "Giulia Orrù",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Questo è stato il mio terzo viaggio con Utravel, e che dire in ogni viaggio lascio un pezzo del mio cuore. Ho incontrato un gruppo fantastico che si è unito dal primo istante e questo ci ha permesso di vivere a pieno tutte le esperienze tra sorrisi, canzoni, risate e tanto altro. Un grazie speciale ad Omar, persona unica, professionale che ci ha seguito in ogni esperienza condividendo con noi momenti speciali che rimarranno per sempre con me."
+          },
+          {
+            "name": "Anonimo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Vacanza perfetta in tutto che porterò sempre nel mio cuore"
+          },
+          {
+            "name": "Flavio Iovannone",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Ho trovato i compagni di viaggio giusti per una vacanza ricca di attività dove non ci siamo mai annoiati"
+          },
+          {
+            "name": "Anonimo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Tantissime attività da fare, struttura ottima e coach preparato."
+          },
+          {
+            "name": "Nicola Adamo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Consiglio a tutti un esperienza così intensa e piena di emozioni. Sono arrivato a Sharm trovando degli sconosciuti provenienti da tutta l'Italia, e me ne sono andato da Sharm lasciando dei grandi amici come se li conoscessi da una vita. Per non parlare del rapporto che ho instaurato con la mia guida Omar!"
+          },
+          {
+            "name": "Kiara Antonioli",
+            "date": "17 gennaio 2024",
+            "starsNumber": 4,
+            "text": "È stata la mia prima esperienza club con Utravel, devo dire che fortunatamente mi sono ritrovata in un bel gruppo. Per quanto riguarda l'hotel, sinceramente mi aspettavo qualcosa di meglio, in quanto sia la pulizia che il cibo non erano un gran che… Infatti in molte stanze tra cui la mia, c'erano molti insettini e probabilmente anche delle cimici da letto… Il buffet del ristorante era molto scadente, capisco che era internazionale, ma il cibo sembrava essere lo stesso da giorni… per quanto riguarda le escursioni a me sono piaciute tutte !!"
+          },
+          {
+            "name": "Giovanni Rapisarda",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Esperienza bellissima, il Guru Omar persona speciale!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Esperienza bellissima, consiglio vivamente. È stato il mio primo viaggio importante fuori dall'Italia, e mi sono resa conto che se fossi partita da sola non sarei sicuramente riuscita a fare tutte le esperienze che ho fatto. Omar, in nostro guru, sempre disponibile e sempre presente."
+          },
+          {
+            "name": "Anonimo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 4,
+            "text": "Le attività proposte sono spettacolari e i paesaggi bellissimi, sempre accompagnati dal Guru e/o da una guida italiana che vi aiutano per qualsiasi problema. Purtroppo all'arrivo la nostra prenotazione non risultava completa e abbiamo avuto qualche problema con la stanza, ma utravel ha provveduto subito a trovare una soluzione per noi. Super consigliato!"
+          },
+          {
+            "name": "Andrea Stramare",
+            "date": "17 gennaio 2024",
+            "starsNumber": 4,
+            "text": "L'applicazione di utravel si è resa alquanto inutile poiché non arrivano notifiche dei messaggi, gli orari delle attività erano diversi da quelli dell'applicazione e questo ti cambia l'organizzazione delle giornate, inoltre ci sono state attività cancellate quando rimanevano presenti su App. L'hotel nel complesso bello, servirebbe forse una rivista alle stelle essendo uno dei più vecchi probabilmente vedendo i nuovi in costruzione, vero nota negativa presenza in alcuni letti di cimici da letto. Attività ti fanno scoprire le cose tipiche del deserto che non sono presenti all'interno di Sharm. Ci sono state alcune difficoltà di comunicazione (parlava principalmente inglese velocemente) col guru locale tanto che delle informazioni venivano condivise in modo parziale. Nel complesso è un club che consiglieremo sia per relax che attività"
+          },
+          {
+            "name": "Anonimo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Vacanza bellissima! Il Guru Omar simpatico ed è stato anche molto paziente con noi… Unica pecca, il resort, mi aspettavo di più"
+          },
+          {
+            "name": "Giovanni Di Nardo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Consiglio molto questa esperienza, tutte le escursioni sono davvero molto belle e anche l'organizzazione di Utravel quasi impeccabile. Omar non solo un guru ma anche un vero e proprio amico con cui condividere i momenti del viaggio. L'unica pecca è il resort."
+          },
+          {
+            "name": "Anonimo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 4,
+            "text": "Consiglio questa esperienza, le esperienze sono bellissime e fatte in gruppo sono ancora meglio. Il guru Omar bravissima persona e competente forse solo un po invasivo."
+          },
+          {
+            "name": "Anonimo",
+            "date": "17 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Organizzazione e guru top."
+          }
+        ],
         "reach_hotel": {
           "info": [
             {
@@ -1236,6 +1378,98 @@
             }
           ]
         },
+        "reviews": [
+          {
+            "name": "Antonello Pistritto",
+            "date": "31 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Stupendo. Charlie Coach davvero incredibile: preparata, gentile, entusiasta e capace a creare gruppo. Il gruppo ristretto ha permesso di vivere una vacanza in modo stupendo. Complimenti!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "15 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Posti meravigliosi e unici Unica pecca il giro Zack decisamente troppo giovane e inesperto per dare dei consigli utili.. sembrava più interessato a fare serata che il suo lavoro"
+          },
+          {
+            "name": "Alessia",
+            "date": "8 gennaio 2024",
+            "starsNumber": 4,
+            "text": "I luoghi visitati hanno di gran lunga superato le mie aspettative. L'escursione nel deserto è stata mozzafiato (peccato le 12 ore di pullman al ritorno che potevano essere spezzate da una tappa intermedia). La guida che ci ha accompagnati, Amin, molto attenta ai bisogni di tutti, preparata e simpatica. Al contrario la “guida” Zakaria che avrebbe dovuto esserci d'aiuto nei giorni a Marrakech è stata del tutto inesistente. La frase da lui più ripetuta è stata “per qualsiasi cosa scrivetemi” ma consiglio di partire con un programma ben strutturato e di non fare affidamento su di lui, tanto ai messaggi non risponde (nè prima, nè durante la vacanza). Se c'è da andare in discoteca è il primo della fila, ma se avete un'intossicazione alimentare, la febbre a 39, o vi siete persi nella Medina non contate su di lui. L'ultimo giorno, causa maltempo, è stata disdetta l'escursione in mongolfiera, ma la sua priorità è stata andare a fare aperitivo piuttosto che avvisare tempestivamente tutti i componenti del gruppo e ridargli i soldi (150€ a persona)."
+          },
+          {
+            "name": "Francesco Annoni",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Prima esperienza di una vacanza in “tour” ed è stato a dir poco fantastico,tutte le esperienze approvate e assolutamente da fare, anche se purtroppo va a discapito di Marrakech la quale si riesce a vedere solo la sera e nei giorni dei voli. Consiglio di prenotare un giorno in più per vedere la fantastica città"
+          },
+          {
+            "name": "Gabriele Colombo",
+            "date": "4 gennaio 2024",
+            "starsNumber": 5,
+            "text": "Questo Club Marrakesh è stata una esperienza fantastica tutt le esperienze sono molto belle, Zak dal primo momento si è mostrato gentile e disponibile e ci ha spiegato tutto nei dettagli e ognuno ha deciso che escursioni fare, l'esperienza con Amin durante il viaggio per il Sahara è stata una esperienza fantastica e riuscito a dare qualcosa in più al viaggio. Anche le altre sono tutte molto belle e ben organizzate! Consiglio in generale di prendere il volo la mattina così quando si arriva a Marrakesh si a modo di vedere la città altrimenti poi arrivando la sera si è già poi il giorno dopo in viaggio nel deserto! Con gruppi di 12-15 Max persone in viaggio si riesce a fare tutto meglio! Mi porto Marrakesh nel cuore e ringrazio tutte le persone gentili che ho incontrato 😃"
+          },
+          {
+            "name": "Antonella Papa",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "viaggio indimenticabile, ho conosciuto delle persone fantastiche. La guida, Amin, più di un amico, molto presente e disponibile in tutto, conosceva più canzoni italiane lui che noi hahahaha. Non dimentichiamoci di Zack, molto disponibile anche lui, è stato come un fratello. Grazie Utravel per questa magnifica esperienza, non vediamo l'ora di prenotare il prossimo viaggio."
+          },
+          {
+            "name": "Sofia",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Viaggio ricco di esperienze ed emozioni uniche. 💖 Partita sola, tornata in dieci grazie anche ad un gruppo stupendo ed affiatato. Tutto oltre le aspettative, devo dire: dal dormire in tenda sotto le stelle, al cibo locale squisito, ad una passeggiata a cavallo fuori programma tra cammelli e surfisti... 🏄‍♀️ Unica pecca l'Hammam: attenzione NON è rilassante! Questa prima esperienza con la community di Utravel è stata una piacevole scoperta ☺️ Grazie ragazzi!"
+          },
+          {
+            "name": "Marta Debole",
+            "date": "19 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Qualcosa da migliorare ma nel complesso una bella esperienza."
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "È stato tutto molto divertente, ho conosciuto un sacco di persone nuove e abbiamo fatto delle esperienze uniche ed indimenticabili. Super consigliato!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "22 novembre 2023",
+            "starsNumber": 5,
+            "text": "Terzo viaggio con UTravel, che non smette di sorprendermi per l'impeccabile organizzazione e per una formula viaggio che permette di godersi viaggi incredibili, a stretto contatto con le popolazioni e la cultura locali. I numeri 1!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "22 novembre 2023",
+            "starsNumber": 4,
+            "text": "Essendo un club mi aspettavo di essere seguita in modo diverso, più di quanto è stato fatto. Inoltre, piccoli dettagli durante le escursioni (come maggiori informazioni/curiosità non necessariamente su richiesta) avrebbero fatto la differenza."
+          },
+          {
+            "name": "Alessia Stroili",
+            "date": "24 novembre 2023",
+            "starsNumber": 5,
+            "text": "È stato il mio primo viaggio con Utravel e devo dire che mi sono trovata bene. Considerato il fatto che la formula Club è una formula molto libera dove il Guru è presente solo per dare dei consigli/indirizzare i partecipanti alle attività possibili da fare e non partecipa alle attività con te e non è da considerare come una “guida”, mi è piaciuto. Il Marocco è un posto incredibile, pieno di caos, bellezze, colori, rumori e merita una visita una volta nella vita. Rapporto qualità/prezzo ottimo. Io ho fatto: tour nel deserto, escursione a Essaouira, escursione alle cascate di Ouzud e l'Hammam. Tutte attività super consigliate. La cosa che mi è piaciuta di più è stata aver incontrato delle persone speciali con cui condividere il viaggio. Siamo stati fortunati perché eravamo solo in 9 e si è formato un bel gruppo con cui abbiamo pianificato le varie attività nei momenti liberi. Grazie per questa esperienza!!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Very exciting and beautiful place"
+          },
+          {
+            "name": "Francesco Ferrari",
+            "date": "20 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Un' esperienza fantastica che mi ha permesso di vedere luoghi e paesaggi unici, da levarti il fiato dall'emozione. Il valore aggiunto di questo viaggio sono stati i compagni di avventura con i quali ho condiviso momenti indimenticabili. Consiglio vivamente Utravel a tutti quei ragazzi che si trovano da soli e non vogliono perdere l'opportunita' di viaggiare. Un grazie alla nostra guida e al nostro guru."
+          },
+          {
+            "name": "Andrea Longhi",
+            "date": "20 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Esperienza davvero indimenticabile, che mi porterò nel cuore per sempre. Luoghi bellissimi e compagni di viaggio stupendi, lo consiglio davvero!"
+          }
+        ],
         "reach_hotel": {
           "info": [
             {
@@ -1634,6 +1868,104 @@
             }
           ]
         },
+        "reviews": [
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Club bellissimo! Mi sono divertita molto e Zanzibar avrà sempre un posto nel mio cuore. Unica pecca il resort non era pulitissimo ed era lontano dalla maggior parte delle escursioni."
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Grazie mille alla guida Vasco e all'organizzazione del viaggio. Una esperienza unica. Unico punto su cui si può migliorare è la qualità del resort."
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Viaggio bellissimo come gli altri che ho già fatto con Utravel! L'unica pecca è stato l'hotel che non era pulitissimo. Non mi è mai successo fortunatamente con Utravel quindi consiglierei comunque tutti i loro viaggi 😊 alla prossima!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Questo viaggio è stato una vera scoperta. L'organizzazione ottima non ho dovuto pensare a niente. Resort carino, escursioni mozzafiato. Un grazie in particolare a Vasco che è stato con noi tutti i giorni fornendoci consigli e portandoci in posti pazzeschi. Anche in giornate piovose trovava sempre qualcosa per farci divertire e lasciarci sempre senza parole. Oltre ad essere una persona stupenda si vede che ama ciò che fa, sempre con il sorriso. Bravi anche Nero per caso e Ultimo, persone squisite. Consiglio questo viaggio a chiunque, mi ha lasciato un bagaglio di esperienze e di amicizie non indifferente :)"
+          },
+          {
+            "name": "Aronne Murciano",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Dare 5 stelle a questo club è anche poco. Il coach Vasco è stato davvero super, sempre disponibile, sorridente, divertente, non ci ha mai fatto mancare nulla, anzi se avevamo qualche problema lo risolveva subito. È stato il mio primo viaggio con utravel, e Vasco ha posto l asticella dei coach a un livello che difficilmente si può superare. Le esperienze proposte davvero top, così come tutta l organizzazione. Sono partito da solo ma sono tornato con splendidi compagni che non vedo l ora di rivedere. Mi sto organizzando per partire di nuovo con utravel. Hakuna matata Jambone"
+          },
+          {
+            "name": "Anonimo",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Viaggio pieno di risate, organizzato e pieno di avventure"
+          },
+          {
+            "name": "Ilaria",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Zanzibar è un posto meraviglioso che ha davvero molto da offrire, ci sono tante escursioni proposte tra cui scegliere e sono tutte ben organizzate. Vasco è stato bravissimo e si è davvero impegnato molto, non solo è sempre stato disponibile di giorno ma è anche stato con noi praticamente ogni sera, sempre proponendoci cose diverse da fare e adattandosi alle nostre esigenze. Dato che nella nostra settimana eravamo un gruppo di poche persone, la sua costante compagnia, allegria e simpatia hanno davvero fatto la differenza e reso la vacanza indimenticabile. Asante sana Zanzibar e Vasco!"
+          },
+          {
+            "name": "Andrea",
+            "date": "16 febbraio 2024",
+            "starsNumber": 4,
+            "text": "il nostro Guru Vasco è stato veramente a nostra disposizione. Simpatico e molto preparato !"
+          },
+          {
+            "name": "Davide Belloni",
+            "date": "22 novembre 2023",
+            "starsNumber": 5,
+            "text": "Posti fantastici, persone stupende e buona organizzazione, mi sono trovato benissimo, avevo sempre il sorriso sulle labbra, Vasco e gli altri ragazzi che lo aiutavano sono stati meravigliosi, consigliatissimo"
+          },
+          {
+            "name": "Ilenia Zippo",
+            "date": "20 febbraio 2024",
+            "starsNumber": 5,
+            "text": "È stata un'esperienza fantastica! Il resort accogliente, escursioni ben organizzate e posti da favola, nonché la calorosità e l'allegria coinvolgente del nostro guru Vasco e di tutti gli zanzibarini! Vasco è stato sempre disponibile ad adattare le escursioni in base alle nostre esigenze e pronto a venirci incontro per ogni esigenza! Inoltre la sua simpatia ci ha accompagnato durante tutto il nostro viaggio, sempre all'insegna del motto \"Hakuna Mata\"!"
+          },
+          {
+            "name": "Sara Mazzarelli",
+            "date": "20 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Esperienza pazzesca! Vasco è un guru divertente, disponibile e incarna la vera anima zanzibarina, quella dell'hakuna matata e del pole pole, ma una menzione speciale va fatta anche a Nero per caso e Ultimo che aiutano Vasco a gestire le escursioni e i momenti insieme. Durante la settimana di club ci sono molte escursioni che, personalmente, consiglio tutte, vale davvero la pena di farle. Lasciate anche un po' di spazio in valigia per portare vestiti, quaderni, matite colorate e pennarelli perché i bimbi che incontrerete a Zanzibar saranno felicissimi di ricevere questi regali da voi e a loro volta vi regaleranno sorrisi che difficilmente dimenticherete. È un viaggio che ti lascia tante emozioni, risate (con Vasco non mancano mai!) e ricordi indimenticabili."
+          },
+          {
+            "name": "Anonimo",
+            "date": "19 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Resort discretamente pulito, piscina e ristorante ok. Spiaggia meravigliosa. Gite coordinate benissimo"
+          },
+          {
+            "name": "Anonimo",
+            "date": "20 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Consiglierei a tutti di viaggiare con Utravel, è super organizzato e le guide erano simpaticissime e bravissime 💪🏼"
+          },
+          {
+            "name": "Anonimo",
+            "date": "20 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Zanzibar ti resta nel cuore! Non solo i suoi colori, i suoi profumi, le sue spiagge, ma un grazie va alle persone che hanno reso questo viaggio indimenticabile, a partire da Vasco, il nostro Guru, Nero per Caso, Ultimo e Mohammed. Grazie per averci fatto conoscere una cultura così diversa dalla nostra. Asante Sana Zanzibar <3"
+          },
+          {
+            "name": "Anonimo",
+            "date": "20 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Ottima organizzazione ed estrema disponibilità per accontentare i desideri e ciò che volevamo fare."
+          },
+          {
+            "name": "Anonimo",
+            "date": "12 gennaio 2024",
+            "starsNumber": 4,
+            "text": "È un'esperienza che ti lascia tanto sotto tutti i punti di vista. L'escursione all'Atollo di Mnemba è da non perdere, è un piccolo paradiso. Unica pecca la posizione del resort, non pratica per gli spostamenti. In generale sono molto soddisfatta del viaggio, anche se a volte è mancata un po' di organizzazione. Il divertimento è comunque assicurato :) Un ringraziamento speciale ai nostri accompagnatori Neropercaso e Ultimo che hanno soddisfatto ogni richiesta!"
+          }
+        ],
         "reach_hotel": {
           "info": [
             {
@@ -2160,6 +2492,122 @@
             }
           ]
         },
+        "reviews": [
+          {
+            "name": "Federico",
+            "date": "15 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Esperienza molto positiva, attività come il Safari ad un prezzo super top. Piena disponibilità del coach local nella gestione delle attività proposte. Consigliato a chi è appassionato di animali e paesaggi naturalistici e si vuole fare anche qualche giorno di mare e vivere vibes di un altro continente. Sempre un'ottima soluzione viaggiare con Utravel quando parti da solo tanto poi stringi subito amicizia con gli altri utravelers."
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Mi sono trovato molto bene senza alcun tipo di problema né con il villaggio né con l'organizzazzione( escursioni,guru)"
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Nulla da aggiungere. Uno dei viaggi più belli di sempre. Assolutamente da non perdere la visita ai vari villaggi e all'orfanotrofio. Safari esperienza magnifica. Grazie anche ai miei compagni di viaggio per aver reso questa vacanza un'esperienza indimenticabile!"
+          },
+          {
+            "name": "Alessia Elli",
+            "date": "27 dicembre 2023",
+            "starsNumber": 4,
+            "text": "Un'esperienza indimenticabile che mi ha lasciato tanto e mi ha fatto innamorare dell'Africa, dei suoi colori, delle persone, della sua natura e degli animali. Nonostante il mare sia bellissimo e le spiagge bianchissime a Diani, il safari allo Tsavo East è stata la parte migliore del viaggio e il supporto di Henry, il nostro coach, è stato essenziale per organizzarlo al meglio. Con la sua disponibilità, Henry ci ha proposto tre varianti di safari diverse in modo da venire incontro alle nostre esigenze, consigliandoci l'opzione migliore per vedere gli animali. Se siete vegetariani/vegani avrete sempre delle alternative disponibili, basta dirlo a Henry, che con la sua dolcezza si è sempre preoccupato che avessi opzioni per il cibo. Il Neptune Hotels resort è molto bello come struttura e il personale molto accogliente, gentile e divertente. Bellissime anche le isole di Funzi e Wasini (occhio solo al cibo), ma una delle visite migliori rimane quella all'orfanotrofio Born Again Children's Home. Henry ci ha accompagnato a fare la spesa in un negozio di alimentari che abbiamo poi donato ai bambini. È stato un momento bellissimo che porterò sempre nel cuore."
+          },
+          {
+            "name": "Alex",
+            "date": "25 dicembre 2023",
+            "starsNumber": 4,
+            "text": "Non è un viaggio semplice ma ne vale decisamente la pena. Per arrivare in Kenya ci vuole un bel po' di tempo, così come per raggiungere i luoghi delle esperienze. Le esperienze proposte sono state molto belle, non è stato tutto perfetto perché si tratta di un paese in via di sviluppo e quindi non si possono fare paragoni con le nostre realtà. In ogni caso la compagnia degli altri ragazzi ha aiutato a rendere tutto più bello. Assieme ad Henry abbiamo modificato il programma previsto, in particolare per il safari siccome a Tahita Hills i giorni precedenti non c'erano stati tanti avvistamenti. Un safari da 2 giorni con Tsavo Est e Tahita è comunque più che sufficiente. Altre esperienze che consiglio sono Wasini per lo snorkeling nel reef, Funzi Island e una visita all' orfanotrofio di Diani che è possibile raggiungere con il tuktuk. Così facendo si hanno a disposizione 2 giorni per rilassarsi in resort. Il villaggio era discreto, il clima ottimo. Pochissime pioggie brevi non hanno influenzato lo svolgimento delle esperienze. Solita raccomandazione, prestare attenzione al cibo e alle bevande, come vengono serviti. Anche in resort. Probabilmente non è un viaggio adatto a tutti perché non è una gita fuori porta. Ma chi ha spirito di adattamento si gode questa esperienza di una settimana tornando a casa con qualcosa in più !!! Asante"
+          },
+          {
+            "name": "Anonimo",
+            "date": "21 dicembre 2023",
+            "starsNumber": 5,
+            "text": "Esperienza stupenda nel Club Kenya. Villaggio molto bello, attrezzato e che affaccia direttamente sulla spiaggia di Diani, davvero bella anche se siamo stati un po' sfortunati col meteo e il mare spesso era poco limpido e pieno di alghe. Il meteo ha influito negativamente anche su alcune escursioni che abbiamo fatto come le isole e il safari. La savana era molto verde (di solito è arida) e questo ha costretto molti animali a migrare. Ma ovviamente questo non ha nulla a che vedere col Club. Il guru, Henry, è stato il nostro punto di riferimento costante per tutta la settimana, dandoci consigli e aiutandoci in ogni cosa. Ci ha portati ogni sera in un locale diverso facendoci assaggiare la vita local e facendoci divertire molto. In conclusione, Club molto consigliato a chi vuole vedere la vera Africa. Asante sana Kenya!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "13 dicembre 2023",
+            "starsNumber": 4,
+            "text": "Questo è il mio secondo club dell anno con utravel e le aspettative erano molto alte. Il primo con un **** fantastico Tommy a sharm che è stato impeccabile in tutto. Questa volta invece per il club in kenya ho notato tanta differenza tra coach e guru. Henry essendo del posto mi aspettavo e speravo fosse più presente ma mi ha spiegato che non essendo guru non avrebbe partecipato alle escursioni con noi ma era solo lì per organizzare il tutto e basta. L'organizzazione ha peccato molto ma già prima di partire. Le informazioni delle escursioni non erano chiare e non lo sono state neppure una volta arrivati. Il gruppo era composto da pochi partecipanti e anche qui mi aspettavo più coinvolgimento da parte del coach. Il villaggio spettacolare, il safari nulla da dire (consiglio di fare il farai da 3 giorni) e anche alla fine tutte le esperienze fatte e persone nuove conosciute. Abbiamo fatto escursioni in autonomia perche il coach era poco presente e nonostante questo sono riuscite in maniere impeccabile, certo abbiamo anche avuto momenti poco piacevoli sulla spiaggia dove la sua presenza sarebbe stata molto d'aiuto potendo comunicare con i local del posto. Quindi se dovessi fare un bilancio della vacanza, il kenya ti lascia dentro qualcosa che a parole non si può spiegare, ma il cambiamento del guru con coach non mi è piaciuto e preferivo mille volte prima. Sarebbe perfetto avere un guru italiano che si affida a gente del posto come ad esempio in questo caso Pietro che ci ha accompagnato durante le visite al villaggio ed è stato impeccabile."
+          },
+          {
+            "name": "Iolanda Barletta",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Esperienza fantastica. Persone, colori, emozioni indescrivibili. Grazie a Carlotta, Giuseppe ed Henry per averci accompagnato in questo viaggio. Asante sana ❤️"
+          },
+          {
+            "name": "Mischeli Gerardi",
+            "date": "1 dicembre 2023",
+            "starsNumber": 5,
+            "text": "Un viaggio incredibile! Sono partita da sola, con un po' di dubbi e timori, ma una volta arrivata, mi sono ritrovata con un gruppo fantastico e lo rifarei altre 3000 volte. Il resort è stupendo e il personale è super carino, disponibile e sempre sorridente. Nonostante fossimo andati durante il periodo delle piogge brevi, mi sono divertita molta e abbiamo fatto un sacco di attività. Questo grazie anche al Gurù Henry che è sempre stato super presente e pronto ad accogliere ogni nostra proposta e organizzarci il tutto! Un giorno ci è saltata una attività per il mal tempo e lui si è subito attivato per farci fare qualcos'altro (super carino)!! Super consigliata come esperienza, sia per rilassarsi che per scoprire nuovi posti e una nuova cultura. Grazie mille a Henry, Carlotta e Giuseppe. Siete stati fantastici e senza di voi non sarebbe stato lo stesso!"
+          },
+          {
+            "name": "Sebastiano",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Viaggio che sicuramente mi rimarrà per tutta la vita, questo grazie a voi e in particolare a Giuseppe, Carlotta ed Henry per la loro cortesia e disponibilità ed aver reso indimenticabile questo viaggio"
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Vengono proposte molte esperienze di diverso tipo che ti permettono di sfruttare al meglio i giorni di vacanza. C'è libertà di scelta. I momenti di gruppo sono molto belli e ti permettono di conoscere meglio le persone con cui vivi questa esperienza. Se parti da solo, arrivati a destinazione non sarai mai solo."
+          },
+          {
+            "name": "Vittorio Delfiero",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "É stato un viaggio stupendo! Nonostante fossimo andati nella stagione delle piogge e non avessimo visto tantissimi animali nel Safari, ci siamo divertiti ogni giorno. Tutto merito di Enry, il ****, che ha saputo intrattenerci tutti i giorni da mattina a sera senza farci annoiare mai ma lasciandoci sempre la scelta di farci rilassare in un bellissimo resort! Consiglio a tutti un'esperienza lì, al fine di saper apprezzare le cose semplici e avere l'opportunità di conoscere una cultura completamente diversa dalla nostra."
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Esperienza fantastica, grazie anche ad Henry, Carlotta e Giuseppe, risorse fondamentali per questo viaggio."
+          },
+          {
+            "name": "Filippo Rasà",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Perché mi sono divertito molto"
+          },
+          {
+            "name": "Alberto",
+            "date": "22 novembre 2023",
+            "starsNumber": 5,
+            "text": "Sono partito per questo viaggio da solo e pieno di aspettative.. che sono state rispettate in pieno! Ho conosciuto persone incredibili e vissuto esperienze ed emozioni che pochi paesi come il Kenya possono offrire. L'alloggio è in grado di farti sentire a casa ogni volta che rientri da una giornata passata a vivere ciascuna delle indimenticabili attività, tutti sempre pronti a salutarti con un  \"jambo jambo!\" e un sorriso, e gli aperitivi a bordo piscina a fine giornata che.. beh che ve lo dico a fare! Ho letto recensioni prima di partire in cui si criticava il guru, Henry, ma non potevano essere più svianti. L'Henry che noi abbiamo conosciuto è un ragazzo d'oro, è stato come un fratello, che si è preso cura di noi, costantemente al lavoro per organizzare tutto quello che avremmo dovuto fare nei giorni successivi, ma soprattutto anche sempre lì agli aperitivi/cene a scherzare con noi, ridere insieme a noi, e ad essere parte integrante del gruppo... per capirci, siamo tornati ormai da una settimana e continua a mandarci la buonanotte sul gruppo whatsapp e a scriverci che gli manchiamo! Grazie Utravel e grazie Henry!"
+          },
+          {
+            "name": "Anonimo",
+            "date": "22 novembre 2023",
+            "starsNumber": 5,
+            "text": "È stato meglio delle aspettative"
+          },
+          {
+            "name": "Anonimo",
+            "date": "16 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Fantastica!!! Tutto eccezionale, organizzazione perfetta, peccato per qualche disguido nella notte del Safari, per il resto consiglio vivamente questa esperienza. Il guru locale Henry è sempre disponibile, divertente e ottimo… da rifare assolutamente!!"
+          },
+          {
+            "name": "Sabrina Sgaier",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "L'esperienza in se è stata molto bella, ci sono stati vari imprevisti, ma non dipendevano ne da utravel ne dal nostro guru. Abbiamo avuto più guide che sono state molto competenti e di aiuto quando ce n'è stato bisogno, esattamente come il nostro guru Henry che si è reso disponibile in ogni momento della giornata per qualsiasi dubbio, sostegno e chiarimento (cosa da non sottovalutare) . Molto probabilmente, vista l'esperienza vissuta, tornerei in Kenya per rifare gran parte del programma vissuto studiato molto bene! C'è stato lo svago, il divertimento e l'informazione! Grazie Henry, Pietro, Dominic e grazie Utravel!"
+          },
+          {
+            "name": "Samuel Yepes",
+            "date": "19 febbraio 2024",
+            "starsNumber": 5,
+            "text": "Unique experience, with an excellent and friendly guide. The travel companions are now friends for life. Unreal experience"
+          }
+        ],
         "reach_hotel": {
           "info": [
             {
@@ -2632,6 +3080,38 @@
             }
           ]
         },
+        "reviews": [
+          {
+            "name": "Anonimo",
+            "date": "27 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Bellissima esperienza con persone fantastiche"
+          },
+          {
+            "name": "Anonimo",
+            "date": "9 ottobre 2023",
+            "starsNumber": 5,
+            "text": "Awesome activities and location"
+          },
+          {
+            "name": "Sonia Barone",
+            "date": "9 ottobre 2023",
+            "starsNumber": 5,
+            "text": "Posto meraviglioso, gente meravigliosa, ottima guida"
+          },
+          {
+            "name": "Anonimo",
+            "date": "9 ottobre 2023",
+            "starsNumber": 4,
+            "text": "Esperienza incredibile, sia il viaggio in sè, sia la compagnia. 4 stelle solamente per alcune difficoltà nell'organizzazione di alcune attività, ma comprensibile visto che eravamo in molti. Sicuramente un viaggio da ripetere, avrò un grande ricordo."
+          },
+          {
+            "name": "Marta Debole",
+            "date": "19 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Qualcosa da migliorare ma nel complesso una bella esperienza."
+          }
+        ],
         "reach_hotel": {
           "info": [
             {
@@ -3071,6 +3551,38 @@
             }
           ]
         },
+        "reviews": [
+          {
+            "name": "Anonimo",
+            "date": "27 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Bellissima esperienza con persone fantastiche"
+          },
+          {
+            "name": "Anonimo",
+            "date": "9 ottobre 2023",
+            "starsNumber": 5,
+            "text": "Awesome activities and location"
+          },
+          {
+            "name": "Sonia Barone",
+            "date": "9 ottobre 2023",
+            "starsNumber": 5,
+            "text": "Posto meraviglioso, gente meravigliosa, ottima guida"
+          },
+          {
+            "name": "Anonimo",
+            "date": "9 ottobre 2023",
+            "starsNumber": 4,
+            "text": "Esperienza incredibile, sia il viaggio in sè, sia la compagnia. 4 stelle solamente per alcune difficoltà nell'organizzazione di alcune attività, ma comprensibile visto che eravamo in molti. Sicuramente un viaggio da ripetere, avrò un grande ricordo."
+          },
+          {
+            "name": "Marta Debole",
+            "date": "19 febbraio 2024",
+            "starsNumber": 4,
+            "text": "Qualcosa da migliorare ma nel complesso una bella esperienza."
+          }
+        ],
         "reach_hotel": {
           "info": [
             {

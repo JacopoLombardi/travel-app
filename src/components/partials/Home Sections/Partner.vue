@@ -54,7 +54,6 @@ export default {
 
 
 <template>
-   
    <div class="_partner">
       <h4>scopri i nostri partner</h4>
 
@@ -62,6 +61,7 @@ export default {
         :slides-per-view="slidesPerView"
         :space-between="spaceBetween"
         :loop="false"
+        class="px-4"
       >
          <SwiperSlide
             v-for="(slide, index) in slides"
@@ -87,7 +87,6 @@ export default {
       </Swiper>
 
    </div>
-  
 </template>
 
 
@@ -112,7 +111,6 @@ export default {
       width: 100%;
       height: 280px;
       border-radius: 20px;
-      margin-left: 1.5rem;
       border: none;
       position: relative;
 
@@ -172,7 +170,6 @@ export default {
          }
       }
    }
-
 }
 
 
@@ -203,7 +200,6 @@ export default {
 
    ._partner {
       .card {
-
          .card-body {
             span {
                font-size: 15px;
@@ -229,6 +225,4 @@ export default {
       }
    }
 }
-
-
 </style>

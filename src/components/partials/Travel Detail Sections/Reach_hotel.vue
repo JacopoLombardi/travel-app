@@ -115,11 +115,19 @@ export default {
 
 
 
-/* Media query per dispositivi con larghezza maggiore o uguale a 576px */
-@media (min-width: 576px) {
+/* Media query per dispositivi con larghezza maggiore o uguale a 768px */
+@media (min-width: 768px) {
 
    .reach_hotel {
-      padding: 50px 5rem;
+      padding: 80px 5rem;
+
+      ._info {
+
+         h3 {
+            margin-bottom: 50px;
+            font-size: 25px;
+         }
+      }
    }
 
 }
@@ -130,7 +138,6 @@ export default {
 @media (min-width: 992px) {
 
    .reach_hotel {
-      padding: 80px 5rem;
       display: flex;
       justify-content: space-between;
 

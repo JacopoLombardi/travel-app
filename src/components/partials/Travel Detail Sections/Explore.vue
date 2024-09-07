@@ -333,20 +333,19 @@ export default {
             max-width: 500px;
 
             .card-body {
+               .card-body-title {
+                  h5 {
+                     font-size: 20px;
+                  }
 
-            .card-body-title {
-               h5 {
-                  font-size: 20px;
-               }
-
-               p {
-                  font-size: 17px;
+                  p {
+                     font-size: 17px;
+                  }
                }
             }
          }
       }
    }
-}
 }
 
 
@@ -356,18 +355,22 @@ export default {
 @media (min-width: 992px) {
    ._explore {
       padding: 120px 5rem;
-
       display: flex;
       align-items: center;
 
       ._text {
          width: 30%;
          margin-right: 7rem;
+
+         h2 {
+            font-size: 30px;
+         }
+
          ul {
             li {
-            ._paragraph {
-               font-size: 18px;
-            }
+               ._paragraph {
+                  font-size: 17px;
+               }
             }
          }
       }
@@ -376,27 +379,28 @@ export default {
       ._swiper {
          width: 70%;
          margin-top: 0;
+
          .card {
             max-width: 500px;
 
             .card-body {
-            .badge_included,
-            .badge_not_included {
-               font-size: 17px;
-               padding: 8px 18px;
-               font-weight: 700;
-            }
-
-            .card-body-title {
-               h5 {
-               font-size: 28px;
+               .badge_included,
+               .badge_not_included {
+                  font-size: 17px;
+                  padding: 8px 18px;
+                  font-weight: 700;
                }
 
-               p {
-               font-size: 18px;
+               .card-body-title {
+                  h5 {
+                     font-size: 28px;
+                  }
+
+                  p {
+                     font-size: 18px;
+                  }
                }
             }
-         }
          }
       }
    }
