@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './pages/Home.vue';
 import Travel_detail from './pages/Travel_detail.vue';
+import Travel_type from './pages/Travel_type.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -15,13 +16,20 @@ const router = createRouter({
       name: 'Travel_detail',
       component: Travel_detail,
     },
+    {
+      path: '/travel-type',
+      name: 'Travel_type',
+      component: Travel_type,
+    }
   ],
 
+  // Torna in cima alla pagina ogni volta che si cambia pagina
   scrollBehavior() {
-    // Torna in cima alla pagina ogni volta che si cambia pagina
     return { top: 0 };
   }
   
 });
 
 export { router };
+
+
