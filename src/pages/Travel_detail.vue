@@ -1,39 +1,49 @@
 
 <script>
-import Info from "../components/partials/Travel Detail Sections/Info.vue"
-import Your_stay from "../components/partials/Travel Detail Sections/Your_stay.vue"
-import Explore from "../components/partials/Travel Detail Sections/Explore.vue"
-import Reviews from "../components/partials/Travel Detail Sections/Reviews.vue"
-import Reach_hotel from "../components/partials/Travel Detail Sections/Reach_hotel.vue"
+import Loved_travel from '../data/json_data/Loved_travel.json';
 
-import Footer from "../components/Footer.vue"
+import Info from "../components/partials/Travel Detail Sections/Info.vue";
+import YourStay from "../components/partials/Travel Detail Sections/Your_stay.vue";
+import Explore from "../components/partials/Travel Detail Sections/Explore.vue";
+import Reviews from "../components/partials/Travel Detail Sections/Reviews.vue";
+import ReachHotel from "../components/partials/Travel Detail Sections/Reach_hotel.vue";
+
+import Footer from "../components/Footer.vue";
 
 export default {
   components: {
     Info,
-    Your_stay,
+    YourStay,
     Explore,
     Reviews,
-    Reach_hotel,
+    ReachHotel,
     Footer
   },
   data() {
     return {
-      slideData: null
+      slides: Loved_travel.slides, // Dati importati dal JSON
+      currentSlide: null, // Slide selezionata
     };
   },
-  mounted() {
-    // Recupera i dati della slide selezionata dal sessionStorage
-    const slideDataString = sessionStorage.getItem('selectedSlideData');
-    if (slideDataString) {
-      try {
-        this.slideData = JSON.parse(slideDataString);
-        console.log(this.slideData);
-      } catch (error) {
-        console.error('Failed to parse slideData:', error);
-      }
-    } 
+  computed: {
+    slideTitle() {
+      // Recupera la query 'name' dalla route
+      return this.$route.query.name;
+    }
   },
+  methods: {
+    findSlide() {
+      // Trova la slide in base al titolo
+      if (Array.isArray(this.slides)) {
+        this.currentSlide = this.slides.find(slide =>
+          slide.title.toLowerCase() === this.slideTitle.toLowerCase()
+        );
+      }
+    }
+  },
+  mounted() {
+    this.findSlide();
+  }
 };
 </script>
 
@@ -42,31 +52,29 @@ export default {
 
 <template>
 
-  <Info
-    :data="slideData"
-  />
+    <Info
+      :data="currentSlide" 
+    />
 
-  <Your_stay
-    :data="slideData"
-  />
+    <YourStay
+      :data="currentSlide" 
+    />
 
-  <Explore
-    :data="slideData"
-  />
+    <Explore
+      :data="currentSlide" 
+    />
 
-  <Reviews
-    :data="slideData"
-  />
+    <Reviews
+      :data="currentSlide" 
+    />
 
-  <Reach_hotel
-    :data="slideData"
-  />
+    <ReachHotel
+      :data="currentSlide" 
+    />
 
-  <Footer/>
+    <Footer />
 
 </template>
-
-
 
 
 

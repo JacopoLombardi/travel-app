@@ -1,6 +1,6 @@
 
 <script>
-import Last_places from '../../../data/json_data/Last_places.json';
+import HomePage_data from '../../../data/json_data/HomePage_data.json';
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
@@ -12,7 +12,7 @@ export default {
    },
    data() {
       return {
-         dataSlide: Last_places,
+         dataSlide: HomePage_data,
          currentBackground: 'https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress',
          slidesPerView: 1,
          spaceBetween: -30,
@@ -38,14 +38,11 @@ export default {
       },
 
       updateBackground(swiper) {
-         this.currentBackground = this.dataSlide.slides[swiper.activeIndex].img;
+         this.currentBackground = this.dataSlide.last_places[swiper.activeIndex].image;
       },
 
-      saveSlideDataAndNavigate(slide) {
-         // Salva i dati della slide nel sessionStorage
-         sessionStorage.setItem('selectedSlideData', JSON.stringify(slide));
-         // Naviga alla pagina di dettaglio
-         this.$router.push({ name: 'Travel_detail' });
+      saveSlideNameAndNavigate(name) {
+         this.$router.push({ name: 'Travel_detail', query: { name: name } });
       }
    },
 
@@ -81,15 +78,15 @@ export default {
            modules="[Pagination]"
          >
             <swiper-slide
-              v-for="(slide, index) in dataSlide.slides"
+              v-for="(slide, index) in dataSlide.last_places"
               :key="index"
             >
 
                <!-- Usa il metodo per salvare i dati e navigare -->
                <div class="_card">
-                  <a href="#" @click.prevent="saveSlideDataAndNavigate(slide)" class="slide-link text-white">
-                     <h2>{{ slide.title }}</h2>
-                     <p>a Partire da {{ slide.price }}</p>
+                  <a href="#" @click.prevent="saveSlideNameAndNavigate(slide.name)" class="slide-link text-white">
+                     <h2>{{ slide.name }}</h2>
+                     <p>a Partire da {{ slide.price }} €</p>
                      <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
                   </a>
                </div>

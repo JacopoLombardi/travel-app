@@ -1,9 +1,9 @@
 
 <script>
-import Loved_travel from '../../../../data/json_data/Loved_travel.json';
+import HomePage_data from '../../../../data/json_data/HomePage_data.json'
 
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/swiper-bundle.css';
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import 'swiper/swiper-bundle.css'
 
 export default {
   components: {
@@ -22,7 +22,7 @@ export default {
   },
   data() {
     return {
-      dataSlide: Loved_travel,
+      dataSlide: HomePage_data,
       swiperInstance: null,
       slidesPerView: 1.5,
       spaceBetween: 15,
@@ -61,11 +61,9 @@ export default {
       this.onPrevSlide(this.prevSlide);
       this.onNextSlide(this.nextSlide);
     },
-    saveSlideDataAndNavigate(slide) {
-      // Salva i dati della slide nel sessionStorage
-      sessionStorage.setItem('selectedSlideData', JSON.stringify(slide));
-      // Naviga alla pagina di dettaglio
-      this.$router.push({ name: 'Travel_detail' });
+    saveSlideNameAndNavigate(name) {
+      // Naviga alla pagina di dettaglio con il parametro 'name'
+      this.$router.push({ name: 'Travel_detail', query: { name: name } });
     },
   },
   mounted() {
@@ -92,7 +90,7 @@ export default {
     @swiper="onSwiper"
   >
     <swiper-slide
-      v-for="(slide, index) in dataSlide.slides"
+      v-for="(slide, index) in dataSlide.Loved_travel"
       :key="index"
     >
       <div class="card">
@@ -100,14 +98,14 @@ export default {
         <!-- Usa il metodo per salvare i dati e navigare -->
         <a
           href="#"
-          @click.prevent="saveSlideDataAndNavigate(slide)"
+          @click.prevent="saveSlideNameAndNavigate(slide.name)"
           class="slide-link text-white"
         >
-          <img :src="slide.img" :alt="slide.title">
+          <img :src="slide.image" :alt="slide.name">
 
           <!-- mobile / tablet -->
           <div class="card-body-mobile card-body d-lg-none">
-            <h5>{{ slide.title }}</h5>
+            <h5>{{ slide.name }}</h5>
             <p>Da {{ slide.price }}</p>
             <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
@@ -115,7 +113,7 @@ export default {
           <!-- desktop -->
           <div class="card-body-desk card-body d-none d-lg-block">
             <h5>{{ slide.title }}</h5>
-            <p>Da {{ slide.price }}</p>
+            <p>Da {{ slide.price }} €</p>
             <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
           <div class="bg_hidden d-flex d-none d-lg-block">
