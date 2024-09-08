@@ -78,7 +78,7 @@
          "price": 349,
          "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260230374.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A31Z&sr=b&sp=rade&sig=mvEQMh5fR7Hux2FXyC%2Bwk6xwrrI3LN7npmnUzsSjyX8%3D&rsct=image%2Fjpg"
       }
-   ]
+   ],
 
 
 
@@ -87,6 +87,143 @@
 
 
    
+
+   "Various_travel": [
+      {
+         "name": "Offerte lampo",
+         "tag": "Promo",
+         "description": "Ultimi posti",
+         "image": "https://images.prismic.io/blind/Zkxm9iol0Zci9T8n_hero-1.webp?auto=format%2Ccompress&fit=max&w=750"
+      },
+      {
+         "name": "Viaggi per ogni tipo di budget",
+         "tag": "Club",
+         "description": "Tutte le destinazioni per fasce di prezzo",
+         "image": "https://images.prismic.io/blind/ZrJHnEaF0TcGIulT_Budget-lp.webp?auto=format%2Ccompress&fit=max&w=640"
+      },
+      {
+         "name": "Partenze last minute",
+         "tag": "Sconti",
+         "description": "Prenota ora",
+         "image": "https://images.prismic.io/blind/Zh0AhzjCgu4jz0Wi_last-minute.jpeg?auto=format%2Ccompress&fit=max&w=640"
+      },
+      {
+         "name": "Parti a ottobre",
+         "tag": "Partenze",
+         "description": "Scopri le destinazioni",
+         "image": "https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format%2Ccompress&fit=max&w=640"
+      },
+      {
+         "name": "Parti a novenbre",
+         "tag": "Partenze",
+         "description": "Scopri le destinazioni",
+         "image": "https://images.prismic.io/blind/ZkYxcCol0Zci9N3M_kenya.webp?auto=format%2Ccompress&rect=0%2C186%2C2500%2C2500&w=640&fit=max"
+      },
+      {
+         "name": "Natale e capodanno",
+         "tag": "Partenze",
+         "description": "Scopri tutte le destinazioni",
+         "image": "https://images.prismic.io/blind/Znwkb5bWFbowe4MD_Hero-Rio.webp?auto=format%2Ccompress&fit=max&w=640"
+      },
+      {
+         "name": "It's time for Africa",
+         "tag": "Africa",
+         "description": "Il mix perfetto tra relax e avventura!",
+         "image": "https://images.prismic.io/blind/6541099e0b105250cf53c530_kenya-gallery3.jpg?auto=format%2Ccompress&fit=max&w=640"
+      }
+   ],
+
+
+
+
+
+
+
+
+
+
+
+
+   "University":  [
+      {
+         "name": "mediterraneo",
+         "price": 489,
+         "image": "https://images.prismic.io/blind/653407bafbd9a45bcec82240_Mediterraneo.jpg?auto=format,compress"
+      },
+      {
+         "name": "yeah",
+         "price": 799,
+         "image": "https://images.prismic.io/blind/653a62790b105250cf53b4dd_card-yeah-1.png?auto=format,compress"
+      },
+      {
+         "name": "wow",
+         "price": 1169,
+         "image": "https://images.prismic.io/blind/654124c10b105250cf53c57c_HighAngleBoatonBlueOcean.jpg?auto=format,compress"
+      }
+   ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   "Partner": [
+      {
+         "name": "instax",
+         "description": "I migliori ricordi del tuo viaggio, per sempre con te.",
+         "tag": "fotografia",
+         "action": "scopri instax",
+         "image": "https://images.prismic.io/blind/ZpkUWx5LeNNTxRWV_FlatlaySNSSept2022group.jpg?auto=format%2Ccompress&fit=max&w=1920"
+      },
+      {
+         "name": "bookbeat",
+         "description": "Ascolta i racconti che preferisci durante i tuoi tragitti in bus o in aereo.",
+         "tag": "audiolibri",
+         "action": "scopri di più",
+         "image": "https://images.prismic.io/blind/Zk9KZiol0Zci9ZLk_bb_nextstart_it.webp?auto=format%2Ccompress&fit=max&w=1920"
+      },
+      {
+         "name": "scalapay",
+         "description": "Paga in 3 rate il tuo viaggio",
+         "tag": "Pagamenti",
+         "action": "scopri di più",
+         "image": "https://images.prismic.io/blind/654104610b105250cf53c521_Hero.png?auto=format%2Ccompress&fit=max&w=1920"
+      },
+      {
+         "name": "creative harbour",
+         "description": "Lavora in giro per il mondo!",
+         "tag": "Remote working",
+         "action": "scopri di più",
+         "image": "https://images.prismic.io/blind/65a8f1bc7a5e8b1120d5a52d_CreativeHarbour.jpg?auto=format%2Ccompress&fit=max&w=1920"
+      },
+      {
+         "name": "kappa FuturFestival",
+         "description": "The Future is in Torino!",
+         "tag": "eventi",
+         "action": "scopri di più",
+         "image": "https://images.prismic.io/blind/659d17b9531ac2845a273d24_WideKappa2000x842.jpeg?auto=format%2Ccompress&fit=max&w=2048"
+      },
+      {
+         "name": "tutti i partner",
+         "description": "Insieme ai nostri partner, ci impegniamo ogni giorno per creare esperienze di viaggio indimenticabili.",
+         "tag": "partner",
+         "action": "dai un'occhiata",
+         "image": "https://images.prismic.io/blind/6538d5660b105250cf53a45f_WideScalapay16_9.jpg?auto=format%2Ccompress&fit=max&w=1920"
+      }
+   ]
+
+
+
+
+
 
 
 

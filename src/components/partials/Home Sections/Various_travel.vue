@@ -1,5 +1,7 @@
 
 <script>
+import HomePage_data from '../../../data/json_data/HomePage_data.json';
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
@@ -10,52 +12,9 @@ export default {
   },
   data() {
     return {
-      slides: [
-        {
-          name: 'Offerte lampo',
-          tag: 'Promo',
-          description: 'Ultimi posti',
-          imageUrl: 'https://images.prismic.io/blind/Zkxm9iol0Zci9T8n_hero-1.webp?auto=format%2Ccompress&fit=max&w=750',
-        },
-        {
-          name: 'Viaggi per ogni tipo di budget',
-          tag: 'Club',
-          description: 'Tutte le destinazioni per fasce di prezzo',
-          imageUrl: 'https://images.prismic.io/blind/ZrJHnEaF0TcGIulT_Budget-lp.webp?auto=format%2Ccompress&fit=max&w=640',
-        },
-        {
-          name: 'Partenze last minute',
-          tag: 'Sconti',
-          description: 'Prenota ora',
-          imageUrl: 'https://images.prismic.io/blind/Zh0AhzjCgu4jz0Wi_last-minute.jpeg?auto=format%2Ccompress&fit=max&w=640',
-        },
-        {
-          name: 'Parti a settembre',
-          tag: 'Partenze',
-          description: 'Scopri le destinazioni',
-          imageUrl: 'https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format%2Ccompress&fit=max&w=640',
-        },
-        {
-          name: 'Parti a ottobre',
-          tag: 'Partenze',
-          description: 'Scopri le destinazioni',
-          imageUrl: 'https://images.prismic.io/blind/ZkYxcCol0Zci9N3M_kenya.webp?auto=format%2Ccompress&rect=0%2C186%2C2500%2C2500&w=640&fit=max',
-        },
-        {
-          name: 'Natale e capodanno',
-          tag: 'Partenze',
-          description: 'Scopri tutte le destinazioni',
-          imageUrl: 'https://images.prismic.io/blind/Znwkb5bWFbowe4MD_Hero-Rio.webp?auto=format%2Ccompress&fit=max&w=640',
-        },
-        {
-          name: 'It\'s time for Africa',
-          tag: 'Africa',
-          description: 'Il mix perfetto tra relax e avventura!',
-          imageUrl: 'https://images.prismic.io/blind/6541099e0b105250cf53c530_kenya-gallery3.jpg?auto=format%2Ccompress&fit=max&w=640',
-        },
-      ],
+      dataSlide: HomePage_data.Various_travel,
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 20
     };
   },
   methods: {
@@ -95,11 +54,11 @@ export default {
       :loop="false"
     >
       <SwiperSlide
-        v-for="(slide, index) in slides"
+        v-for="(slide, index) in dataSlide"
         :key="index"
       >
         <div class="card">
-          <img :src="slide.imageUrl" class="card-img-top" alt="">
+          <img :src="slide.image" class="card-img-top" alt="">
           <div class="card-body">
             <span>{{ slide.tag }}</span>
             <div class="card-body-title">
@@ -118,10 +77,10 @@ export default {
     <div class="row d-md-flex justify-content-center d-none">
       <div
         class="card p-0"
-        v-for="(slide, index) in slides"
+        v-for="(slide, index) in dataSlide"
         :key="index"
       >
-        <img :src="slide.imageUrl" class="card-img-top" alt="" />
+        <img :src="slide.image" class="card-img-top" alt="" />
         <div class="card-body">
           <span>{{ slide.tag }}</span>
           <div class="card-body-title">

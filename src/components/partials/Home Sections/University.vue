@@ -1,8 +1,9 @@
 
 <script>
+import HomePage_data from '../../../data/json_data/HomePage_data.json';
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
-
 
 export default {
    components: {
@@ -11,25 +12,9 @@ export default {
   },
   data(){
     return{
-      slides: [
-        {
-          name: 'mediterraneo',
-          price: '489',
-          imageUrl: 'https://images.prismic.io/blind/653407bafbd9a45bcec82240_Mediterraneo.jpg?auto=format,compress',
-        },
-        {
-          name: 'yeah',
-          price: '799',
-          imageUrl: 'https://images.prismic.io/blind/653a62790b105250cf53b4dd_card-yeah-1.png?auto=format,compress',
-        },
-        {
-          name: 'wow',
-          price: '1169',
-          imageUrl: 'https://images.prismic.io/blind/654124c10b105250cf53c57c_HighAngleBoatonBlueOcean.jpg?auto=format,compress',
-        }
-      ],
+      dataSlide: HomePage_data.University,
       slidesPerView: 1.3,
-      spaceBetween: 20,
+      spaceBetween: 20
     };
   },
 
@@ -52,6 +37,7 @@ export default {
   mounted() {
     this.updateSlidesPerView();
     window.addEventListener('resize', this.updateSlidesPerView);
+    console.log(this.dataSlide)
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.updateSlidesPerView);
@@ -79,9 +65,12 @@ export default {
          :space-between="spaceBetween"
          :loop="false"
       >
-         <SwiperSlide v-for="(slide, index) in slides" :key="index">
+         <SwiperSlide 
+            v-for="(slide, index) in dataSlide" 
+            :key="index"
+         >
             <div class="card">
-               <img :src="slide.imageUrl" class="card-img-top" alt="">
+               <img :src="slide.image" class="card-img-top" alt="">
                <div class="card-body">
                   <div class="card-body-title">
                      <h5 class="card-title">{{slide.name}}</h5>
@@ -99,10 +88,10 @@ export default {
       <div class="d-none d-md-flex justify-content-center">
          <div 
             class="card p-0"
-            v-for="(slide, index) in slides"
+            v-for="(slide, index) in dataSlide"
             :key="index"
          >
-            <img :src="slide.imageUrl" class="card-img-top" alt="" />
+            <img :src="slide.image" class="card-img-top" alt="" />
 
             <div class="card-body d-none d-md-flex">
                <div class="card-body-title">

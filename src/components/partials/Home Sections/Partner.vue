@@ -1,5 +1,7 @@
 
 <script>
+import HomePage_data from '../../../data/json_data/HomePage_data.json'
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 
@@ -10,16 +12,9 @@ export default {
   },
   data(){
     return{
-      slides: [
-         {name: 'instax', description: 'I migliori ricordi del tuo viaggio, per sempre con te.', tag: 'fotografia', action: 'scopri instax', imageUrl: 'https://images.prismic.io/blind/ZpkUWx5LeNNTxRWV_FlatlaySNSSept2022group.jpg?auto=format%2Ccompress&fit=max&w=1920'},
-         {name: 'bookbeat', description: 'Ascolta i racconti che preferisci durante i tuoi tragitti in bus o in aereo.', tag: 'audiolibri', action: 'scopri di più', imageUrl: 'https://images.prismic.io/blind/Zk9KZiol0Zci9ZLk_bb_nextstart_it.webp?auto=format%2Ccompress&fit=max&w=1920'},
-         {name: 'scalapay', description: 'Paga in 3 rate il tuo viaggio', tag: 'Pagamenti', action: 'scopri di più', imageUrl: 'https://images.prismic.io/blind/654104610b105250cf53c521_Hero.png?auto=format%2Ccompress&fit=max&w=1920'},
-         {name: 'creative harbour', description: 'Lavora in giro per il mondo!', tag: 'Remote working', action: 'scopri di più', imageUrl: 'https://images.prismic.io/blind/65a8f1bc7a5e8b1120d5a52d_CreativeHarbour.jpg?auto=format%2Ccompress&fit=max&w=1920'},
-         {name: 'kappa FuturFestival', description: 'The Future is in Torino!', tag: 'eventi', action: 'scopri di più', imageUrl: 'https://images.prismic.io/blind/659d17b9531ac2845a273d24_WideKappa2000x842.jpeg?auto=format%2Ccompress&fit=max&w=2048'},
-         {name: 'tutti i partner', description: 'Insieme ai nostri partner, ci impegniamo ogni giorno per creare esperienze di viaggio indimenticabili.', tag: 'partner', action: 'dai un\'occhiata', imageUrl: 'https://images.prismic.io/blind/6538d5660b105250cf53a45f_WideScalapay16_9.jpg?auto=format%2Ccompress&fit=max&w=1920'},
-      ],
+      dataSlide: HomePage_data.Partner,
       slidesPerView: 1.2,
-      spaceBetween: 10,
+      spaceBetween: 10
     };
   },
 
@@ -64,12 +59,12 @@ export default {
         class="px-4"
       >
          <SwiperSlide
-            v-for="(slide, index) in slides"
+            v-for="(slide, index) in dataSlide"
             :key="index"
          >
 
             <div class="card">
-               <img :src="slide.imageUrl" alt="">
+               <img :src="slide.image" alt="">
                <div class="card-body">
                <span>{{ slide.tag }}</span>
                <div class="card-body-title">

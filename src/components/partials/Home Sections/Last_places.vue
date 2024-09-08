@@ -12,7 +12,7 @@ export default {
    },
    data() {
       return {
-         dataSlide: HomePage_data,
+         dataSlide: HomePage_data.last_places,
          currentBackground: 'https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress',
          slidesPerView: 1,
          spaceBetween: -30,
@@ -78,7 +78,7 @@ export default {
            modules="[Pagination]"
          >
             <swiper-slide
-              v-for="(slide, index) in dataSlide.last_places"
+              v-for="(slide, index) in dataSlide"
               :key="index"
             >
 

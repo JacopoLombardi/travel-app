@@ -3,7 +3,7 @@
 import Jumbotron_home from '../components/partials/Home Sections/Jumbotron_home.vue'
 import Loved_travel from '../components/partials/Home Sections/Loved_travel.vue'
 import Last_places from '../components/partials/Home Sections/Last_places.vue'
-import Flash_offer from '../components/partials/Home Sections/Flash_offer.vue'
+import Various_travel from '../components/partials/Home Sections/Various_travel.vue'
 import University from '../components/partials/Home Sections/University.vue'
 import Our_philosophy from '../components/partials/Home Sections/Our_philosophy.vue'
 import Reviews from '../components/partials/Home Sections/Reviews.vue'
@@ -17,7 +17,7 @@ export default {
     Jumbotron_home,
     Loved_travel,
     Last_places,
-    Flash_offer,
+    Various_travel,
     University,
     Our_philosophy,
     Reviews,
@@ -47,7 +47,7 @@ export default {
 
   <Last_places/>
 
-  <Flash_offer/>
+  <Various_travel/>
 
   <University/>
 

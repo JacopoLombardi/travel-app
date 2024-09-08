@@ -22,7 +22,7 @@ export default {
   },
   data() {
     return {
-      dataSlide: HomePage_data,
+      dataSlide: HomePage_data.Loved_travel,
       swiperInstance: null,
       slidesPerView: 1.5,
       spaceBetween: 15,
@@ -90,7 +90,7 @@ export default {
     @swiper="onSwiper"
   >
     <swiper-slide
-      v-for="(slide, index) in dataSlide.Loved_travel"
+      v-for="(slide, index) in dataSlide"
       :key="index"
     >
       <div class="card">
@@ -106,7 +106,7 @@ export default {
           <!-- mobile / tablet -->
           <div class="card-body-mobile card-body d-lg-none">
             <h5>{{ slide.name }}</h5>
-            <p>Da {{ slide.price }}</p>
+            <p>Da {{ slide.price }}€</p>
             <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
 
