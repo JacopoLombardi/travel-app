@@ -76,17 +76,134 @@
 
       "travel_all_budget": {
          "jumbotron": {
-            "title": "VACANZE PER OGNI TIPO DI BUDGET!",
+            "title": "vacanze per ogni tipo di budget!",
             "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/fa6a98ed-cuba-23_11hc0u01hc0jg00005901o.jpg"
          },
          "paragraph": {
-            "title": "UNISCITI AI CLUB UTRAVEL",
-            "text": "Sei pront* a scoprire il mondo e a conoscere nuovi amici? Seleziona la tua meta preferita, fai la valigia e unisciti al Club, insieme a te, tanti altri ragazzi hanno scelto di partire per un'avventura davvero indimenticabile. Posti limitati, Attento al Sold Out!"
+            "title": "unisciti ai club utravel",
+            "text": "Sei pront* a scoprire il mondo e a conoscere nuovi amici? Seleziona la tua meta preferita, fai la valigia e unisciti al Club, insieme a te, tanti altri ragazzi hanno scelto di partire per un'avventura davvero indimenticabile. <b> Posti limitati </b>, Attento al Sold Out!"
          },
-         "banner": "TUTTE LE NOSTRE DESTINAZIONI PER FASCE DI PREZZO:"
-
-
+         "banner": "tutte le nostre destinazioni per fascie di prezzo:",
+         "travels":[
+            {
+               "head": {
+                  "title": "7 notti a meno di",
+                  "price": 400
+               },
+               "cards": [
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/d292f157-dubai-coppia-deserto_108w0bv08w03w00003z01o.jpg",
+                     "text": {
+                        "name": "dubai",
+                        "price": 329
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/0d9ecbe5-sufr-fuertventura_105u03w04c03w00q00001o.jpg",
+                     "text": {
+                        "name": "fuerteventura",
+                        "price": 359
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/46c67f75-egitto-20_104c05s04c03w00000y01o.jpg",
+                     "text": {
+                        "name": "egitto",
+                        "price": 349
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/43d2cca7-rep-dom-14_108w0bv08w03w00003z01o.jpg",
+                     "text": {
+                        "name": "repubblica dominicana",
+                        "price": 399
+                     }
+                  }
+               ]
+            },
+            {
+               "head": {
+                  "title": "7 notti a meno di",
+                  "price": 500
+               },
+               "cards": [
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/e149c305-rio-15_108w0fr08w03w00005x01o.jpg",
+                     "text": {
+                        "name": "rio",
+                        "price": 449
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/7fb9e1f2-phuket-09_104c05s04c03w00000y01o.jpg",
+                     "text": {
+                        "name": "thailandia",
+                        "price": 449
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/743fa25a-zanzibar-68_105703w04c03w00f00001o.jpg",
+                     "text": {
+                        "name": "zanzibar",
+                        "price": 449
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/0aa8cf4c-ooh-cuba-2_108w0bv08w03w00003z01o.jpeg",
+                     "text": {
+                        "name": "cuba",
+                        "price": 449
+                     }
+                  }
+               ]
+            },
+            {
+               "head": {
+                  "title": "7 notti a meno di",
+                  "price": 750
+               },
+               "cards": [
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/2278dd8b-malaga_108w0bv08w03w00003z01o.jpg",
+                     "text": {
+                        "name": "andalusia",
+                        "price": 559
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/80c4e2be-messico-20_104c05s04c03w00000y01o.jpg",
+                     "text": {
+                        "name": "messico",
+                        "price": 559
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/11746239-marocco-9_104c05e04c03w00000q01o.jpg",
+                     "text": {
+                        "name": "marocco",
+                        "price": 589
+                     }
+                  },
+                  {
+                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/566f3f73-kenya-47_108w0bv08w03w00003z01o.jpg",
+                     "text": {
+                        "name": "kenya",
+                        "price": 609
+                     }
+                  }
+               ]
+            }
+         ]
       }
+
+
+
+
+
+
+
+
+
 
 
 

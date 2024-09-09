@@ -4,13 +4,14 @@ import Travel_type_data from "../data/json_data/Travel_type_data.json";
 
 import Flash_offerts from "../components/partials/Travel Type Sections/Flash_offerts.vue";
 import Travel_all_budget from "../components/partials/Travel Type Sections/Travel_all_budget.vue";
+
 import Footer from "../components/Footer.vue";
 
 export default {
   components: {
     Flash_offerts,
     Travel_all_budget,
-    Footer,
+    Footer
   },
   data() {
     return {
@@ -58,18 +59,14 @@ export default {
 
 
 
-
-
-
 <template>
 
-    
     <Flash_offerts
       v-if="currentPage === 'flash_offerts'"
       :data="dataPage" 
     />
 
-    
+
     <Travel_all_budget
       v-if="currentPage === 'travel_all_budget'"
       :data="dataPage"
@@ -79,7 +76,6 @@ export default {
     <Footer />
 
 </template>
-
 
 
 
