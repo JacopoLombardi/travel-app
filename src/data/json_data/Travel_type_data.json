@@ -1,13 +1,10 @@
 {
-   "slides": [
 
 
-
-
-      {
-         "name": "Offerte lampo",
+   "flash_offerts": {
          "jumbotron": {
-            "title": "offerte lampo"
+            "title": "offerte lampo",
+            "image": "https://images.prismic.io/blind/Zkxm9iol0Zci9T8n_hero-1.webp?auto=format%2Ccompress&fit=max&w=3840&q=100"
          },
          "paragraph": [
             "C'è chi si organizza mesi prima, c'è chi ama il brivido dell'ultimo minuto e c'è chi è ancora indeciso sulla date delle prossime vacanze.",
@@ -15,8 +12,78 @@
             "Tu fai parte di questa terza categoria, ecco perché meriti <b> un viaggio ad un prezzo scontatissimo! </b>",
 
             "In questa pagina trovi tutte le nostre partenze con date a prezzi <b> scontato! </b> Prenota subito se vuoi perderti l'occasione di <b> andare dall'altra parte del mondo ad un prezzo incredibile </b>."
+         ],
+         "card": [
+            {
+               "name": "Messico",
+               "departure": "Dal 12 Set al 19 Set",
+               "price": 559,
+               "deleted_price": 699,
+               "image": "https://images.prismic.io/blind/Zk38jCol0Zci9W1S_Messico.webp?auto=format,compress"
+            },
+            {
+               "name": "Cuba",
+               "departure": "Partenze di Settembre e Ottobre",
+               "price": 499,
+               "deleted_price": 699,
+               "image": "https://images.prismic.io/blind/Zl3exJm069VX1ame_Cuba-Cover.webp?auto=format,compress"
+            },
+            {
+               "name": "Fuerteventura",
+               "departure": "Partenze di Settembre e Ottobre",
+               "price": 419,
+               "deleted_price": 449,
+               "image": "https://images.prismic.io/blind/ZqesFx5LeNNTxkbN_fuerte-Large.webp?auto=format,compress"
+            },
+            {
+               "name": "Kenya",
+               "departure": "Partenze di Settembre e Ottobre",
+               "price": 649,
+               "deleted_price": 779,
+               "image": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress"
+            },
+            {
+               "name": "Marocco",
+               "departure": "Partenze di Settembre",
+               "price": 599,
+               "deleted_price": 699,
+               "image": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress"
+            },
+            {
+               "name": "Repubblica Dominicana",
+               "departure": "Partenze di Ottobre",
+               "price": 399,
+               "deleted_price": 599,
+               "image": "https://images.prismic.io/blind/ZkyTOiol0Zci9UWe_Rep-Dom.webp?auto=format,compress"
+            },
+            {
+               "name": "Zanzibar",
+               "departure": "Partenze di Settembre e Ottobre",
+               "price": 499,
+               "deleted_price": 699,
+               "image": "https://images.prismic.io/blind/ZksFlCol0Zci9RmX_Zanzibar-Cover-2.webp?auto=format,compress"
+            }
          ]
+      },
+   
 
+
+
+
+
+
+
+
+      "travel_all_budget": {
+         "jumbotron": {
+            "title": "VACANZE PER OGNI TIPO DI BUDGET!",
+            "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/fa6a98ed-cuba-23_11hc0u01hc0jg00005901o.jpg"
+         },
+         "paragraph": {
+            "title": "UNISCITI AI CLUB UTRAVEL",
+            "text": "Sei pront* a scoprire il mondo e a conoscere nuovi amici? Seleziona la tua meta preferita, fai la valigia e unisciti al Club, insieme a te, tanti altri ragazzi hanno scelto di partire per un'avventura davvero indimenticabile. Posti limitati, Attento al Sold Out!"
+         },
+         "banner": "TUTTE LE NOSTRE DESTINAZIONI PER FASCE DI PREZZO:"
 
 
       }
@@ -41,9 +108,4 @@
 
 
 
-
-      
-
-
-   ]
 }

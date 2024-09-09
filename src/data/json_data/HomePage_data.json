@@ -91,18 +91,21 @@
    "Various_travel": [
       {
          "name": "Offerte lampo",
+         "name_push": "flash_offerts",
          "tag": "Promo",
          "description": "Ultimi posti",
          "image": "https://images.prismic.io/blind/Zkxm9iol0Zci9T8n_hero-1.webp?auto=format%2Ccompress&fit=max&w=750"
       },
       {
          "name": "Viaggi per ogni tipo di budget",
+         "name_push": "travel_all_budget",
          "tag": "Club",
          "description": "Tutte le destinazioni per fasce di prezzo",
          "image": "https://images.prismic.io/blind/ZrJHnEaF0TcGIulT_Budget-lp.webp?auto=format%2Ccompress&fit=max&w=640"
       },
       {
          "name": "Partenze last minute",
+         "name_push": "last_minute",
          "tag": "Sconti",
          "description": "Prenota ora",
          "image": "https://images.prismic.io/blind/Zh0AhzjCgu4jz0Wi_last-minute.jpeg?auto=format%2Ccompress&fit=max&w=640"

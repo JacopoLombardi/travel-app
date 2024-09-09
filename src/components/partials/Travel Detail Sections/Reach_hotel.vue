@@ -20,7 +20,8 @@ export default {
 <template>
    <div
       v-if="reachHotel"
-      class="reach_hotel">
+      class="reach_hotel"
+   >
 
       <!-- info -->
       <div class="_info">

@@ -56,7 +56,10 @@ export default {
 
 
 <template>
-   <div class="_reviews">
+   <div
+      v-if="reviews"
+      class="_reviews"
+   >
 
       <!-- text -->
       <div class="_text">

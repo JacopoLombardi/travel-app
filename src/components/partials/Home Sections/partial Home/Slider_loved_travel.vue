@@ -112,7 +112,7 @@ export default {
 
           <!-- desktop -->
           <div class="card-body-desk card-body d-none d-lg-block">
-            <h5>{{ slide.title }}</h5>
+            <h5>{{ slide.name }}</h5>
             <p>Da {{ slide.price }} €</p>
             <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
@@ -179,7 +179,6 @@ $border-radius: 20px;
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
 
-
    .card {
       width: 100%;
       height: 25rem;
@@ -244,7 +243,5 @@ $border-radius: 20px;
       }
    }
 }
-
-
 
 </style>

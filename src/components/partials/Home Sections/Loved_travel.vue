@@ -71,7 +71,8 @@ $border-radius: 20px;
 
     h2 {
       color: rgb(92, 0, 221);
-      font-weight: 800;
+      font-size: 22px;
+      font-weight: 900;
       text-transform: uppercase;
       margin-bottom: 5px;
     }

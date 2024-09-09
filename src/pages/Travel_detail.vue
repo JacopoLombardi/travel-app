@@ -1,14 +1,14 @@
 
 <script>
-import Travel_detail_data from '../data/json_data/Travel_detail_data.json';
+import Travel_detail_data from '../data/json_data/Travel_detail_data.json'
 
-import Info from "../components/partials/Travel Detail Sections/Info.vue";
-import YourStay from "../components/partials/Travel Detail Sections/Your_stay.vue";
-import Explore from "../components/partials/Travel Detail Sections/Explore.vue";
-import Reviews from "../components/partials/Travel Detail Sections/Reviews.vue";
-import ReachHotel from "../components/partials/Travel Detail Sections/Reach_hotel.vue";
+import Info from "../components/partials/Travel Detail Sections/Info.vue"
+import YourStay from "../components/partials/Travel Detail Sections/Your_stay.vue"
+import Explore from "../components/partials/Travel Detail Sections/Explore.vue"
+import Reviews from "../components/partials/Travel Detail Sections/Reviews.vue"
+import ReachHotel from "../components/partials/Travel Detail Sections/Reach_hotel.vue"
 
-import Footer from "../components/Footer.vue";
+import Footer from "../components/Footer.vue"
 
 export default {
   components: {
@@ -26,7 +26,7 @@ export default {
     };
   },
   computed: {
-    slideTitle() {
+    slideName() {
       // Recupera la query 'name' dalla route
       return this.$route.query.name;
     }
@@ -36,7 +36,7 @@ export default {
       // Trova la slide in base al titolo
       if (Array.isArray(this.slides)) {
         this.currentSlide = this.slides.find(slide =>
-          slide.title.toLowerCase() === this.slideTitle.toLowerCase()
+          slide.title.toLowerCase() === this.slideName.toLowerCase()
         );
       }
     }
