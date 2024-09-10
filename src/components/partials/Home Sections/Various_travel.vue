@@ -123,7 +123,7 @@ export default {
 <style lang="scss" scoped>
 
 .flash-offer {
-  margin: 70px 0 50px;
+  margin: 50px 1rem;
 
   .card {
     width: 90%;

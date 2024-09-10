@@ -194,6 +194,108 @@
                ]
             }
          ]
+      },
+
+
+
+
+
+      
+
+
+
+
+
+
+      "last_minute": {
+         "jumbotron": {
+            "title": "partenze last minute",
+            "text": "Tutti i viaggi dei prossimi 30 giorni",
+            "image": "https://images.prismic.io/blind/Zh0AhzjCgu4jz0Wi_last-minute.jpeg?auto=format%2Ccompress&fit=max&w=640&q=100"
+         },
+         "paragraph": [
+            "C'è chi si organizza mesi prima e c'è chi ama il <b> brivido dell'ultimo minuto </b>, tu fai parte di questa seconda categoria, ecco perché abbiamo deciso di semplificarti la vita e di raggrupparti tutte le <b> partenze last minute </b>.Sono gli ultimi posti disponibili, fai attenzione al soldout, prenota ora e inizia ad assaporarti il tuo viaggio, manca pochissimo!"
+         ],
+         "travels": [
+            {
+               "head": "viaggio in affrica",
+               "cards": [
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "sharm el-sheikh",
+                        "price": 349
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "marocco",
+                        "price": 599
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "kenya",
+                        "price": 619
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "zanzibar",
+                        "price": 449
+                     }
+                  }
+               ]
+            },
+            {
+               "head": "last minute ai caraibi",
+               "cards": [
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "rio de janeiro",
+                        "price": 449
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "cuba",
+                        "price": 499
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "messico",
+                        "price": 559
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "repubblica dominicana",
+                        "price": 399
+                     }
+                  }
+               ]
+            },
+            {
+               "head": "parti per fuerte",
+               "cards": [
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "fuerteventura",
+                        "price": 419
+                     }
+                  }
+               ]
+            }
+         ]  
       }
 
 
@@ -202,12 +304,7 @@
 
 
 
-
-
-
-
-
-
+      
 
 
 

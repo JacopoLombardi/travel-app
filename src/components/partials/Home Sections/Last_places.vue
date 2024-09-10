@@ -38,7 +38,7 @@ export default {
       },
 
       updateBackground(swiper) {
-         this.currentBackground = this.dataSlide.last_places[swiper.activeIndex].image;
+         this.currentBackground = this.dataSlide[swiper.activeIndex].image;
       },
 
       saveSlideNameAndNavigate(name) {
