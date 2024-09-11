@@ -112,24 +112,28 @@
       },
       {
          "name": "Parti a ottobre",
+         "name_push": "departure_next_month",
          "tag": "Partenze",
          "description": "Scopri le destinazioni",
          "image": "https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format%2Ccompress&fit=max&w=640"
       },
       {
          "name": "Parti a novembre",
+         "name_push": "departure_next_2_month",
          "tag": "Partenze",
          "description": "Scopri le destinazioni",
          "image": "https://images.prismic.io/blind/ZkYxcCol0Zci9N3M_kenya.webp?auto=format%2Ccompress&rect=0%2C186%2C2500%2C2500&w=640&fit=max"
       },
       {
          "name": "Natale e capodanno",
+         "name_push": "christmas_New_Year",
          "tag": "Partenze",
          "description": "Scopri tutte le destinazioni",
          "image": "https://images.prismic.io/blind/Znwkb5bWFbowe4MD_Hero-Rio.webp?auto=format%2Ccompress&fit=max&w=640"
       },
       {
          "name": "It's time for Africa",
+         "name_push": "time_for_africa",
          "tag": "Africa",
          "description": "Il mix perfetto tra relax e avventura!",
          "image": "https://images.prismic.io/blind/6541099e0b105250cf53c530_kenya-gallery3.jpg?auto=format%2Ccompress&fit=max&w=640"
