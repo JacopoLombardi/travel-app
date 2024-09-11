@@ -307,7 +307,7 @@
 
       "departure_next_month": {
          "jumbotron": {
-            "title": "PARTENZE DI OTTOBRE",
+            "title": "partenze di ottobre",
             "image": "https://images.prismic.io/blind/ZkYxcCol0Zci9N3M_kenya.webp?auto=format%2Ccompress&rect=0%2C160%2C2500%2C2500&w=640&fit=max&q=100"
          },
          "paragraph": {
@@ -436,7 +436,130 @@
                ]
             }
          ]
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+      "departure_next_2_month": {
+         "jumbotron": {
+            "title": "partenze di novembre",
+            "image": "https://images.prismic.io/blind/ZkYxbyol0Zci9N3L_egitto.webp?auto=format%2Ccompress&rect=0%2C487%2C2500%2C2500&w=1920&fit=max&q=100"
+         },
+         "paragraph": {
+            "title": "Vuoi partire a Novembre?",
+            "text": [
+               "È il momento perfetto per buttarti in <b> avventure incredibili </b>, ammirare <b> panorami mozzafiato </b> e raccogliere <b> ricordi indimenticabili </b>. <br>",
+
+               "Sei pronto? Basta scegliere il tuo <b> Club </b> qui sotto e sei a cavallo!"
+            ]
+         },
+         "travels": [
+            {
+               "head": {
+                  "title": "viaggi in europa",
+                  "text": "Cultura, avventura, arte, tradizioni: l'Europa è tutta da scoprire! Dalla natura incontaminata delle Canarie alla festa scatenata delle Baleari, il Vecchio Continente ti aspetta!"
+               },
+               "cards": [
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "fuerteventura",
+                        "price": 359
+                     }
+                  }
+               ]
+            },
+            {
+               "head": {
+                  "title": "viaggi in africa",
+                  "text": "Chi ha visitato almeno una volta l'Africa lo sa: qui rischi seriamente di lasciarci un pezzo di cuore. Vivi la vera essenza della cultura africana e lasciati conquistare!"
+               },
+               "cards": [
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "sharm el-sheikh",
+                        "price": 259
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "marocco",
+                        "price": 589
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "kenya",
+                        "price": 689
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "zanzibar",
+                        "price": 499
+                     }
+                  }
+               ]
+            },
+            {
+               "head": {
+                  "title": "viaggi in america",
+                  "text": "Il “Sogno Americano” esiste davvero, non solo quando si dorme! Dalla vita lenta della Repubblica Dominicana alle strade senza tempo di Cuba, l'America è un continente da vivere al 100%."
+               },
+               "cards": [
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "rio de janeiro",
+                        "price": 489
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "cuba",
+                        "price": 689
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "messico",
+                        "price": 699
+                     }
+                  },
+                  {
+                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
+                     "text": {
+                        "name": "repubblica dominicana",
+                        "price": 569
+                     }
+                  }
+               ]
+            }
+         ]
       }
+
+
+
+      
+
+
+
+
 
 
 

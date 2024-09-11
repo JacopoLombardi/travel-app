@@ -1,5 +1,7 @@
 
 <script>
+import University from "../Home Sections/University.vue"
+
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/swiper-bundle.css'
 
@@ -10,6 +12,7 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
+    University
   },
   data() {
     return {
@@ -21,20 +24,26 @@ export default {
   methods: {
     updateSlidesPerView() {
       const width = window.innerWidth;
-      if (width < 500) { 
-        this.slidesPerView = 1;
-        this.spaceBetween = 15;
-      } else if (width >= 500 && width < 768) { 
+      if (width >= 100 && width < 768) { 
         this.slidesPerView = 1;
         this.spaceBetween = 15;
       } else if (width >= 768 && width < 992) { 
-        this.slidesPerView = 4;
+        this.slidesPerView = 1.8;
         this.spaceBetween = 20;
-      } else { 
-        this.slidesPerView = 4;
+      } else if (width >= 992 && width < 1200) { 
+        this.slidesPerView = 2.35;
+        this.spaceBetween = 20;
+      } else if (width >= 1200 && width < 1500) { 
+        this.slidesPerView = 2.8;
+        this.spaceBetween = 20;
+      }else { 
+        this.slidesPerView = 3.6;
         this.spaceBetween = 20;
       }
     },
+    saveSlideNameAndNavigate(name) {
+      this.$router.push({ name: 'Travel_detail', query: { name: name } });
+    }
   },
   mounted() {
     this.updateSlidesPerView();
@@ -88,12 +97,13 @@ export default {
           <p>{{ item.head.text }}</p>
         </div>
       
-        <div class="_cards d-flex">
+        <div class="_cards py-3">
           <!-- card -->
           <swiper
             :slides-per-view="slidesPerView"
             :space-between="spaceBetween"
             :loop="false"
+            class="w-100"
           >
             <swiper-slide
               v-for="item in item.cards"
@@ -102,7 +112,7 @@ export default {
             >
               <div class="card">
 
-                <!-- <a href="#" @click.prevent="saveSlideNameAndNavigate(item.text.name)" class="slide-link text-dark"> -->
+                <a href="#" @click.prevent="saveSlideNameAndNavigate(item.text.name)" class="slide-link text-dark">
                   <img :src="item.image" alt="">
                             
                   <!-- mobile -->
@@ -121,16 +131,32 @@ export default {
                   <div class="bg_hidden d-flex d-none d-md-block">
                       <p>7 notti / 8 giorni</p>
                   </div>
-                <!-- </a> -->
+                </a>
 
               </div>
-            
             </swiper-slide>
           </swiper>
           
         </div>
       </div>
     </div>
+
+
+    <!-- find what looking -->
+    <div class="find_what_looking">
+      <img src="https://images.prismic.io/blind/653b91c50b105250cf53b863_Card-hp-promo.png?auto=format%2Ccompress&fit=max&w=3840&q=100" alt="">
+      <div class="box_text">
+        <h5>non hai trovato quello che cercavi?</h5>
+        <p>Dai un'occhiata alla lista completa dei viaggi e scegli quello che fa al caso tuo.</p>
+        <router-link to="/">
+            <button class="btn">scopri tutti i viaggi</button>
+        </router-link>
+      </div>
+    </div>
+
+
+    <!-- componente University -->
+    <University/>
 
   </div>
 </template>
@@ -155,7 +181,7 @@ export default {
       color: white;
       text-align: center;
       width: 60%;
-      font-size: clamp(1.5rem, 7vw, 3.5rem);
+      font-size: clamp(2rem, 7vw, 3.5rem);
       font-weight: 800;
       text-transform: uppercase;
       position: absolute;
@@ -165,6 +191,7 @@ export default {
     }
   }
 }
+
 
 
 
@@ -188,8 +215,6 @@ export default {
 
 
 
-
-
 ._travels {
   .travels_box {
     padding: 0 1rem;
@@ -208,13 +233,12 @@ export default {
     }
 
     .swiper_slide {
-      min-width: 200px;
-
       .card {
         border-radius: 20px;
         height: 330px;
 
         img {
+          width: 100%;
           height: 253px;
           border-radius: 20px 20px 0 0;
           object-fit: cover;
@@ -261,6 +285,50 @@ export default {
 
 
 
+.find_what_looking {
+   position: relative;
+
+   img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+      filter: brightness(85%);
+   }
+
+   .box_text {
+      text-align: center;
+      width: 70%;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      h5 {
+         font-size: 23px;
+         font-weight: 900;
+         text-transform: uppercase;
+      }
+
+      p {
+         font-size: 14px;
+         line-height: 25px;
+         margin: 20px 0;
+      }
+
+      button {
+         color: white;
+         font-weight: 700;
+         background-color: rgb(255, 98, 0);
+         border-radius: 10px;
+         padding: 10px 0;
+         width: 70%;
+         max-width: 300px;
+      }
+   }
+}
+
+
 
 
 
@@ -271,38 +339,36 @@ export default {
 
   ._travels {
     h4 {
-        font-size: 22px;
-        margin-bottom: 0;
+      font-size: 22px;
+      margin-bottom: 0;
     }
 
     .swiper_slide {
-      
-
       .card {
         .text_mobile {
           padding: 10px;
 
           h6 {
-              font-size: 14px;
-              margin: 0;
+            font-size: 14px;
+            margin: 0;
           }
           
           p {
-              font-size: 12px;
+            font-size: 12px;
 
-              span {
-                font-size: 14px;
-                font-weight: 700;
-              }
+            span {
+              font-size: 14px;
+              font-weight: 700;
+            }
           }
 
           button {
-              bottom: 17px;
-              padding: 0px 9px;
-              
-              i {
-                font-size: 12px;
-              }
+            bottom: 17px;
+            padding: 0px 9px;
+            
+            i {
+              font-size: 12px;
+            }
           }
         }
       }
@@ -327,7 +393,7 @@ export default {
 
     h4 {
       font-size: 30px;
-      margin-bottom: 15px;
+      margin-bottom: 25px;
     }
 
     p {
@@ -338,21 +404,25 @@ export default {
 
 
 
-
-
   ._travels {
     .travels_box {
       padding: 0 5rem;
 
-      h4 {
-        font-size: 32px;
+      ._head {
+        h4 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 16px;
+        }
       }
 
       .swiper_slide {
-        min-width: 250px;
-
+        min-width: 330px;
+        max-width: 330px;
+        
         .card {
-          width: 100%;
           height: 25rem;
           overflow: hidden;
 
@@ -398,7 +468,7 @@ export default {
             bottom: 0;
 
             h6 {
-              font-size: 21px;
+              font-size: 18px;
               font-weight: 800;
               width: 80%;
               text-transform: uppercase;
@@ -431,16 +501,46 @@ export default {
       }
     }
   }
-
-
-
-
-
-
 }
 
 
 
+  .find_what_looking {
+    img {
+        height: 500px;
+    }
+
+    .box_text {
+        width: 70%;
+
+        h5 {
+          font-size: 35px;
+        }
+
+        p {
+          font-size: 16px;
+          margin: 40px 0;
+        }
+    }
+  }
 
 
+
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
+@media (min-width: 992px) {
+
+  ._travels {
+    .travels_box {
+      .swiper_slide {
+        min-width: 360px;
+        max-width: 360px;
+      }
+    }
+  }
+
+}
 </style>

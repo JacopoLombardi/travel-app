@@ -6,7 +6,6 @@ import Flash_offerts from "../components/partials/Travel Type Sections/Flash_off
 import Travel_all_budget from "../components/partials/Travel Type Sections/Travel_all_budget.vue";
 import Last_minute from "../components/partials/Travel Type Sections/Last_minute.vue";
 import Departure_next_month from "../components/partials/Travel Type Sections/Departure_next_month.vue";
-import Departure_next_2_month from "../components/partials/Travel Type Sections/Departure_next_2_month.vue";
 import Christmas_New_Year from "../components/partials/Travel Type Sections/Christmas_New_Year.vue";
 import Time_for_africa from "../components/partials/Travel Type Sections/Time_for_africa.vue";
 
@@ -18,7 +17,6 @@ export default {
     Travel_all_budget,
     Last_minute,
     Departure_next_month,
-    Departure_next_2_month,
     Christmas_New_Year,
     Time_for_africa,
     Footer
@@ -95,13 +93,7 @@ export default {
 
 
     <Departure_next_month
-      v-if="currentPage === 'departure_next_month'"
-      :data="dataPage"
-    />
-
-
-    <Departure_next_2_month
-      v-if="currentPage === 'departure_next_2_month'"
+      v-if="currentPage === 'departure_next_month' || currentPage === 'departure_next_2_month'"
       :data="dataPage"
     />
 

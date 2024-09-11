@@ -112,7 +112,7 @@ export default {
       color: white;
       text-align: center;
       width: 60%;
-      font-size: clamp(1.5rem, 7vw, 3.5rem);
+      font-size: clamp(2rem, 7vw, 3.5rem);
       font-weight: 800;
       text-transform: uppercase;
       position: absolute;

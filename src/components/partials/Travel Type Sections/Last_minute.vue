@@ -130,7 +130,7 @@ export default {
          transform: translate(-50%, -50%);
 
          h1 {
-            font-size: clamp(1.7rem, 8vw, 4rem);
+            font-size: clamp(2rem, 8vw, 4rem);
             font-weight: 800;
             text-transform: uppercase;
          }
