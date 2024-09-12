@@ -81,7 +81,7 @@ h4 {
 
 .footer_up {
    height: auto;
-   background-color: black;
+   background-color: rgb(33, 33, 33);
    color: white !important;
    padding: 50px 20px;
 

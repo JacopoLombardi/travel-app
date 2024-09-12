@@ -108,7 +108,7 @@
                   {
                      "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/46c67f75-egitto-20_104c05s04c03w00000y01o.jpg",
                      "text": {
-                        "name": "egitto",
+                        "name": "sharm el-sheikh",
                         "price": 349
                      }
                   },
@@ -130,7 +130,7 @@
                   {
                      "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/e149c305-rio-15_108w0fr08w03w00005x01o.jpg",
                      "text": {
-                        "name": "rio",
+                        "name": "rio de janeiro",
                         "price": 449
                      }
                   },

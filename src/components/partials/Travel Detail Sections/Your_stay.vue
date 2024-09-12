@@ -119,17 +119,15 @@ export default {
       </div>
 
       <div class="img_menu">
-
         <div class="img_banner">
-          <div>
-            <div class="_img">
-              <img :src="stay_special.img" alt="Hotel">
-              <button @click="cardClick(stay.travel_images)" class="btn">
-                <i class="fa-regular fa-images me-1"></i> 
-                Foto del viaggio
-              </button>
-            </div>
+          <div class="_img">
+            <img :src="stay_special.img" alt="Hotel">
+            <button @click="cardClick(stay.travel_images)" class="btn">
+              <i class="fa-regular fa-images me-1"></i> 
+              Foto del viaggio
+            </button>
           </div>
+          
           <div class="_banner">
             <svg
               class="h-8 text-white"
@@ -332,10 +330,10 @@ export default {
       }
 
       .img_hotel {
+        margin-left: 5rem;
+
         img {
-          width: 90%;
           height: 400px;
-          margin-left: 3rem;
         }
 
         button {
@@ -386,8 +384,10 @@ export default {
       }
 
       .img_hotel {
+        width: 70%;
+
         img {
-          width: 90%;
+          width: 100%;
           height: 500px;
         }
 
@@ -418,10 +418,9 @@ export default {
           justify-content: space-between;
 
           ._img {
-            margin-left: 1rem;
-            
+            width: 60%;
+
             img {
-              width: 100%;
               height: 450px;
               border-radius: 20px;
             }

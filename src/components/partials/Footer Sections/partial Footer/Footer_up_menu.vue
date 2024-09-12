@@ -126,7 +126,7 @@ h4 {
 
 .accordion {
    margin-top: 20px;
-   --bs-accordion-bg: black;
+   --bs-accordion-bg: rgb(33, 33, 33);
    --bs-accordion-btn-focus-border-color: transparent;
    --bs-accordion-btn-icon: none;
    --bs-accordion-btn-active-icon: none;

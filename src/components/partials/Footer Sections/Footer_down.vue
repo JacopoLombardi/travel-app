@@ -93,7 +93,7 @@ export default {
 
 .footer_down {
    color: white;
-   background-color: black;
+   background-color: rgb(33, 33, 33);
    padding-bottom: 50px;
    height: auto;
 
@@ -180,7 +180,6 @@ export default {
          align-items: center;
          
       }
-
    }
 }
 </style>

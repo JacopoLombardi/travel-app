@@ -3716,11 +3716,11 @@
            "text": "7 notti in hotel"
          },
          {
-           "icon": "fa-solid fa-mug-saucer",
+           "icon": "fa-solid fa-location-dot",
            "text": "Esperienza inclusa: Alcudia e Formentor tour"
          },
          {
-           "icon": "fa-solid fa-location-dot",
+           "icon": "fa-regular fa-circle-user",
            "text": "Coach in lingua italiana"
          },
          {
@@ -5207,22 +5207,2004 @@
 
 
     }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title": "cuba",
+    "price": "",
+    "img": "",
+    "detail": {
+      "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827520416.webp?sv=2023-08-03&se=2074-05-15T16%3A32%3A01Z&sr=b&sp=rade&sig=POvorUW72c7KUEhwd1X3pzGPLK%2F5hypnZe4VcJL5Iw4%3D&rsct=image%2Fjpg",
+      "travel_images": [
+        {
+          "name": "Destinazione",
+          "url_destination": [
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698933777001.jpg?sv=2023-08-03&se=2073-10-20T14%3A02%3A57Z&sr=b&sp=rade&sig=ltHkeWNrsR7tY2ochgKR%2FZRMJ0tyV1xmPSj8%2BgUDV4Q%3D",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699550319331.jpg?sv=2023-08-03&se=2073-10-27T17%3A18%3A40Z&sr=b&sp=rade&sig=SpyEP9uQENdC0rxTzr6TGy0xOgtXjnTZrolAHJjFqRU%3D",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699628059797.jpg?sv=2023-08-03&se=2073-10-28T14%3A54%3A20Z&sr=b&sp=rade&sig=jh9BgCxpnxxDSw%2F%2FlXpCBh3ZvaISGmEDMqfDmh2J1Rw%3D",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699550234957.jpeg?sv=2023-08-03&se=2073-10-27T17%3A17%3A15Z&sr=b&sp=rade&sig=g09yOJQDk4eYKz%2F99ht8LraiRYhKNYwuTClSfSfuz%2FU%3D",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698934281644.jpg?sv=2023-08-03&se=2073-10-20T14%3A11%3A23Z&sr=b&sp=rade&sig=uqRP2MWbDiHMaBGDHwExdE9T0yMc7s6wH5CeZkoazeQ%3D",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714136759896.jpg?sv=2023-08-03&se=2074-04-14T13%3A06%3A00Z&sr=b&sp=rade&sig=9E1mF%2BgIWBB5wynJzL4WNS0z6zomZOp3a1RfXjUPOvI%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714137251626.jpg?sv=2023-08-03&se=2074-04-14T13%3A14%3A12Z&sr=b&sp=rade&sig=16Se51L6oek07u6F3FQJDC%2FPQitWbAhrQ%2BLZUnuMWbU%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714137257755.jpg?sv=2023-08-03&se=2074-04-14T13%3A14%3A18Z&sr=b&sp=rade&sig=O%2Fp%2F2mEDgMLACsCtS%2B9sjEhNp0o4uUG%2BL9IysLPiHmQ%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714138525769.jpg?sv=2023-08-03&se=2074-04-14T13%3A35%3A26Z&sr=b&sp=rade&sig=svrCeZpNkKuaNoJd1HSpYI7AuVQ55O5WFEN63SAGRKI%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714138527300.jpg?sv=2023-08-03&se=2074-04-14T13%3A35%3A27Z&sr=b&sp=rade&sig=Cga6xhChHYMzULUTv4yU%2FxWz7w1XXOG8Oo%2BzCaFbvS4%3D&rsct=image%2Fjpg"
+          ]
+        },
+        {
+          "name": "Struttura",
+          "url_structure": [
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1712657979050.jpg?sv=2023-08-03&se=2074-03-28T10%3A19%3A43Z&sr=b&sp=rade&sig=nojruS7jHji%2FUF76V9nM1vyWItiqRm3DCy6cSwPVABM%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1712657999046.jpg?sv=2023-08-03&se=2074-03-28T10%3A19%3A59Z&sr=b&sp=rade&sig=4Lyw%2BOZdTtDwrz%2FyVXZo%2FPrRlzdNdPoFe1mXBWGiU6I%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1712658012878.jpg?sv=2023-08-03&se=2074-03-28T10%3A20%3A12Z&sr=b&sp=rade&sig=EpeVOVhB8OSLyB0Z9yDf5sSKSmU4wwoh7abvaIylVtc%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1712658028009.jpg?sv=2023-08-03&se=2074-03-28T10%3A20%3A28Z&sr=b&sp=rade&sig=9AGVdc%2BBeCk%2Bhqa%2BcwgKSuzue1lO2DnnJxifLpgkxgQ%3D&rsct=image%2Fjpg",
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1712658040006.jpg?sv=2023-08-03&se=2074-03-28T10%3A20%3A40Z&sr=b&sp=rade&sig=ORlKy4Urn1%2FsNYLsEhbctD2Tr8eKDTtVrA6FMTzhokQ%3D&rsct=image%2Fjpg"
+          ]
+        }
+      ],
+      "title": "per chi vive il mondo a colori",
+      "badge": [
+        "Caraibi vibes",
+        "Havana",
+        "Reggaetton",
+        "A prova di GEN Z"
+      ],
+      "paragraph": [
+        {
+          "text": "Piccolo spoiler: a <b> Cuba </b>, ti sembrerà letteralmente di tornare indietro nel tempo. Questo viaggio inizia a <b> Varadero </b> dove dormirai <b> 5 notti </b>, qui potrai lasciarti incantare dalla bellezza paradisiaca del <b> Mar dei Caraibi </b> per la vacanza ideale di “<b> mare e relax </b>”."
+        },
+        {
+          "text": "Ti porteremo poi a <b> l'Havana </b>, dove dormirai <b> 2 notti </b>, il <b> ritmo della salsa </b> scandirà le tue giornate, insieme al rombo e ai clacson delle <b>  </b>macchine d'epoca. Abbiamo pensato per te a due <b> esperienze imperdibili </b>, incluse: esplorerai la magia della <b> Valle di Viñales </b> in una giornata unica, assaporando prodotti locali e perdendoti tra i suoi \"mogotes\" e le infinite piantagioni di tabacco. Viaggerai su un colorato <b> Coco Taxi </b> che ti condurrà nel cuore pulsante di <b> Habana Vieja </b>, dove scoprirai, passeggiando tra le sue <b> particolari case coloniche </b>, che il tempo sembra essersi fermato."
+        },
+        {
+          "text": "Qualsiasi sia il tuo mood di viaggio, il <b> Club Cuba </b> ti permetterà di provare tutto questo (e molto altro) insieme ad altri <b> viaggiatori come te </b> e scoprire la vera essenza del luogo."
+        },
+        {
+          "text": "Troverai anche un* <b> coach del posto </b> pront* a consigliarti le situazioni più local e a <b> raccontarti tutti i segreti di Cuba </b>"
+        }
+      ],
+      "flight": {
+        "title": "Aggiungi il volo",
+        "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+      },
+      "included": [
+        {
+          "icon": "fa-regular fa-moon",
+          "text": "2 notti in hotel a l'Havana in sola colazione"
+        },
+        {
+          "icon": "fa-regular fa-moon",
+          "text": "5 notti in hotel a Varadero in hard all-inclusive"
+        },
+        {
+          "icon": "fa-solid fa-location-dot",
+          "text": "Esperienza inclusa: Giro in Coco Taxi e Walking Tour a L'Habana Vieja con guida parlante italiano"
+        },
+        {
+          "icon": "fa-solid fa-location-dot",
+          "text": "Esperienza inclusa: valle di Viñales"
+        },
+        {
+          "icon": "fa-regular fa-circle-user",
+          "text": "Coach in lingua inglese"
+        },
+        {
+          "icon": "fa-solid fa-bus-simple",
+          "text": "Trasferimenti da/per aeroporto, Havana e Varadero"
+        },
+        {
+          "icon": "fa-solid fa-headset",
+          "text": "Assistenza Utravel"
+        },
+        {
+          "icon": "fa-solid fa-users",
+          "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+        }
+      ],
+      "notIncluded": [
+        "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+        "Tassa di soggiorno",
+        "Tutto quello che non è indicato in 'Cosa è incluso'"
+      ],
+      "thingsToKnow": [
+        {
+          "title": "",
+          "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+        },
+        {
+          "title": "Passaporto",
+          "text": "Con almeno 6 mesi di validità residua."
+        },
+        {
+          "title": "Visto",
+          "text": "Puoi richiedere il visto <b> Tarjeta verde </b> con noi <b> online </b>, almeno una settimana prima della partenza."
+        },
+        {
+          "title": "Certificati",
+          "text": "<b> Entro 48 ore prima della partenza </b>, è obbligatorio compilare il form online D'VIAJEROS, da esibire al momento dell'entrata in territorio cubano."
+        },
+        {
+          "title": "Domande Frequenti",
+          "text": "Dai un'occhiata alle nostre FAQ."
+        }
+      ],
+      "stay": {
+        "intro": "<b> Roc Arenas Doradas </b> - o similare",
+        "paragraph": "A Cuba sembra di stare su un altro pianeta, lo sappiamo. Ma al Roc Arenas Doradas, il tuo hotel a Varadero, si respira la stessa aria di casa! A pochi passi dalla spiaggia Playa de los Taínos, una delle spiagge più belle e famose della città, da qui potrai raggiugere le principali aree di Varadero senza sbatti! Come se non bastasse, oltre al trattamento all inclusive, avrai anche accesso alla piscina e ci sarà anche un bar (per gli aperitivi organizzati all'ultimo).",
+        "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/new-hotel/1712657904063.jpg?sv=2023-08-03&se=2074-03-28T10%3A18%3A24Z&sr=b&sp=rade&sig=wWUCdfF2jI5jdiVPWspBb%2BZQZ4cmGUYzh16J4U1UBPE%3D&rsct=image%2Fjpg"
+      },
+      "explore": {
+        "title": "Esperienze consigliate",
+        "text": [
+          "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+          "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+        ],
+        "slide_thumb": [
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699553135957_simon-berger-aZjw7xI3QAA-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A34Z&sr=b&sp=rade&sig=MvT25ofZ5CScTLoeCLPD3wt%2FDy94ud7N74F%2BOvj87MA%3D&rsct=image%2Fjpg",
+            "badge": "Inclusa",
+            "title": "Valle di Viñales",
+            "description": "Culture",
+            "detail": {
+              "badge": "Esperienza inclusa",
+              "icon": "fa-regular fa-circle-check ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "Inclusa nel club"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Una giornata nella <b> Valle di Viñales </b> è un'esperienza indimenticabile che ti porta alla scoperta di una delle zone più affascinanti e pittoresche dell'isola. La Valle è situata nella provincia di <b> Pinar del Río </b> e dopo circa tre ore di tragitto da l'<b> Havana </b>, concediti una pausa sorseggiando una vera Piña Colada (non inclusa)!",
+                "Verrai poi accolt* da uno dei locals che ti mostrerà come vengono coltivate e lavorate le foglie di tabacco. Avrai l'opportunità di vedere i contadini al lavoro e, se lo desideri, provare ad arrotolare il tuo sigaro Made in Cuba, assaggiando inoltre Rum e miele di produzione locale.",
+                "Dopo di che, dovrai assolutamente immergerti nel Parco tra i famosi \"mogotes\" dalla cima rotonda, che rendono la zona un paesaggio culturale protetto, nonchè patrimonio dell'Umanità. Ma non è finita qui: la giornata è ancora lunga ed è tempo di fermarsi di fronte a un'opera d'arte alta 120 metri: il Murales de la Prehistoria, dipinto direttamente sulla superficie di un mogote.",
+                "Verrai catapultat* dalle alture del <b> Mirador los Jazmines </b> per ammirare la valle in tutta la sua maestosità, alle profondità del fiume sotterraneo nella Cueva del Indio in cui navigherai per scoprirne tutti i segreti.",
+                "Non preoccuparti, un gustoso pranzo tipico (un'acqua o una birra inclusi) renderà questa giornata ancora più perfetta, contornata da musica e allegria tutta cubana!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699553283866_0F6BD006-213E-42F3-BB3C-0636EDD35E4E_1_201_a%2520-%2520Large%2520%25281%2529.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A37Z&sr=b&sp=rade&sig=haR%2FCS6CyHzAQThyPfsDB0m%2FuMXrWTd8k5YfSOiCgMM%3D&rsct=image%2Fjpg",
+            "badge": "Inclusa",
+            "title": "Giro in Coco Taxi e Walking Tour a L'Habana Vieja",
+            "description": "Culture",
+            "detail": {
+              "badge": "Esperienza inclusa",
+              "icon": "fa-regular fa-circle-check ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "Inclusa nel club"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Pront* ad un'ora di puro divertimento a bordo del <b> Cocotaxi </b>? Un mezzo di trasporto tanto inusuale quanto unico nel suo genere. <br> Il nome è dato dalla sua forma che ricorda per l'appunto quella di una noce di cocco!",
+                "Sfrecceremo insieme in direzione <b> Habana Vieja </b> alla scoperta delle sue meraviglie nascoste!",
+                "Ma non è finita qui... Dopo che il tuo nuovo mezzo di trasporto preferito ti avrà portato in centro, qui proseguirai a piedi accompagnat* da una <b> guida locale parlante italiano </b> che ti mostrerà le piazze principali della città e ti racconterà la loro <b> storia </b>.",
+                "Perditi (ma non troppo) tra le <b> vie più suggestive di tutta Cuba </b> e preparati a scattare tantissime foto ricordo da riguardare al tuo rientro!",
+                "<b> Spoiler: </b> farai un pit stop in un negozio di sigari cubani, alla scoperta di quelli che fumavano Chruchill, il Che e Al Capone!",
+                "Inoltre... <b> Alla Bodeguita del Medio assaggerai il vero Mojito cubano: è nato proprio qui! </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699553175941_tiago-claro-16540aZJY-Y-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A12Z&sr=b&sp=rade&sig=ma2QV37T%2Fwn527RWB8dDm7N9Pft4Nqj6Ee4h%2BBse0S8%3D&rsct=image%2Fjpg",
+            "badge": "72€ - 108€",
+            "title": "Cayo Blanco",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "72€ - 108€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Sabbia bianca e fine, acqua verde e trasparente e vegetazione che si compone di palme e mangrovie… è forse questo il paradiso?",
+                "Passerai l'intera giornata qui, il tempo volerà e oltre alla possibilità di fare snorkeling, pranzerai in un tipico <b> Ranchón </b> in riva al mare sorseggiando rum, birra o soft drinks (il tutto accompagnato da musica dal vivo che ti farà compagnia durante il tuo soggiorno).",
+                "Se già tutto questo non fosse abbastanza a farti sognare, sappi che c'è anche qualche possibilità di avvistare i delfini che per qualche minuto accompagneranno la traversata del catamarano, ma anche nutrie e iguane nel loro habitat naturale!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1718402028718.jpg?sv=2023-08-03&se=2074-06-02T21%3A53%3A48Z&sr=b&sp=rade&sig=ocqFVFo%2BJazHizC7hLyjmzFN3BKuu%2ByQWBHLj8cl3FM%3D&rsct=image%2Fjpg",
+            "badge": "20€ - 30€",
+            "title": "Cocktail class",
+            "description": "Local Food",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "20€ - 30€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Local Food"
+                }
+              ],
+              "text": [
+                "Durante questa <b> lezione di 2 ore </b>, ogni partecipante avrà l'opportunità di scegliere due cocktail tra i cinque <b> classici cubani </b> offerti. Con l'aiuto di un esperto barista, imparerai a preparare questi deliziosi drink seguendo i procedimenti tradizionali. <b> Ogni cocktail ha una storia affascinante </b> che sarà spiegata prima di iniziare la preparazione, permettendoti di immergerti completamente nella cultura e nelle tradizioni cubane.",
+                "<p> <b> Aperitivo Incluso: </b> </p>      <p> Oltre alla preparazione dei cocktail, potrai goderti un gustoso aperitivo incluso nel prezzo, rendendo questa esperienza ancora più piacevole e completa. </p>",
+                "<p> <b> Logistica: </b> </p>      <p> La lezione si terrà in un locale appositamente affittato per l'occasione, garantendo un ambiente accogliente e confortevole. </p>",
+                "Unisciti a noi per questa divertente e educativa lezione di cocktail cubani, dove non solo imparerai a preparare bevande deliziose, <b> ma scoprirai anche le storie affascinanti dietro di esse! </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1697279200272_IMG_2128.JPG?sv=2023-08-03&se=2074-05-24T12%3A29%3A45Z&sr=b&sp=rade&sig=scCWjIQAOByX7kgfD8tPhI1wOGYK8Bk4YPeRmX3BD3Y%3D&rsct=image%2Fjpg",
+            "badge": "91€ - 137€",
+            "title": "Jeep safari",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "91€ - 137€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Sali a bordo di una jeep e preparati ad immergerti nella natura cubana in un viaggio attraverso la storia passando per rovine e luoghi suggestivi. Farai un giro in gommone attraversando il <b> fiume Canímar </b> e il suo parco naturale dalla rigogliosa vegetazione e le sue numerosissime specie protette tra flora e fauna.",
+                "Ti troverai poi a transitare nella città di <b> Matanzas </b>, capoluogo dell'omonima provincia, e, di lì a poco, potrai immergerti nella magica Cueva de Saturno, un vero e proprio manantial al coperto con acqua dolce: un posto fuori dal mondo!",
+                "Visiterai poi il <b> Ranchòn La Arboleda </b> dove potrai rilassarti e goderti in pieno la natura che ti circonda gustando un pranzo local a buffet. <br> Se il tempo lo permette, immancabile una tappa a <b> Playa Coral </b> in cui fare snorkeling sulla barriera corallina caraibica: una danza di coloratissimi pesci e coralli ti aspetta!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704298481650_94.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A29%3A08Z&sr=b&sp=rade&sig=jve0yxQo6YlgLmWTr4iILsylcY3%2FtbjcVoRMWSWtlGg%3D&rsct=image%2Fjpg",
+            "badge": "110€ - 166€",
+            "title": "Diving a Baia dei Porci",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "110€ - 166€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "<p> <b> Incontro e Benvenuto: </b> </p>      <p> Arriverai presso il centro immersioni, dove il nostro team esperto ti accoglierà calorosamente. Avrai l'opportunità di conoscere l'istruttore e di porre domande preliminari. </p>",
+                "<p> <b> Corso Preparatorio (30 Minuti): </b> </p>      <p> Inizierai con un corso introduttivo che coprirà le basi dell'immersione. Imparerai le tecniche di respirazione, l'uso dell'attrezzatura e le regole di sicurezza per garantire un'immersione piacevole e sicura. </p>",
+                "<p> <b> Prima Immersione (45 Minuti): </b> </p>      <p> Dopo il corso, ci immergeremo nelle acque affascinanti della Baia dei Porci per la prima immersione. Esploreremo gli straordinari fondali marini, ammirando la ricca vita sottomarina. </p>",
+                "<p> <b> Intervallo e Discussione: </b> </p>      <p> Dopo la prima immersione, faremo una breve pausa per discutere delle esperienze e per rispondere a eventuali domande. Sarà l'occasione per condividere le emozioni e prepararsi per la successiva avventura subacquea. </p>",
+                "<p> <b> Seconda Immersione (45 Minuti): </b> </p>      <p> Rientreremo in acqua per la seconda immersione, esplorando un diverso sito subacqueo. L'istruttore ti guiderà attraverso paesaggi marini unici e ti farà scoprire nuove meraviglie sottomarine. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704298474027_M0030002-e1450459960128.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A00Z&sr=b&sp=rade&sig=%2FcdZ0kXGM1N7sIC0PnpdYjZpRYSE%2B%2B1xagFErSiIh8k%3D&rsct=image%2Fjpg",
+            "badge": "95€ - 143€",
+            "title": "Diving a Varadero",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "95€ - 143€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "<p> <b> Incontro e Benvenuto: </b> </p>      <p> Arriverai presso il centro immersioni, dove il nostro team esperto ti accoglierà calorosamente. Avrai l'opportunità di conoscere l'istruttore e di porre domande preliminari. </p>",
+                "<p> <b> Corso Preparatorio (30 Minuti): </b> </p>      <p> Ti impegnerai in un corso introduttivo che coprirà le basi dell'immersione, dalle tecniche di respirazione all'uso dell'attrezzatura e alle regole di sicurezza. Questo corso ti preparerà al meglio per l'avventura sottomarina che ti attende. </p>",
+                "<p> <b> Prima Immersione (45 Minuti): </b> </p>      <p> Dopo il corso, ti immergerai nelle acque di <b> Varadero </b> per la prima delle due esperienze subacquee. Esplorerai i vivaci fondali marini, scoprendo una varietà di creature marine. </p>",
+                "<p> <b> Intervallo e Discussione: </b> </p>      <p> Dopo la prima immersione, ci sarà una breve pausa per discutere delle esperienze e condividere le tue emozioni. Avrai l'opportunità di porre domande e apprendere ulteriori dettagli sulla vita marina locale. </p>",
+                "<p> <b> Seconda Immersione (45 Minuti): </b> </p>      <p> Rientrerai in acqua per la seconda immersione, esplorando un diverso sito subacqueo. L'istruttore ti guiderà attraverso un viaggio unico nel mondo sottomarino di <b> Varadero </b>. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1709558500924_5e7ae55c68d26e56d2693d860807c78e.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A47Z&sr=b&sp=rade&sig=vwUVyVxTuXv8c%2F7RnXcKtgwanfp2yLN6cAneqPlQn9U%3D&rsct=image%2Fjpg",
+            "badge": "163€ - 245€",
+            "title": "2 dias en Trinidad",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "163€ - 245€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Questa esperienza è un viaggio entusiasmante attraverso alcuni dei luoghi più affascinanti di Cuba. Il primo giorno inizia con il pick up presso l'hotel e una sosta panoramica lungo l'Autostrada Nazionale, seguirà una visita alla città di <b> Santa Clara </b>, dove esplorerai la <b> Plaza Che Guevara </b> e il famoso <b> Tren Blindado </b>.",
+                "Dopo un delizioso pranzo nella città, il viaggio prosegue verso <b> Trinidad </b>, dove avrai l'opportunità di immergerti nella sua ricca storia e cultura, passeggiando per la Plaza Mayor, visitando la Chiesa, il Museo e il Mercato Artigianale. Non mancherà una sosta alla Taberna La Canchánchara per assaggiare un cocktail tipico. La giornata si conclude con il check-in in hotel a Trinidad e una visita notturna della città.",
+                "Il secondo giorno inizia con una gustosa colazione in hotel, seguita da un emozionante tour attraverso le montagne dell'Escambray fino a El Nicho. Qui potrai esplorare il Parco Naturale, fare trekking lungo i sentieri, rilassarti vicino alla cascata e fare il bagno nelle pozze naturali.",
+                "Dopo un pranzo rigenerante a El Nicho, il viaggio prosegue verso <b> Cienfuegos </b>, dove avrai del tempo libero per esplorare il Prado, il Parco e il suggestivo Palazzo di Valle. Infine, farai ritorno a <b> Varadero </b>, portando con te ricordi indelebili di questa avventura indimenticabile attraverso i paesaggi mozzafiato."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1697277712079_DSC00094.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A55Z&sr=b&sp=rade&sig=M3VZN6nmXcGOAXgGbytRwIe%2FL%2BXI7lbV0sPePj1ZzFM%3D&rsct=image%2Fjpg",
+            "badge": "91€ - 137€",
+            "title": "Tres Ciudades",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "91€ - 137€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "La partenza per le <b> Tres Ciudades </b> sarà da <b> Varadero </b>: comincerai con un tour panoramico della città di Santa Clara e una visita al Complesso Monumentale Ernesto Che Guevara, dove potrai imparare qualcosa di più sulla storia della Revolución.",
+                "Proseguirai alla volta della <b> Città Monumentale di Trinidad </b>, dichiarata Patrimonio dell'Umanità dall'UNESCO, che include un tour delle sue strade principali, come <b> Plaza Mayor </b> e altri luoghi di interesse turistico. Pranzerai in un tipico ristorante cittadino e concluderai con il tour panoramico della <b> città di Cienfuegos </b> in libertà.",
+                "Rientrerai a <b> Varadero </b> dopo una breve sosta in transito e uno zaino ricco di storia e cultura cubana. Ricorda che le distanze sull'isola sono molto lunghe e ci vorranno molte ore di spostamenti per arrivare a toccare tutti i luoghi di interesse."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1715801511613_BlogImage.ashx.jpeg?sv=2023-08-03&se=2074-05-24T12%3A29%3A26Z&sr=b&sp=rade&sig=c%2BYDocPU5GzZMnHgE1cv5nC6yRkzC1kVe%2BXtgGjgxxY%3D&rsct=image%2Fjpg",
+            "badge": "123€ - 185€",
+            "title": "El Nicho + Trinidad",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "123€ - 185€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Parti dall'incantevole <b> Varadero </b> per una giornata indimenticabile alla scoperta di alcune delle gemme naturali e culturali di Cuba.",
+                "Dopo il prelievo presso i tuoi hotel, il viaggio inizia con una breve sosta lungo l'autostrada nazionale per poi dirigerti verso le maestose <b> montagne dell'Escambray </b>, che ti condurranno al suggestivo <b> Parco Naturale del Nicho </b>.",
+                "Immergiti nella bellezza della natura durante un tour del parco, esplorando i suoi sentieri, ammirando le cascata e facendo una pausa rinfrescante nelle sue <b> piscine naturali </b>. Dopo un'esperienza rigenerante nella natura, gustati un delizioso pranzo nel cuore del parco.",
+                "Successivamente, la tua avventura continua alla volta di <b> Trinidad </b>, una città intrisa di storia e cultura. Esplora il suo incantevole centro cittadino, passeggiando per la <b> Plaza Mayor </b>, visitando la chiesa, il museo e la casa dell'Alfarero, dove potrai ammirare l'arte locale.",
+                "Approfitta anche del <b> tempo libero per esplorare il mercato artigianale </b> locale e portare a casa qualche souvenir unico.",
+                "Durante il tuo tour a Trinidad, non perderti l'opportunità di assaggiare un autentico cocktail cubano presso la <b> Taberna La Canchánchara </b>, una tappa imperdibile per scoprire i sapori locali.",
+                "Dopo aver esplorato Trinidad, riprendi il viaggio verso <b> Cienfuegos </b>, una città dalle architetture affascinanti. Durante il transito, ammira il suggestivo <b> Prado </b>, il Parco e il Palazzo di Valle. Avrai anche del tempo libero per passeggiare e immergerti nell'atmosfera della città.",
+                "Infine, concludi la tua giornata con una <b> cena presso il rinomato Paladar \"Para Ti\" </b>, dove potrai gustare prelibatezze locali e chiudere la giornata in bellezza.",
+                "Dopo una giornata ricca di scoperte e esperienze indimenticabili, rientra a Varadero, portando con te i ricordi di <b> una giornata avventurosa e affascinante a Cuba </b>."
+              ]
+            }
+          }
+        ]
+      },
+      "reviews": [
+        {
+          "name": "Andrea Massaro",
+          "date": "4 settembre 2024",
+          "starsNumber": 5,
+          "text": "Esperienza stupenda! Mare caraibico, auto d'epoca, sigari, rum e tutto un mood da scoprire. Ho trovato molte persone con cui condividere questa esperienza e fare amicizia. I nostri coach molto disponibili e simpaticissimi. Da rivedere: 1- la scelta del resort: male con cibo e bevande incluse, che ci hanno costretto a spendere più del previsto in ristoranti. 2- qualche cosa da migliorare nelle esperienze (ad esempio più tempo da passare a cayo blanco). Consiglio comunque la meta e il UTravel!"
+        },
+        {
+          "name": "Anonimo",
+          "date": "23 agosto 2024",
+          "starsNumber": 5,
+          "text": "Resort fa schifo , per non parlare dell'hotel all'avana. I coach meravigliosi"
+        },
+        {
+          "name": "Anonimo",
+          "date": "23 agosto 2024",
+          "starsNumber": 5,
+          "text": "Davvero incredibile! Cuba è un luogo stupendo tutto da scoprire, ma soprattutto ciò che mi ha colpita di più è la gente meravigliosa, a partire dal nostro coach cubano Abelardo. Ben più di un coach, disponibile costantemente per ogni cosa a partire da 2 settimane prima della partenza all'intera vacanza. Ciò che sicuramente ha condito ancora di più il tutto di magia è stato il fantastico gruppo di compagni, da soli non sarebbe stato lo stesso."
+        },
+        {
+          "name": "Sara Samele",
+          "date": "23 agosto 2024",
+          "starsNumber": 5,
+          "text": "È stato un viaggio fantastico,per non parlare della dei coach Ydonel e Abelardo, sono stati un punto di riferimento in un luogo così lontano dell'Italia,sempre presenti a qualsiasi ora del giorno e della notte,non ci siamo sentiti mai soli,svolgono il loro lavoro con professionalità e amore,spero di trovare persone come loro in altri viaggi perché per ora rimane il mio viaggio del cuore 🩷"
+        },
+        {
+          "name": "Anonimo",
+          "date": "22 agosto 2024",
+          "starsNumber": 4,
+          "text": "Cuba è stupenda e grazie alle esperienze extra abbiamo visitato posti meravigliosi. Ottima l'organizzazione di queste esperienze e anche le guide scelte sono state davvero gentilissime. Il villaggio in cui abbiamo soggiornato a Varadero però andrebbe rivisto: cibo pessimo e mancanza di igiene. Inoltre non mi è piaciuto che i coach non siano potuti venire all'Havana con noi. Ci siamo trovati soli in una città pericolosa che non conoscevamo."
+        },
+        {
+          "name": "Anonimo",
+          "date": "30 luglio 2024",
+          "starsNumber": 4,
+          "text": "La guida cubana è stata meravigliosa. Meriterebbe di avere più possibilità di passare del tempo con noi, però: a L'Havana senza lui ci siamo sentiti persi. L'organizzazione generale (sempre grazie alla guida) è stata perfetta, l'ultimo giorno invece (praticamente soli) é stato pesante: va calcolato che fino alla partenza per l'aereo porto si possono fare tante cose, noi siamo stati lasciati a far nulla ed è stato un peccato, oltre che molto pesante per il caldo. Per il resto tutto perfetto"
+        },
+        {
+          "name": "Anonimo",
+          "date": "30 luglio 2024",
+          "starsNumber": 4,
+          "text": "Viaggio fantastico!!! Torni a casa con una consapevolezza diversa. Ho trovato degli ottimi compagni di viaggio!! Abelardo ottimo guru, sempre disponibile per qualsiasi cosa serva, peccato che non sia venuto con noi a L'Avana… Magari un guru che stesse con noi a l'Avana sarebbe stato fantastico! Randy la guida di L'Avana ci ha spiegato molto bene la città! Peccato sia stato con noi per poco… Sarebbe stato un viaggio spettacolare peccato che l'ultimo giorno che '’è stato un ritardo con il volo e quando è stata l'ora di andare in aeroporto il transfer non si è presentato e abbiamo dovuto prendere il taxi… Abelardo comunque ci ha aiutato come meglio ha potuto visto che era a Varadero (forse se ci fosse stato un altro guru italiano che doveva tornare con noi a casa ci avrebbe aiutato in modo migliore avendo il nostro stesso problema) per il resto è stato un bellissimo viaggio però un paio di giorni in più a Varadero li avrei fatti molto volentieri!"
+        },
+        {
+          "name": "maria carmina di chiara",
+          "date": "17 luglio 2024",
+          "starsNumber": 4,
+          "text": "Per me è stato un viaggio fantastico, che probabilmente ripeterò. Sarebbe stato un viaggio da 5 stelle se solo il cibo delle strutture in cui abbiamo alloggiato fosse stato un po' più buono: questa l'unica pecca. Però uscendo dal resort, grazie alla guida del coach, abbiamo trovato buoni posti in cui mangiare. Abelardo per noi è stato prezioso, attento e disponibile ad ogni nostra minima richiesta, h24. Ci è dispiaciuto non averlo con noi nei giorni all'Avana"
+        },
+        {
+          "name": "beatrice martello",
+          "date": "10 luglio 2024",
+          "starsNumber": 5,
+          "text": "Penso che mi abbia cambiato in meglio e che l'animatore sia stato fantastico a dir poco e disponibilissimo molto dolce e che coinvolgeva il gruppo per mantenerlo unito e gruppo molto bello"
+        },
+        {
+          "name": "GIULIA FRANTUMA",
+          "date": "2 luglio 2024",
+          "starsNumber": 5,
+          "text": "Cuba, è meravigliosa ti lascia qualcosa nel cuore che è difficilissimo da spiegare a parole. La gente, i sorrisi, le loro storie e la loro semplicità ti conquistano fin da subito. è stata una figata pazzesca, tanta organizzazione, tanto divertimento e tantissima umanità da scoprire. 🩷"
+        },
+        {
+          "name": "Anonimo",
+          "date": "4 luglio 2024",
+          "starsNumber": 5,
+          "text": "Organizzazione perfetta, esperienze top (Cayo Blanco e Jeep Safari fortemente raccomandate!), resort paradisiaco a Varadero ma soprattutto coach Luisa piu' che incredibile! Grazie a lei e ai coach Abelardo e Ynel abbiamo avuto la grande opportunita' di conoscere anche la cultura cubana a 360 gradi e i locals cubani, facendoci vivere un viaggio stupendo insieme a delle persone fantastiche. Non avrei mai pensato che l'isola cosi' come i nuovi amici cubani e italiani mi sarebbero mancati cosi' tanto una volta tornata in Europa... Questo viaggio sara' impossibile da dimenticare, Cuba avra' sempre un posto speciale nel mio cuore!"
+        },
+        {
+          "name": "Federica Siena",
+          "date": "4 luglio 2024",
+          "starsNumber": 5,
+          "text": "I paesaggi sono mozzafiato ma ciò che fa la differenza è la gente del posto. Il popolo cubano è meraviglioso! Luisa, la nostra coach, con la sua disponibilità e la sua dolcezza ha contribuito a rendere il viaggio ulteriormente indimenticabile. Cinque stelle su cinque!"
+        },
+        {
+          "name": "Maria Antonia Sabrina Desantis",
+          "date": "17 maggio 2024",
+          "starsNumber": 4,
+          "text": "Cambiare resort, cibo pessimo per il resto bellissima vacanza"
+        },
+        {
+          "name": "Anonimo",
+          "date": "8 maggio 2024",
+          "starsNumber": 5,
+          "text": "Varadero è fantastica! L'esperienze da fare sono sorprendenti, il jeep safari lascia un po' a desiderare per la fretta che innescano le guide ma comunque visiti posti molto belli… super consigliato il diving a baia dei porci, non capita tutti i giorni fare immersioni nel mar dei Caraibi e vedere una nave affondata. All'Havana capisci un po' di più la situazione che li circonda, la guida è fantastica però è ti fa innamorare di ogni singolo angolo ugualmente. Posto da visitare almeno una volta nella vita ❤️"
+        },
+        {
+          "name": "Gloria Taccioli",
+          "date": "8 aprile 2024",
+          "starsNumber": 5,
+          "text": "Posto stupendo, persone fantastiche e panorami mozzafiato! Un viaggio incredibile che non dimenticherò mai, partire da sola è stata un'idea fantastica perché ho trovato due amiche che mi porterò sempre nel cuore! Grazie alla coach Luisa che ha reso questo viaggio ancora più indimenticabile! Consiglio assolutamente!!❤️"
+        },
+        {
+          "name": "Anonimo",
+          "date": "26 marzo 2024",
+          "starsNumber": 5,
+          "text": "Un viaggio nella vera cultura cubana 🇨🇺"
+        }
+      ],
+      "reach_hotel": {
+        "info": [
+          {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "Cuba",
+            "description": "5RM8+PJX, Varadero, Cuba"
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimenti collettivi",
+            "description": "Tranquill*, non ti lasciamo a piedi. Tutti i trasferimenti sono inclusi! Se hai acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio. Il servizio è disponibile solo nel primo e nell'ultimo giorno di Club."
+          }
+        ],
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.8057825118074!2d-81.184180328052!3d23.184372963759614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d3a1cae3713d1f%3A0x229ea3aed9f2233a!2sRoc%20Arenas%20Doradas!5e0!3m2!1sen!2sit!4v1726092372235!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+
+
+
+
+
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title": "repubblica dominicana",
+    "price": "",
+    "img": "",
+    "detail": {
+      "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257362564.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A43Z&sr=b&sp=rade&sig=ukxTFAV3tccK3OO8D1FG4OSFm%2BY5olcZ%2BBWFEEikCfY%3D&rsct=image%2Fjpg",
+      "travel_images": [
+       {
+         "name": "Destinazione",
+         "url_destination": [
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713964001301.jpg?sv=2023-08-03&se=2074-04-12T13%3A06%3A42Z&sr=b&sp=rade&sig=gUFtRl3rCvYIXJ9RX3rgBCskpm2y3TY2PEHeXbbWsa4%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1698927091331.jpg?sv=2023-08-03&se=2073-10-20T12%3A11%3A31Z&sr=b&sp=rade&sig=MqHDCEZoKIrGENYn9I1BwXZpfvevfCHQFWhTIexZmBU%3D",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713964134938.jpg?sv=2023-08-03&se=2074-04-12T13%3A08%3A54Z&sr=b&sp=rade&sig=0ZTkNXHIsPfs5DfTpUUqjU54q4W9DUtTT3W%2Fbe9oMXY%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713963813996.jpg?sv=2023-08-03&se=2074-04-12T13%3A03%3A35Z&sr=b&sp=rade&sig=qum9MCCAxqyRZDJrzIEbBYbsATdZLVXr85spjqqB9Ao%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713964062255.jpg?sv=2023-08-03&se=2074-04-12T13%3A07%3A43Z&sr=b&sp=rade&sig=2WWf6RWblV2HLvadDfnLB2WSywN%2FOqUbxpBL%2Bimc3kU%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713963907456.jpg?sv=2023-08-03&se=2074-04-12T13%3A05%3A08Z&sr=b&sp=rade&sig=EVWv1KIuq7ZZW%2BC%2FyK%2FthoxcigE47qXw0xa2S6qfrjQ%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713964164278.jpg?sv=2023-08-03&se=2074-04-12T13%3A09%3A26Z&sr=b&sp=rade&sig=7ByQ7CNoU%2FPgC%2B0smbzdRGkVYpOaQWMCoXU%2BHaw3QxI%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713964679189.jpg?sv=2023-08-03&se=2074-04-12T13%3A17%3A59Z&sr=b&sp=rade&sig=aXDBGUaJCWPAdTpO454hzhJsYQtIoa6wdcXU0lBRNM8%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713964889378.jpg?sv=2023-08-03&se=2074-04-12T13%3A21%3A29Z&sr=b&sp=rade&sig=VvfqZyh6uvj4R8Zm%2BBKh6tpBRiqWuvUAxkCLPZsvKcA%3D&rsct=image%2Fjpg",
+
+           "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713964977062.jpg?sv=2023-08-03&se=2074-04-12T13%3A22%3A58Z&sr=b&sp=rade&sig=cGzAK9KwM2DwAPL2LXR296dmIPT8RpsFnLRHuClNLq4%3D&rsct=image%2Fjpg"
+         ]
+       },
+       {
+         "name": "Struttura",
+         "url_structure": [
+           "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698763988089.jfif?sv=2023-08-03&se=2073-10-18T14%3A53%3A08Z&sr=b&sp=rade&sig=AylKGe6gpzAMtm77Bz1nne18UCSGLADXawAZM6IvHA8%3D",
+           
+           "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698764109288.jpg?sv=2023-08-03&se=2073-10-18T14%3A55%3A09Z&sr=b&sp=rade&sig=RuMMaLgEx0g8xO3w1Ci1swaq6MnjyYWAcTj3dxv9Pt8%3D",
+           
+           "https://utravelprod.blob.core.windows.net/clubs/hotelGallery/new-hotel/1698764111953.jpg?sv=2023-08-03&se=2073-10-18T14%3A55%3A12Z&sr=b&sp=rade&sig=8X74oTHEsQJ5DPQtCcidBTxfIZMtcjZtwv6D%2Br6U0Dk%3D"
+         ]
+       }
+     ],
+     "title": "per veri vacanzieri",
+     "badge": [
+       "Caraibi vibes",
+       "Relax e natura",
+       "Reggaetton",
+       "A prova di GEN Z"
+     ],
+     "paragraph": [
+       {
+         "text": "Il tuo motto potrebbe essere più o meno questo: “<b> mollo tutto e apro un chiringuito sulla spiaggia </b>”. In vacanza vuoi sciallarti per ore sulla <b> sabbia finissima </b> con un <b> cocktail in mano, ammirando il tramonto </b>. Ci sono volte in cui, però, hai solamente bisogno di scatenarti sulla pista del <b> Cocobongo </b>."
+       },
+       {
+         "text": "Qualsiasi sia il tuo <b> mood di viaggio </b>, il <b> Club Repubblica Dominicana </b> ti permetterà di provare tutto questo (e molto altro) <b> insieme ad altri giovani </b> viaggiatori e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire <b> il tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con le <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)"
+       },
+       {
+         "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti i <b> segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+       }
+     ],
+     "flight": {
+       "title": "Aggiungi il volo",
+       "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+     },
+     "included": [
+       {
+         "icon": "fa-regular fa-moon",
+         "text": "7 notti in hotel"
+       },
+       {
+         "icon": "fa-solid fa-mug-saucer",
+         "text": "Colazione"
+       },
+       {
+         "icon": "fa-regular fa-circle-user",
+         "text": "Coach in lingua italiana"
+       },
+       {
+        "icon": "fa-solid fa-bus-simple",
+        "text": "Trasferimenti a/r aeroporto La Romana"
+      },
+       {
+         "icon": "fa-solid fa-headset",
+         "text": "Assistenza Utravel"
+       },
+       {
+         "icon": "fa-solid fa-tablet-screen-button",
+         "text": "App dedicata"
+       },
+       {
+         "icon": "fa-solid fa-users",
+         "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+       }
+     ],
+     "notIncluded": [
+       "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+       "Pranzi e cene",
+       "Tassa di soggiorno",
+       "Tutto quello che non è indicato in 'Cosa è incluso'"
+     ],
+     "thingsToKnow": [
+       {
+         "title": "",
+         "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+       },
+       {
+        "title": "Passaporto",
+        "text": "Con almeno 6 mesi di validità residua."
+      },
+      {
+        "title": "Visto",
+        "text": "Non necessario per motivi di turismo, per soggiorni inferiori ai 30 giorni."
+      },
+      {
+        "title": "Certificati",
+        "text": "Tutti i viaggiatori in entrata ed in uscita dal Paese devono, prima del loro viaggio, compilare questo formulario online avendo cura di salvarne la ricevuta e presentarne il codice QR al check-in al momento della partenza."
+      },
+       {
+         "title": "Domande Frequenti",
+         "text": "Dai un'occhiata alle nostre FAQ."
+       }
+     ],
+
+     "stay": {
+        "intro": "<b> Hotel Alkquimia </b> - o similare",
+        "paragraph": "Must have per un viaggio da sogno: una destinazione incredibile, compagni di viaggio presi bene e…l'hotel giusto! L'Hotel Alkquimia, con una grande terrazza per ammirare il tramonto e una grande piscina all'aperto, ideale per rilassarsi dopo una lunga giornata ad esplorare, ti farà sentire come a casa. Niente tempo speso a cucinare o a cercare il bar giusto: la colazione è inclusa!",
+        "img": "https://utravelprod.blob.core.windows.net/clubs/hotel/new-hotel/1698763849596.jpg?sv=2023-08-03&se=2073-10-18T14%3A50%3A50Z&sr=b&sp=rade&sig=gi9Gq6lHiQVFxGRPsdSDncJTIrgN6Aa9jHJyEyScAl0%3D"
+    },
+    "explore": {
+       "title": "Esperienze consigliate",
+       "text": [
+         "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+
+         "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+       ],
+       "slide_thumb": [
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1694108023407_3b5b446c-2193-4cc4-9076-f24a2bc8b166.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A58Z&sr=b&sp=rade&sig=L6YVSkYKpgty8xD6%2F%2BeNUP%2F5cD94yOVIMdf7mqNq6UY%3D&rsct=image%2Fjpg",
+            "badge": "Inclusa",
+            "title": "Isla Saona",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Esperienza inclusa",
+              "icon": "fa-regular fa-circle-check ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "Inclusa nel club"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "<b> Isla Saona </b> è una gemma nascosta nel Mar dei Caraibi, situata al largo della costa sud-est della Repubblica Dominicana. Questa isola tropicale è un'autentica oasi di tranquillità e bellezza naturale, ed è una tappa imperdibile per i visitatori che desiderano vivere un'esperienza caraibica autentica.",
+
+                "Le spiagge dell'isola sono spettacolari, con sabbia bianca e finissima che si unisce alle acque cristalline del mare.",
+
+                "Con poche strutture turistiche, l'isola mantiene un'atmosfera incontaminata e rilassante. ",
+
+                "L'orario di partenza dall'hotel previsto è alle 7:00 circa (il coach vi confermerà l'orario il giorno prima), da lì raggiungerete il porticciolo di <b> Bayahibe </b> (circa 1h), da dove vi imbarcherete in direzione <b> Saona </b>, ci vorranno circa 1,30h per raggiungerla e nel tragitto avrete la possibilità di fare tappa in delle piscine naturali.",
+
+                "Una volta arrivati sull'isola pranzerete e avrete un paio d'ore libere per girovagare nel paradiso terrestre e scattare foto da fare invidia a tutti i vostri followers! Parola di Utravelers!",
+
+                "Ps: In barca e sull'isola c'è musica e open bar! Pronti a <b> perrear </b> a ritmo di <b> Dembow </b>?"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1722414072664.webp?sv=2023-08-03&se=2074-07-19T08%3A21%3A12Z&sr=b&sp=rade&sig=xRmqHuBOauhM%2FpDCfGTHafAwJFj26WBjSOvtbzjM%2FEg%3D&rsct=image%2Fjpg",
+            "badge": "44€ - 66€",
+            "title": "Vita e sapori dominicani",
+            "description": "Local Food",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "44€ - 66€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Local Food"
+                }
+              ],
+              "text": [
+                "Accompagnati da una guida locale, visiteremo le aree circostanti di <b> Bayahibe </b> e la terza città più grande del paese, La Romana, e imparerete a conoscere sia la vera vita rurale che quella cittadina della gente del posto, nonché la produzione e raccolta di alcuni dei principali prodotti di esportazione del paese, come canna da zucchero, cacao, caffè e sigari.",
+
+                "A partire dal mattino presto viaggeremo nel profondo della campagna rurale e visiteremo i <b> campi di canna da zucchero </b>. Qui vedrai la gente del posto al lavoro e imparerai tutto sulla produzione e la raccolta di uno dei principali prodotti agricoli della Repubblica Dominicana: la canna da zucchero. Non dimenticate di assaggiarne uno, appena tagliato!",
+
+                "Successivamente ci fermeremo a visitare un tipico villaggio haitiano locale. Qui esploreremo lo stile di vita di questa più grande minoranza etnica del paese.",
+
+                "A seguire, visiteremo una delle fabbriche di sigari locali, dove scoprirete tutti i segreti di questo mestiere dal suo proprietario e avrete la possibilità di provare i sigari locali accompagnati dalla famosa vitamina R (rum).",
+
+                "Dopo aver lasciato la fabbrica di sigari, ci dirigeremo verso il rancho locale dove ci immergeremo nei processi di produzione e raccolta del cacao e del caffè. Qui avrete la possibilità di assaggiare e acquistare questi prodotti nella loro pura forma biologica.",
+
+                "Durante questa escursione ammireremo anche il <b> fiume Chavon </b>, famoso per essere stato scelto come set cinematografico per girare scene di numerosi film famosi, tra cui Apocalypse Now, Rambo 2, Anaconda, etc..",
+
+                "Passeremo anche a visitare una scuola locale dove incontreremo i bambini magari porta loro anche dei regali! Ne saranno felicissimi!",
+
+                "Una volta terminata la parte rurale del viaggio, ci dirigeremo a La Romana per esplorare la vita cittadina dei domenicani. Attraverseremo la città esplorando varie parti della cittadina e fermandoci al supermercato locale e ai mercati di frutta e verdura dove potrai acquistare prodotti locali a un prezzo molto più ragionevole rispetto a quello che trovi nella zona del resort.",
+
+                "Infine, tornando in hotel ci fermeremo a fare un giro al villaggio di pescatori di <b> Bayahibe </b> dove potrete scattare fantastiche foto al caratteristico porticciolo e alla caratteristica scritta colorata che saluta l'ingresso a <b> Bayahibe </b>.",
+
+                "Al termine sarete riaccompagnati presso le vostre strutture ricettive."
+              ],
+              "instax": true
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1694119005700_IMG_0081.jpeg?sv=2023-08-03&se=2074-05-24T12%3A27%3A48Z&sr=b&sp=rade&sig=OmB4H8OKzC1o24zYT0SFOtaLmTqoIfhNa4mtf14X4w8%3D&rsct=image%2Fjpg",
+            "badge": "48€ - 72€",
+            "title": "Buggies Adventure (Doppio)",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "48€ - 72€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Riservata e consigliata, a tutti coloro che amano l'avventura e che al tempo stesso hanno voglia di immergersi nella vita rurale autentica delle campagne dominicane.",
+
+                "Prelevati presso la nostra agenzia, oppure per chi non ha la possibilità di raggiungerci a piedi, direttamente presso la vostra struttura ricettiva; sarete trasportati presso il nostro centro operativo, dove subito dopo aver ascoltato alcune importati indicazioni, relative alle modalità di guida dei mezzi, da parte delle nostre guide, partirete per l'avventura!",
+
+                "Un giro eccitante di mezza giornata con il buggy guidato da voi!",
+
+                "Attraverserete piantagioni di frutta, di <b> canna da zucchero </b>, tipici villaggi, fino ad arrivare al famosissimo fiume Chavón. Arrivati al fiume potrete, oltre che ammirare una lussureggiante foresta tropicale, bagnarvi e rinfrescarvi nelle sue acque.",
+
+                "Sfreccerete fra le piantagioni di canna da zucchero, dove ci fermeremo anche per assaggiarla direttamente dalla pianta, che la nostra guida taglierà per voi con il machete.",
+
+                "Al termine del'attività, farete ritorno presso il nostro centro operativo, dove dopo esservi ripuliti e sistemati, sarete riaccompagnati presso le vostre strutture ricettive."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1716202109689_1696775322357_IMG_4490.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A14Z&sr=b&sp=rade&sig=269smyEOIDZ3jK2Zo9btYgVwta%2Ba%2B8kykE4JCeoeTrs%3D&rsct=image%2Fjpg",
+            "badge": "76€ - 114€",
+            "title": "Cocobongo",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "76€ - 114€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "Il nome <b> Coco Bongo </b> non ti dice nulla? Se ti dicessimo <b> The Mask </b> ti ricorda qualcosa? E si, è proprio il locale che si intravede nel film di <b> The Mask </b>, dove Jim Carrey scendeva le scale del palco indossando una maschera verde e un completo giallo.",
+
+                "Potremmo dire che il <b> Coco Bongo </b> è il locale più IN di tutto il Mondo perchè non è solo una discoteca, è un vero e proprio spettacolo. Ne esistono 3 dei quali 2 si trovano in Messico e uno a Punta Cana.",
+
+                "Partendo da Micheal Jackson e Shakira passando per 300 sino ad arrivare a Joker e Batman assisterai ad un vero e proprio SHOW degno di Hollywood!! Non perdertelo, non te ne pentirai! Ps: <b> Open bar all night long! </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1712148688134_Beach-Rinco%25CC%2581n_001-e1523455044867.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A56Z&sr=b&sp=rade&sig=lgQnYT%2BU7YFR%2BkWBJyBcAQ5hLxZ0vja%2FyLlkOuthq0U%3D&rsct=image%2Fjpg",
+            "badge": "112€ - 168€",
+            "title": "Samanà e Playa Rincon",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "112€ - 168€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Questa emozionante esperienza inizia con un traseferimento dall'hotel fino al molo di Las Cañitas de Miches, dove ci imbarcheremo su una barca per dirigerci verso l'incantevole <b> Cayo Levantado </b>.",
+
+                "Una volta arrivati, avrai tutto il tempo per rilassarti sotto gli alberi di cocco ammirando la vista sulla baia e sulla <b> penisola di Samaná </b>.",
+
+                "Il pranzo sarà un'autentica esperienza dominicana, con piatti preparati con prodotti locali freschi e una vista spettacolare sull'intera baia, proprio di fronte al mare.",
+
+                "Successivamente, visiteremo la rinomata spiaggia di Rincon, considerata una delle migliori di Samaná e una delle più belle al mondo. Con le sue acque turchesi, circondate da montagne e alberi di cocco, avrai tutto il tempo per goderti la sabbia bianca e la leggera brezza.",
+
+                "La nostra avventura continuerà con una visita a <b> Caño Frio </b>, un affascinante fiume alimentato da una sorgente di montagna. Qui faremo un'indimenticabile escursione in canoa attraverso le mangrovie, esplorando la natura circostante.",
+
+                "Dopo questa esperienza unica, torneremo a <b> Samaná </b> per un tour panoramico della città, dove avrai l'opportunità di conoscere la cultura locale mentre attraverseremo il centro della città per ammirare le sue chiese, gli uffici governativi e il <b> Pueblo Principe </b>.",
+
+                "Infine, faremo ritorno al molo di <b> Las Cañitas de Miches </b> per prendere l'autobus che ci condurrà di nuovo all'hotel, portando con noi ricordi indimenticabili di questa splendida giornata trascorsa a <b> Samaná </b>.",
+
+                "<p> <b> Itinerario: </b> </p>      <p> 6:10 am - Partenza da Bayahibe. <br> 9:45 am - Arrivo al porto e imbarco <br> 10:45 am - Arrivo a Cayo Levantado e pranzo <br> 1:00 pm - Partenza in direzione Samanà <br> 1:15 pm - Arrivo a Samanà e partenza per Playa Rincon <br> 2:00 pm - Arrivo a Playa Rincon, tempo libero e giro sul fiume Caño Frio <br> 3:30 pm - Ritorno a Samanà, giro panoramico <br> 5.00 pm - Imbarco e ritorno in hotel <br> 9:00 pm - rientro in hotel </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1697741581668_phoca_thumb_l_loshaitises-geography_78c0d57e-bc23-1bfc-aba6ddea3e40e8bb.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A10Z&sr=b&sp=rade&sig=LXJBC4Lifw%2FEM0ZYD6TQNHGAtnEmeYU2%2Flt%2B5znKYuk%3D&rsct=image%2Fjpg",
+            "badge": "104€ - 156€",
+            "title": "Los Haitises",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "104€ - 156€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Goditi una fantastica avventura ecologica nella Repubblica Dominicana lungo la costa settentrionale e nord-orientale. Visita il parco nazionale <b> Los Haitises </b>, uno dei paesaggi naturali protetti più importanti del paese, che ospita una fauna straordinariamente ricca e una flora esuberante.",
+
+                "Il viaggio inizia la mattina presto su un autobus da <b> Bayahibe/Punta Cana </b>. Ci dirigeremo a Miches (fermata colazione) e poi a <b> Sabana de la Mar </b>. Una volta lì, saliremo su una barca che vi porterà lungo il fiume <b> Caño Hondo </b> attraverso tutto il parco nazionale Los Haitises.",
+
+                "Qui ammireremo l'impressionante paesaggio carsico che vanta estese mangrovie, che ospitano oltre un centinaio di diverse specie di uccelli, così come i famosi <b> mogotes </b>, formazioni rocciose alte 30 metri che spuntano dall'acqua. Visiteremo anche 2 caverne, che hanno petroglifi e pittogrammi sulle loro pareti rocciose - dipinti preistorici, un'eredità inestimabile dell'antica civiltà Taino.",
+
+                "Dopo il tour del parco torneremo al molo e ci dirigeremo al <b> Paraíso Caño Hondo </b>, un ecolodge circondato dalla giungla all'interno del parco nazionale <b> Los Haitises </b>. Qui ci verrà offerto un delizioso pranzo dominicano e l'opportunità di goderci una nuotata rinfrescante nelle piscine naturali locali.",
+
+                "Successivamente, risaliremo sull'autobus e ci dirigeremo verso <b> Montaña Redonda </b>, dove un camion Safari ci porterà in cima. Montaña Redonda si trova tra due grandi lagune (Laguna Limón e Laguna Redonda) e offre una delle viste panoramiche più spettacolari della Repubblica Dominicana: l'Oceano Atlantico a est e la Cordigliera orientale a ovest.",
+
+                "Successivamente, torneremo sull'autobus e torneremo a Punta Cana/Bayahibe."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1694120419465_IMG_9657.jpeg?sv=2023-08-03&se=2074-05-24T12%3A26%3A01Z&sr=b&sp=rade&sig=w0WGzVDfzzU6w%2BRUwKS199K3EM2H%2Ft1pBbyzOnmbzsg%3D&rsct=image%2Fjpg",
+            "badge": "60€ - 90€",
+            "title": "Isla Catalina",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "60€ - 90€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "<b> L'isola di Catalina </b>, situata a sud della città di La Romana, è una delle isole dominicane più conosciute ed è particolarmente famosa come luogo perfetto per gli appassionati di <b> snorkeling! </b>",
+
+                "Partendo la mattina presto un transfer ci porterà al porto turistico di Bayahibe, dove verremo accolti a bordo di un catamarano. <b> Il catamarano salpa alle 9 </b> del mattino e così inizieremo la nostra avventura.",
+
+                "Sulla strada per l'isola di Catalina passeremo accanto al <b> fiume Chavon </b> che ha guadagnato la sua fama dopo essere stato il luogo delle riprese di numerosi importanti successi, come <b> “Apocalypse Now”, “Rambo 2”, “Anaconda”, </b> ecc.",
+
+                "Successivamente, arriveremo all'isola Catalina. La sua attrazione principale è il magnifico ecosistema sottomarino della <b> barriera corallina </b>. I nostri ospiti avranno tutto il tempo (45 minuti) per godersi la vera bellezza di “<b> La Pared </b>”, il luogo per lo snorkeling più famoso della Repubblica Dominicana che vanta una ricca varietà di pesci e piante marine (vengono fornite maschere e tubi per lo snorkeling) .",
+
+                "Snack e bevande (<b> acqua, bibite, rum </b>) saranno disponibili a bordo del catamarano mentre ci dirigiamo verso l'isola stessa mentre ci godiamo i ritmi affascinanti della <b> musica caraibica </b>.",
+
+                "Una volta qui, ci godremo un delizioso pranzo (vari tipi o riso, pasta, pollo e maiale alla griglia, patate, insalate e verdure fresche), un open bar (acqua, bibite, rum e birra) e una <b> bellissima spiaggia, completamente attrezzata con lettini e bagni </b> (circa 2,5 ore).",
+
+                "<b> Alle 14:30 torneremo a Bayahibe </b> e arriveremo intorno alle 16:30. Da qui il trasferimento riporterà i nostri clienti al loro alloggio a Bayahibe"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702052202032_Santo-Domingo-Dominican-Republic.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A28%3A08Z&sr=b&sp=rade&sig=hfwfMhcXGoZtSZvjsdh%2FsjLDbwUONdbTs33pDbltXIE%3D&rsct=image%2Fjpg",
+            "badge": "72€ - 108€",
+            "title": "Santo Domingo",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "72€ - 108€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Con questo tour verrai portato nella capitale della Repubblica Dominicana, Santo Domingo, la prima città del nuovo mondo, fondata da Cristoforo Colombo nel 1503.",
+
+                "Arriverai a Santo Domingo la mattina presto e visiterai prima la grotta “<b> Los Tres Ojos </b>” con 3 laghi al suo interno. Successivamente, dopo aver superato il faro di Cristoforo Colombo, salirai sulla Teleférico (funivia) di Santo Domingo per dare un'occhiata alla vita ordinaria delle favelas della capitale da una prospettiva a volo d'uccello.",
+
+                "Successivamente avrai del tempo libero per esplorare la prima strada commerciale del <b> Nuovo Mondo, El Conde </b>, che rimane la zona pedonale dello shopping più famosa della Repubblica Dominicana. Successivamente: un tipico pranzo dominicano in uno dei ristoranti locali. ",
+
+                "Dopo aver fatto una pausa per il pranzo e aver visitato uno dei migliori negozi di cacao del paese, il tour proseguirà nella parte coloniale della capitale, dove esplorerai alcuni dei principali monumenti storici: <b> Plaza España </b> (la Piazza di Spagna), <b> Calle Las Damas </b> (la Via delle Dame), <b> Panteón de la Patria </b> (il Pantheon Nazionale) e <b> Basílica Menor de Santa María </b> (La Cattedrale di Santa María la Menor). <br> Successivamente, verrai trasferito di nuovo a Bayahibe."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1716202145247_1702049883067_IMG_9453.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A06Z&sr=b&sp=rade&sig=pU8AOkcwlW6th4c8JRkHonl5ih4DrTehVY34V3q0cpg%3D&rsct=image%2Fjpg",
+            "badge": "27€ - 41€",
+            "title": "Tour Bayahibe",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "27€ - 41€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Si parte dalla scritta di <b> Bayahibe </b> che da il Benvenuto nel pueblo a tutti quelli che qui arrivano o passano. Da li si osserva la <b> Rosa di Bayahibe </b>, fiore protetto e simbolo della Repubblica Dominicana, si scoprono i <b> 7 manantiales </b>, ovvero laghi di acqua dolce collegati da una rete di fiumi sotterranei e nei quali è possibile fare il bagno e dare da mangiare a tartarughe e pesci.",
+
+                "Con una guida local si percorreranno delle stradine per raggiungere le tipiche abitazioni in legno e non mancheranno le le degustazioni di prodotti tipici, come il gelato casereccio, le empanadas o la frutta fresca!",
+
+                "La guida sarà <b> Edgard </b>, un ex animatore che il destino ha messo a dura prova: un incidente inaspettato lo ha infatti costretto a essere oggi in sedia a rotelle ,ma lui non si è perso d'animo!! In fondo lo spirito dominicano è proprio questo e ha deciso, con la sua sedia a rotelle,di percorrere in lungo e in <b> largo il pueblo </b> e far conoscere ai viaggiatori tutti i suoi angoli nascosti!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1705082406790_bd.jpg?sv=2023-08-03&se=2074-05-24T12%3A25%3A53Z&sr=b&sp=rade&sig=0K%2Ff1T5k0u%2B7Ji7wyGKUDcWkxb4q04AHRuhxr7TCQlA%3D&rsct=image%2Fjpg",
+            "badge": "64€ - 96€",
+            "title": "Zip Line",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "64€ - 96€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Sorvola la <b> foresta pluviale </b> su alcune delle linee zip più lunghe dei Caraibi. <br> Guide esperte ti forniranno le linee guida sulla sicurezza ed effettueranno gli opportuni controlli prima del volo.",
+
+                "Lungo il percorso avrai la possibilità di osservare la flora e <b> la fauna della foresta tropicale! </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702051059786_dominicus-cueva-padre-nuestro-cotubanama-1200x860.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A58Z&sr=b&sp=rade&sig=mAitpx2Pl%2F33uw%2FHbwFvTx8%2BBqqyKtVudTnSo6%2BrA%2Bc%3D&rsct=image%2Fjpg",
+            "badge": "29€ - 43€",
+            "title": "Cueva di Padre Nuestro",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "29€ - 43€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Passeggiata all'interno del <b> Parco Nazionale di Cotubanaba </b> per ammirare flora e fauna della Repubblica Dominicana e tuffarsi nelle acque cristalline della grotta più famosa della regione!"
+              ]
+            }
+          }
+       ]
+    },
+    "reviews": [
+       {
+         "name": "Sara",
+         "date": "5 marzo 2024",
+         "starsNumber": 5,
+         "text": "La vacanza ha rispettato a pieno le mie aspettative, ci siamo divertiti molto. Gruppo fantastico e guru ancora di più. Posto che porterò nel cuore e da rivisitare"
+       },
+       {
+         "name": "Walter Quaranta",
+         "date": "5 marzo 2024",
+         "starsNumber": 5,
+         "text": "Bellissimo posto e viaggio. Ci siamo tutti divertiti tantissimo e siamo entrati subito nel mood anche grazie al nostro guru santos che non perdeva momento per farci divertire e rafforzare il nostro legame come gruppo"
+       },
+       {
+         "name": "Anonimo",
+         "date": "20 febbraio 2024",
+         "starsNumber": 4,
+         "text": "È stata una bellissima esperienza, viaggiare con Utravel mi ha permesso di conoscere nuove persone e di fare delle bellissime esperienze, la Repubblica Dominicana è un posto che merita di essere visto. Hotel discreto, pulito. Dato che ha solo la colazione inclusa, bisogna considerare di spendere molti soldi per i pasti, che sono paragonabili ai prezzi in Italia. Nonostante sia andato tutto benissimo, mi tocca dire che il Coach non era molto presente e attivo nel creare momenti di condivisione… spesso ci siamo dovuti organizzare da soli, anche per l'ultima sera che è un momento importante per il gruppo."
+       },
+       {
+         "name": "Anonimo",
+         "date": "15 febbraio 2024",
+         "starsNumber": 4,
+         "text": "Viaggio spettacolare… coach meravigliosi.. Francesca aresi number one!!"
+       },
+       {
+         "name": "Anonimo",
+         "date": "15 febbraio 2024",
+         "starsNumber": 5,
+         "text": "La settimana in Repubblica dominicana è volata troppo in fretta, i Caraibi sono indimenticabili e te ne innamori subito. L'esperienza è stata magnifica grazie all'organizzazione e alla presenza di una Coach preparata e competente nonostante la sua giovane età. Esperienze ben organizzate e varie."
+       },
+       {
+         "name": "Valentina Pavesi",
+         "date": "30 gennaio 2024",
+         "starsNumber": 4,
+         "text": "Volevo ringraziare la Francy (coach) perché è stata strepitosa! Ragazza solare, alla mano, divertente, organizzata...Una bellissima persona! Uno dei viaggi più belli! È stata essenziale!"
+       },
+       {
+         "name": "Lorena Del Popolo",
+         "date": "30 gennaio 2024",
+         "starsNumber": 5,
+         "text": "Un viaggio ben organizzato, con esperienze uniche che ti fanno conoscere il cuore della Repubblica Dominicana. Un grazie speciale va alla nostra guru Francesca, che con la sua dedizione e la sua passione ha reso questi 7 giorni indimenticabili. Stra consiglio a chiunque il club Repubblica Dominicana Winter e soprattutto consiglio di scegliere U travel per chi, come me e i miei compagni di viaggio, vuole godersi il mondo con spensieratezza, divertimento, relax e con indispensabili momenti totem."
+       },
+       {
+        "name": "Anonimo",
+        "date": "30 gennaio 2024",
+        "starsNumber": 5,
+        "text": "Che dire, esperienza magica e da rifare assolutissimamente. Tutto organizzato in modo professionale e nel momento in cui non si sa andare avanti c'è la guida pronta ad aiutarti, nel mio caso c'era la coach Francesca, molto professionale e simpatica, é stata con il gruppo anche in momenti in cui non era obbligata a farlo, rendendo così le escursioni ancora più divertenti e facili da vivere. Esperienza top Andrea"
+       },
+       {
+        "name": "Anonimo",
+        "date": "15 febbraio 2024",
+        "starsNumber": 4,
+        "text": "È stato riferito del cambio hotel (inferiore rispetto a quello prenotato) una volta giunti a destinazione"
+       },
+       {
+        "name": "Amedeo Pellegrini",
+        "date": "30 gennaio 2024",
+        "starsNumber": 5,
+        "text": "Tour organizzato molto bene, guru fantastica e atmosfera super!"
+       },
+       {
+        "name": "Anonimo",
+        "date": "30 gennaio 2024",
+        "starsNumber": 5,
+        "text": "Esperienza unica che consiglio a tutti."
+       },
+       {
+        "name": "Anonimo",
+        "date": "15 febbraio 2024",
+        "starsNumber": 4,
+        "text": "Bilancio positivo, migliorabile la gestione delle stanze."
+       }
+     ],
+      "reach_hotel": {
+        "info": [
+          {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "Repubblica Dominicana",
+            "description": "Av. La Laguna, Dominicus 23000, Dominican Republic"
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimenti da La Romana",
+            "description": "Tranquill*, non ti lasciamo a piedi. Il trasferimento collettivo da/per l'aeroporto di LRM è incluso. Viaggerai verso il tuo hotel insieme ad altri Utravelers! Il servizio è disponibile solo nel primo e nell'ultimo giorno di Club. Se hai acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimenti da Santo Domingo",
+            "description": "Se voli su Santo Domingo (SDQ), potrai richiedere un supplemento andata/ritorno dall'aeroporto all'hotel di 160€ totali. Nel caso in cui avessi acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimenti da Punta Cana",
+            "description": "Se voli su Punta Cana (PUJ), potrai richiedere un supplemento andata/ritorno dall'aeroporto all'hotel di 170€ totali. Nel caso in cui avessi acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+          }
+        ],
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d473.3658137647106!2d-68.82814373793569!3d18.35063684466409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea8ab9173a0efb1%3A0x70fdaee88d3a1c6e!2sHotel%20Alkquimia%2C%20Lounge%20and%20bar!5e0!3m2!1sen!2sit!4v1726095645038!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+
+
+
+
+
+    
+
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title": "rio de janeiro",
+    "price": "",
+    "img": "",
+    "detail": {
+      "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827710251.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A11Z&sr=b&sp=rade&sig=0Et3VNNVcE8qUjldyDcXqpic7Vsf%2Fn05AZgHFngx5Z0%3D&rsct=image%2Fjpg",
+      "travel_images": [
+        {
+          "name": "Destinazione",
+          "url_destination": [
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713796972179.jpg?sv=2023-08-03&se=2074-04-10T14%3A42%3A53Z&sr=b&sp=rade&sig=TNokdH6tEcIDxeT%2BCzz0xgppG0P%2FjkcuHwfKHoZt11I%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699434543364.jpg?sv=2023-08-03&se=2073-10-26T09%3A09%3A04Z&sr=b&sp=rade&sig=djcd3iBiearO9NQJabZkt53i6q6muXa0t2DVJya2zvc%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713541419173.jpg?sv=2023-08-03&se=2074-04-07T15%3A43%3A40Z&sr=b&sp=rade&sig=FOzRj2lV0kSFWdC4SUROiQAlDWbFdoOSI5dHdCoJvy8%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713797546308.jpg?sv=2023-08-03&se=2074-04-10T14%3A52%3A26Z&sr=b&sp=rade&sig=0e03JNKFEeVO4oLIud3SxTlsvRUgitCZYYSD3tga3tM%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713540233158.jpg?sv=2023-08-03&se=2074-04-07T15%3A23%3A53Z&sr=b&sp=rade&sig=NMvn6Ea480S0L5LJtm08RzDMLCof9DXWYl8VQqHtF1w%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699434563421.jpg?sv=2023-08-03&se=2073-10-26T09%3A09%3A24Z&sr=b&sp=rade&sig=GLyV4bujTqlD608OxSbQ6Plj%2BW6yKQneSxSH3NvFZ%2Bg%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1699627376630.jpg?sv=2023-08-03&se=2073-10-28T14%3A42%3A57Z&sr=b&sp=rade&sig=%2BzVTSTAKZQ33sjTsw60LRTNBSzDT6UFH4lq5GVdqNW4%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713797552904.jpg?sv=2023-08-03&se=2074-04-10T14%3A52%3A32Z&sr=b&sp=rade&sig=uC7jTlXtZl9zknRb0aEJeObVGJqmHecfzYXiZhHU24U%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713797805892.jpg?sv=2023-08-03&se=2074-04-10T14%3A56%3A51Z&sr=b&sp=rade&sig=0yFeFtHWQqzpNo8f3ND8iLiQUgQIrOZyCEqIREQKKJA%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713541063051.jpg?sv=2023-08-03&se=2074-04-07T15%3A37%3A46Z&sr=b&sp=rade&sig=i2Zmbfm3%2B4l919nVE%2FZIZvJExey0orHAFGDLow7qrmg%3D&rsct=image%2Fjpg"
+          ]
+        },
+        {
+          "name": "Struttura",
+          "url_structure": [
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370837711.jpg?sv=2023-08-03&se=2073-10-25T15%3A27%3A18Z&sr=b&sp=rade&sig=ciQKdyCH4xDKG%2Bp7J2NjgM62H%2F75YJ0t71rmiuyMF7k%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370858598.jpg?sv=2023-08-03&se=2073-10-25T15%3A27%3A38Z&sr=b&sp=rade&sig=FN31vX4P4JZP2s3YfoORc3bqWrMEXNrvnXO%2BmihdjSw%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370876556.jpg?sv=2023-08-03&se=2073-10-25T15%3A27%3A56Z&sr=b&sp=rade&sig=PyQfhrtknY2%2FFOs6U5sT2qHQ9keJ5Q5g8RQBX5vDAoI%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370890469.jpg?sv=2023-08-03&se=2073-10-25T15%3A28%3A10Z&sr=b&sp=rade&sig=L3oguvfi7ExJg408fLFqoCsAX4EwR6zGt246p7%2FOwUE%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370891757.jpg?sv=2023-08-03&se=2073-10-25T15%3A28%3A12Z&sr=b&sp=rade&sig=1b7ZeskfEiz9B0COfUbqC3zH%2Bu5kINFEqu4sPW0Lp%2Bs%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370914979.jpg?sv=2023-08-03&se=2073-10-25T15%3A28%3A35Z&sr=b&sp=rade&sig=xOaXdswL4Q%2FVxiKBDVut%2BRdtKFTx9OYliw1XfjNJxUw%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370918235.jpg?sv=2023-08-03&se=2073-10-25T15%3A28%3A38Z&sr=b&sp=rade&sig=Nm%2Fq4wA52oxBlYM2hq%2FfQTIK0NMFyEMzadlNwHqlerc%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699370918231.jpg?sv=2023-08-03&se=2073-10-25T15%3A28%3A38Z&sr=b&sp=rade&sig=R4VKPPTtKvIxb0eHNrs%2B4jpP%2BbtWY0C3YvP9gnWSX5Q%3D"
+          ]
+        }
+      ],
+      "title": "per chi cerca l'avventura",
+      "badge": [
+        "Adrenalinico",
+        "Saudade assicurata",
+        "7 meraviglie del mondo check",
+        "A prova di GEN Z"
+      ],
+      "paragraph": [
+        {
+          "text": "Se, quando ti dicono “<b> Rio de Janeiro </b>”, l'unica cosa che ti viene in mente è il Carnevale… <b> Non sai davvero cosa ti perdi </b>. Questa metropoli è magica: <b> i colori </b> e <b> le good vibes </b> dei suoi abitanti, l'immagine del <b> Cristo Redentore </b>, il calore della <b> spiaggia di Copacabana </b> vi faranno innamorare."
+        },
+        {
+          "text": "Qualsiasi sia il tuo <b> mood di viaggio </b>, il Club Rio ti permetterà di provare tutto questo (e molto altro) insieme ad altri giovani viaggiatori e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire il tuo viaggio in totale libertà in base ai tuoi ritmi e con le esperienze che tu sceglierai di vivere (da solo o con gli altri Utravelers)"
+        },
+        {
+          "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti <b> i segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+        }
+      ],
+      "flight": {
+        "title": "Aggiungi il volo",
+        "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+      },
+      "included": [
+        {
+          "icon": "fa-regular fa-moon",
+          "text": "7 notti in hotel"
+        },
+        {
+          "icon": "fa-solid fa-mug-saucer",
+          "text": "Colazione"
+        },
+        {
+          "icon": "fa-solid fa-location-dot",
+          "text": "Esperienza inclusa: Favelas Rocinha"
+        },
+        {
+          "icon": "fa-regular fa-circle-user",
+          "text": "Coach in lingua inglese"
+        },
+        {
+          "icon": "fa-solid fa-bus-simple",
+          "text": "Trasferimenti a/r aeroporto"
+        },
+        {
+          "icon": "fa-solid fa-headset",
+          "text": "Assistenza Utravel"
+        },
+        {
+          "icon": "fa-solid fa-tablet-screen-button",
+          "text": "App dedicata"
+        },
+        {
+          "icon": "fa-solid fa-users",
+          "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+        }
+      ],
+      "notIncluded": [
+        "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+        "Pranzi e cene",
+        "Tassa di soggiorno",
+        "Tutto quello che non è indicato in 'Cosa è incluso'"
+      ],
+      "thingsToKnow": [
+        {
+          "title": "",
+          "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+        },
+        {
+          "title": "Passaporto",
+          "text": "Validità residua di almeno 180 giorni."
+        },
+        {
+          "title": "Visto",
+          "text": "Non serve."
+        },
+        {
+          "title": "Cultura locale",
+          "text": "Non perderti il famoso <b> Carnevale di Rio dal 28 feb 2025 al 8 mar 2025 </b>."
+        },
+        {
+          "title": "Domande Frequenti",
+          "text": "Dai un'occhiata alle nostre FAQ."
+        }
+      ],
+      "stay": {
+        "intro": "<b>Royalty Rio Hotel Copacabana</b> - o similare",
+        "paragraph": "Una cosa è certa: per affrontare la scalata alla volta del Cristo Redentore, ci vuole la giusta dose di energia. Al Royalty Rio Hotel, non molto distante dalla famosissima spiaggia di Copacabana, potrai ricaricarti con una deliziosa colazione a buffet (sì, lo sappiamo che è una delle parti più belle di ogni viaggio). A rendere il tutto ancora più magico: una sauna per rilassarti dopo una lunga giornata passata ad esplorare e una piscina con vista. Come sempre, qualora non vi fosse disponibilità nella struttura descritta sarà nostra responsabilità fornire un'alternativa di pari livello o superiore.",
+        "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/new-hotel/1699370820424.jpg?sv=2023-08-03&se=2073-10-25T15%3A27%3A00Z&sr=b&sp=rade&sig=TvvAkG9D6KJhYfI3Kw0RqlwuI4ox7Rf0J8ekZMQWzok%3D",
+        "travel_images": [
+        {
+          "name": "Destinazione",
+          "url_destination": [
+            
+          ]
+        },
+        {
+          "name": "Struttura",
+          "url_structure": [
+            
+          ]
+        }
+      ]
+      },
+      "explore": {
+        "title": "Esperienze consigliate",
+        "text": [
+          "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire.",
+          "Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+          "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+        ],
+        "slide_thumb": [
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724235672178.webp?sv=2023-08-03&se=2074-08-09T10%3A21%3A12Z&sr=b&sp=rade&sig=%2FH%2Fb%2F0A8jeKDu2U1aKLXcCK365PQ%2F7vGdFO3vs7lJpA%3D&rsct=image%2Fjpg",
+            "badge": "Inclusa",
+            "title": "Vivere la Rocinha",
+            "description": "Culture",
+            "detail": {
+              "badge": "Esperienza inclusa",
+              "icon": "fa-regular fa-circle-check ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "Inclusa nel club"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Inizia il tuo viaggio da Copacabana con un comodo Uber dal tuo Hotel fino al punto di incontro situato in Estrada da Gavea 222. Qui, incontrerai le guide locali e ti preparerai per un'avventura unica alla scoperta della più grande Favela del Brasile.",
+
+                "La prima tappa è al Ristorante Panoramico \"<b> Mirante da Rocinha </b>\" situato all'interno della <b>  </b>Rocinha, la più grande favela di <b> Rio de Janeiro </b>. Qui avrai l'opportunità di ammirare panorami mozzafiato e scattare foto indimenticabili mentre le guide locali ti racconteranno la storia e la vita della comunità.",
+
+                "Successivamente, inizia un percorso a piedi di circa 4 km in discesa principalmente, dalla sommità fino alla base della <b> Rocinha </b>, che durerà circa 2 ore. Lungo il percorso, attraverserai tratti di strade principali, vicoli e scalinate, come le Rua Um e Rua Dois. Durante il tragitto, farai tappa al progetto Caffè Letterario Garagem das Letras nella Rua Dioneia, gestito dalla ONG \"Il sorriso dei miei bimbi\". Questo caffè letterario offre non solo caffè, ma anche una ludoteca e organizza corsi di lingua gratuiti, promuovendo la cultura e lo scambio nella comunità.",
+
+                "Dopo una breve pausa per il caffè e il relax, continuerai la tua esplorazione scendendo lungo la Rua Nova fino a raggiungere la principale strada commerciale di Rocinha, Caminho do Boiadeiro, e poi la vivace Via Apia. Qui potrai immergerti nell'atmosfera vibrante della comunità, esplorando negozi, ristoranti e bar locali.",
+
+                "La tua esperienza culminerà con una sosta per uno snack sulla Via Apia, dove potrai gustare sandwich, pao de queijo con succo di frutta oppure un PF (Prato Feito) che include riso, fagioli, farofa, insalata e carne. Dopolo snack, continuerai a esplorare il mercato di strada coperto prima di fare ritorno a Copacabana con un Uber, concludendo così questa avventura indimenticabile nella <b> Rocinha </b>."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724234183037.webp?sv=2023-08-03&se=2074-08-09T09%3A56%3A23Z&sr=b&sp=rade&sig=CBPzgdX3okeRQwJ9tBZCtEs%2Fwdi1UEZ5pmNx1SoD5Wo%3D&rsct=image%2Fjpg",
+            "badge": "48€ - 72€",
+            "title": "Futbol Game",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "48€ - 72€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Il Brasile è il paese del calcio e il <b> calcio è la loro passione </b> nazionale. Questa è la tua occasione per sperimentare come i brasiliani vivono il calcio, guardando una partita come una persona del posto. <br> Andremo allo stadio, ci godremo un po' dell'atmosfera pre-partita in un bar dove si riuniscono i tifosi e dopo entreremo per guardare la partita!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724234078608.webp?sv=2023-08-03&se=2074-08-09T09%3A54%3A39Z&sr=b&sp=rade&sig=N0mWsz1d6ycnp3%2BabqXVHnkjl%2BiXwuqpOYkWrE4rFEE%3D&rsct=image%2Fjpg",
+            "badge": "36€ - 54€",
+            "title": "Surf class",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "36€ - 54€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Il Brasile è considerata una \"La Mecca\" del surf mondiale, pront* a cavalcare le sue onde? Spiaggia di Ipanema e <b> Morro dois Irmãos </b> ne faranno da sfondo!",
+
+                "<p> -1h di lezione in acqua </p> <p> -20 min di lezione su sabbia </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698280248965_Disco_Party_600x600.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A29%3A07Z&sr=b&sp=rade&sig=AC1gwy3GWUs6E3Yvx6fcPAnFEdRLYOoC73%2FZbb0VQ6c%3D&rsct=image%2Fjpg",
+            "badge": "8€ - 12€",
+            "title": "Funzkin",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "8€ - 12€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "<b> Musica Reggaeton + Funk + Elettronica </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724235267664.webp?sv=2023-08-03&se=2074-08-09T10%3A14%3A28Z&sr=b&sp=rade&sig=WQjauR0EmclE4Nk1NEqjxeAWvPGHFK%2FFvYuW5HDVg6I%3D&rsct=image%2Fjpg",
+            "badge": "36€ - 54€",
+            "title": "Buzios",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "36€ - 54€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Preparati per un'indimenticabile avventura verso la pittoresca città di <b> Búzios </b>, una località balneare spesso paragonata ai Caraibi brasiliani per la sua straordinaria bellezza naturale.",
+
+                "Pronto per divertirti?",
+
+                "Esplorerai 4 luoghi incantevoli, tra cui la famosa spiaggia di João Fernandes, le affascinanti spiagge di Azeda e Azedinha e la suggestiva spiaggia di Ossos. Le soste potrebbero variare a seconda delle condizioni meteorologiche e dell'affluenza turistica, ma il nostro capitano sceglierà sempre le zone migliori e meno affollate per garantirti un'esperienza indimenticabile.",
+
+                "Originariamente un tranquillo villaggio di pescatori, <b> Búzios </b> è diventata una rinomata destinazione turistica negli anni '50, quando le sue spiagge attirarono l'attenzione delle vacanze estive. La visita di Brigitte Bardot, poco dopo, fece conoscere al mondo intero questa incantevole località. Da allora, <b> Búzios </b> è rimasta una meta ambita, grazie alle sue pittoresche case, alle vivaci boutique, alla vibrante vita notturna e alle più di 20 splendide spiagge sparse lungo la penisola, che ti faranno sentire come se fossi nel Mediterraneo.",
+
+                "Dopo un delizioso pranzo a buffet a terra, avrai del tempo libero per esplorare la famosa Rua das Pedras, con le sue boutique, i negozi di artigianato e la suggestiva pavimentazione in pietra. Successivamente, salirai sull'autobus per fare ritorno a <b> Rio </b>, con arrivo previsto intorno alle 21:00.",
+
+                "Ps: Per raggiungere <b> Buzios </b> ci vorrà un po di pazienza, dista circa 3h e mezza da Rio!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724234308494.webp?sv=2023-08-03&se=2074-08-09T09%3A58%3A29Z&sr=b&sp=rade&sig=tWLbWPBuPZscyxwI7N0QznKMlZ7VASJOQKIORUkRTJ4%3D&rsct=image%2Fjpg",
+            "badge": "84€ - 126€",
+            "title": "City tour",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "84€ - 126€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Vivi una straordinaria avventura a <b> Rio de Janeiro </b> con un completo walking tour che ti farà scoprire alcune delle sue gemme più affascinanti e ti offrirà spettacolari viste panoramiche.",
+
+                "<p> <b> Mattina: Esplorazione Culturale </b> </p>      <p> Il tuo viaggio inizia con una visita allo stadio Maracanà, dove avrai l'opportunità di immergerti nella storia del calcio mondiale. Un tour interno ti porterà a camminare sul campo da gioco e a sederti sulle panchine, vivendo l'atmosfera di questo iconico luogo sportivo. </p>",
+
+                "Successivmente il tour ti porterà ad avvistare il <b> Museo do Amanhã </b> (Museo del Domani), posizionato proprio di fronte alla nostra seconda tappa, il murales \"Etnias\" che detiene il titolo del più grande murales del mondo!",
+
+                "Dopo di ciò ti dirigerai direttamente verso il ristorante local scelto per il pranzo e dato che camminare fa aumentare l'appetito, sarà a buffet!",
+
+                "<p> <b> Pomeriggio: Arte e Bellezza Naturale </b> </p>      <p> Successivamente, il tour ti condurrà nel suggestivo quartiere di Santa Teresa, noto per le sue strade acciottolate, le case colorate e l'atmosfera artistica che lo circonda. Sarà un'opportunità per passeggiare tra le strade incantevoli, ammirare l'architettura d'epoca e immergerti nell'arte e nella cultura che permeano questo quartiere bohémien. </p>",
+
+                "La tua avventura culturale continuerà con la visita alla Cattedrale Metropolitana, un capolavoro architettonico moderno che ti lascerà senza fiato.",
+
+                "Continuerai dopo verso l'<b> Escalaria Salaròn </b>, una delle opere d'arte urbana più iconiche di Rio, realizzata dall'artista Cileno Jorge Selarón. Camminando tra i vivaci e colorati mosaici dell'escalier, avrai l'opportunità di apprezzare la creatività e l'eclettismo che caratterizzano questa città unica.",
+
+                "La giornata raggiungerà il suo culmine con una visita al celebre <b> Pan de Azúcar </b> (Pão de Açúcar) al tramonto. Prenderai la funivia per raggiungere la vetta di questa iconica formazione rocciosa, da dove potrai ammirare una vista spettacolare sulla città e sulla costa. Sarà un'esperienza indimenticabile e il momento perfetto per catturare fotografie mozzafiato mentre il sole si nasconde dietro l'orizzonte."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724236288645.webp?sv=2023-08-03&se=2074-08-09T10%3A31%3A28Z&sr=b&sp=rade&sig=diQ1THEIicGM13UAsvuVZ8WQrih2q37Ym%2BEHbh%2FAm%2BE%3D&rsct=image%2Fjpg",
+            "badge": "36€ - 54€",
+            "title": "Arraial do Cabo",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "36€ - 54€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Esplora i Caraibi brasiliani! Meravigliose spiagge di sabbia bianca e acque cristalline ti aspettano per un'esperienza indimenticabile! ",
+
+                "Una volta arrivati ad <b> Arraial do Cabo </b>, ci imbarcheremo al porto di <b>  </b>Praia dos Anjos. Il tour in barca, della durata di circa 3 ore e mezza, prevede due soste da 40 minuti a 1 ora ciascuna all'<b> Isola di Farol </b> e alle <b> Prainhas do Pontal do Atalaya </b> (Spiaggia della Stairway). ",
+
+                "Durante il tour, avrai anche l'opportunità di scattare delle foro alla Grotta Azzurra, Macaco Rock e alla Fenda de Nossa Senhora.",
+
+                "L'ultima fermata prima del rientro in terra ferma sarà nella famosa Praia do Forno (20 min), dove le autorità locali ne contigentano gli ingressi!",
+
+                "Al ritorno al porto di Arraial, continueremo il nostro viaggio a bordo del nostro veicolo per una pausa pranzo di circa 1 ora (intorno alle 15:30) . Successivamente, ti riporteremo a <b> Rio de Janeiro! </b>",
+
+                "Ps: Per raggiungere <b> Arraial </b> ci vorrà un po di pazienza, dista circa 3h e mezza da Rio!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698272389633_1695322991279_62.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A16Z&sr=b&sp=rade&sig=DFScL3qyPfxYyHmALr9pHSuPnkHTlic0YpAObpLgnSc%3D&rsct=image%2Fjpg",
+            "badge": "36€ - 54€",
+            "title": "Ilha Grande",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "36€ - 54€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Lasciati affascinare dalle spiagge incontaminate, dalle acque cristalline e dalla straordinaria vita marina della <b> baia di Angra dos Reis </b> in questa suggestiva escursione da <b> Rio de Janeiro </b>. Approfitta di questa opportunità unica per nuotare, prendere il sole e fare snorkeling tra luoghi paradisiaci come <b> Ilha Grande, Ilha de Cataguases e Lagoa Azul </b>.",
+
+                "Esplorerai alcune delle oltre 365 isole della baia di <b> Angra dos Reis </b> e visiterai attrazioni mozzafiato come <b> Ilha Grande e Lagoa Azul </b>, rinomata per la sua straordinaria vita marina. Qui potrai immergerti nelle acque cristalline, fare snorkeling per scoprire la bellezza subacquea e rilassarti sulle spiagge di sabbia dorata!",
+
+                "Scoprirai la <b> Freguesia de Santana </b>, una pittoresca spiaggia che ospita la prima chiesa di Angra dos Reis, costruita nel 1843. Successivamente, ci sarà tempo per godersi un delizioso pranzo in un ristorante locale sulla spiaggia di Japariz!",
+
+                "Questo tour offre un'eccezionale opportunità per fuggire dalla frenesia della \"giungla urbana\" di Rio per un giorno, immergendoti nella bellezza naturale e nella tranquillità della baia di Angra dos Reis.",
+
+                "Ps: Per raggiungere Ilha Grande ci vorrà un po di pazienza, dista circa 2h e mezza da Rio!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1695317388505_fe.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A00Z&sr=b&sp=rade&sig=5WTUn5Mbieav%2FDBhYQ%2FFBPA8Q%2Bz86YBf8TlkxJXMVL0%3D&rsct=image%2Fjpg",
+            "badge": "120€ - 180€",
+            "title": "Deltaplano/Parapendio",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "120€ - 180€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Esplora <b> Rio de Janeiro </b> dall'alto in un emozionante tour in deltaplano o parapendio, senza la necessità di alcuna esperienza precedente. Prima del tuo volo, riceverai una breve sessione di formazione per farti sentire a tuo agio. Il punto di partenza è la rampa Pedra Bonita, situata nel cuore del <b> Parco Nazionale di Tijuca </b>.",
+
+                "Da lì, ti immergerai in un'esperienza unica mentre sorvoli la città di <b> Rio </b>. Ammira le iconiche attrazioni dall'alto, godendoti una vista panoramica indimenticabile. Il tuo volo si concluderà con un atterraggio sulla suggestiva spiaggia di São Conrado. La durata del volo può variare in base alle condizioni meteorologiche, ma la bellezza delle vedute sarà sempre eccezionale.",
+
+                "Inoltre, per catturare ogni emozione del tuo volo, utilizziamo una videocamera GoPro per registrare l'intera esperienza. Riceverai subito le immagini, così potrai rivivere questo momento unico."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1709733107024_lagoa-azul.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A05Z&sr=b&sp=rade&sig=fBonfED%2FgdodbobKBRgvwYELTLa8HvXx8k2idWNvH8A%3D&rsct=image%2Fjpg",
+            "badge": "44€ - 66€",
+            "title": "Ilha Grande con transfer privato",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "44€ - 66€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Lasciati trasportare dalle meraviglie naturali della baia di <b> Angra dos Reis </b> in un'escursione incantevole da <b> Rio de Janeiro </b>. Goditi un viaggio senza stress con il nostro servizio di trasferimento privato andata e ritorno, che ti porterà direttamente alle spiagge incontaminate, alle acque cristalline e alla straordinaria vita marina della zona.",
+
+                "Durante questa indimenticabile avventura, avrai l'opportunità di esplorare luoghi paradisiaci come <b> Ilha Grande, Ilha de Cataguases e Lagoa Azul </b>, immergendoti nelle loro bellezze naturali. Con oltre 365 isole nella baia di Angra dos Reis, avrai l'imbarazzo della scelta tra spiagge di sabbia dorata, acque cristalline e una variegata vita marina.",
+
+                "Fai snorkeling per scoprire la ricca fauna marina, rilassati al sole sulle spiagge di sabbia bianca o esplora le attrazioni mozzafiato come la Freguesia de Santana, dove potrai ammirare la prima chiesa di <b> Angra dos Reis </b>, costruita nel 1843.",
+
+                "Durante il tour, avrai l'opportunità di gustare un delizioso pranzo in un ristorante locale sulla spiaggia di Japariz, assaporando i sapori autentici della cucina locale.",
+
+                "Questa esperienza offre un'eccezionale fuga dalla frenesia della vita urbana di <b> Rio de Janeiro </b>, consentendoti di immergerti completamente nella bellezza naturale e nella tranquillità della baia di <b> Angra dos Reis </b>. Con il nostro servizio di trasferimento privato, il tuo viaggio sarà comodo e senza preoccupazioni, permettendoti di concentrarti esclusivamente sul goderti questa esperienza unica.",
+
+                "Ps: Per raggiungere Ilha Grande ci vorrà un po' di pazienza, dista circa 2 ore e mezza da Rio!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1695320737858_caption-3.jpg?sv=2023-08-03&se=2074-05-24T12%3A25%3A30Z&sr=b&sp=rade&sig=8mfFE89uUL9ojmrkmdYbwXRJiYSzF51TFdCx9TAZlAE%3D&rsct=image%2Fjpg",
+            "badge": "28€ - 42€",
+            "title": "Pedra do Telégrafo",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "28€ - 42€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Una delle attività più popolari per i visitatori di <b> Rio </b> è posare per foto uniche sulla suggestiva roccia sospesa di <b> Pedra do Telégrafo </b>. Con questo tour, potrai goderti un'escursione fino a questo punto panoramico eccezionale, sperimentando la roccia nella sua forma più spettacolare all'alba!",
+
+                "Accompagnato da una guida locale attraverserai una favela a bordo di un <b> moto-taxi </b> per dopo intraprendere il trekking verso la famosa pietra, una volta lì dovrai attendere il tuo turno per scattare la foto memorabile giocando con l'effetto ottico che la contraddistingue!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724236146501.webp?sv=2023-08-03&se=2074-08-09T10%3A29%3A07Z&sr=b&sp=rade&sig=K26vDWSSrxxcg3mqVe4nGRHn20Nm3QkHZ3fv4nr%2BKSA%3D&rsct=image%2Fjpg",
+            "badge": "56€ - 84€",
+            "title": "Buzios con transfer privato",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "56€ - 84€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "<b> Preparati per un'indimenticabile avventura verso la pittoresca città di Búzios! </b>",
+
+                "Grazie al nostro transfer privato, potrai evitare le fermate nei vari hotel per prendere passeggeri esterni, permettendoti di partire un po' più tardi e rientrare un po' prima.",
+
+                "<b> Esplorerai 4 luoghi incantevoli </b>, tra cui la famosa <b> spiaggia di João Fernandes </b>, le affascinanti <b> spiagge di Azeda e Azedinha </b> e la suggestiva <b> spiaggia di Ossos </b>. Le soste potrebbero variare a seconda delle condizioni meteorologiche e dell'affluenza turistica, ma il nostro capitano sceglierà sempre le zone migliori e meno affollate per garantirti <b> un'esperienza indimenticabile </b>.",
+
+                "Originariamente un tranquillo villaggio di pescatori, <b> Búzios </b> è diventata una rinomata destinazione turistica negli anni '50, quando le sue spiagge attirarono l'attenzione delle vacanze estive. La visita di Brigitte Bardot, poco dopo, fece conoscere al mondo intero questa incantevole località. Da allora, <b> Búzios è rimasta una meta ambita </b>, grazie alle sue pittoresche case, alle vivaci boutique, alla vibrante vita notturna e alle più di 20 splendide spiagge sparse lungo la penisola, che ti faranno sentire come se fossi nel Mediterraneo.",
+
+                "Dopo un delizioso pranzo a buffet a terra, avrai del <b> tempo libero per esplorare la famosa Rua das Pedras </b>, con le sue boutique, i negozi di artigianato e la suggestiva pavimentazione in pietra. Successivamente, salirai sull'autobus per fare ritorno a Rio, con arrivo previsto intorno alle 20:00",
+
+                "Ps: Per raggiungere Buzios ci vorrà un po di pazienza, dista circa 3 ore e mezza da Rio!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724236766632.webp?sv=2023-08-03&se=2074-08-09T10%3A39%3A27Z&sr=b&sp=rade&sig=ErdyqgXPNt9F2Rp1zLaPS7liKXnhE9V%2Ba1Q9s7IkwZk%3D&rsct=image%2Fjpg",
+            "badge": "28€ - 42€",
+            "title": "Morro Dois Irmãos",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "28€ - 42€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Esplora la bellezza naturale e le spettacolari vedute di <b> Rio de Janeiro </b> con un'escursione di trekking a Morro Dois Irmãos, uno dei luoghi più iconici della città.",
+
+                "Punto di partenza, piazza Vidigal, da lì salirai su un mototaxi e dopo aver attraversato tutta la favela arriverai al punto d'inizio del trekking! Pronto per intraprendere un'escursione entusiasmante. <br> <b> Morro Dois Irmãos </b> offre uno scenario naturale mozzafiato, ed è famoso per la sua vista panoramica sulla città e sulla costa.",
+
+                "La salita su <b> Morro Dois Irmãos </b> è una sfida che ti porterà attraverso una foresta lussureggiante e ti regalerà scorci panoramici spettacolari.",
+
+                "Il trekking dura circa 2h e una volta raggiunta la cima, sarai premiato con una vista mozzafiato su <b> Rio de Janeiro </b>, con il Corcovado e la spiaggia di Ipanema che si stendono sotto di te!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698277941858_PHOTO-2023-10-24-20-20-10.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A13Z&sr=b&sp=rade&sig=WFxQ4z5LcR5hFZNLz5O9kzc%2BYNYElVph7PaFEq2REyo%3D&rsct=image%2Fjpg",
+            "badge": "16€ - 24€",
+            "title": "Party boat",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "16€ - 24€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "Salpa con noi per una notte indimenticabile sotto le stelle nella città di <b> Rio de Janeiro! </b> Unisciti a bordo della nostra esclusiva festa in barca a <b> Rio </b> e vivi un'esperienza unica in compagnia di 150 festaioli! <br> All'orizzonte, uno spettacolo di luci, mentre la musica reggaeton e funk impregna l'aria con ritmi che faranno vibrare ogni parte del tuo corpo. Balla, socializza mentre attraversiamo la maestosa <b> Baia de Guanabara </b>.",
+
+                "Naviga fino al celebre ponte che collega <b> Rio a Niterói </b>, dove le luci della città si specchiano nell'acqua scintillante, creando una vista panoramica che ti lascerà senza fiato. Un'opportunità unica per scattare foto indimenticabili.",
+
+                "La nostra avventura inizia a mezzanotte e continuerà fino alle prime luci dell'alba, quando torneremo lentamente in porto. Questa è la tua occasione di vivere la magia di <b> Rio de Janeiro </b> da una prospettiva completamente diversa!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1695323308934_bf.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A33Z&sr=b&sp=rade&sig=zOUpGjZcVAnNMInVJIuBpvjQGgi%2FC7UjhxtbunVHWbE%3D&rsct=image%2Fjpg",
+            "badge": "100€ - 150€",
+            "title": "Tour in elicottero",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "100€ - 150€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Preparati a un'esperienza straordinaria mentre ammiri una delle Sette Meraviglie del Mondo da una prospettiva completamente nuova durante un emozionante tour in elicottero della durata di 30 minuti. Scoprirai i punti salienti di <b> Rio </b>, tra cui il maestoso <b> Cristo Redentore </b> (Cristo Redentor), la celebre <b> spiaggia di Copacabana </b> (Praia de Copacabana) e l'iconico <b> Pan di Zucchero </b> (Pão de Açúcar).",
+
+                "Questo tour in elicottero offre un'opportunità unica per evadere dalla folla a terra e ammirare le migliori attrazioni di Rio dall'alto, sperimentando una prospettiva spettacolare della città."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698279263604_Disco_Party_600x600.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A26%3A24Z&sr=b&sp=rade&sig=Of3yt8FqqoAWZlytuuWVE3gr%2B1jzvoU7vbkm4mSDjBQ%3D&rsct=image%2Fjpg",
+            "badge": "8€ - 12€",
+            "title": "Substation",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "8€ - 12€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "<b> Musica Reggaeton + Funk + Electronica + Pop = buona energia e bella gente in quel di Rio! </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724235980049.webp?sv=2023-08-03&se=2074-08-09T10%3A26%3A20Z&sr=b&sp=rade&sig=9BBoe%2BYVNRz7RDgb%2FkuSmDkLbLWJ48VEM%2B5dlp%2F1flU%3D&rsct=image%2Fjpg",
+            "badge": "48€ - 72€",
+            "title": "Arraial do Cabo con transfer privato",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "48€ - 72€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Esplora i Caraibi brasiliani, ti aspettano meravigliose spiagge di sabbia bianca e acque cristalline per un'esperienza indimenticabile! Grazie al nostro transfer privato, potrai evitare le fermate nei vari hotel per prendere passeggeri esterni, permettendoti di partire un po' più tardi e rientrare un po' prima.",
+
+                "Una volta arrivati ad <b> Arraial do Cabo </b>, ci imbarcheremo al porto di <b> Praia dos Anjos </b>. Il tour in barca, della durata di circa 3 ore e mezza, prevede due soste da 40 minuti a 1 ora ciascuna all'Isola di Farol e alle Prainhas do Pontal do Atalaya (Spiaggia della Stairway). Durante il tour, avrai anche l'opportunità di scattare delle foto alla Grotta Azzurra, Macaco Rock e alla Fenda de Nossa Senhora.",
+
+                "L'ultima fermata prima del rientro in terra ferma sarà nella famosa <b> Praia do Forno </b> (20 min), dove le autorità locali ne contigentano gli ingressi!",
+
+                "Al ritorno al porto di Arraial, continueremo il nostro viaggio a bordo del nostro veicolo per una pausa pranzo di circa 1 ora (intorno alle 15:30). Successivamente, ti riporteremo a Rio de Janeiro!",
+
+                "Ps: Per raggiungere <b> Arraial </b> ci vorrà un po' di pazienza, dista circa 3 ore e mezza da Rio!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1699444547038_wallace-fonseca-lmi70gxSbIY-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A29Z&sr=b&sp=rade&sig=plYoItzYPMOzmmMGr23%2B7hg3uTz7Tja07q9VUF4uaTQ%3D&rsct=image%2Fjpg",
+            "badge": "36€ - 54€",
+            "title": "Pedra da Gavea",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "36€ - 54€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Trasforma la tua visita a <b> Rio de Janeiro </b> in un'esperienza indimenticabile con questa escursione di 8 ore alla cima della <b> Pedra da Gavea </b>. Ti condurrà attraverso la lussureggiante <b> foresta pluviale Tijuca di Rio </b>, fino al vertiginoso pinnacolo di roccia alto 842 metri, dove potrai ammirare la fauna selvatica locale mentre affronti la ripida salita.",
+
+                "Dopo un'immersione nella natura, indosserai l'attrezzatura da arrampicata e affronterai alcune semplici arrampicate lungo le sezioni di roccia durante la scalata verso la vetta. Una volta in cima, sarai ricompensato con viste mozzafiato sulla metropoli di <b> Rio </b>, incluso l'iconico Cristo Redentore.",
+
+                "Il tuo ritorno verso il basso sarà altrettanto emozionante, effettuato con una discesa in corda doppia. La guida, l'attrezzatura necessaria e il trasporto di andata e ritorno da hotel selezionati sono tutti inclusi."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1695318637686_26.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A56Z&sr=b&sp=rade&sig=8ObLCSSgTfWKxlZFAmsqkCD209CnEQOPJqRthDE4AdI%3D&rsct=image%2Fjpg",
+            "badge": "28€ - 42€",
+            "title": "Into the jungle",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "28€ - 42€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Unisciti a noi in un affascinante tour guidato di mezza giornata alla scoperta del Parco Nazionale della Foresta di Tijuca a <b> Rio de Janeiro </b>, un'esperienza che combina storia, avventura e immersione nella natura.",
+
+                "Il tour ti condurrà lungo un emozionante circuito ad anello, portandoti alla scoperta di attrazioni nascoste e fuori dai sentieri battuti all'interno di questa foresta urbana reimpiantata, considerata una delle più grandi al mondo.",
+
+                "Durante il percorso, avrai l'opportunità di immergerti nella storia affascinante del parco e di ammirare la sua bellezza naturale. Sarai stupito dalla vista della <b> Cascatinha Taunay </b>, dalla graziosa cappella rosa Mayrink, dal suggestivo ponte sospeso Cova da Onça e da una misteriosa grotta dei pipistrelli.",
+
+                "Per rinfrescarti dopo la tua esplorazione, ti condurremo alla Cascata della Baronesa, dove potrai goderti un momento di relax circondato dalla lussureggiante vegetazione.",
+
+                "Questa esperienza di circa 10 chilometri attraverso il Parco Nazionale della <b> Foresta di Tijuca </b> è considerata di livello moderato, senza richiedere competenze tecniche di arrampicata su roccia.",
+
+                "È un'opportunità straordinaria per connettersi con la natura e scoprire la bellezza di questa foresta tropicale all'interno di una delle città più affascinanti del mondo, <b> Rio de Janeiro </b>."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1698279702204_Disco_Party_600x600.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A26%3A40Z&sr=b&sp=rade&sig=c8B6NuNhVMCSyePrwYJvnYPGtpQcjuvnUxKpt5kqrXU%3D&rsct=image%2Fjpg",
+            "badge": "8€ - 12€",
+            "title": "Fiesta Latina",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "8€ - 12€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "<b> Musica Reggaeton + Funk + Pop </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724232072134.webp?sv=2023-08-03&se=2074-08-09T09%3A21%3A15Z&sr=b&sp=rade&sig=7lAZmkavmsBC0mNwmXXsjUieCsRngn1EEJTBQmMblPo%3D&rsct=image%2Fjpg",
+            "badge": "76€ - 114€",
+            "title": "Cristo Redentor and more",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "76€ - 114€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "<b> Parti per un'avventura indimenticabile a Rio de Janeiro </b>, esplorando alcune delle sue attrazioni più iconiche e affascinanti. Questo tour include la visita al celebre Cristo Redentore, al Parque Lage e al Giardino Botanico, con pranzo a buffet non incluso nel prezzo.",
+
+                "<p> <b> Cristo Redentore: </b> </p>      <p> La giornata inizia con il trasferimento al punto di partenza per il treno del Corcovado. Questo treno storico ti porterà attraverso la splendida foresta di Tijuca, la più grande foresta urbana del mondo, fino alla cima del monte Corcovado. Durante il viaggio, potrai godere di viste mozzafiato sulla città e sulla baia di Guanabara. Una volta arrivato, avrai l'opportunità di ammirare il maestoso Cristo Redentore, una delle sette meraviglie del mondo moderno, e godere di una vista panoramica spettacolare su Rio de Janeiro. </p>",
+
+                "<p> <b> Parque Lage: </b> </p>      <p> Dopo la visita al Cristo Redentore, il tour prosegue verso il Parque Lage, un'oasi di tranquillità situata ai piedi del Corcovado. Questo incantevole parco, con il suo palazzo storico, è circondato da giardini lussureggianti e sentieri serpeggianti. Potrai esplorare l'area, scoprire la ricca flora e fauna e magari fermarti per un caffè nel suggestivo caffè situato all'interno del palazzo. </p>",
+
+                "<p> <b> Giardino Botanico: </b> </p>      <p> Il tour continua con una visita al Giardino Botanico di Rio de Janeiro, uno dei giardini più belli e importanti del Brasile. Fondato nel 1808, il giardino ospita una vasta collezione di piante tropicali e subtropicali, comprese numerose specie rare e in via di estinzione. Passeggiando tra le sue serre, viali di palme reali e laghi tranquilli, avrai l'opportunità di ammirare una straordinaria varietà di orchidee, bromelie e altre piante esotiche. </p>",
+
+                "<b> Questo tour offre una combinazione perfetta di natura, cultura e storia, permettendoti di vivere un'esperienza completa e indimenticabile a Rio de Janeiro. </b>"
+              ]
+            }
+          }
+        ]
+      },
+      "reviews": [
+        {
+          "name": "Anonimo",
+          "date": "22 novembre 2023",
+          "starsNumber": 5,
+          "text": "Il Brasile è un posto meraviglioso che lascia qualcosa di inspiegabile, le escursioni proposte dal guru Giuseppe sono tutte bellissime, spaziano molto e si adeguano a tutti, ci sono escursioni più “adrenaliniche” per chi è più scalmanato ed escursioni più tranquille, di mare e di festa per chi invece lo è meno. Non tutto è stato perfetto, riorganizzerei meglio il city tour e il pub crowl, migliorando un pochino le tempistiche. '’è da tener conto che era il primo club Rio in assoluto e che il livello delle escursioni era diverso da altri club, quindi capisco un po' di disorganizzazione iniziale che sicuramente verrà corretta già dal prossimo club Con qualche accortezza in più il club è una bomba!"
+        },
+        {
+          "name": "Anonimo",
+          "date": "20 febbraio 2024",
+          "starsNumber": 5,
+          "text": "Esperienza super che rifarei altre mille volte! Al principio avevo un po' di timore in quanto si trattava della mia prima esperienza ma poi non ho potuto far altro che ricredermi. Si trattava del primo club Rio ma, ciononostante, è andato tutto a gonfie vele. Il guru, con la sua conoscenza del posto e della lingua (dettaglio non scontato), ha fatto il massimo per farci vivere la città da veri insider e non da semplici turisti. Si potrebbe migliorare ampliando le tempistiche di alcune esperienze (tipo il city tour) per consentire di godere al massimo delle meraviglie della città. Le esperienze proposte erano tutte interessanti e si adattavano facilmente alle esigenze di chiunque."
+        },
+        {
+          "name": "Alissa Ferrari",
+          "date": "20 febbraio 2024",
+          "starsNumber": 4,
+          "text": "È stato il primo club a Rio quindi sicuramente c'è qualcosa da migliorare, unico appunto: il city tour troppo veloce e ridotto. Nel complesso tutto bellissimo"
+        },
+        {
+          "name": "Anonimo",
+          "date": "21 febbraio 2024",
+          "starsNumber": 4,
+          "text": "Da migliorare l'organizzazione del city tour"
+        }
+      ],
+      "reach_hotel": {
+        "info": [
+          {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "Rio De Janeiro",
+            "description": "R. Barata Ribeiro, 581 - Copacabana, Rio de Janeiro - RJ, 22040-002, Brazil"
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimento collettivo",
+            "description": "Tranquill* non ti lasciamo a piedi! Il trasferimento da/per l'aeroporto di GIG è incluso nel tuo viaggio. Essendo un trasferimento collettivo è prevista una possibile attesa in aeroporto di alcuni tuoi compagni. Se hai acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio. Il servizio è disponibile solo nel primo e nell'ultimo giorno di Club. Per le partenze da novembre in poi, questo servizio è riservato a coloro che acquistano il volo tramite il nostro sito."
+          }
+        ],
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.58832590395147!2d-43.189707732540924!3d-22.971827800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd54383ab2b35%3A0xc97f6d28534ec7d6!2sRoyalty%20Rio%20Hotel!5e0!3m2!1sen!2sit!4v1726131147268!5m2!1sen!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+
+
+
+
+      
+
+
+    }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

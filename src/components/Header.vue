@@ -20,7 +20,7 @@ export default {
 <template>
   
   <Header_fixed/>
-  
+
 </template>
 
 
