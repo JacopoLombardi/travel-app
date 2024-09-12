@@ -13,24 +13,25 @@ export default {
   },
   data() {
     return {
-      isSmallScreen: window.innerWidth < 768, // Stato iniziale basato sulla larghezza dello schermo
-      selectedSlideData: [] // Dati selezionati da passare ai componenti
+      selectedSlideData: [],// Dati selezionati da passare ai componenti
+      isSmallScreen: window.innerWidth < 768 // Stato iniziale basato sulla larghezza dello schermo
     };
   },
   methods: {
     openOffCanvas(item) {
       console.log('Opening Offcanvas with data:', item);
       this.selectedSlideData = item;
-      const offcanvasElement = document.getElementById('offcanvasBottom');
+      const offcanvasElement = document.getElementById('offcanvas2');
       if (offcanvasElement) {
         const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
         bsOffcanvas.show();
       }
     },
+
     openModal(item) {
       console.log('Opening Modal with data:', item);
       this.selectedSlideData = item;
-      const modalElement = document.getElementById('exampleModal');
+      const modalElement = document.getElementById('modale2');
       if (modalElement) {
         const bsModal = new bootstrap.Modal(modalElement);
         bsModal.show();
@@ -86,7 +87,10 @@ export default {
 
       <div class="img_hotel">
         <img :src="stay.img" alt="Hotel">
-        <button @click="cardClick(stay.travel_images)" class="btn">
+        <button
+          @click="cardClick(stay.travel_images)"
+          class="btn"
+        >
           <i class="fa-regular fa-images me-1"></i> 
           Foto del viaggio
         </button>
@@ -95,12 +99,14 @@ export default {
       <!-- Componente offcanvas immagini, visibile solo su schermi piccoli -->
       <Offcanvas_images
         v-if="isSmallScreen"
+        id="offcanvas2"
         :data="selectedSlideData"
       />
 
       <!-- Componente modale immagini, visibile solo su schermi grandi -->
       <Modale_images 
         v-if="!isSmallScreen"
+        id="modale2"
         :data="selectedSlideData"
       />
 
@@ -122,7 +128,10 @@ export default {
         <div class="img_banner">
           <div class="_img">
             <img :src="stay_special.img" alt="Hotel">
-            <button @click="cardClick(stay.travel_images)" class="btn">
+            <button
+              @click="cardClick(stay_special.travel_images)"
+              class="btn"
+            >
               <i class="fa-regular fa-images me-1"></i> 
               Foto del viaggio
             </button>
@@ -150,6 +159,20 @@ export default {
             </li>
           </ul>
         </div>
+
+        <!-- Componente offcanvas immagini, visibile solo su schermi piccoli -->
+        <Offcanvas_images
+          v-if="isSmallScreen"
+          id="offcanvas2"
+          :data="selectedSlideData"
+        />
+
+        <!-- Componente modale immagini, visibile solo su schermi grandi -->
+        <Modale_images 
+          v-if="!isSmallScreen"
+          id="modale2"
+          :data="selectedSlideData"
+        />
 
       </div>
 

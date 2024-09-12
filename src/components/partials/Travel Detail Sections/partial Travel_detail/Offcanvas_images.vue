@@ -7,11 +7,6 @@ export default {
    },
    computed: {
     destinationImages() {
-      // Verifica che data sia definito e sia un array
-      if (!Array.isArray(this.data)) {
-        console.error('Expected data to be an array');
-        return [];
-      }
       // Filtra e unisci solo le immagini della destinazione
       const filteredImages = this.data.reduce((accumulator, item) => {
         return item.url_destination ? accumulator.concat(item.url_destination) : accumulator;

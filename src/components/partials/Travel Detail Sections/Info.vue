@@ -22,8 +22,9 @@ export default {
   },
   methods: {
     openOffCanvas(item) {
+      console.log('Opening Offcanvas with data:', item);
       this.selectedSlideData = item;
-      const offcanvasElement = document.getElementById('offcanvasBottom');
+      const offcanvasElement = document.getElementById('offcanvas1');
       if (offcanvasElement) {
         const bsOffcanvas = new bootstrap.Offcanvas(offcanvasElement);
         bsOffcanvas.show();
@@ -31,14 +32,11 @@ export default {
     },
     openModal(item) {
       this.selectedSlideData = item;
-      const modalElement = document.getElementById('exampleModal');
+      const modalElement = document.getElementById('modale1');
       if (modalElement) {
         const bsModal = new bootstrap.Modal(modalElement);
         bsModal.show();
       }
-    },
-    handleResize() {
-      this.isSmallScreen = window.innerWidth < 768;
     },
     cardClick(item) {
       this.selectedSlideData = item;
@@ -47,6 +45,9 @@ export default {
       } else {
         this.openModal(item);
       }
+    },
+    handleResize() {
+      this.isSmallScreen = window.innerWidth < 768;
     }
   },
   computed: {
@@ -86,12 +87,14 @@ export default {
     <!-- Componente offcanvas immagini -->
     <Offcanvas_images
       v-if="isSmallScreen"
+      id="offcanvas1"
       :data="selectedSlideData"
     />
 
     <!-- Componente modale immagini -->
     <Modale_images 
       v-if="!isSmallScreen"
+      id="modale1"
       :data="selectedSlideData"
     />
 
