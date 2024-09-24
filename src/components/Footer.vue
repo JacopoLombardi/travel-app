@@ -30,6 +30,48 @@ export default {
   <Footer_up/>
 
   <Footer_down/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>  </b>
+
+
+
+
+<p> <b>  </b> </p>      <p>  </p>
+
+
+
+
+<p>  </p>     <p>  </p>
+
+
+
+
+<!-- border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160); -->
+
+
+
+
+
+
+
+
+
+
+
+
   
 </template>
 

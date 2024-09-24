@@ -7729,6 +7729,2191 @@
 
 
     }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title": "andalusia",
+    "price": "",
+    "img": "",
+    "detail": {
+      "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716826791789.webp?sv=2023-08-03&se=2074-05-15T16%3A19%3A52Z&sr=b&sp=rade&sig=RiI%2FIOUH84IUpQy2GYG6h6M8QaCGJgN1lFSU2UadM60%3D&rsct=image%2Fjpg",
+      "travel_images": [
+        {
+          "name": "Destinazione",
+          "url_destination": [
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713781617396.jpg?sv=2023-08-03&se=2074-04-10T10%3A26%3A58Z&sr=b&sp=rade&sig=uSMOhoW32KOoet3%2F43%2B8ODfVPV867Y8rI2padeZZP6Q%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713445148341.jpg?sv=2023-08-03&se=2074-04-06T12%3A59%3A08Z&sr=b&sp=rade&sig=p%2BuxqUFrU%2FKykmJrgOml3VlHYDYpo39oGch28Y66HN4%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713782432780.jpg?sv=2023-08-03&se=2074-04-10T10%3A40%3A33Z&sr=b&sp=rade&sig=WdssZ0b2lofO%2Fn8okyEZnwiUDqPbI8zCFiL176F0%2F9A%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713781988415.jpg?sv=2023-08-03&se=2074-04-10T10%3A33%3A10Z&sr=b&sp=rade&sig=fi2xHoLBJaSUHGpMVUo7O6ixkbNJtQVzTURWe5cT%2FC8%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713445829529.jpg?sv=2023-08-03&se=2074-04-06T13%3A10%3A30Z&sr=b&sp=rade&sig=xnmOETCWBAWVepxCcbuVaqdfnPbUJK6cY0o6vE3yA0A%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713782112887.jpg?sv=2023-08-03&se=2074-04-10T10%3A35%3A13Z&sr=b&sp=rade&sig=LfRp851dpdejTsrn%2BWgHaZ6Lu8F9VKPAgXFOt0bHB0o%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713453073873.jpg?sv=2023-08-03&se=2074-04-06T15%3A11%3A13Z&sr=b&sp=rade&sig=t0W07GNl2s%2BTvPxXc69e%2FYy9piykcMpzKaldECcOdKU%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713782264994.jpg?sv=2023-08-03&se=2074-04-10T10%3A37%3A45Z&sr=b&sp=rade&sig=oQ1XbbQMVmBGQUMBR4XoluyAjX%2BlTnI%2FOOX1Q6X2aSw%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713787418607.jpg?sv=2023-08-03&se=2074-04-10T12%3A03%3A41Z&sr=b&sp=rade&sig=LzMVrwCP4KKAMpz392QBRGEeJAMVEBJm6CsxWnhncGc%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713538800588.jpg?sv=2023-08-03&se=2074-04-07T15%3A00%3A01Z&sr=b&sp=rade&sig=KuEEtYoOmKIEExFtSOYidqK8j43sLNEZuQChWeb5cac%3D&rsct=image%2Fjpg"
+          ]
+        },
+        {
+          "name": "Struttura",
+          "url_structure": [
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914792157.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A12Z&sr=b&sp=rade&sig=GNi0YB47rR5U1yIpiwYAo%2FS%2Buai88ljt8QuIDPtg4%2BE%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914821086.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A41Z&sr=b&sp=rade&sig=VLqGkXao72bsiBRi79FbjIu2pS%2BgL%2BXBhQELIQTJO%2FU%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914833889.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A53Z&sr=b&sp=rade&sig=WgAUWxn5ZtX9yTXLSVlovAMcv%2FHNK73RCbH%2BFlkUyFY%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914836773.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A57Z&sr=b&sp=rade&sig=Sm%2B5LzrYkcEJ6QgHuh%2BLb%2FitlIZwlxx7hgBgxl1VcD4%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914839118.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A59Z&sr=b&sp=rade&sig=8QfWvExPaCZtHaQxHwIK9jWQBW2rJOiLUgdc6VUUsFc%3D&rsct=image%2Fjpg"
+          ]
+        }
+      ],
+      "title": "per chi vive a colori",
+      "badge": [
+        "Paella e sangría",
+        "Tuffati nel Mediterraneo",
+        "Storia e cultura",
+        "A prova di GEN Z"
+      ],
+      "paragraph": [
+        {
+          "text": "Il tuo punto base <b> per visitare l'Andalusia </b> sarà Malaga, vieni in questa regione della <b> Spagna </b> se per te <b> cultura, buon cibo e festa </b> e sono elementi fondamentali per un viaggio top!"
+        },
+        {
+          "text": "Qualunque sia lo spirito con cui parti, Il <b> Club Andalucia </b> ti permetterà di provare tutto quello che desideri insieme <b> ad altri viaggiatori come te </b> e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire <b> il tuo viaggio in totale libertà </b> in base ai tuoi ritmi e con le <b> esperienze che tu sceglierai di vivere </b> (da solo o con gli altri Utravelers)"
+        },
+        {
+          "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti <b> i segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+        }
+      ],
+      "flight": {
+        "title": "Aggiungi il volo",
+        "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+      },
+      "included": [
+        {
+          "icon": "fa-regular fa-moon",
+          "text": "7 notti in hotel"
+        },
+        {
+          "icon": "fa-solid fa-mug-saucer",
+          "text": "Colazione"
+        },
+        {
+          "icon": "fa-solid fa-location-dot",
+          "text": "Esperienza inclusa"
+        },
+        {
+          "icon": "fa-regular fa-circle-user",
+          "text": "Coach in lingua italiana"
+        },
+        {
+          "icon": "fa-solid fa-headset",
+          "text": "Assistenza Utravel"
+        },
+        {
+          "icon": "fa-solid fa-tablet-screen-button",
+          "text": "App dedicata"
+        },
+        {
+          "icon": "fa-solid fa-users",
+          "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+        }
+      ],
+      "notIncluded": [
+        "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+        "Pranzi e cene",
+        "Trasferimenti a/r aeroporto (puoi aggiungerlo in fase di prenotazione)",
+        "Tassa di soggiorno",
+        "Tutto quello che non è indicato in 'Cosa è incluso'"
+      ],
+      "thingsToKnow": [
+        {
+          "title": "",
+          "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+        },
+        {
+          "title": "Domande Frequenti",
+          "text": "Dai un'occhiata alle nostre FAQ."
+        }
+      ],
+      "stay": {
+        "intro": "<b>Sercotel Rosaleda</b> - o similare",
+        "paragraph": "Dimentica la dieta, perché a Malaga bisogna assaggiare più tapas possibile! Al Sercotel Rosaleda la colazione è inclusa nel tuo viaggio: questo ti permetterà di andare alla ricerca dei migliori ristoranti dell'Andalusia! A poco più di 1 km dal Museo Jorge Rando, una delle attrazioni principali di Malaga, in questo hotel si respira un'aria di lusso e tradizione.",
+        "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/new-hotel/1702914774334.jpg?sv=2023-08-03&se=2073-12-05T15%3A52%3A54Z&sr=b&sp=rade&sig=kJgHiPf%2BhAUnqQHZbQYGz%2BXJr7G%2FIPiQ61skygeZ2Jw%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713781617396.jpg?sv=2023-08-03&se=2074-04-10T10%3A26%3A58Z&sr=b&sp=rade&sig=uSMOhoW32KOoet3%2F43%2B8ODfVPV867Y8rI2padeZZP6Q%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713445148341.jpg?sv=2023-08-03&se=2074-04-06T12%3A59%3A08Z&sr=b&sp=rade&sig=p%2BuxqUFrU%2FKykmJrgOml3VlHYDYpo39oGch28Y66HN4%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713782432780.jpg?sv=2023-08-03&se=2074-04-10T10%3A40%3A33Z&sr=b&sp=rade&sig=WdssZ0b2lofO%2Fn8okyEZnwiUDqPbI8zCFiL176F0%2F9A%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713781988415.jpg?sv=2023-08-03&se=2074-04-10T10%3A33%3A10Z&sr=b&sp=rade&sig=fi2xHoLBJaSUHGpMVUo7O6ixkbNJtQVzTURWe5cT%2FC8%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713445829529.jpg?sv=2023-08-03&se=2074-04-06T13%3A10%3A30Z&sr=b&sp=rade&sig=xnmOETCWBAWVepxCcbuVaqdfnPbUJK6cY0o6vE3yA0A%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713782112887.jpg?sv=2023-08-03&se=2074-04-10T10%3A35%3A13Z&sr=b&sp=rade&sig=LfRp851dpdejTsrn%2BWgHaZ6Lu8F9VKPAgXFOt0bHB0o%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713453073873.jpg?sv=2023-08-03&se=2074-04-06T15%3A11%3A13Z&sr=b&sp=rade&sig=t0W07GNl2s%2BTvPxXc69e%2FYy9piykcMpzKaldECcOdKU%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713782264994.jpg?sv=2023-08-03&se=2074-04-10T10%3A37%3A45Z&sr=b&sp=rade&sig=oQ1XbbQMVmBGQUMBR4XoluyAjX%2BlTnI%2FOOX1Q6X2aSw%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713787418607.jpg?sv=2023-08-03&se=2074-04-10T12%3A03%3A41Z&sr=b&sp=rade&sig=LzMVrwCP4KKAMpz392QBRGEeJAMVEBJm6CsxWnhncGc%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713538800588.jpg?sv=2023-08-03&se=2074-04-07T15%3A00%3A01Z&sr=b&sp=rade&sig=KuEEtYoOmKIEExFtSOYidqK8j43sLNEZuQChWeb5cac%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914792157.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A12Z&sr=b&sp=rade&sig=GNi0YB47rR5U1yIpiwYAo%2FS%2Buai88ljt8QuIDPtg4%2BE%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914821086.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A41Z&sr=b&sp=rade&sig=VLqGkXao72bsiBRi79FbjIu2pS%2BgL%2BXBhQELIQTJO%2FU%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914833889.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A53Z&sr=b&sp=rade&sig=WgAUWxn5ZtX9yTXLSVlovAMcv%2FHNK73RCbH%2BFlkUyFY%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914836773.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A57Z&sr=b&sp=rade&sig=Sm%2B5LzrYkcEJ6QgHuh%2BLb%2FitlIZwlxx7hgBgxl1VcD4%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1702914839118.jpg?sv=2023-08-03&se=2073-12-05T15%3A53%3A59Z&sr=b&sp=rade&sig=8QfWvExPaCZtHaQxHwIK9jWQBW2rJOiLUgdc6VUUsFc%3D&rsct=image%2Fjpg"
+            ]
+          }
+        ]
+      },
+      "explore": {
+        "title": "Esperienze consigliate",
+        "text": [
+          "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire.",
+          "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+        ],
+        "slide_thumb": [
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708505876456_pexels-bade-saba-19972924.jpg?sv=2023-08-03&se=2074-05-24T12%3A25%3A50Z&sr=b&sp=rade&sig=PcOD8JKeNeEdPMrlBJkKKZU%2FFR10Vkd3GGINrh3O9xU%3D&rsct=image%2Fjpg",
+            "badge": "Inclusa",
+            "title": "Show Flamenco",
+            "description": "Culture",
+            "detail": {
+              "badge": "Esperienza inclusa",
+              "icon": "fa-regular fa-circle-check ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "Inclusa nel club"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "<b> Alegría Flamenco y Gastronomía </b>, offre un'esperienza Andalusa unica a pochi passi dal Muelle Uno e dal Museo Pompidou, nel cuore della Malagueta.",
+
+                "Lo show prevede <b> 60 minuti di performance </b>, con artisti del panorama nazionale e internazionale, che daranno il meglio di sé per regalare uno spettacolo indimenticabile.",
+
+                "Raquel Heredia \"La Repompa\", Pepe Torres, Karime Amaya, Sergio Aranda, Adrián Santana, Fuensanta \"La Moneta\", Miguel \"El Rubio\", Rafael Ramirez, Alfredo Tejada, Juan Requena, sono solo alcuni degli artisti che sono passati dal nostro palco!",
+
+                "<b> Un luogo pensato per godere dell'essenza di quest'arte, dichiarata Patrimonio Immateriale dell'Umanità il 16 novembre 2010. </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708509441568_Gibilterra-ue-Spagna.jpeg?sv=2023-08-03&se=2074-05-24T12%3A28%3A12Z&sr=b&sp=rade&sig=EmZodGh1IdFWF%2FEnk0lSzSoiy7QNgXxFm4ogWrOkLJc%3D&rsct=image%2Fjpg",
+            "badge": "24€ - 36€",
+            "title": "Full day a Gibilterra",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "24€ - 36€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "L'avventura inizierà con un pick up nel centro di Malaga, vicino al Corte Inglés.",
+
+                "Salterai a bordo di un comodo autobus climatizzato dotato di sedili reclinabili, Wi-Fi e porte USB e ti dirigerai verso <b> Gibilterra </b>.",
+
+                "Durante il viaggio, la guida ti fornirà <b> suggerimenti sulle attrazioni più interessanti di Gibilterra </b>.",
+
+                "Dopo il controllo della dogana, l'autobus ti condurrà attraverso la città di Gibilterra, facendo una sosta nel centro città e dove avrai tempo libero per <b> esplorare la città a tuo piacimento! </b>",
+
+                "L'autobus partirà da Gibilterra alle 15:30 per il ritorno nel pomeriggio."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1712933120157_la-alhambra.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A10Z&sr=b&sp=rade&sig=wwrRkoIcau1r1WFbSk3FqrysMCwWxXHeRVKoU0MpUbA%3D&rsct=image%2Fjpg",
+            "badge": "22€ - 32€",
+            "title": "Full day Granada",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "22€ - 32€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Parti da Malaga per una giornata piena di scoperte a Granada, una <b>  </b>città intrisa di storia, cultura e bellezze architettoniche. Accompagnato da una guida esperta, ti immergerai nell'atmosfera unica di questa <b> città moresca </b>.",
+
+                "Una volta giunto a Granada, avrai l'opportunità di esplorare la città a tuo piacimento. Potresti dedicare del tempo alla visita della maestosa <b> Cattedrale di Granada </b>, ammirando i suoi affreschi, le sculture e l'architettura rinascimentale.",
+
+                "Successivamente, potresti passeggiare per il <b> quartiere dell'Albaicín </b>, un labirinto di stradine strette e case bianche decorate con fiori, balconi e cortili interni. Questo quartiere antico e affascinante offre <b> panorami mozzafiato sulla città e sull'Alhambra </b>, oltre a essere ricco di storia e cultura.",
+
+                "Potresti anche visitare il <b> Monastero di San Jerónimo </b>, un capolavoro dell'architettura rinascimentale, o esplorare i giardini del <b> Generalife </b>, situati vicino all'Alhambra, famosi per le loro fontane, i percorsi panoramici e i bellissimi giardini.",
+
+                "Durante il tempo libero, avrai l'opportunità di assaggiare le prelibatezze della cucina andalusa in uno dei ristoranti locali o di fare shopping nei negozi per acquistare souvenir e articoli artigianali.",
+
+                "Alla fine della giornata, ti riunirai con la guida per fare ritorno a Malaga, portando con te i ricordi di una giornata indimenticabile trascorsa a esplorare Granada e i suoi tesori nascosti.",
+
+                "<p> *SI ricorda che per questa esperienza la semplice prenotazione in app non garantisce la riserva dell'esperienza, la quale deve essere completata cliccando e pagando su questo link. </p>     <p class=\"text-warning\"> https://www.visitanddo.com/product/excursion-granada/ </p>",
+
+                "Aggiungendo il codice sconto <b> utravel10 </b> avrete diritto al <b> 10% di sconto </b>."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1710416919517_ffogv2qkwl1hqqxe0y97.webp?sv=2023-08-03&se=2074-05-24T12%3A27%3A21Z&sr=b&sp=rade&sig=59BTP5g26ynsaVm0muyycIVX16l97d6038TsYK9Owd4%3D&rsct=image%2Fjpg",
+            "badge": "66€ - 98€",
+            "title": "Full day Siviglia",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "66€ - 98€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Immergiti nell'incantevole atmosfera di Siviglia in un tour di un giorno intero da Malaga.",
+
+                "Dopo essere stato prelevato dal tuo hotel, ti dirigerai verso questa <b> città vibrante dell'Andalusia </b>, accompagnato da una guida esperta che ti condurrà attraverso le sue strade ricche di storia e cultura.",
+
+                "Una volta giunti a <b> Siviglia </b>, avrai l'opportunità di esplorare alcuni dei suoi luoghi più iconici, tra cui la rinomata <b> Cattedrale di Siviglia </b>, <b> il più grande edificio gotico del mondo </b> e Patrimonio dell'Umanità dell'UNESCO. Ammirerai le sue maestose torri e passeggerai attraverso le sue navate decorate, scoprendo la storia e i segreti di questo luogo sacro.",
+
+                "Dopo la visita alla Cattedrale, avrai del tempo libero per <b> esplorare la città a tuo piacimento </b>.",
+
+                "Potresti passeggiare per i giardini del <b> Real Alcazar </b>, un affascinante palazzo moresco con splendidi giardini e fontane, o perdersi tra le pittoresche strade del <b> quartiere ebraico di Santa Cruz </b>. Inoltre, potresti visitare la <b> Plaza di Spagna </b>, un'imponente piazza rinascimentale circondata da un canale semi-circolare, che offre una splendida vista e un'atmosfera unica.",
+
+                "Prima di lasciare Siviglia, avrai anche l'opportunità di assaggiare la deliziosa cucina locale in uno dei tradizionali bar o ristoranti della città, oppure di fare <b> shopping </b> nei mercati locali per acquistare prodotti tipici andalusi.",
+
+                "Alla fine della giornata, tornerai a Malaga con la tua guida, portando con te ricordi indelebili di una città intrisa di fascino e bellezza."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708530928163_Mezquita-di-Cordoba.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A39Z&sr=b&sp=rade&sig=rWfYeIuAbUKZXY0D613i8JdmKrLYsZkB%2F2Jy9%2FmGySc%3D&rsct=image%2Fjpg",
+            "badge": "66€ - 98€",
+            "title": "Full day Cordoba",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "66€ - 98€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Esplora la ricca storia e la <b> bellezza di Cordoba </b> in un tour di un giorno intero da Malaga.",
+
+                "Dopo il pick-up dal punto d'incontro, ti dirigerai verso questa città emblematica città dell'Andalusia, accompagnato da una guida esperta che ti svelerà i segreti della sua storia e della sua cultura lungo il percorso.",
+
+                "Una volta arrivati a Cordoba, ti immergerai nell'atmosfera mozzafiato della città vecchia, dichiarata <b> Patrimonio dell'Umanità dall'UNESCO </b>.",
+
+                "Sarai guidato attraverso le stradine strette e tortuose fino a raggiungere l'imponente <b> Mezquita-Cattedrale </b>, uno dei monumenti più iconici della Spagna. Qui, ammirerai la fusione di stili architettonici moreschi e cristiani che caratterizzano questo incredibile edificio, con i suoi maestosi archi a ferro di cavallo e le colonne di marmo.",
+
+                "Dopo la visita alla Mezquita, avrai del <b> tempo libero per esplorare la città a tuo piacimento </b>, passeggiando per le sue affascinanti piazze e giardini, o magari assaporando la cucina locale in uno dei tradizionali ristoranti della zona.",
+
+                "Alla fine della giornata, tornerai a Malaga con la tua guida, portando con te ricordi indelebili di una città intrisa di storia e fascino."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708507949450_GettyImages-468266400.jpg.webp?sv=2023-08-03&se=2074-05-24T12%3A30%3A15Z&sr=b&sp=rade&sig=y3qH5JLQSLIkYANLG8wrd478a4jOtxx1L8Kl1wokTFk%3D&rsct=image%2Fjpg",
+            "badge": "44€ - 66€",
+            "title": "Caminito del Rey",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "44€ - 66€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Esplora il <b> Caminito del Rey </b>, un sentiero sospeso immerso in un paesaggio panoramico.",
+
+                "Durante il percorso, scopri la vera storia di questa maestosa opera di ingegneria. Partirai da Malaga su un autobus diretto ad <b> Ardales </b>, dove riceverai istruzioni sulla sicurezza dalla guida e <b> ti verrà fornito il casco </b>.",
+
+                "Ti avventurerai lungo il Caminito del Rey, <b> partendo dall'accesso Nord e dirigendoti verso l'accesso Sud </b>.",
+
+                "Attraverserai montagne risalenti a milioni di anni fa e canyon vertiginosi scavati dal <b> fiume Guadalhorce </b>. Ascolterai le storie di avventurieri e scalatori, compresa la storia della visita storica del re Alfonso XIII.",
+
+                "Sebbene il percorso misuri <b> 7,7 chilometri </b>, è relativamente semplice con l'assistenza della guida. Al termine del tour, ritornerai all'autobus e rientrerai a Malaga."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708528711612_tm_p-29386-navegando-en-la-puesta-de-sol_1629971717468.jpg?sv=2023-08-03&se=2074-05-24T12%3A27%3A27Z&sr=b&sp=rade&sig=ZhUTnNMpzl%2Fac5agY0kuElfjpoyWkYlwUeVFHKUoaU0%3D&rsct=image%2Fjpg",
+            "badge": "20€ - 30€",
+            "title": "Sunset Boat",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "20€ - 30€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "Esplora la magnificenza di Malaga in un'esperienza unica a bordo di un <b> catamarano di lusso al tramonto </b>.",
+
+                "Goditi la <b> vista mozzafiato della città </b> che si staglia contro il cielo mentre navighi sul Mar Mediterraneo, catturando momenti memorabili che dureranno per sempre.",
+
+                "alta a bordo del catamarano presso il porto di Malaga e lasciati trasportare lungo la costa al tramonto. Accompagnato da una <b> colonna sonora rilassante </b>, ammira il panorama spettacolare mentre ti godi il comfort del catamarano, dotato di un <b> bar ben fornito e moderne attrezzature audio </b>.",
+
+                "Con servizi bar e bagni a bordo, vivrai un'esperienza di puro relax e piacere."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1712929757023_IMG_6241.JPG?sv=2023-08-03&se=2074-05-24T12%3A28%3A19Z&sr=b&sp=rade&sig=DCY2RKZ6g9oKDH%2BYtrGi7n%2BDp0iUZ0U8eEaf7Oqd2kc%3D&rsct=image%2Fjpg",
+            "badge": "40€ - 60€",
+            "title": "Ronda e Setenil de las Bodegas",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "40€ - 60€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Esplora due delle <b> gemme più affascinanti dell'Andalusia </b> in un'indimenticabile escursione di un giorno intero da Malaga, con visite a <b> Ronda </b> e <b> Setenil de Las Bodegas </b>.",
+
+                "Ti immergerai in un viaggio panoramico attraverso i pittoreschi paesaggi andalusi verso Setenil de Las Bodegas, un affascinante paese noto per le sue <b> case costruite direttamente nella roccia </b>. Qui, avrai l'opportunità di passeggiare tra le pittoresche stradine e ammirare le singolari abitazioni scavate nella roccia.",
+
+                "Successivamente, proseguirai verso Ronda, ti perderai tra i vicoli della città vecchia, ammirando i suoi monumenti storici, come il famoso <b> Ponte Nuovo </b> che sovrasta la spettacolare <b> Gola del Tajo </b>. Visiterai la <b> Plaza de Toros </b>, una delle più antiche arene da toro in Spagna, e avrai tempo libero per esplorare i caratteristici negozi e caffè lungo le strade.",
+
+                "Dopo una giornata ricca di scoperte, salterai a bordo del tuo veicolo e tornerai a Malaga, con la mente e il cuore pieni di meraviglie andaluse."
+              ]
+            }
+          }
+        ]
+      },
+      "reviews": [
+        {
+          "name": "",
+          "date": "",
+          "starsNumber": 5,
+          "text": ""
+        },
+        {
+          "name": "",
+          "date": "",
+          "starsNumber": 5,
+          "text": ""
+        },
+        {
+          "name": "",
+          "date": "",
+          "starsNumber": 5,
+          "text": ""
+        },
+        {
+          "name": "",
+          "date": "",
+          "starsNumber": 5,
+          "text": ""
+        },
+        {
+          "name": "",
+          "date": "",
+          "starsNumber": 5,
+          "text": ""
+        },
+        {
+          "name": "",
+          "date": "",
+          "starsNumber": 5,
+          "text": ""
+        }
+      ],
+      "reach_hotel": {
+        "info": [
+          {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "Andalusia",
+            "description": "Av. de Luis Buñuel, 14, Palma-Palmilla, 29009 Málaga, Spagna"
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimento collettivo",
+            "description": "Puoi aggiungere in fase di check out un trasferimento collettivo da/per l'aeroporto che ti farà attendere massimo un'ora prima di partire per l'hotel. Nel caso in cui avessi acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimento privato",
+            "description": "Puoi raggiungere l'hotel con un trasferimento privato: non dimenticare di aggiungerlo al carrello! Nel caso in cui avessi acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+          }
+        ],
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.381229746398!2d-4.433579291178594!3d36.733969537743505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7c1684cb2c3%3A0xc19b801081f645a6!2sSercotel%20Rosaleda%20M%C3%A1laga!5e0!3m2!1sit!2sit!4v1727186309057!5m2!1sit!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+
+
+
+
+      
+
+
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title": "marrakech",
+    "price": "",
+    "img": "",
+    "detail": {
+      "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1702399186116.jpg?sv=2023-08-03&se=2073-11-29T16%3A39%3A47Z&sr=b&sp=rade&sig=yjx0D2RMjEg%2BwsB0IAMtcRzBewirtv9nfz6DS3NMMrQ%3D&rsct=image%2Fjpg",
+      "travel_images": [
+        {
+          "name": "Destinazione",
+          "url_destination": [
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1702389549417.jpg?sv=2023-08-03&se=2073-11-29T13%3A59%3A12Z&sr=b&sp=rade&sig=OXqKXPYNIg7O0pCsdGm3XcyOwZ9oZYFWGRHcVRHOMFo%3D&rsct=image%2Fjpg"
+          ]
+        },
+        {
+          "name": "Struttura",
+          "url_structure": [
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/0f14f62a-1970-453f-b78a-81da5f81ada3/1699275293645.jpeg?sv=2023-08-03&se=2073-10-24T12%3A54%3A54Z&sr=b&sp=rade&sig=vxQ1enIqDc7SB2Kf9kZyu5aXcByyjagT9weVY%2BuO2kk%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1698766911078.jpeg?sv=2023-08-03&se=2073-10-18T15%3A41%3A51Z&sr=b&sp=rade&sig=NXeEbdQBnRQnfUPpebVHpKtRdlkRpre15cObBwg3GKQ%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1698766922441.jpeg?sv=2023-08-03&se=2073-10-18T15%3A42%3A03Z&sr=b&sp=rade&sig=fDOrOhQi%2BRrd912FIIWB3L1%2BF%2BF8BhIhBL2LnymFBz0%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1698766932891.jpeg?sv=2023-08-03&se=2073-10-18T15%3A42%3A13Z&sr=b&sp=rade&sig=YTuR%2FUwzi%2F8UF6pVxfobFvKY8clgPOIrmexLrLwFG2c%3D"
+          ]
+        }
+      ],
+      "title": "per esploratori sinceri",
+      "badge": [
+        "Tè marocchino",
+        "Cucina local",
+        "Souk e spezie",
+        "A prova di GEN Z"
+      ],
+      "paragraph": [
+        {
+          "text": "Non hai ancora preso l'aereo e già senti la sensazione della <b> sabbia tra le dita </b>, il calore del sole sulla pelle e il <b> profumo delle spezie </b>. Lo Short Club a Marrakech è pensato per te, che <b> hai pochi giorni di ferie </b> ma tanta <b> voglia di viaggiare </b>."
+        },
+        {
+          "text": "Qualsiasi sia il tuo <b> mood di viaggio </b>, il Club Rio ti permetterà di provare tutto questo (e molto altro) insieme ad altri giovani viaggiatori e scoprire la vera essenza della destinazione. Non ti obbligheremo a camminare km sotto il sole o a svegliarti all'alba: potrai gestire il tuo viaggio in totale libertà in base ai tuoi ritmi e con le esperienze che tu sceglierai di vivere (da solo o con gli altri Utravelers)"
+        },
+        {
+          "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti <b> i segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+        }
+      ],
+      "flight": {
+        "title": "Aggiungi il volo",
+        "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+      },
+      "included": [
+        {
+          "icon": "fa-regular fa-moon",
+          "text": "3 notti in hotel"
+        },
+        {
+          "icon": "fa-solid fa-utensils",
+          "text": "Colazione e cena"
+        },
+        {
+          "icon": "fa-regular fa-circle-user",
+          "text": "Coach in lingua inglese"
+        },
+        {
+          "icon": "fa-solid fa-bus-simple",
+          "text": "Trasferimenti a/r aeroporto"
+        },
+        {
+          "icon": "fa-solid fa-headset",
+          "text": "Assistenza Utravel"
+        },
+        {
+          "icon": "fa-solid fa-tablet-screen-button",
+          "text": "App dedicata"
+        },
+        {
+          "icon": "fa-solid fa-users",
+          "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+        }
+      ],
+      "notIncluded": [
+        "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+        "Pranzi",
+        "Tassa di soggiorno",
+        "Tutto quello che non è indicato in 'Cosa è incluso'"
+      ],
+      "thingsToKnow": [
+        {
+          "title": "",
+          "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+        },
+        {
+          "title": "Domande Frequenti",
+          "text": "Dai un'occhiata alle nostre FAQ."
+        }
+      ],
+      "stay": {
+        "intro": "<b>Imperial Holiday Hôtel & spa</b> - o similare",
+        "paragraph": "Situtato nel centro di Marrakech, l'Imperial Holiday Hôtel & spa (o similare) si trova a circa 20 minuti a piedi dalla piazza Jamaa El Fna. Dispone di una piscina all'aperto, sauna e una sala fitness. La tassa di soggiorno è da pagare in loco, sono circa 6€ a persona! Il trattamento sarà di mezza pensione con colazione e cena inclusi. Il pranzo? Durante il giorno, tra esperienze e gite in autonomia potrai approfittarne per gustare gli autentici sapori marocchini.",
+        "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/new-hotel/1698766895908.jpeg?sv=2023-08-03&se=2073-10-18T15%3A41%3A36Z&sr=b&sp=rade&sig=du5%2FNn8PI5qNQdgL5JO2CdO4%2Fr46eoVZKTKG6KMyjlg%3D",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1702389549417.jpg?sv=2023-08-03&se=2073-11-29T13%3A59%3A12Z&sr=b&sp=rade&sig=OXqKXPYNIg7O0pCsdGm3XcyOwZ9oZYFWGRHcVRHOMFo%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/0f14f62a-1970-453f-b78a-81da5f81ada3/1699275293645.jpeg?sv=2023-08-03&se=2073-10-24T12%3A54%3A54Z&sr=b&sp=rade&sig=vxQ1enIqDc7SB2Kf9kZyu5aXcByyjagT9weVY%2BuO2kk%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1698766911078.jpeg?sv=2023-08-03&se=2073-10-18T15%3A41%3A51Z&sr=b&sp=rade&sig=NXeEbdQBnRQnfUPpebVHpKtRdlkRpre15cObBwg3GKQ%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1698766922441.jpeg?sv=2023-08-03&se=2073-10-18T15%3A42%3A03Z&sr=b&sp=rade&sig=fDOrOhQi%2BRrd912FIIWB3L1%2BF%2BF8BhIhBL2LnymFBz0%3D",
+
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1698766932891.jpeg?sv=2023-08-03&se=2073-10-18T15%3A42%3A13Z&sr=b&sp=rade&sig=YTuR%2FUwzi%2F8UF6pVxfobFvKY8clgPOIrmexLrLwFG2c%3D"
+            ]
+          }
+        ]
+      },
+      "explore": {
+        "title": "Esperienze consigliate",
+        "text": [
+          "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+          
+          "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+        ],
+        "slide_thumb": [
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1703313664267_gallery_image_1_1694722793848.JPG?sv=2023-08-03&se=2074-05-24T12%3A27%3A18Z&sr=b&sp=rade&sig=vSKP4VFBIFNhEKW7tOqBZ7uPF7stAmzWJ1oSczC%2BrqQ%3D&rsct=image%2Fjpg",
+            "badge": "128€ - 192€",
+            "title": "Volo in mongolfiera",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "128€ - 192€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Sogni di sorvolare i cieli africani sopra una delle aeree piú desertiche ed iconiche al mondo? <br> Sali sulla nostra mongolfiera per vedere una delle albe migliori della tua vita!",
+
+                "Sarai prelevat* dall'hotel qualche ora prima dell'alba, da lì dopo circa 1 oretta arriverai nel punto di lancio dove potrai ammirare tutto il processo di montaggio e preparazione, gustandoti un buon tè marocchino! <br> Dopo di ciò spiccherai il volo (1h circa) tra i cieli maghrebbini! Spoiler... l'atterraggio ti sorprenderà!",
+
+                "Al rientro, nel campo base ad aspettarti ci sarà una colazione tipica marocchina e soprattutto il secondo round di tè!"
+              ]
+            }
+          },
+          {
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ5FlsCYK6N5hvexlYkKM08N5ZgLjkYFwMYw&s",
+            "badge": "20€ - 30€",
+            "title": "Essaouira",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "20€ - 30€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Perditi tra i vicoli di questo caratteristico paesino di pescatori e assapora il pesce appena pescato in riva al mare.",
+
+                "<p> Ma quali sono le particolarità da non perdere assolutamente ad Essaouira? </p>   <ul> <li> - Ma quali sono le particolarità da non perdere assolutamente ad Essaouira? </li> <li> - La cittadella di Skala Kasbah </li> <li> - ll Castelo Real costruito nel 1506 </li> <li> - I caffè locali e le loro terrazze sul mare </li> <li> - La bellissima spiaggia famosa per surf, windsurf e kitesurf </li> </ul>",
+
+                "Il pranzo non è incluso e la guida neanche perchè vogliamo che sia tu a perderti tra queste meravigliose vie e ad assaggiare ciò che più ti piace!",
+
+                "Durata trasporto = 3h circa a tratta"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704908506550_90.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A13Z&sr=b&sp=rade&sig=cfTxGGfjomTKW3h7r99xSg%2FNgM7ZsEOSLHax3gg9oVo%3D&rsct=image%2Fjpg",
+            "badge": "8€ - 12€",
+            "title": "Medina Tour",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "8€ - 12€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Immergiti nell'incantevole cuore di <b> Marrakech </b> con un city tour che abbraccia le gemme storiche della città. Il percorso include le seguenti tappe:",
+
+                "<p> <b> Palais de la Bahia: </b> </p>      <p> Esplorerai il maestoso Palazzo della Bellezza, un capolavoro architettonico con giardini lussureggianti, cortili intricati e ambienti regali. Ammirerai l'arte e la maestria che caratterizzano questo palazzo. </p>",
+
+                "<p> <b> Mosquée Koutoubia (visita esterna): </b> </p>      <p> Ammirerai la grandiosa architettura della Moschea Koutoubia, un'icona di Marrakech. La sua imponente torre minareto si staglia nel cielo, offrendo una vista spettacolare e una connessione con la ricca storia della città. </p>",
+
+                "<p> <b> Medina Antica di Marrakech: </b> </p>      <p> Passeggerai accompagnato da un local attraverso le stradine affollate e i mercati tradizionali della Medina, scoprendo l'atmosfera vibrante e i tesori nascosti che caratterizzano la parte antica della città. </p>",
+
+                "<p> <b> Place Jemaa el Fnaa: </b> </p>      <p> Sperimenterai la vivacità della famosa piazza Jemaa el Fnaa, cuore pulsante della Medina. Qui troverai artisti di strada, mercanti, incantatori di serpenti e un'atmosfera unica che si anima specialmente al tramonto. </p>",
+
+                "<p> <b> Medersa Ben Youssef: </b> </p>      <p> Per terminare esplorerai la magnifica Medersa Ben Youssef, una antica scuola coranica che vanta una ricca storia e dettagli architettonici mozzafiato. </p>",
+
+                "Questo city tour ti condurrà attraverso i luoghi più iconici di <b> Marrakech </b>, offrendoti una panoramica completa della sua storia e della sua bellezza intramontabile."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1708013046088_1699348410275_danai-tsoutreli-tqLc6On9KIA-unsplash.jpg?sv=2023-08-03&se=2074-05-24T12%3A28%3A47Z&sr=b&sp=rade&sig=s7KZetKTLTgCYnF0Dxmxb%2F4ItI4gte%2BSLDGkhhSLVCs%3D&rsct=image%2Fjpg",
+            "badge": "20€ - 30€",
+            "title": "Cascate di Ouzoud",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "20€ - 30€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Uno dei posti più visitati e fotografati in <b> Marocco! </b>",
+
+                "Situate vicino all'alto Atlas le cascate si trovano in mezzo ad una distesa di verde. <br> Una volta raggiunto il sito percorrerai una via in mezzo alla natura dove potrai incontrare delle simpatiche scimmiette curiose e molto socievoli. <br> Non avere paura, sono abituate a stare in mezzo alla gente! L'unico consiglio che ti diamo è di non tenere oggetti di valore in vista... potrebbero piacergli i tuoi occhiali da sole e decidere di non darteli più!",
+
+                "Durata trasporto: 3h circa a tratta"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704874652658_PHOTO-2024-01-03-21-25-03.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A43Z&sr=b&sp=rade&sig=L0bcEZusbM%2Bet0PfK8DUxQmM2DzyfPM%2BssFwFvC1ALQ%3D&rsct=image%2Fjpg",
+            "badge": "32€ - 48€",
+            "title": "Desert Dinner",
+            "description": "Local Food",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "32€ - 48€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Local Food"
+                }
+              ],
+              "text": [
+                "Preparati per una serata incantevole e autentica nel <b> deserto di Agafay </b>, dove la bellezza del Marocco si fonde con la magia del paesaggio desertico.",
+
+                "<b> Dettagli dell'Esperienza: </b>",
+
+                "<p> <b> Pick-up dall'Hotel </b> </p>      <p> La tua esperienza inizia con un comodo pick-up direttamente dal tuo hotel, portandoti verso l'affascinante deserto di Agafay. </p>",
+
+                "<p> <b> Arrivo nel Deserto di Agafay </b> </p>      <p> Giungerai nel cuore del deserto, circondato da un panorama mozzafiato di dune e cieli aperti. L'atmosfera magica ti avvolgerà mentre il sole inizia a dipingersi di tonalità calde. </p>",
+
+                "<p> <b> Cena Tipica Marocchina </b> </p>      <p> Assapora i gusti autentici del Marocco con una cena tipica, preparata con ingredienti freschi e spezie esotiche. Il taijin, piatto tradizionale, e altre prelibatezze delizieranno il tuo palato. </p>",
+
+                "<p> <b> Show Serale </b> </p>      <p> Mentre gusti i piatti deliziosi, sarai intrattenuto da uno spettacolo serale che celebra la ricca tradizione artistica marocchina. Balli tradizionali, musiche avvolgenti e performance coinvolgenti creeranno un'atmosfera incantata. </p>",
+
+                "<p> <b> Relax in Piscina </b> </p>      <p> Prima della cena , avrai la possibilità di immergerti in una piscina a sfioro a cielo aperto, circondato dal silenzio e dalla magia del deserto. </p>",
+
+                "<p> <b> Rientro in Hotel </b> </p>      <p> Dopo aver vissuto appieno questa esperienza unica, sarai accompagnato di nuovo al tuo hotel. </p>"
+              ]
+            }
+          }
+        ]
+      },
+      "reviews": [
+        {
+          "name": "Antonello Pistritto",
+          "date": "31 gennaio 2024",
+          "starsNumber": 5,
+          "text": "Stupendo. Charlie Coach davvero incredibile: preparata, gentile, entusiasta e capace a creare gruppo. Il gruppo ristretto ha permesso di vivere una vacanza in modo stupendo. Complimenti!"
+        },
+        {
+          "name": "Anonimo",
+          "date": "15 febbraio 2024",
+          "starsNumber": 4,
+          "text": "Posti meravigliosi e unici Unica pecca il giro Zack decisamente troppo giovane e inesperto per dare dei consigli utili.. sembrava più interessato a fare serata che il suo lavoro"
+        },
+        {
+          "name": "Alessia",
+          "date": "8 gennaio 2024",
+          "starsNumber": 4,
+          "text": "I luoghi visitati hanno di gran lunga superato le mie aspettative. L'escursione nel deserto è stata mozzafiato (peccato le 12 ore di pullman al ritorno che potevano essere spezzate da una tappa intermedia). La guida che ci ha accompagnati, Amin, molto attenta ai bisogni di tutti, preparata e simpatica. Al contrario la “guida” Zakaria che avrebbe dovuto esserci d'aiuto nei giorni a Marrakech è stata del tutto inesistente. La frase da lui più ripetuta è stata “per qualsiasi cosa scrivetemi” ma consiglio di partire con un programma ben strutturato e di non fare affidamento su di lui, tanto ai messaggi non risponde (nè prima, nè durante la vacanza). Se c'è da andare in discoteca è il primo della fila, ma se avete un'intossicazione alimentare, la febbre a 39, o vi siete persi nella Medina non contate su di lui. L'ultimo giorno, causa maltempo, è stata disdetta l'escursione in mongolfiera, ma la sua priorità è stata andare a fare aperitivo piuttosto che avvisare tempestivamente tutti i componenti del gruppo e ridargli i soldi (150€ a persona)."
+        },
+        {
+          "name": "Francesco Annoni",
+          "date": "16 febbraio 2024",
+          "starsNumber": 5,
+          "text": "Prima esperienza di una vacanza in “tour” ed è stato a dir poco fantastico,tutte le esperienze approvate e assolutamente da fare, anche se purtroppo va a discapito di Marrakech la quale si riesce a vedere solo la sera e nei giorni dei voli. Consiglio di prenotare un giorno in più per vedere la fantastica città"
+        },
+        {
+          "name": "Gabriele Colombo",
+          "date": "4 gennaio 2024",
+          "starsNumber": 5,
+          "text": "Questo Club Marrakesh è stata una esperienza fantastica tutt le esperienze sono molto belle, Zak dal primo momento si è mostrato gentile e disponibile e ci ha spiegato tutto nei dettagli e ognuno ha deciso che escursioni fare, l'esperienza con Amin durante il viaggio per il Sahara è stata una esperienza fantastica e riuscito a dare qualcosa in più al viaggio. Anche le altre sono tutte molto belle e ben organizzate! Consiglio in generale di prendere il volo la mattina così quando si arriva a Marrakesh si a modo di vedere la città altrimenti poi arrivando la sera si è già poi il giorno dopo in viaggio nel deserto! Con gruppi di 12-15 Max persone in viaggio si riesce a fare tutto meglio! Mi porto Marrakesh nel cuore e ringrazio tutte le persone gentili che ho incontrato 😃"
+        },
+        {
+          "name": "Antonella Papa",
+          "date": "16 febbraio 2024",
+          "starsNumber": 5,
+          "text": "viaggio indimenticabile, ho conosciuto delle persone fantastiche. La guida, Amin, più di un amico, molto presente e disponibile in tutto, conosceva più canzoni italiane lui che noi hahahaha. Non dimentichiamoci di Zack, molto disponibile anche lui, è stato come un fratello. Grazie Utravel per questa magnifica esperienza, non vediamo l'ora di prenotare il prossimo viaggio."
+        },
+        {
+          "name": "Sofia",
+          "date": "16 febbraio 2024",
+          "starsNumber": 5,
+          "text": "Viaggio ricco di esperienze ed emozioni uniche. 💖 Partita sola, tornata in dieci grazie anche ad un gruppo stupendo ed affiatato. Tutto oltre le aspettative, devo dire: dal dormire in tenda sotto le stelle, al cibo locale squisito, ad una passeggiata a cavallo fuori programma tra cammelli e surfisti... 🏄‍♀️ Unica pecca l'Hammam: attenzione NON è rilassante! Questa prima esperienza con la community di Utravel è stata una piacevole scoperta ☺️ Grazie ragazzi! 🫶"
+        },
+        {
+          "name": "Marta Debole",
+          "date": "19 febbraio 2024",
+          "starsNumber": 4,
+          "text": "Qualcosa da migliorare ma nel complesso una bella esperienza."
+        },
+        {
+          "name": "Anonimo",
+          "date": "16 febbraio 2024",
+          "starsNumber": 5,
+          "text": "È stato tutto molto divertente, ho conosciuto un sacco di persone nuove e abbiamo fatto delle esperienze uniche ed indimenticabili. Super consigliato!"
+        },
+        {
+          "name": "Anonimo",
+          "date": "22 novembre 2023",
+          "starsNumber": 5,
+          "text": "Terzo viaggio con UTravel, che non smette di sorprendermi per l'impeccabile organizzazione e per una formula viaggio che permette di godersi viaggi incredibili, a stretto contatto con le popolazioni e la cultura locali. I numeri 1!"
+        },
+        {
+          "name": "Anonimo",
+          "date": "22 novembre 2023",
+          "starsNumber": 4,
+          "text": "Essendo un club mi aspettavo di essere seguita in modo diverso, più di quanto è stato fatto. Inoltre, piccoli dettagli durante le escursioni (come maggiori informazioni/curiosità non necessariamente su richiesta) avrebbero fatto la differenza."
+        },
+        {
+          "name": "Alessia Stroili",
+          "date": "24 novembre 2023",
+          "starsNumber": 5,
+          "text": "È stato il mio primo viaggio con Utravel e devo dire che mi sono trovata bene. Considerato il fatto che la formula Club è una formula molto libera dove il Guru è presente solo per dare dei consigli/indirizzare i partecipanti alle attività possibili da fare e non partecipa alle attività con te e non è da considerare come una “guida”, mi è piaciuto. Il Marocco è un posto incredibile, pieno di caos, bellezze, colori, rumori e merita una visita una volta nella vita. Rapporto qualità/prezzo ottimo. Io ho fatto: tour nel deserto, escursione a Essaouira, escursione alle cascate di Ouzud e l'Hammam. Tutte attività super consigliate. La cosa che mi è piaciuta di più è stata aver incontrato delle persone speciali con cui condividere il viaggio. Siamo stati fortunati perché eravamo solo in 9 e si è formato un bel gruppo con cui abbiamo pianificato le varie attività nei momenti liberi. Grazie per questa esperienza!!"
+        },
+        {
+          "name": "Anonimo",
+          "date": "16 febbraio 2024",
+          "starsNumber": 4,
+          "text": "Very exciting and beautiful place"
+        },
+        {
+          "name": "Francesco Ferrari",
+          "date": "20 febbraio 2024",
+          "starsNumber": 5,
+          "text": "Un' esperienza fantastica che mi ha permesso di vedere luoghi e paesaggi unici, da levarti il fiato dall'emozione. Il valore aggiunto di questo viaggio sono stati i compagni di avventura con i quali ho condiviso momenti indimenticabili. Consiglio vivamente Utravel a tutti quei ragazzi che si trovano da soli e non vogliono perdere l'opportunita' di viaggiare. Un grazie alla nostra guida e al nostro guru."
+        },
+        {
+          "name": "Andrea Longhi",
+          "date": "20 febbraio 2024",
+          "starsNumber": 5,
+          "text": "Esperienza davvero indimenticabile, che mi porterò nel cuore per sempre. Luoghi bellissimi e compagni di viaggio stupendi, lo consiglio davvero!"
+        }
+      ],
+      "reach_hotel": {
+        "info": [
+          {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "Marakech",
+            "description": "30 Avenue Moulay، Moulay R Chid، Gueliz Marrakech 40000, Marocco"
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimento",
+            "description": "Tranquill*, non ti lasciamo a piedi. Tutti i trasferimenti sono inclusi! Se hai acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio."
+          }
+        ],
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.038651034063!2d-8.0141536!3d31.6327921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee9203e649e7%3A0x593e3c27c58a67a5!2sImperial%20Holiday%20Hotel%20%26%20Spa%20Marrakech!5e0!3m2!1sit!2sit!4v1727189222421!5m2!1sit!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+
+
+
+
+      
+
+
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title": "messico",
+    "price": "",
+    "img": "",
+    "detail": {
+      "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390116982.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A58Z&sr=b&sp=rade&sig=yYC%2B%2FxP2035rpKxdSkiOVyaGc2gNqi2lV7Q8Fpu%2BMJw%3D&rsct=image%2Fjpg",
+      "travel_images": [
+        {
+          "name": "Destinazione",
+          "url_destination": [
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700229502221.jpg?sv=2023-08-03&se=2073-11-04T13%3A58%3A23Z&sr=b&sp=rade&sig=KGVPYVXn0ZgwCAT33LE7DT7LsXH4KUfnXuaFcz9lji0%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700494797885.jpg?sv=2023-08-03&se=2073-11-07T15%3A39%3A58Z&sr=b&sp=rade&sig=hmlMyUkYVxTZ%2FuUxiklLSzZiG%2FdrORpTXU1YZk4d%2BjA%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700229524239.jpg?sv=2023-08-03&se=2073-11-04T13%3A58%3A45Z&sr=b&sp=rade&sig=RY01hnadlUBAYXycYWpECpNnldQUpGXmKhZKK2zjqzI%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700229549504.jpg?sv=2023-08-03&se=2073-11-04T13%3A59%3A09Z&sr=b&sp=rade&sig=4uLyUB3h3D81vkKKI2wHp3mtONM6Kx2LedsA30ZgDSU%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713968573983.jpg?sv=2023-08-03&se=2074-04-12T14%3A22%3A54Z&sr=b&sp=rade&sig=hOfe9%2FbGRH1zdue%2B4xZE%2B3CN7T2f2CTKM%2Ft0HlE8xHE%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713968646475.jpg?sv=2023-08-03&se=2074-04-12T14%3A24%3A06Z&sr=b&sp=rade&sig=mli7%2FAd5Hoaj3952DiNUSQL5SxIwmwZE4%2Byt6SnT4zw%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713968738918.jpg?sv=2023-08-03&se=2074-04-12T14%3A25%3A39Z&sr=b&sp=rade&sig=yuYHKuS9QKQG3i6MqdLOxwkpXuLjo15zWmJRnKa6feA%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713969361463.jpg?sv=2023-08-03&se=2074-04-12T14%3A36%3A01Z&sr=b&sp=rade&sig=LiJC8Mc9ui5lIIVs9V6ICv6HowOPNx3NEUBvLi0tsrc%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713969257575.jpg?sv=2023-08-03&se=2074-04-12T14%3A34%3A18Z&sr=b&sp=rade&sig=gRdZY2%2BjCHsFDVKu4ohY1C6dGn%2FpF5NXclOOYyLs5bs%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713969853352.jpg?sv=2023-08-03&se=2074-04-12T14%3A44%3A14Z&sr=b&sp=rade&sig=MLseRiWt7tkpmW%2FlSugqr5SJEfCnveLwnC7Igt7Hatc%3D&rsct=image%2Fjpg"
+          ]
+        },
+        {
+          "name": "Struttura",
+          "url_structure": [
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025760077.jpg?sv=2023-08-03&se=2073-10-21T15%3A36%3A00Z&sr=b&sp=rade&sig=UrpR2blWtMG6SjpNsveRDyHMcikA5ODchyXbzODljVU%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025854109.jpg?sv=2023-08-03&se=2073-10-21T15%3A37%3A34Z&sr=b&sp=rade&sig=HvdR0t79REVzB5BtUPWGsWi%2BAEvDAaIFge2VCD4pDEQ%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025863405.jpg?sv=2023-08-03&se=2073-10-21T15%3A37%3A43Z&sr=b&sp=rade&sig=2zXJRIwwURoO6HBXjs%2FhWrhXvWNf0m8ZmTUHD6T6heM%3D",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025876226.jpg?sv=2023-08-03&se=2073-10-21T15%3A37%3A56Z&sr=b&sp=rade&sig=2V8HarjIpWjjtzYQEDKwR14%2BRoALI9c0lxTPs9Ch0LE%3D"
+          ]
+        }
+      ],
+      "title": "per chi cerca solo good vibes",
+      "badge": [
+        "Caraibi vibes",
+        "7 meraviglie del mondo check",
+        "Cucina local",
+        "A prova di GEN Z"
+      ],
+      "paragraph": [
+        {
+          "text": "Il <b> Messico </b> ha due facce. Da un lato è il paradiso per i cultori della filosofia “La vita è troppo breve per viversela con ansia”: <b> aperitivo sulla spiaggia </b> a base di Tequila e spiaggia degna di ogni Influencer. Dall'altro lato, pare di stare in un film di Indiana Jones. <b> Cenotes </b> pronti per essere esplorati, i segreti e le tradizioni della <b> cultura Maya e natura incontaminata </b>."
+        },
+        {
+          "text": "Non importa quale di questi <b> >mood tu voglia provare </b perché il Club Messico ti permetterà di provare tutto questo (e molto altro) insieme ad altri <b> giovani viaggiatori </b> e scoprire la vera essenza della destinazione. <b> Non ti obbligheremo </b> a camminare km sotto il sole o a svegliarti all'alba: potrai gestire il tuo viaggio in <b> totale libertà in base ai tuoi ritmi </b> e vivere solo le esperienze che vorrai fare da solo o con gli <b> altri Utravelers </b>."
+        },
+        {
+          "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti <b> i segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+        }
+      ],
+      "flight": {
+        "title": "Aggiungi il volo",
+        "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+      },
+      "included": [
+        {
+          "icon": "fa-regular fa-moon",
+          "text": "7 notti in hotel"
+        },
+        {
+          "icon": "fa-solid fa-mug-saucer",
+          "text": "Colazione"
+        },
+        {
+          "icon": "fa-regular fa-circle-user",
+          "text": "Coach in lingua italiana"
+        },
+        {
+          "icon": "fa-solid fa-bus-simple",
+          "text": "Trasferimenti a/r aeroporto"
+        },
+        {
+          "icon": "fa-solid fa-headset",
+          "text": "Assistenza Utravel"
+        },
+        {
+          "icon": "fa-solid fa-tablet-screen-button",
+          "text": "App dedicata"
+        },
+        {
+          "icon": "fa-solid fa-users",
+          "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+        }
+      ],
+      "notIncluded": [
+        "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+        "Pranzi e cene",
+        "Tassa di soggiorno",
+        "Tutto quello che non è indicato in 'Cosa è incluso'"
+      ],
+      "thingsToKnow": [
+        {
+          "title": "",
+          "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+        },
+        {
+          "title": "Passaporto:",
+          "text": "con una validità residua di 6 mesi (è obbligatorio avere il biglietto di ritorno, che va presentato all'arrivo alla polizia di immigrazione)"
+        },
+        {
+          "title": "Visto:",
+          "text": "non serve per turismo fino a 180 giorni di soggiorno."
+        },
+        {
+          "title": "Cultura Locale:",
+          "text": "non perderti questa la festività locale conosciuta più in tutto il mondo 'Dia de Los Muertos'"
+        },
+        {
+          "title": "Domande Frequenti",
+          "text": "Dai un'occhiata alle nostre FAQ."
+        }
+      ],
+      "stay": {
+        "intro": "<b>Las Golondrinas</b> - o similare",
+        "paragraph": "Svegliarsi alla mattina con vista sulla spiagga Playa del Carmen ti fa iniziare la giornata al meglio: change our mind. Come dici? Non riesci ad alzarti al mattino senza una buona dose di caffè? Be', sarai felice di scoprire che all'Hotel Las Golondrinas la colazione è inclusa! Potrai anche condividere con altri Utravelers gli incredibili tramonti messicani direttamente dalla terrazza, per godersi ogni istante di questo viaggio!",
+        "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/a11e1cbd-bdff-4bdf-ae54-426a26c5c24c/1700241655844.jpg?sv=2023-08-03&se=2073-11-04T17%3A20%3A56Z&sr=b&sp=rade&sig=Pvzvjv6gxbpfcBFAr4T14D5YAIWr0hDFSJxywvZNhmQ%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700229502221.jpg?sv=2023-08-03&se=2073-11-04T13%3A58%3A23Z&sr=b&sp=rade&sig=KGVPYVXn0ZgwCAT33LE7DT7LsXH4KUfnXuaFcz9lji0%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700494797885.jpg?sv=2023-08-03&se=2073-11-07T15%3A39%3A58Z&sr=b&sp=rade&sig=hmlMyUkYVxTZ%2FuUxiklLSzZiG%2FdrORpTXU1YZk4d%2BjA%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700229524239.jpg?sv=2023-08-03&se=2073-11-04T13%3A58%3A45Z&sr=b&sp=rade&sig=RY01hnadlUBAYXycYWpECpNnldQUpGXmKhZKK2zjqzI%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1700229549504.jpg?sv=2023-08-03&se=2073-11-04T13%3A59%3A09Z&sr=b&sp=rade&sig=4uLyUB3h3D81vkKKI2wHp3mtONM6Kx2LedsA30ZgDSU%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713968573983.jpg?sv=2023-08-03&se=2074-04-12T14%3A22%3A54Z&sr=b&sp=rade&sig=hOfe9%2FbGRH1zdue%2B4xZE%2B3CN7T2f2CTKM%2Ft0HlE8xHE%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713968646475.jpg?sv=2023-08-03&se=2074-04-12T14%3A24%3A06Z&sr=b&sp=rade&sig=mli7%2FAd5Hoaj3952DiNUSQL5SxIwmwZE4%2Byt6SnT4zw%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713968738918.jpg?sv=2023-08-03&se=2074-04-12T14%3A25%3A39Z&sr=b&sp=rade&sig=yuYHKuS9QKQG3i6MqdLOxwkpXuLjo15zWmJRnKa6feA%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713969361463.jpg?sv=2023-08-03&se=2074-04-12T14%3A36%3A01Z&sr=b&sp=rade&sig=LiJC8Mc9ui5lIIVs9V6ICv6HowOPNx3NEUBvLi0tsrc%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713969257575.jpg?sv=2023-08-03&se=2074-04-12T14%3A34%3A18Z&sr=b&sp=rade&sig=gRdZY2%2BjCHsFDVKu4ohY1C6dGn%2FpF5NXclOOYyLs5bs%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1713969853352.jpg?sv=2023-08-03&se=2074-04-12T14%3A44%3A14Z&sr=b&sp=rade&sig=MLseRiWt7tkpmW%2FlSugqr5SJEfCnveLwnC7Igt7Hatc%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025760077.jpg?sv=2023-08-03&se=2073-10-21T15%3A36%3A00Z&sr=b&sp=rade&sig=UrpR2blWtMG6SjpNsveRDyHMcikA5ODchyXbzODljVU%3D",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025854109.jpg?sv=2023-08-03&se=2073-10-21T15%3A37%3A34Z&sr=b&sp=rade&sig=HvdR0t79REVzB5BtUPWGsWi%2BAEvDAaIFge2VCD4pDEQ%3D",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025863405.jpg?sv=2023-08-03&se=2073-10-21T15%3A37%3A43Z&sr=b&sp=rade&sig=2zXJRIwwURoO6HBXjs%2FhWrhXvWNf0m8ZmTUHD6T6heM%3D",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1699025876226.jpg?sv=2023-08-03&se=2073-10-21T15%3A37%3A56Z&sr=b&sp=rade&sig=2V8HarjIpWjjtzYQEDKwR14%2BRoALI9c0lxTPs9Ch0LE%3D"
+            ]
+          }
+        ]
+      },
+      "explore": {
+        "title": "Esperienze consigliate",
+        "text": [
+          "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+          
+          "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+        ],
+        "slide_thumb": [
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1700603853120_IMG_4443%2520-%2520Large.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A10Z&sr=b&sp=rade&sig=if5WW8qjTgvHu7HgPhoXTmkmwrYU2mZAaTMXgnDfk50%3D&rsct=image%2Fjpg",
+            "badge": "Inclusa",
+            "title": "Isla Contoy e Mujeres",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Esperienza inclusa",
+              "icon": "fa-regular fa-circle-check ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "Inclusa nel club"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Pront* ad una giornata in stile pirati dei Caraibi tra le acque cristalline?",
+
+                "Salperai dal porto di <b> Cancun </b> in direzione <b> Isla Mujeres </b>, l'isola della perdizione Messicana, dove resort e comfort di ogni genere offrono ad ogni visitatore la possibilità di una vacanza perfetta: un Margarita in spiaggia è quasi d'obbligo!",
+
+                "Ma dopo circa un'oretta ti dirigerai verso il vero paradiso terrestre… <b> Isla Contoy </b>, qui non troverai costruzioni intensive, ma qualche innocuo squalo balena potrebbe essere di passaggio. Lo sappiamo, ci vorrebbero giornate di 48 ore. Ma noi abbiamo la soluzione per te! ",
+
+                "Con questa esperienza visiterai due paradisi in un colpo solo, sarà dura decidere quello che ti ha sorpreso di più!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724323695304.webp?sv=2023-08-03&se=2074-08-10T10%3A48%3A15Z&sr=b&sp=rade&sig=4KAg6xnubWGE6JXHPG334OnjBrt1gsd%2BuQ2NPD8zCI8%3D&rsct=image%2Fjpg",
+            "badge": "75€ - 113€",
+            "title": "Bacalar",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "75€ - 113€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "No, non si tratta delle classiche lagune italiane ma di una distesa d'acqua dolce unica al mondo e nel suo genere che vi incanterà con i suoi colori e la sua trasparenza! Di certo una delle main tappe del viaggio in <b> Yucatan </b>!",
+
+                "L'itinerario prevede il transfer di 3h e mezza (lontanino ma ne vale la pena!), tappa con colazione al cenote azul, uno dei piú grandi della regione! <br> (Il consiglio del guru é quello di provare il classico chilaquiles per colazione)",
+
+                "Dopo di ciò vi sposterete verso la laguna, in un lido dove potrete scattare tantissime foto nel luogo piú fotografato dell'intero Messico!",
+
+                "E dopo di ciò a bordo di una lancha (1,30h) girerete intorno alla famosissima laguna de los 7 colores, no spoiler su questo… Pranzo post giro in barca!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724324443290.webp?sv=2023-08-03&se=2074-08-10T11%3A00%3A45Z&sr=b&sp=rade&sig=WGnsQT7dksjlolIt4ILA3TX062HyU1wIwl1WOYUqu%2FU%3D&rsct=image%2Fjpg",
+            "badge": "82€ - 124€",
+            "title": "Chichen Itza + Cenotes Ik Kil e Suytun + Valladolid",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "82€ - 124€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Pront* a visitare il più famoso sito archeologico <b>  </b>Maya del Messico?",
+
+                "Indossa un paio di scarpe comode e non dimenticare il costume, perchè non sarà una semplice giornata “al museo” ma molto di più!",
+
+                "Il nostro tour inizierà all'alba da <b> Playa del Carmen </b>, in <b> Quintana Roo </b> e da lì varcando i confini dello spazio e del tempo (3h), arriveremo in un nuovo stato Messicano, con un nuovo fuso orario, in quella che è stata la terra dei migliori astrologi della storia!",
+
+                "E dopo una breve fermata nel villaggio stile coloniale di <b> Valladolid </b>, dove potrete ammirare la seconda chiesa più antica del nuovo mondo, vi dirigerete verso il sito archeologico più importante del paese! Pronti a fotografare una delle 7 meraviglie del mondo moderno, conoscere le regole del “gioco della pelota” e scoprire la tanto enigmatica piramide di <b> Kukulkan </b>, scoprendone i segreti e ascoltando i suoi suoni che rimbomberanno su tutta la valle?",
+
+                "Ma non è finita qui, perché na volta fatto il pieno di leggende Maya, in un'atmosfera tra il sacro e il profano ci tufferemo in due dei cenotes più famosi della regione (<b> Ik il e Suytun </b>), pronti ad arricchire la vostra bacheca Instagram!",
+
+                "<b> Pranzo presso il cenote Suytun </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724318772557.webp?sv=2023-08-03&se=2074-08-10T09%3A26%3A12Z&sr=b&sp=rade&sig=87IJlxWjIB%2B1EWDVGyAA6Qp5L3tMozF7J5W0y25Y%2B4c%3D&rsct=image%2Fjpg",
+            "badge": "71€ - 107€",
+            "title": "Las coloradas + granja de cocodrilos",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "71€ - 107€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Esperienza per gli amanti della natura che ti permetterá di immergerti per un intera giornata all'interno della flora e della fauna piú caratteristica dello <b> Yucatan! </b> Un lago rosa fará da cornice ad una esperienza che vi porterá anche ad avvicinarvi e <b> nutrire degli enormi e docili coccodrilli! </b> ",
+
+                "L'itinerario prevede il transfer di 3h fino alla <b> riserva natural de las coloradas </b>, dove avrete circa 40 min di tempo libero per scattarvi qualche foto super instagrammabile in una cornice rosata!",
+
+                "Da li vi sposterete verso <b> Rio Lagartos </b>, dove a bordo di una lancha attraverserete l'intero fiume fino ad arrivare al suo delta, direttamente sul golfo del Messico, nel frattempo avvisterete una miriade di uccelli marini (spoiler = li nutrirete anche!), potrete conoscere e provare i <b> rimedi maya per la “pelle secca” </b> e magari avvistare qualche coccodrillo in libertà!",
+
+                "Dopo pranzo (sempre a Rio Lagartos) vi dirigerete verso la <b> granja da cocodrilos </b>, dove avrete la possibilità di interagire con questi enormi rettili e scattare tantissime foto con loro! (<b> d'obbligo inviare le foto ai genitori, rassicurandoli con…”tutto fila liscio in Messico” </b>)"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724321723934.webp?sv=2023-08-03&se=2074-08-10T10%3A15%3A24Z&sr=b&sp=rade&sig=Psw1sXMkr5Fv5H%2FL8MGIEwNyREDp7QVsYH1hUgVJ0Pg%3D&rsct=image%2Fjpg",
+            "badge": "75€ - 113€",
+            "title": "Holbox",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "75€ - 113€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Da <b> Playa del Carmen </b> prenderete un bus di circa 2,30h fino al porto di <b> Chiquilà </b>, da dove vi imbarcherete verso uno dei più spettacolari paesaggi da cartolina mai immaginati, ma non prima di fare un bel tuffo rinfrescante in uno dei manantial della regione!",
+
+                "La tappa intermedia sarà \"<b> Isla de la pasion </b>\", una lingua di sabbia all'interno del golfo del messico dove avrete la possibilità di avvistare uccelli marini...sul panorama anche qui no spoiler (circa 40 min di tempo libero)!",
+
+                "E passando da un isla a un isla finalmente farà capolino di fronte ai vostri occhi un'isoletta “no stress” ma in cui non ci si annoia mai.",
+
+                "L'<b> isola di Holbox </b>, la classica isola caraibica con sabbia bianchissima e il mare verde smeraldo che caratterizza il golfo del messico!",
+
+                "Giunti ad <b> Holbox </b>, immersi tra le palme e la fine sabbia bianca, avrete la possibilità di girare l'isola in bicicletta o golf kart, scoprendone gli angoli più remoti, isolati e nascosti! Il Coach consiglia di andare a playa mosquito!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1718399845455.jpeg?sv=2023-08-03&se=2074-06-02T21%3A17%3A25Z&sr=b&sp=rade&sig=KuVBCr77iX%2BLD9eKgeo0ZJU399cCSSVHgwFQvjkHo0o%3D&rsct=image%2Fjpg",
+            "badge": "68€ - 102€",
+            "title": "Tulum expedition",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "68€ - 102€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Parti da Playa del Carmen per <b> un'avventura mozzafiato </b> che ti porterà a esplorare le meraviglie di Tulum, sia sopra che sotto l'acqua. Questo tour privato di un'intera giornata è perfetto per chi vuole combinare <b> cultura, avventura e relax!</b>",
+
+                "<b> Itinerario del Tour </b>",
+
+                "<p> <b> Visita alle Rovine di Tulum </b> </p>      <p> Inizia la tua giornata con una visita alle affascinanti <b> rovine di Tulum </b>. Questi antichi resti della civiltà Maya sono situati su una scogliera che offre una vista spettacolare sul Mar dei Caraibi. La guida ti illustrerà la storia e le leggende di questo sito archeologico, facendoti immergere nell'antico splendore di Tulum. </p>",
+
+                "<p> <b> Giro in Barca con Snorkeling </b> </p>      <p> Dopo aver esplorato le rovine, ti imbarcherai per un emozionante giro in barca. Durante questa escursione, avrai l'opportunità di fare <b> snorkeling e nuotare tra razze e tartarughe marine </b>. Ammira i coloratissimi coralli e la vivace vita marina che popola queste acque cristalline. </p>",
+
+                "<p> <b> Pranzo alla \"Negra Tommasa\" </b> </p>      <p> Recupera le energie con un delizioso pranzo al ristorante \"Negra Tommasa\". Qui potrai gustare <b> piatti tipici della cucina messicana </b>, preparati con ingredienti freschi e locali. Goditi l'autentico sapore del Messico in un'atmosfera accogliente e rilassata. </p>",
+
+                "<p> <b> Relax a Tulum Beach </b> </p>      <p> Dopo pranzo, ti sposterai a Tulum Beach, una delle spiagge più belle della Riviera Maya. Qui avrai tempo libero per rilassarti e goderti il sole e il mare. </p>",
+
+                "<b> -Statua di Venere a la Luz: </b> Visita questa imponente statua, una delle attrazioni artistiche più iconiche di Tulum. <br> <b> -Jungle Gym </b> Per i più sportivi, c'è la possibilità di allenarsi, o semplicemente scattare foto in questa palestra all'aperto, unica nel suo genere, situata direttamente sulla spiaggia. <br> <b> -Beach Club: </b> Se preferisci il relax totale, puoi sdraiarti in uno dei tanti beach club, sorseggiando un drink e godendoti la vista mozzafiato sul mare.",
+
+                "<p> <b> Conclusione della Giornata </b> </p>      <p> Dopo una giornata ricca di esplorazioni e relax, tornerai a Playa del Carmen con ricordi indimenticabili di Tulum. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724322860771.webp?sv=2023-08-03&se=2074-08-10T10%3A34%3A21Z&sr=b&sp=rade&sig=CstTgwOqXQ2QORORjgcQ6agZ3eAmyE2SJAxANhdTgQQ%3D&rsct=image%2Fjpg",
+            "badge": "52€ - 78€",
+            "title": "Cocobongo beach party",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "52€ - 78€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "Il cocobongo é di per se una certezza e <b> una delle discoteche piú belle e famose al mondo! </b>",
+
+                "Ma sapevate che organizzava anche un <b> beach party </b> a Cancun? <b> Provare per credere! </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1711010861422_9ce9ed2e-8b03-42b4-88b2-10dbf715ff84.jpg.avif?sv=2023-08-03&se=2074-05-24T12%3A27%3A52Z&sr=b&sp=rade&sig=JgCqBs%2Bs1zSXsbHA6jHdV%2BuCg4YSXiMJ5giJlwK6HYU%3D&rsct=image%2Fjpg",
+            "badge": "64€ - 96€",
+            "title": "Rio Secreto",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "64€ - 96€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Vieni con noi in un viaggio magico attraverso il <b> museo del cristallo di Río Secreto </b>, dove la storia del nostro pianeta è scritta nella miriade di formazioni geologiche e dove galleggiando nelle sue acque dolci e cristalline <b> la tua vita cambierà per sempre </b>."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724320185170.webp?sv=2023-08-03&se=2074-08-10T09%3A49%3A45Z&sr=b&sp=rade&sig=KVph15w%2Be%2FGG4aywy4WXsytNWw6IEgvkuf6NepPSico%3D&rsct=image%2Fjpg",
+            "badge": "72€ - 108€",
+            "title": "Cocobongo Playa del Carmen",
+            "description": "Nightlife",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "72€ - 108€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Nightlife"
+                }
+              ],
+              "text": [
+                "Il nome <b> Coco Bongo </b> non ti dice nulla? Se ti dicessimo <b> The Mask </b> ti ricorda qualcosa? E si, è proprio il locale che si intravede nel film di The Mask, dove Jim Carrey scendeva le scale del palco indossando una maschera verde e un completo giallo.",
+
+                "Potremmo dire che il Coco Bongo è <b> uno dei locali più IN di tutto il Mondo </b>, non è solo una discoteca, ma un vero e proprio spettacolo. Ne esistono 3 dei quali 2 si trovano in Messico e uno in Repubblica Dominicana.",
+
+                "Partendo da Micheal Jackson e Shakira passando per 300 sino ad arrivare a Joker e Batman assisterai ad un <b> vero e proprio SHOW degno di Hollywood!! </b> <br> Non perdertelo, non te ne pentirai!",
+
+                "<b> Ps: Open bar all night long! </b>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1703566994522_el_cielo_cozumel_portada_dos_1.png_673822677.png.webp?sv=2023-08-03&se=2074-05-24T12%3A30%3A13Z&sr=b&sp=rade&sig=1Z7hrMG75HOq3hfCiOjqgEuVwpl8FMBZQCWjSZeZW%2F8%3D&rsct=image%2Fjpg",
+            "badge": "43€ - 65€",
+            "title": "Snorkeling Cozumel",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "43€ - 65€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Giornata di avventura a <b> Cozumel </b>, dove scoprirai le meraviglie subacquee di tre siti eccezionali: Palancar, Cielo e Colombia. Con il supporto di guide esperte, questa esperienza ti porterà attraverso gli straordinari paesaggi sottomarini che rendono <b> Cozumel </b> una destinazione di immersione di fama mondiale.",
+
+                "<p> <b> Partenza e Trasferimento: </b> </p>      <p> Incontra la tua guida e il gruppo a <b> Cozumel </b> per il trasferimento in barca verso le località di immersione. Ammira il panorama marino durante il viaggio verso i siti di <b> Palancar </b>, <b> Cielo </b> e <b> Colombia </b>. </p>",
+
+                "<p> <b> Snorkeling a Palancar: </b> </p>      <p> Inizia la tua giornata di immersione esplorando le profondità di <b> Palancar </b>, famoso per i suoi impressionanti paesaggi subacquei, grotte e formazioni coralline uniche. </p>",
+
+                "<p> <b> Cielo e Cielito: </b> </p>      <p> Prosegui verso Cielo e Cielitoo, due siti con acque cristalline e fondali sabbiosi. Cielo, il \"cielo stellato,\" offre una vista spettacolare delle stelle marine, mentre Cielito presenta uno scenario simile, offrendoti un'esperienza unica. </p>",
+
+                "<p> <b> Snorkeling a Colombia: </b> </p>      <p> Immergiti nelle acque di <b> Colombia </b>, un altro sito eccezionale che offre una vasta gamma di vita marina e affascinanti paesaggi subacquei. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1724324296759.webp?sv=2023-08-03&se=2074-08-10T10%3A58%3A17Z&sr=b&sp=rade&sig=jHoskv71v9ZVZKcOS3uEh8T%2BsVfaOoEg2Ev0adVKirY%3D&rsct=image%2Fjpg",
+            "badge": "62€ - 94€",
+            "title": "Diving a Cozumel",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "62€ - 94€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Opportunità unica per scoprire le profondità sottomarine dell'<b> isola di Cozumel </b>, una delle destinazioni di immersione più iconiche al mondo. Il nostro <b> tour di diving </b> senza certificazione ti porterà in un mondo subacqueo straordinario, anche se sei un principiante assoluto.",
+
+                "<p> <b> Esplora il Mondo Subacqueo di Cozumel: </b> </p>      <p> La nostra avventura di diving inizia con l'emozione di immergersi nelle acque cristalline dell'isola di <b> Cozumel </b>. Non è richiesta alcuna certificazione, quindi tutti sono i benvenuti a partecipare. Sarai guidato da istruttori esperti che ti faranno sentire al sicuro e a tuo agio in acqua. </p>",
+
+                "<p> <b> Tutto l'Equipaggiamento Fornito: </b> </p>      <p> Nel corso dell'esperienza, forniremo tutto l'equipaggiamento necessario, compresi maschere, pinne, snorkel, giubbotti di salvataggio e bombole per l'immersione. Sarai pronto per esplorare il mondo sottomarino senza preoccuparti di nulla. </p>",
+
+                "<p> <b> Profondità Sicure: </b> </p>      <p> La nostra esperienza di diving si svolge a una profondità massima di 10 metri, che è ideale per i principianti. Potrai esplorare gli affascinanti coralli, le spugne marine e la vita marina colorata senza la necessità di una certificazione avanzata. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1719350060798.jpg?sv=2023-08-03&se=2074-06-13T21%3A14%3A21Z&sr=b&sp=rade&sig=rqs0%2BStNGRLqsLrT83BFutsNm4cujMzjMpuPgwy0t3E%3D&rsct=image%2Fjpg",
+            "badge": "76€ - 114€",
+            "title": "Noche Maya",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "76€ - 114€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Unisciti a noi per vivere un'esperienza unica e partecipare a uno dei <b> rituali Maya </b> più sacri e antichi, ancora praticato ai giorni nostri. Scopri la vita quotidiana di una piccola comunità Maya, il loro stile di vita e le <b> tradizioni che hanno mantenuto intatte nel tempo </b>.",
+
+                "Durante la <b> Notte Maya </b>, prenderai parte a una cerimonia sacra di purificazione. In un ambiente suggestivo, preparati a entrare nel <b> \"grembo di madre terra\" nel TEMAZCAL </b>, un bagno di vapore in pietra vulcanica progettato per purificare e rinnovare la mente e il corpo.",
+
+                "Dopo la cerimonia, rinfrescati con un tuffo nelle acque cristalline del <b> cenote della comunità </b>.",
+
+                "Per concludere l'esperienza, assapora un piatto tipico semplice ma delizioso (<b> Tacos </b>), accompagnato da acqua di giamaica, per una perfetta chiusura di questa indimenticabile immersione nella cultura Maya."
+              ]
+            }
+          }
+          
+        ]
+      },
+      "reviews": [
+        {
+          "name": "Anonimo",
+          "date": "21 febbraio 2024",
+          "starsNumber": 4,
+          "text": "Avrei preferito più organizzazione nelle escursioni per il resto tutto molto bello, gruppo e **** fantastici"
+        }
+      ],
+      "reach_hotel": {
+        "info": [
+          {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "Messico",
+            "description": "Av. Constituyentes No. 178 esquina, Av. 20, Centro, 77710 Playa del Carmen, Q.R., Messico"
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Trasferimento collettivo",
+            "description": "Tranquill*, non ti lasciamo a piedi. Il trasferimento collettivo da/per l'aeroporto di CUN è incluso. Viaggerai verso il tuo hotel insieme ad altri Utravelers! Il servizio è disponibile solo nel primo e nell'ultimo giorno di Club. Ricorda che se hai acquistato il volo in autonomia, dovrai inoltrarci i dettagli dei tuoi voli entro 5 giorni dalla data della tua partenza. In caso contrario Utravel non potrà garantire il servizio. Per le partenze da novembre in poi, questo servizio è riservato a coloro che acquistano il volo tramite il nostro sito."
+          }
+        ],
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.9357997558955!2d-87.07248199999997!3d20.631473500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e43a3c693b3ff%3A0x27025ee1605c4ae0!2sLas%20Golondrinas%20Hotel!5e0!3m2!1sit!2sit!4v1727192517531!5m2!1sit!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+
+
+
+
+      
+
+
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  {
+    "title": "dubai",
+    "price": "",
+    "img": "",
+    "detail": {
+      "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715258930354.webp?sv=2023-08-03&se=2074-04-27T12%3A48%3A51Z&sr=b&sp=rade&sig=AbwXVVlJdTFUPAwxj0URcYLFMhm%2B7V2H7jpdIVLvJ0Y%3D&rsct=image%2Fjpg",
+      "travel_images": [
+        {
+          "name": "Destinazione",
+          "url_destination": [
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714487581069.jpg?sv=2023-08-03&se=2074-04-18T14%3A33%3A04Z&sr=b&sp=rade&sig=4vntKO3O90t79kss7gB%2BUOIXPN%2BhBkQHAq7SXFM8krQ%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714488610212.jpg?sv=2023-08-03&se=2074-04-18T14%3A50%3A10Z&sr=b&sp=rade&sig=3du7EtBMLr%2FyyKZBMXPIVXURju1%2FW6mI054o%2B%2FpMV4o%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714487107032.jpg?sv=2023-08-03&se=2074-04-18T14%3A25%3A07Z&sr=b&sp=rade&sig=mVNawBlpa0CIPqhN6djCPoWYJzG3cS61AzsceT2rztw%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714488879568.jpg?sv=2023-08-03&se=2074-04-18T14%3A54%3A40Z&sr=b&sp=rade&sig=CaPITgf02v62Hct11bisNxB5ES0Uqv2Vt6q2y35Lu3A%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714486176382.jpg?sv=2023-08-03&se=2074-04-18T14%3A09%3A36Z&sr=b&sp=rade&sig=ADDCdcGTwepBylgEbzyRGST3YtGF6ejxkVOU%2FzhDhUU%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714486220675.jpg?sv=2023-08-03&se=2074-04-18T14%3A10%3A21Z&sr=b&sp=rade&sig=A6g8I%2BY9PcWXQfgHqejYu3xZ0fKJ18K9z8e%2BhPoCThk%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714487488496.jpg?sv=2023-08-03&se=2074-04-18T14%3A31%3A29Z&sr=b&sp=rade&sig=4HtFmgSlgt1WFhUy19MjGETwn7%2Ft%2Bb09%2FEIk6RpdFC4%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714486227841.jpg?sv=2023-08-03&se=2074-04-18T14%3A10%3A28Z&sr=b&sp=rade&sig=y7zBRgXTjiFyzte9%2FI0WsRRVQSpOBFs4q3lmrLud5Aw%3D&rsct=image%2Fjpg"
+          ]
+        },
+        {
+          "name": "Struttura",
+          "url_structure": [
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403373016.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A13Z&sr=b&sp=rade&sig=5XXp%2F%2B22J4xus41USbBS%2F3GaEPV8YWm%2BJBMDL5jGI%2Bw%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403422100.jpg?sv=2023-08-03&se=2073-11-06T14%3A17%3A02Z&sr=b&sp=rade&sig=hAqpt58tudBoYI3zngQq%2FB78OmE7s0k37VvquwhdQxc%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403388968.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A29Z&sr=b&sp=rade&sig=Pi87JKcq5ZFhK4WsiHJ027uCmOwcPiKkojnJbvICg7g%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403379847.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A20Z&sr=b&sp=rade&sig=TF3GhH4dVmEh1xhkzjOlqb1JKZtAa6HKNkJKw%2FVOGaQ%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403383985.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A24Z&sr=b&sp=rade&sig=j%2B%2FtVpr8SJBFc6Gt%2BfUOMCjRGoSCPZzQaba7Njo%2BynI%3D&rsct=image%2Fjpg",
+
+            "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403386704.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A26Z&sr=b&sp=rade&sig=nBRnpbNg4tn3Sj7QF8NMZ0%2BXecV6pHoEDzIVFvAQkp4%3D&rsct=image%2Fjpg"
+          ]
+        }
+      ],
+      "title": "per chi guarda sempre al futuro",
+      "badge": [
+        "Città e monumenti",
+        "Per camminatori seriali",
+        "Deserto",
+        "A prova di GEN Z"
+      ],
+      "paragraph": [
+        {
+          "text": "Il tuo identikit: la tecnologia e la curiosità per te valgono più di ogni cosa. I tuoi viaggi non sono mossi solo <b> dal relax e dall'avventura </b>, ma anche dalla <b> voglia di scoprire qualcosa di nuovo </b>: non vedi l'ora di ammirare tutte le innovazioni custodite dentro al <b> Burj Khalifa </b> e goderti lo spettacolo delle <b> fontane danzanti </b>."
+        },
+        {
+          "text": "Non importa quale di questi <b> >mood tu voglia provare </b perché il Club Dubai  ti permetterà di provare tutto questo (e molto altro) insieme ad altri <b> giovani viaggiatori </b> e scoprire la vera essenza della destinazione. <b> Non ti obbligheremo </b> a camminare km sotto il sole o a svegliarti all'alba: potrai gestire il tuo viaggio in <b> totale libertà in base ai tuoi ritmi </b> e vivere solo le esperienze che vorrai fare da solo o con gli <b> altri Utravelers </b>."
+        },
+        {
+          "text": "Troverai anche un* <b> coach del posto </b> pront* a <b> consigliarti </b> le situazioni più local e a raccontarti tutti <b> i segreti della destinazione! </b> Farà da collante tra te i tuoi <b> compagni di viaggio </b>."
+        }
+      ],
+      "flight": {
+        "title": "Aggiungi il volo",
+        "text": "<b> Potrai acquistare il volo </b> con noi direttamente <b> in fase di prenotazione </b> scegliendo l'aeroporto più vicino a casa tua. <b> Il Vantaggio? Zero sbatti: </b> ci occupiamo di tutto noi, <b> anche in caso di modifiche </b> da parte della compagnia aerea."
+      },
+      "included": [
+        {
+          "icon": "fa-regular fa-moon",
+          "text": "4 notti in hotel"
+        },
+        {
+          "icon": "fa-solid fa-mug-saucer",
+          "text": "Colazione"
+        },
+        {
+          "icon": "fa-solid fa-location-dot",
+          "text": "Esperienza inclusa: Burj Khalifa"
+        },
+        {
+          "icon": "fa-solid fa-headset",
+          "text": "Assistenza Utravel"
+        },
+        {
+          "icon": "fa-solid fa-tablet-screen-button",
+          "text": "App dedicata"
+        },
+        {
+          "icon": "fa-solid fa-users",
+          "text": "Assicurazione base: copertura spese mediche fino a 5.000€ e fino a 1.000€ per il bagaglio oltre ad un massimo di 310€ per acquisti di prima necessità"
+        }
+      ],
+      "notIncluded": [
+        "Volo a/r (puoi aggiungerlo in fase di prenotazione)",
+        "Pranzi e cene",
+        "Trasferimenti a/r aeroporto",
+        "Tassa di soggiorno",
+        "Tutto quello che non è indicato in 'Cosa è incluso'"
+      ],
+      "thingsToKnow": [
+        {
+          "title": "",
+          "text": "Prima di prenotare ricorda di controllare eventuali aggiornamenti su Viaggiare Sicuri."
+        },
+        {
+          "title": "Domande Frequenti",
+          "text": "Dai un'occhiata alle nostre FAQ."
+        }
+      ],
+      "stay": {
+        "intro": "<b>Holiday Inn Express Safa Park</b> - o similare",
+        "paragraph": "Dubai è la città dell'innovazione e della modernità: ecco perché c'è bisogno di un hotel all'avanguardia. L'Holiday Inn Express Safa Park, situato in una delle vie più famose di tutta Dubai, ti lancerà direttamente nel futuro! Incluso nella tua esperienza ci sarà anche un autobus per La Mer Beach, spiaggia incredibile, e per il famoso centro commerciale Dubai Mall. Infine, con la colazione a buffet, avrai le giuste energie per esplorare la città!",
+        "img": "https://utravelprod.blob.core.windows.net/blinds/hotel/new-hotel/1700403364470.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A04Z&sr=b&sp=rade&sig=rpdy9LP2mCSwtEH%2Fv08liSWdJx1MbeT8Jyk9m%2FLXuaA%3D&rsct=image%2Fjpg",
+        "travel_images": [
+          {
+            "name": "Destinazione",
+            "url_destination": [
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714487581069.jpg?sv=2023-08-03&se=2074-04-18T14%3A33%3A04Z&sr=b&sp=rade&sig=4vntKO3O90t79kss7gB%2BUOIXPN%2BhBkQHAq7SXFM8krQ%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714488610212.jpg?sv=2023-08-03&se=2074-04-18T14%3A50%3A10Z&sr=b&sp=rade&sig=3du7EtBMLr%2FyyKZBMXPIVXURju1%2FW6mI054o%2B%2FpMV4o%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714487107032.jpg?sv=2023-08-03&se=2074-04-18T14%3A25%3A07Z&sr=b&sp=rade&sig=mVNawBlpa0CIPqhN6djCPoWYJzG3cS61AzsceT2rztw%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714488879568.jpg?sv=2023-08-03&se=2074-04-18T14%3A54%3A40Z&sr=b&sp=rade&sig=CaPITgf02v62Hct11bisNxB5ES0Uqv2Vt6q2y35Lu3A%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714486176382.jpg?sv=2023-08-03&se=2074-04-18T14%3A09%3A36Z&sr=b&sp=rade&sig=ADDCdcGTwepBylgEbzyRGST3YtGF6ejxkVOU%2FzhDhUU%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714486220675.jpg?sv=2023-08-03&se=2074-04-18T14%3A10%3A21Z&sr=b&sp=rade&sig=A6g8I%2BY9PcWXQfgHqejYu3xZ0fKJ18K9z8e%2BhPoCThk%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714487488496.jpg?sv=2023-08-03&se=2074-04-18T14%3A31%3A29Z&sr=b&sp=rade&sig=4HtFmgSlgt1WFhUy19MjGETwn7%2Ft%2Bb09%2FEIk6RpdFC4%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/clubGallery/new-club/1714486227841.jpg?sv=2023-08-03&se=2074-04-18T14%3A10%3A28Z&sr=b&sp=rade&sig=y7zBRgXTjiFyzte9%2FI0WsRRVQSpOBFs4q3lmrLud5Aw%3D&rsct=image%2Fjpg"
+            ]
+          },
+          {
+            "name": "Struttura",
+            "url_structure": [
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403373016.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A13Z&sr=b&sp=rade&sig=5XXp%2F%2B22J4xus41USbBS%2F3GaEPV8YWm%2BJBMDL5jGI%2Bw%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403422100.jpg?sv=2023-08-03&se=2073-11-06T14%3A17%3A02Z&sr=b&sp=rade&sig=hAqpt58tudBoYI3zngQq%2FB78OmE7s0k37VvquwhdQxc%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403388968.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A29Z&sr=b&sp=rade&sig=Pi87JKcq5ZFhK4WsiHJ027uCmOwcPiKkojnJbvICg7g%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403379847.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A20Z&sr=b&sp=rade&sig=TF3GhH4dVmEh1xhkzjOlqb1JKZtAa6HKNkJKw%2FVOGaQ%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403383985.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A24Z&sr=b&sp=rade&sig=j%2B%2FtVpr8SJBFc6Gt%2BfUOMCjRGoSCPZzQaba7Njo%2BynI%3D&rsct=image%2Fjpg",
+  
+              "https://utravelprod.blob.core.windows.net/blinds/hotelGallery/new-hotel/1700403386704.jpg?sv=2023-08-03&se=2073-11-06T14%3A16%3A26Z&sr=b&sp=rade&sig=nBRnpbNg4tn3Sj7QF8NMZ0%2BXecV6pHoEDzIVFvAQkp4%3D&rsct=image%2Fjpg"
+            ]
+          }
+        ]
+      },
+      "explore": {
+        "title": "Esperienze consigliate",
+        "text": [
+          "Ecco le esperienze autentiche che ti consigliamo di fare per rendere il tuo viaggio indimenticabile. Le abbiamo collezionate tutte in un App da cui potrai prenotare già prima di partire. Il modo migliore di entrare in contatto con la gente del posto e condividere momenti indimenticabili!",
+          
+          "Le esperienze con il bollino \"inclusa\" sono offerte da noi per chi prenota dal nostro sito. Se l'esperienza non fosse più disponibile la sostituiremo con una simile. Se però scegli di partire prima della fine del viaggio potresti perdertele!"
+        ],
+        "slide_thumb": [
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1707302821204_1704880164089_b2c90f74-a92f-44fb-bfba-14549f581577.jpg.avif?sv=2023-08-03&se=2074-05-24T12%3A27%3A10Z&sr=b&sp=rade&sig=evY%2FiotnmPB%2FbjDjKVRp1YAH%2Fv6eUJPgrSyhgbGPYhM%3D&rsct=image%2Fjpg",
+            "badge": "Inclusa",
+            "title": "Burj Khalifa At The Top Level 124+125 prime hours",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Esperienza inclusa",
+              "icon": "fa-regular fa-circle-check ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "Inclusa nel club"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Questo <b> tour del Burj Khalifa </b> promette un'esperienza impressionante durante l'esplorazione di uno dei monumenti più iconici del mondo.",
+
+                "Entrando nel Burj Khalifa, sarete accolti da una grande hall adornata con decorazioni eleganti e caratteristiche architettoniche moderne. L'atrio è il punto di partenza del viaggio verso la cima.",
+
+                "Successivamente, salirete a bordo di uno degli <b> ascensori ad alta velocità </b> che vi porteranno ai ponti di osservazione. Questi ascensori sono tra i più veloci al mondo e salgono a una velocità straordinaria. Durante l'ascesa, i pannelli di vetro dell'ascensore offrono scorci del paesaggio urbano circostante, facendovi pregustare le viste mozzafiato che vi aspettano.",
+
+                "Il Burj Khalifa offre diversi ponti di osservazione da cui ammirare i magnifici panorami. <b> Il ponte di osservazione principale si trova al 124° e 125° piano </b>. Qui, pareti di vetro a tutta altezza offrono una vista senza ostacoli dello skyline di Dubai, del Golfo Arabico e del vasto deserto circostante.",
+
+                "Sono disponibili display informativi e telescopi per migliorare la comprensione e l'apprezzamento dei punti di riferimento della città."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704881629853_the-view-at-the-palm-18260_xl.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A12Z&sr=b&sp=rade&sig=TebgK5wQS8Ko3ElU04sZdxBMp5lPZYmzWYwqET67lJs%3D&rsct=image%2Fjpg",
+            "badge": "16€ - 24€",
+            "title": "The view at The Palm non prime hours",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "16€ - 24€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "The View, una piattaforma di osservazione al <b> 52° piano della Palm Tower </b>, adiacente al Nakheel Mall, offre una prospettiva inedita.",
+
+                "Accessibile dal tetto del centro commerciale, una rapida salita in ascensore porta a 240 metri sopra l'isola. Prima di raggiungere il ponte, un museo interattivo e una galleria raccontano la storia delle <b> origini di Palm Jumeirah </b>.",
+
+                "Una volta in cima, si gode di una <b> vista a 360 gradi </b> che abbraccia la Palm Jumeirah, lo skyline di Dubai e il Golfo Arabico."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1703567472800_balloon-adventures-dubai.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A01Z&sr=b&sp=rade&sig=6vTnK%2BTYuaoUqZQ4upl09Zif5dwlMSqOFUALj952%2B24%3D&rsct=image%2Fjpg",
+            "badge": "184€ - 276€",
+            "title": "Mongolfiera",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "184€ - 276€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Inizia la tua giornata in maniera straordinaria con un affascinante <b> volo in mongolfiera sul deserto di Dubai </b>, dove potrai ammirare l'alba dorata mentre la luce del sole svela le maestose dune arabe.",
+
+                "Dopo il volo, al momento dell'atterraggio, concediti un momento di relax nel cuore del deserto, prima di fare ritorno al tuo hotel.",
+
+                "Un'occasione unica per vivere una mattinata tranquilla e straordinaria, <b> ammirando la luminosa alba </b>, scoprendo oasi segrete e, magari, avvistando la fauna selvatica locale.",
+
+                "Questo tour in mongolfiera promette emozioni uniche e una memorabilità senza pari, regalandoti un'esperienza indimenticabile!"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704877255174_20220327_121841.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A12Z&sr=b&sp=rade&sig=jRnDAlb2sj3GzYu6P1J1T4o0PBA3N68JDA0GfMRJcbk%3D&rsct=image%2Fjpg",
+            "badge": "48€ - 72€",
+            "title": "Sharjah & Ajman City Tour",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "48€ - 72€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "<b> Sharjah </b> è una città vivace, con <b> souk colorati </b> e pieni di interessanti manufatti in ogni angolo.",
+
+                "La combinazione di case restaurate in stile tradizionale con pareti di corallo marino e i colori vivaci dei souk gli attribuscono una sensazione magica.",
+
+                "Questa magia è illustrata nel <b> Museo del Forte di Ajman </b>, recentemente ristrutturato. Nel <b> souk Al Markazi </b> si trovano invece gli abili e famosi gioiellieri dell'oro.",
+
+                "I numerosi monumenti della città riflettono l'abilità artigianale della gente, soprattutto nella rinnovata <b> Heritage Area </b>."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704881311421_170509143610-dubai-miracle-garden-aerial-view.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A01Z&sr=b&sp=rade&sig=q6119z%2BLAUOPs295mQ1ey4GhP7IKPj9rB4f1Zz8sl%2FY%3D&rsct=image%2Fjpg",
+            "badge": "20€ - 30€",
+            "title": "Miracle Garden",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "20€ - 30€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Viaggiate nel paradiso botanico del <b> Dubai Miracle Garden </b>, che si estende per 72.000 metri quadrati in un paesaggio straordinario.",
+
+                "Inaugurato nel 2013 nel tentativo di creare un'oasi lussureggiante nel mezzo del deserto. Questo giardino è diventato da allora <b> una delle attrazioni più visitate di Dubai </b>, attirando milioni di visitatori all'anno. Entrando nel giardino, si può passeggiare lungo i curatissimi giardini tematici e i sentieri e ammirare le diverse strutture uniche, tutte stupendamente decorate con una vivace gamma di fiori e piante.",
+
+                "Ricco di oltre 100 milioni di fiori sbocciati di 70 specie floreali rare, esotiche e autoctone, il giardino è anche riconosciuto dal <b> Guinness dei primati </b> per il suo stupefacente muro di fiori, <b> il più grande al mondo nel suo genere </b>."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704878556885_dubai-skyline-is-the.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A11Z&sr=b&sp=rade&sig=RAD8JGD8gxPJqVsgaAG20%2B1zoBcXgerq00z9WPWDx3A%3D&rsct=image%2Fjpg",
+            "badge": "56€ - 84€",
+            "title": "Jet ski (60 min)",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "56€ - 84€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Parti per un emozionante <b> tour in Jet ski </b> con guida autonoma, dove ti aspetta la miscela perfetta di divertimento e velocità.",
+
+                "E la cosa migliore? <b> Non è richiesta alcuna patente nautica </b>, il che rende accessibile a tutti l'emozione di navigare nelle nostre acque.",
+
+                "Il tour parte dal vivace porto di Dubai Marina e attraversa luoghi simbolo come l'Ain di Dubai, il lussuoso Burj Al Arab, la pittoresca Palm Beach Coast, l'affascinante World Island e molto altro ancora."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702924476438_64.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A12Z&sr=b&sp=rade&sig=mvt%2FUdDioVYinTlY21bqDy8%2F1W9mUFgJLsiDGV7J8x0%3D&rsct=image%2Fjpg",
+            "badge": "32€ - 48€",
+            "title": "Jet ski (30 min)",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "32€ - 48€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Parti per un emozionante <b> tour in Jet ski con guida autonoma </b>, dove ti aspetta la miscela perfetta di divertimento e velocità.",
+
+                "E la cosa migliore? <b> Non è richiesta alcuna patente nautica </b>, il che rende accessibile a tutti l'emozione di navigare nelle nostre acque.",
+
+                "Il tour parte dal vivace porto di Dubai Marina e attraversa luoghi simbolo come l'Ain di Dubai, il lussuoso Burj Al Arab, la pittoresca Palm Beach Coast, l'affascinante World Island e molto altro ancora."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704879679481_2d.jpg?sv=2023-08-03&se=2074-05-24T12%3A26%3A54Z&sr=b&sp=rade&sig=pEV9lNvAY9979xE69Oe%2FvenGCFE3I%2BamYIlhExP6cHg%3D&rsct=image%2Fjpg",
+            "badge": "168€ - 252€",
+            "title": "Tour in elicottero (15 min)",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "168€ - 252€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Preparati per un'esperienza indimenticabile <b> in elicottero sopra i luoghi più iconici di Dubai </b>.",
+
+                "In questo avvincente tour di 15 minuti, sarai testimone di panorami spettacolari e vedute mozzafiato su alcune delle meraviglie architettoniche e naturali più famose della città:",
+
+                "<p> <b> Palm Jumeirah Island: </b> </p>      <p> Sorvolerai l'incredibile arcipelago artificiale di Palm Jumeirah, ammirando dall'alto le sue lussuose residenze, le scintillanti lagune e l'iconico Atlantis. </p>",
+
+                "<p> <b> Burj Khalifa: </b> </p>      <p> Ammirerai la maestosità del Burj Khalifa, il grattacielo più alto del mondo, che si erge imponente nel panorama urbano di Dubai. </p>",
+
+                "<p> <b> Aquaventure Water Park: </b> </p>      <p> Godrai di una vista panoramica sull'Aquaventure Water Park, parte dell'Atlantis Resort, con le sue emozionanti scivolate e piscine. </p>",
+
+                "<p> <b> Burj Al Arab: </b> </p>      <p> Sorvolerai l'iconico Burj Al Arab, un simbolo di lusso e grandiosità architettonica, situato su un'isola artificiale di fronte alla costa di Jumeirah Beach. </p>",
+
+                "<p> <b> Jumeirah Beach coastline: </b> </p>      <p> Ammirerai la spettacolare costa di Jumeirah Beach, con le sue spiagge di sabbia dorata e le acque cristalline del Golfo Arabico. </p>",
+
+                "<p> <b> The World Islands (viste dal suo polo sud): </b> </p>      <p> Volerai sopra l'affascinante progetto delle World Islands, osservando questa collezione di isole artificiali che rappresentano una mappa del mondo. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1704876475428_moschea-abu-dhabi.jpg?sv=2023-08-03&se=2074-05-24T12%3A30%3A14Z&sr=b&sp=rade&sig=oi%2ByjclXeFoCj1VvTtyafmfxdL3oo89OD2mfLfXvXUM%3D&rsct=image%2Fjpg",
+            "badge": "20€ - 30€",
+            "title": "Abu Dhabi City Tour",
+            "description": "Culture",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "20€ - 30€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Culture"
+                }
+              ],
+              "text": [
+                "Una visita ad <b> Abu Dhabi </b> è d'obbligo per conoscere a fondo la cultura e il patrimonio degli Emirati Arabi Uniti.",
+
+                "Il nostro tour della città di Abu Dhabi vi porterà nei migliori luoghi turistici della città emiratina. La nostra guida turistica locale vi aiuterà a <b> esplorare al meglio la brillantezza storica e architettonica delle attrazioni della città </b>.",
+
+                "Verremmo a prendervi nel vostro hotel a Dubai e vi porteremo ad Abu Dhabi. Esplorerete la storica fortezza di <b> Qasr Al Hosn </b> e vi addentrerete nel patrimonio emiratino dell'<b> Heritage Village </b>.",
+
+                "Pranzerete al Marina Mall e visiterete la <b> Casa dell'Arte Islamica </b>.",
+
+                "Avrete tempo per scattare delle foto all'<b> Emirates Palace </b> e alla scenografica <b> Corniche Breakwater </b>.",
+
+                "Il gran finale sarà l'imponente <b> Grande Moschea dello Sceicco Zayed </b>.",
+
+                "Finita la visita, vi riaccompagneremo a Dubai, conservando ricordi indimenticabili."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702925164081_jetcar-rental-1-1.jpeg?sv=2023-08-03&se=2074-05-24T12%3A26%3A25Z&sr=b&sp=rade&sig=m1DIBoNkAunmXJD7Xv1naPUx2m7p1Ii5zO4ZpVXSaew%3D&rsct=image%2Fjpg",
+            "badge": "72€ - 108€",
+            "title": "Jet car (20 minuti)",
+            "description": "Sport",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "72€ - 108€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Sport"
+                }
+              ],
+              "text": [
+                "Esplora e ammira le iconiche attrazioni di Dubai dal cuore dell'acqua durante un coinvolgente viaggio di <b> 20 minuti a bordo di una jet car </b>.",
+
+                "Scivola elegantemente sull'acqua, ammirando da vicino i <b> monumenti più celebri della città </b>, tra cui il maestoso Burj Al Arab e l'imponente Burj Khalifa."
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702925911852_4f.jpg?sv=2023-08-03&se=2074-05-24T12%3A29%3A17Z&sr=b&sp=rade&sig=%2FjlFyCGePVbtQ8Jxo0pK92MgsSB6Chd2xq%2BPkDWTAtU%3D&rsct=image%2Fjpg",
+            "badge": "56€ - 84€",
+            "title": "Sunset Yacht experience",
+            "description": "Wellness",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "56€ - 84€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Wellness"
+                }
+              ],
+              "text": [
+                "Imbarcati in un'avventura indimenticabile con la nostra esperienza in <b> yacht a Dubai </b> della durata di 2 ore, arricchita da un <b> barbecue al tramonto </b>.",
+
+                "Principali Caratteristiche:",
+
+                "<p> <b> Imbarco Esclusivo: </b> </p>      <p> Inizia il tuo viaggio di lusso con l'imbarco su un'elegante imbarcazione presso uno dei pittoreschi moli di Dubai. </p>",
+
+                "<p> <b> Crociera di 2 Ore: </b> </p>      <p> Naviga per due ore attraverso le acque iconiche di Dubai, ammirando grattacieli, isole artificiali e scenari mozzafiato mentre il sole cala all'orizzonte. </p>",
+
+                "<p> <b> Barbecue al Tramonto: </b> </p>      <p> Gusta un delizioso barbecue al tramonto a bordo dello yacht. Un chef esperto preparerà prelibatezze culinarie mentre ti rilassi e ammiri il paesaggio spettacolare. </p>",
+
+                "<p> <b> Vista Panoramica: </b> </p>      <p> Trova il posto perfetto sul ponte per ammirare la bellezza naturale e urbana di Dubai mentre il sole dipinge il cielo di sfumature calde. </p>",
+
+                "<p> <b> Comfort e Lusso a Bordo: </b> </p>      <p> Rilassati nei lussuosi interni dello yacht, dotati di comfort moderni e spazi accoglienti. L'equipaggio sarà a tua disposizione per garantire un'esperienza senza preoccupazioni. </p>",
+
+                "<p> <b> Panorami Iconici: </b> </p>      <p> Ammira le attrazioni di Dubai, tra cui grattacieli, isole e architetture emblematiche che rendono questa città unica. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1711726484108_Dune-Buggy-Safari-Dubai.png?sv=2023-08-03&se=2074-05-24T12%3A26%3A55Z&sr=b&sp=rade&sig=%2F4JM2OT4SamZd4ZJ3SI5%2F8HdrfVWSV1fmeLGXvYKOWI%3D&rsct=image%2Fjpg",
+            "badge": "104€ - 156€",
+            "title": "Desert Safari + buggies",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "104€ - 156€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Esplora le distese dorate del deserto di Dubai con il nostro esclusivo <b> Desert Safari </b> di 6 ore, arricchito da un entusiasmante <b> Dune Buggies Tour </b>.",
+
+                "Questa avventura offre un mix perfetto di emozioni, paesaggi spettacolari e intrattenimento culturale, il tutto arricchito da un servizio di trasferimento da e per il tuo hotel. Principali Attrazioni:",
+
+                "<p> <b> Dune Buggies Tour (35 min): </b> </p>      <p> Ammira un tramonto pittoresco nel deserto, un momento ideale per catturare foto mozzafiato mentre il cielo si tinge di sfumature dorate. </p>",
+
+                "<p> <b> Sosta al Tramonto per le Foto: </b> </p>      <p> Sperimenta l'emozione del sandboarding, scivolando giù dalle dune per un'esperienza indimenticabile. </p>",
+
+                "<p> <b> Sandboarding: </b> </p>      <p>  </p>",
+
+                "<p> <b> Henné, Foto con Falco e Narghilè: </b> </p>      <p> Abbraccia la tradizione locale con l'applicazione di henné sulle mani, scatta foto uniche con un falco e rilassati con un narghilè tradizionale. </p>",
+
+                "<p> <b> Cena Barbecue a Buffet: </b> </p>      <p> Gusta una deliziosa cena barbecue a buffet nel suggestivo ambiente di un campo tendato, con un'ampia scelta di piatti, compresa un'opzione vegetariana. </p>",
+
+                "<p> <b> Spettacoli e Intrattenimento: </b> </p>      <p> Goditi spettacoli di danza del ventre, khaliji e Tanoura che celebrano la ricca cultura degli Emirati. Lasciati incantare da uno spettacolo di fuoco che aggiunge un tocco di magia. </p>",
+
+                "<p> <b> Soft Drink Illimitati: </b> </p>      <p>  Mantieniti fresco con una selezione illimitata di soft drink durante tutta l'esperienza. </p>"
+              ]
+            }
+          },
+          {
+            "img": "https://utravelprod.blob.core.windows.net/clubs/experiences/general/1702923717494_1527232809_shutterstock_705430021.jpg.avif?sv=2023-08-03&se=2074-05-24T12%3A30%3A03Z&sr=b&sp=rade&sig=O6mkV%2BQUsbbdzU4MJIptdvymAHnT6D%2FB3Gh1IxRgMWc%3D&rsct=image%2Fjpg",
+            "badge": "36€ - 54€",
+            "title": "Desert safari",
+            "description": "Adventure",
+            "detail": {
+              "badge": "Acquistabile in App",
+              "icon": "fa-solid fa-mobile-screen ms-1",
+              "tag": [
+                {
+                  "icon": "fa-solid fa-coins me-1",
+                  "name": "36€ - 54€"
+                },
+                {
+                  "icon": "fa-solid fa-tag me-1",
+                  "name": "Adventure"
+                }
+              ],
+              "text": [
+                "Prenotate il vostro emozionante <b> Desert Safari </b> per un'indimenticabile avventura nel deserto arabo, arricchita da una varietà di attività e intrattenimenti.",
+
+                "Perfetto per gli <b> amanti dell'avventura </b>, il safari nel deserto offre l'opportunità di affrontare le dune di Dubai con il dune bashing a bordo di un sicuro e entusiasmante veicolo 4x4.",
+
+                "Una volta giunti all'accampamento nel deserto, potrete partecipare a una serie di coinvolgenti attività.",
+
+                "Oltre alle attività proposte, non perdete l'occasione di <b> ammirare il suggestivo tramonto </b>, quando il deserto si mostra nella sua massima bellezza.",
+
+                "Con il calare del sole e l'arrivo della notte, l'accampamento si trasforma in un luogo vivace e affascinante. Potrete godere della melodiosa musica araba e ammirare l'incantevole <b> danza del ventre </b>.",
+
+                "Inoltre, per i nostri ospiti, offriamo spettacoli di <b> danza Tanura </b>. La serata culmina con una deliziosa <b> cena barbecue </b> che presenta un'ampia selezione di piatti della cucina araba e internazionale."
+              ]
+            }
+          }
+        ]
+      },
+      "reviews": [
+        {
+          "name": "",
+          "date": "",
+          "starsNumber": 5,
+          "text": ""
+        }
+      ],
+      "reach_hotel": {
+        "info": [
+          {
+            "icon": "<i class=\"fa-solid fa-hotel fs-4\"></i>",
+            "title": "Dubai",
+            "description": "Al Wasl District Sheikh Zayed Road - Al Wasl Rd - And - Dubai - Emirati Arabi Uniti"
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-bus fs-4\"></i>",
+            "title": "Con la metro",
+            "description": "Dall'aeroporto internazionale di Dubai prendi la MRed e scendi alla dodicesima fermata, a Business Bay. Da lì in meno di dieci minuti a piedi arriverai direttamente in hotel."
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-car fs-4\"></i>",
+            "title": "Con il taxi",
+            "description": "Dall'aeroporto internazionale di Dubai puoi richiedere un taxi che in 15 minuti ti porterà all'hotel."
+          },
+          {
+            "icon": "<i class=\"fa-solid fa-car fs-4\"></i>",
+            "title": "Con Uber",
+            "description": "A Dubai è disponibile il servizio Uber. Puoi raggiungere comodamente l'hotel chiamando un driver dall'app Uber direttamente."
+          }
+        ],
+        "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1805.2151558584578!2d55.25417998278644!3d25.188706960167636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69d901f12d2b%3A0x79fbb61e22ab6a4a!2sHoliday%20Inn%20Express%20Dubai%20-%20Safa%20Park%2C%20an%20IHG%20Hotel!5e0!3m2!1sit!2sit!4v1727196665187!5m2!1sit!2sit\" width=\"600\" height=\"450\" style=\"border:0;width:90%;height:500px;border-radius:20px;box-shadow:0px 0px 30px rgb(160, 160, 160);\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      }
+
+
+
+
+      
+
+
+    }
   }
 
 
@@ -7762,7 +9947,6 @@
 
 
 
-  
 
 
 
