@@ -191,11 +191,11 @@
          "image": "https://images.prismic.io/blind/ZpkUWx5LeNNTxRWV_FlatlaySNSSept2022group.jpg?auto=format%2Ccompress&fit=max&w=1920"
       },
       {
-         "name": "bookbeat",
-         "description": "Ascolta i racconti che preferisci durante i tuoi tragitti in bus o in aereo.",
-         "tag": "audiolibri",
-         "action": "scopri di più",
-         "image": "https://images.prismic.io/blind/Zk9KZiol0Zci9ZLk_bb_nextstart_it.webp?auto=format%2Ccompress&fit=max&w=1920"
+         "name": "holafly",
+         "description": "Con le eSim di Holafly, dati illimitati anche in viaggio!",
+         "tag": "Sim",
+         "action": "scopri HolaFly",
+         "image": "https://images.prismic.io/blind/Zth71Lzzk9ZrW_aF_Hero-Holafly.jpg?auto=format%2Ccompress&fit=max&w=3840"
       },
       {
          "name": "scalapay",

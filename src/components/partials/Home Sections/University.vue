@@ -37,7 +37,6 @@ export default {
   mounted() {
     this.updateSlidesPerView();
     window.addEventListener('resize', this.updateSlidesPerView);
-    console.log(this.dataSlide)
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.updateSlidesPerView);

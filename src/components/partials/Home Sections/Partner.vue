@@ -33,6 +33,10 @@ export default {
         this.spaceBetween = 20;
       }
     },
+    saveSlideNameAndNavigate(name) {
+      // Naviga alla pagina di dettaglio con il parametro 'name'
+      this.$router.push({ name: 'Partner_detail', query: { name: name } });
+    }
   },
   mounted() {
     this.updateSlidesPerView();
@@ -43,7 +47,6 @@ export default {
   },
 };
 </script>
-
 
 
 
@@ -64,18 +67,24 @@ export default {
          >
 
             <div class="card">
-               <img :src="slide.image" alt="">
-               <div class="card-body">
-               <span>{{ slide.tag }}</span>
-               <div class="card-body-title">
-                  <h5 class="card-title">{{ slide.name }}</h5>
-                  <p class="card-text">{{ slide.description }}</p>
-               </div>
-               <button class="btn">
-                  {{ slide.action }} 
-                  <i class="fa-solid fa-circle-chevron-right ms-2"></i>
-               </button>
-               </div>
+               <a
+                  href="#"
+                  @click.prevent="saveSlideNameAndNavigate(slide.name)"
+                  class="slide-link text-white"
+               >
+                  <img :src="slide.image" :alt="slide.name">
+                  <div class="card-body">
+                  <span>{{ slide.tag }}</span>
+                  <div class="card-body-title">
+                     <h5 class="card-title">{{ slide.name }}</h5>
+                     <p class="card-text">{{ slide.description }}</p>
+                  </div>
+                  <button class="btn">
+                     {{ slide.action }} 
+                     <i class="fa-solid fa-circle-chevron-right ms-2"></i>
+                  </button>
+                  </div>
+               </a>
             </div>
 
          </SwiperSlide>
@@ -83,8 +92,6 @@ export default {
 
    </div>
 </template>
-
-
 
 
 

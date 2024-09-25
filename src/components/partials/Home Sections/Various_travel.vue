@@ -32,7 +32,7 @@ export default {
     saveSlideNameAndNavigate(name) {
       // Naviga alla pagina di dettaglio con il parametro 'name'
       this.$router.push({ name: 'Travel_type', query: { name: name } });
-    },
+    }
   },
   mounted() {
     this.updateSlidesPerView();
@@ -40,7 +40,7 @@ export default {
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.updateSlidesPerView);
-  },
+  }
 };
 </script>
 

@@ -1,0 +1,54 @@
+{
+
+
+   "instax": {
+      "jumbotron": {
+         "image": "https://images.prismic.io/blind/Zpkfxh5LeNNTxReu_Instax-Hero.webp?auto=format%2Ccompress&fit=max&w=640&q=100",
+         "title": "Il tuo viaggio in una foto Instax",
+         "text": "Porta sempre con te i ricordi migliori del tuo viaggio"
+      },
+      "_collaboration": {
+         "image": "/img/logo utravel x instax.svg",
+         "text": [
+            "Potrai anche acquistare tutte le calamite e le cartoline del mondo, ma alla fine i ricordi più belli di ogni viaggio rimarranno sempre le <b> esperienze che hai vissuto </b>.",
+
+            "Con <b> instax </b> puoi <b> catturare </b> ogni istante della tua vacanza e portarlo sempre con te!"
+         ]
+      },
+      "discount": {
+         "text": [
+            "Con il codice <b> UTRAVEL15 </b> hai il <b> 15% di sconto </b> su <b> fotocamere e stampanti istantanee </b> e su tutte le <b> pellicole </b> della linea <b> instax </b>. Cosa volere di più? la spedizione è gratuita! Ti basterà inserire il codice sconto in fase di Checkout!",
+
+            "Selfie in spiaggia, foto in discoteca, panorami mozzafiato... Con Instax potrai rivivere all'infinito questi ricordi anche una volta tornati a casa 💓"
+         ],
+         "code_discount": "UTRAVEL15"
+      },
+      "info": {
+         "title": "",
+         "cards": [
+            {
+               "image": "",
+               "title": "",
+               "description": "",
+               "btn_text": ""
+            },
+            {
+               "image": "",
+               "title": "",
+               "description": "",
+               "btn_text": ""
+            }
+         ]
+      }
+   }
+
+
+
+
+
+
+
+
+
+
+}

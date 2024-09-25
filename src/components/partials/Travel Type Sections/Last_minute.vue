@@ -37,7 +37,7 @@ export default {
             </div>
          </div>
       </div>
-
+      
 
       <!-- paragraph -->
       <div class="_paragraph">
