@@ -1,8 +1,5 @@
 
-
 <script>
-
-
 export default {
   data(){
     return{
@@ -15,7 +12,6 @@ export default {
   },
 };
 </script>
-
 
 
 
@@ -54,17 +50,19 @@ export default {
       </div>
 
       <div class="all_reviews">
-        <button class="btn">Leggi tutte le recensioni 
+        <a 
+          href="https://www.feefo.com/it-IT/reviews/utravel?displayFeedbackType=PRODUCT&timeFrame=YEAR" 
+          class="btn"
+        >
+          Leggi tutte le recensioni 
           <i class="fa-solid fa-circle-chevron-right ms-2"></i>
-        </button>
+        </a>
       </div>
     </div>
 
   </div>
   
 </template>
-
-
 
 
 

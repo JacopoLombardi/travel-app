@@ -109,7 +109,7 @@ export default {
       :data="dataPage"
     />
 
-    
+
     <Footer />
 
 </template>
@@ -118,10 +118,5 @@ export default {
 
 
 <style lang="scss" scoped>
-
-
-
-
-
 
 </style>
