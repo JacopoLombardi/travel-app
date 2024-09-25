@@ -106,7 +106,8 @@ export default {
           <!-- mobile / tablet -->
           <div class="card-body-mobile card-body d-lg-none">
             <h5>{{ slide.name }}</h5>
-            <p>Da {{ slide.price }}€</p>
+            <p class="fw-semibold">Da {{ slide.price }}€</p>
+            
             <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
 

@@ -36,7 +36,7 @@ export default {
         "last_minute": "last_minute",
         "departure_next_month": "departure_next_month",
         "departure_next_2_month": "departure_next_2_month",
-        "christmas_New_Year": "christmas_New_Year",
+        "christmas_new_year": "christmas_new_year",
         "time_for_africa": "time_for_africa"
       };
 
@@ -99,7 +99,7 @@ export default {
 
 
     <Christmas_New_Year
-      v-if="currentPage === 'christmas_New_Year'"
+      v-if="currentPage === 'christmas_new_year'"
       :data="dataPage"
     />
 

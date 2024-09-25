@@ -5,8 +5,7 @@
 
     {
       "title": "thailandia",
-      "price": "449 €",
-      "img": "https://images.prismic.io/blind/Zqn_GR5LeNNTxpBk_IMG_2301-Large.webp?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396141459.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A22Z&sr=b&sp=rade&sig=X7GZ5a6UjrzaQ49a3ZmEiqozX2dLaYHewfYP2Fom%2Fac%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -321,8 +320,7 @@
 
     {
       "title": "sharm el-sheikh",
-      "price": "349 €",
-      "img": "https://images.prismic.io/blind/Zkr-rCol0Zci9Rja_Egitto-Cover.webp?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618980015.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A40Z&sr=b&sp=rade&sig=%2Ff0wVz8eTn6oSoYaigMF08BBv6qTtahZHor85DWcGLY%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -1035,8 +1033,7 @@
 
     {
       "title": "marocco",
-      "price": "429 €",
-      "img": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990955951.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A37Z&sr=b&sp=rade&sig=pcUuaR3yHW74EyfWJECKLfjnjh%2BFx8uit7b6tFcwFbo%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -1603,8 +1600,7 @@
 
     {
       "title": "zanzibar",
-      "price": "429",
-      "img": "https://images.prismic.io/blind/ZkYxbiol0Zci9N3K_zanzibar.webp?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178580825.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A42Z&sr=b&sp=rade&sig=I9wwLqignetNR4bRxUtbpRR7CGiNovGjo4mIwtVRHFQ%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -2133,8 +2129,7 @@
 
     {
       "title": "kenya",
-      "price": "569",
-      "img": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003331268.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A51Z&sr=b&sp=rade&sig=37Ihp6qSmwv2WAxSpH78t2jVveLGh3mK3BBJlGBPAlo%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -2820,8 +2815,7 @@
 
     {
       "title": "rodi",
-      "price": "399",
-      "img": "https://images.prismic.io/blind/ZkyWPSol0Zci9UYe_Rodi.webp?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824266341.webp?sv=2023-08-03&se=2074-05-15T15%3A37%3A47Z&sr=b&sp=rade&sig=4B86z0NxBkYFYhhrIDmVHId7HbYN%2F9SRHdyzDmFQtEQ%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -3372,8 +3366,7 @@
 
     {
       "title": "kos",
-      "price": "449",
-      "img": "https://images.prismic.io/blind/Zk4JqSol0Zci9W-7_Grecia.webp?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716824331859.webp?sv=2023-08-03&se=2074-05-15T15%3A38%3A52Z&sr=b&sp=rade&sig=qz%2F%2BTcYOAM2PtGz80q30MVGNsFDlCG9V0gxD7fDVo8c%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -3892,8 +3885,7 @@
 
     {
       "title": "maiorca",
-      "price": "679",
-      "img": "https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress",
+      "price": "",
       "detail": {
         "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257667651.webp?sv=2023-08-03&se=2074-04-27T12%3A27%3A48Z&sr=b&sp=rade&sig=We8wk%2FfsLEZ1NfqaeriEk98vmiGIBDnBP3o7sY6u%2B8k%3D&rsct=image%2Fjpg",
         "travel_images": [
@@ -4476,12 +4468,6 @@
            "date": "",
            "starsNumber": 5,
            "text": ""
-         },
-         {
-           "name": "",
-           "date": "",
-           "starsNumber": 5,
-           "text": ""
          }
        ],
       "reach_hotel": {
@@ -4533,8 +4519,7 @@
 
   {
     "title": "ibiza",
-    "price": "799",
-    "img": "https://images.prismic.io/blind/Zo-3PR5LeNNTxB3h_Ibiza-Cover.webp?auto=format,compress",
+    "price": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260923376.webp?sv=2023-08-03&se=2074-04-27T13%3A22%3A04Z&sr=b&sp=rade&sig=VP5pFVOmU2T1rJ5Cr4vBoOUtHctZ9VZYV9P%2FwmV%2BQp4%3D&rsct=image%2Fjpg",
        "travel_images": [
@@ -4899,18 +4884,6 @@
           "date": "",
           "starsNumber": 5,
           "text": ""
-        },
-        {
-          "name": "",
-          "date": "",
-          "starsNumber": 5,
-          "text": ""
-        },
-        {
-          "name": "",
-          "date": "",
-          "starsNumber": 5,
-          "text": ""
         }
       ],
     "reach_hotel": {
@@ -4973,8 +4946,7 @@
 
   {
     "title": "fuerteventura",
-    "price": "349",
-    "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260230374.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A31Z&sr=b&sp=rade&sig=mvEQMh5fR7Hux2FXyC%2Bwk6xwrrI3LN7npmnUzsSjyX8%3D&rsct=image%2Fjpg",
+    "price": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260230374.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A31Z&sr=b&sp=rade&sig=mvEQMh5fR7Hux2FXyC%2Bwk6xwrrI3LN7npmnUzsSjyX8%3D&rsct=image%2Fjpg",
       "travel_images": [
@@ -5606,7 +5578,6 @@
   {
     "title": "cuba",
     "price": "",
-    "img": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827520416.webp?sv=2023-08-03&se=2074-05-15T16%3A32%3A01Z&sr=b&sp=rade&sig=POvorUW72c7KUEhwd1X3pzGPLK%2F5hypnZe4VcJL5Iw4%3D&rsct=image%2Fjpg",
       "travel_images": [
@@ -6240,7 +6211,6 @@
   {
     "title": "repubblica dominicana",
     "price": "",
-    "img": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257362564.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A43Z&sr=b&sp=rade&sig=ukxTFAV3tccK3OO8D1FG4OSFm%2BY5olcZ%2BBWFEEikCfY%3D&rsct=image%2Fjpg",
       "travel_images": [
@@ -6883,7 +6853,6 @@
   {
     "title": "rio de janeiro",
     "price": "",
-    "img": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827710251.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A11Z&sr=b&sp=rade&sig=0Et3VNNVcE8qUjldyDcXqpic7Vsf%2Fn05AZgHFngx5Z0%3D&rsct=image%2Fjpg",
       "travel_images": [
@@ -7763,7 +7732,6 @@
   {
     "title": "andalusia",
     "price": "",
-    "img": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716826791789.webp?sv=2023-08-03&se=2074-05-15T16%3A19%3A52Z&sr=b&sp=rade&sig=RiI%2FIOUH84IUpQy2GYG6h6M8QaCGJgN1lFSU2UadM60%3D&rsct=image%2Fjpg",
       "travel_images": [
@@ -8280,7 +8248,6 @@
   {
     "title": "marrakech",
     "price": "",
-    "img": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1702399186116.jpg?sv=2023-08-03&se=2073-11-29T16%3A39%3A47Z&sr=b&sp=rade&sig=yjx0D2RMjEg%2BwsB0IAMtcRzBewirtv9nfz6DS3NMMrQ%3D&rsct=image%2Fjpg",
       "travel_images": [
@@ -8712,7 +8679,6 @@
   {
     "title": "messico",
     "price": "",
-    "img": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390116982.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A58Z&sr=b&sp=rade&sig=yYC%2B%2FxP2035rpKxdSkiOVyaGc2gNqi2lV7Q8Fpu%2BMJw%3D&rsct=image%2Fjpg",
       "travel_images": [
@@ -9311,7 +9277,6 @@
   {
     "title": "dubai",
     "price": "",
-    "img": "",
     "detail": {
       "img": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715258930354.webp?sv=2023-08-03&se=2074-04-27T12%3A48%3A51Z&sr=b&sp=rade&sig=AbwXVVlJdTFUPAwxj0URcYLFMhm%2B7V2H7jpdIVLvJ0Y%3D&rsct=image%2Fjpg",
       "travel_images": [

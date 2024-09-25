@@ -2,69 +2,785 @@
 
 
    "flash_offerts": {
-         "jumbotron": {
-            "title": "offerte lampo",
-            "image": "https://images.prismic.io/blind/Zkxm9iol0Zci9T8n_hero-1.webp?auto=format%2Ccompress&fit=max&w=3840&q=100"
+      "jumbotron": {
+         "title": "offerte lampo",
+         "image": "https://images.prismic.io/blind/Zkxm9iol0Zci9T8n_hero-1.webp?auto=format%2Ccompress&fit=max&w=3840&q=100"
+      },
+      "paragraph": [
+         "C'è chi si organizza mesi prima, c'è chi ama il brivido dell'ultimo minuto e c'è chi è ancora indeciso sulla date delle prossime vacanze.",
+
+         "Tu fai parte di questa terza categoria, ecco perché meriti <b> un viaggio ad un prezzo scontatissimo! </b>",
+
+         "In questa pagina trovi tutte le nostre partenze con date a prezzi <b> scontato! </b> Prenota subito se vuoi perderti l'occasione di <b> andare dall'altra parte del mondo ad un prezzo incredibile </b>."
+      ],
+      "card": [
+         {
+            "name": "Messico",
+            "departure": "Dal 12 Set al 19 Set",
+            "price": 559,
+            "deleted_price": 699,
+            "image": "https://images.prismic.io/blind/Zk38jCol0Zci9W1S_Messico.webp?auto=format,compress"
          },
-         "paragraph": [
-            "C'è chi si organizza mesi prima, c'è chi ama il brivido dell'ultimo minuto e c'è chi è ancora indeciso sulla date delle prossime vacanze.",
+         {
+            "name": "Cuba",
+            "departure": "Partenze di Settembre e Ottobre",
+            "price": 499,
+            "deleted_price": 699,
+            "image": "https://images.prismic.io/blind/Zl3exJm069VX1ame_Cuba-Cover.webp?auto=format,compress"
+         },
+         {
+            "name": "Fuerteventura",
+            "departure": "Partenze di Settembre e Ottobre",
+            "price": 419,
+            "deleted_price": 449,
+            "image": "https://images.prismic.io/blind/ZqesFx5LeNNTxkbN_fuerte-Large.webp?auto=format,compress"
+         },
+         {
+            "name": "Kenya",
+            "departure": "Partenze di Settembre e Ottobre",
+            "price": 649,
+            "deleted_price": 779,
+            "image": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress"
+         },
+         {
+            "name": "Marocco",
+            "departure": "Partenze di Settembre",
+            "price": 599,
+            "deleted_price": 699,
+            "image": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress"
+         },
+         {
+            "name": "Repubblica Dominicana",
+            "departure": "Partenze di Ottobre",
+            "price": 399,
+            "deleted_price": 599,
+            "image": "https://images.prismic.io/blind/ZkyTOiol0Zci9UWe_Rep-Dom.webp?auto=format,compress"
+         },
+         {
+            "name": "Zanzibar",
+            "departure": "Partenze di Settembre e Ottobre",
+            "price": 499,
+            "deleted_price": 699,
+            "image": "https://images.prismic.io/blind/ZksFlCol0Zci9RmX_Zanzibar-Cover-2.webp?auto=format,compress"
+         }
+      ]
+   },
 
-            "Tu fai parte di questa terza categoria, ecco perché meriti <b> un viaggio ad un prezzo scontatissimo! </b>",
 
-            "In questa pagina trovi tutte le nostre partenze con date a prezzi <b> scontato! </b> Prenota subito se vuoi perderti l'occasione di <b> andare dall'altra parte del mondo ad un prezzo incredibile </b>."
-         ],
-         "card": [
-            {
-               "name": "Messico",
-               "departure": "Dal 12 Set al 19 Set",
-               "price": 559,
-               "deleted_price": 699,
-               "image": "https://images.prismic.io/blind/Zk38jCol0Zci9W1S_Messico.webp?auto=format,compress"
+
+
+
+
+
+
+
+   "travel_all_budget": {
+      "jumbotron": {
+         "title": "vacanze per ogni tipo di budget!",
+         "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/fa6a98ed-cuba-23_11hc0u01hc0jg00005901o.jpg"
+      },
+      "paragraph": {
+         "title": "unisciti ai club utravel",
+         "text": "Sei pront* a scoprire il mondo e a conoscere nuovi amici? Seleziona la tua meta preferita, fai la valigia e unisciti al Club, insieme a te, tanti altri ragazzi hanno scelto di partire per un'avventura davvero indimenticabile. <b> Posti limitati </b>, Attento al Sold Out!"
+      },
+      "banner": "tutte le nostre destinazioni per fascie di prezzo:",
+      "travels":[
+         {
+            "head": {
+               "title": "7 notti a meno di",
+               "price": 400
             },
-            {
-               "name": "Cuba",
-               "departure": "Partenze di Settembre e Ottobre",
-               "price": 499,
-               "deleted_price": 699,
-               "image": "https://images.prismic.io/blind/Zl3exJm069VX1ame_Cuba-Cover.webp?auto=format,compress"
+            "cards": [
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/d292f157-dubai-coppia-deserto_108w0bv08w03w00003z01o.jpg",
+                  "text": {
+                     "name": "dubai",
+                     "price": 329
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/0d9ecbe5-sufr-fuertventura_105u03w04c03w00q00001o.jpg",
+                  "text": {
+                     "name": "fuerteventura",
+                     "price": 359
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/46c67f75-egitto-20_104c05s04c03w00000y01o.jpg",
+                  "text": {
+                     "name": "sharm el-sheikh",
+                     "price": 349
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/43d2cca7-rep-dom-14_108w0bv08w03w00003z01o.jpg",
+                  "text": {
+                     "name": "repubblica dominicana",
+                     "price": 399
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "7 notti a meno di",
+               "price": 500
             },
-            {
-               "name": "Fuerteventura",
-               "departure": "Partenze di Settembre e Ottobre",
-               "price": 419,
-               "deleted_price": 449,
-               "image": "https://images.prismic.io/blind/ZqesFx5LeNNTxkbN_fuerte-Large.webp?auto=format,compress"
+            "cards": [
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/e149c305-rio-15_108w0fr08w03w00005x01o.jpg",
+                  "text": {
+                     "name": "rio de janeiro",
+                     "price": 449
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/7fb9e1f2-phuket-09_104c05s04c03w00000y01o.jpg",
+                  "text": {
+                     "name": "thailandia",
+                     "price": 449
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/743fa25a-zanzibar-68_105703w04c03w00f00001o.jpg",
+                  "text": {
+                     "name": "zanzibar",
+                     "price": 449
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/0aa8cf4c-ooh-cuba-2_108w0bv08w03w00003z01o.jpeg",
+                  "text": {
+                     "name": "cuba",
+                     "price": 449
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "7 notti a meno di",
+               "price": 750
             },
-            {
-               "name": "Kenya",
-               "departure": "Partenze di Settembre e Ottobre",
-               "price": 649,
-               "deleted_price": 779,
-               "image": "https://images.prismic.io/blind/ZnwhO5bWFbowe4Hb_Kenya-1.webp?auto=format,compress"
-            },
-            {
-               "name": "Marocco",
-               "departure": "Partenze di Settembre",
-               "price": 599,
-               "deleted_price": 699,
-               "image": "https://images.prismic.io/blind/653793210b105250cf53a3c0_Marocco-Merzouga.jpeg?auto=format,compress"
-            },
-            {
-               "name": "Repubblica Dominicana",
-               "departure": "Partenze di Ottobre",
-               "price": 399,
-               "deleted_price": 599,
-               "image": "https://images.prismic.io/blind/ZkyTOiol0Zci9UWe_Rep-Dom.webp?auto=format,compress"
-            },
-            {
-               "name": "Zanzibar",
-               "departure": "Partenze di Settembre e Ottobre",
-               "price": 499,
-               "deleted_price": 699,
-               "image": "https://images.prismic.io/blind/ZksFlCol0Zci9RmX_Zanzibar-Cover-2.webp?auto=format,compress"
-            }
+            "cards": [
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/2278dd8b-malaga_108w0bv08w03w00003z01o.jpg",
+                  "text": {
+                     "name": "andalusia",
+                     "price": 559
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/80c4e2be-messico-20_104c05s04c03w00000y01o.jpg",
+                  "text": {
+                     "name": "messico",
+                     "price": 559
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/11746239-marocco-9_104c05e04c03w00000q01o.jpg",
+                  "text": {
+                     "name": "marocco",
+                     "price": 589
+                  }
+               },
+               {
+                  "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/566f3f73-kenya-47_108w0bv08w03w00003z01o.jpg",
+                  "text": {
+                     "name": "kenya",
+                     "price": 609
+                  }
+               }
+            ]
+         }
+      ]
+   },
+
+
+
+
+
+   
+
+
+
+
+
+
+   "last_minute": {
+      "jumbotron": {
+         "title": "partenze last minute",
+         "text": "Tutti i viaggi dei prossimi 30 giorni",
+         "image": "https://images.prismic.io/blind/Zh0AhzjCgu4jz0Wi_last-minute.jpeg?auto=format%2Ccompress&fit=max&w=640&q=100"
+      },
+      "paragraph": [
+         "C'è chi si organizza mesi prima e c'è chi ama il <b> brivido dell'ultimo minuto </b>, tu fai parte di questa seconda categoria, ecco perché abbiamo deciso di semplificarti la vita e di raggrupparti tutte le <b> partenze last minute </b>.Sono gli ultimi posti disponibili, fai attenzione al soldout, prenota ora e inizia ad assaporarti il tuo viaggio, manca pochissimo!"
+      ],
+      "travels": [
+         {
+            "head": "viaggio in affrica",
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "sharm el-sheikh",
+                     "price": 349
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "marocco",
+                     "price": 599
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "kenya",
+                     "price": 619
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "zanzibar",
+                     "price": 449
+                  }
+               }
+            ]
+         },
+         {
+            "head": "last minute ai caraibi",
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "rio de janeiro",
+                     "price": 449
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "cuba",
+                     "price": 499
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "messico",
+                     "price": 559
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "repubblica dominicana",
+                     "price": 399
+                  }
+               }
+            ]
+         },
+         {
+            "head": "parti per fuerte",
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "fuerteventura",
+                     "price": 419
+                  }
+               }
+            ]
+         }
+      ]  
+   },
+
+
+
+
+
+
+
+
+   "departure_next_month": {
+      "jumbotron": {
+         "title": "partenze di ottobre",
+         "image": "https://images.prismic.io/blind/ZkYxcCol0Zci9N3M_kenya.webp?auto=format%2Ccompress&rect=0%2C160%2C2500%2C2500&w=640&fit=max&q=100"
+      },
+      "paragraph": {
+         "title": "Vuoi partire a Ottobre?",
+         "text": [
+            "È il momento perfetto per buttarti in <b> avventure incredibili </b>, ammirare <b> panorami mozzafiato </b> e raccogliere <b> ricordi indimenticabili </b>. <br>",
+
+            "Sei pronto? Basta scegliere il tuo <b> Club </b> qui sotto e sei a cavallo!"
          ]
       },
+      "travels": [
+         {
+            "head": {
+               "title": "viaggi in europa",
+               "text": "Cultura, avventura, arte, tradizioni: l'Europa è tutta da scoprire! Dalla natura incontaminata delle Canarie alla festa scatenata delle Baleari, il Vecchio Continente ti aspetta!"
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716826784073.webp?sv=2023-08-03&se=2074-05-15T16%3A19%3A44Z&sr=b&sp=rade&sig=gq9%2BT1bXZQpNXTcZGYLhv9x3YTqWj02Faq0yYQb%2Bj84%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "andalusia",
+                     "price": 559
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "fuerteventura",
+                     "price": 419
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "viaggi in africa",
+               "text": "Chi ha visitato almeno una volta l'Africa lo sa: qui rischi seriamente di lasciarci un pezzo di cuore. Vivi la vera essenza della cultura africana e lasciati conquistare!"
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "sharm el-sheikh",
+                     "price": 349
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "marocco",
+                     "price": 589
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1702464687203.jpg?sv=2023-08-03&se=2073-11-30T10%3A51%3A28Z&sr=b&sp=rade&sig=tgF1XHv7QPQVW8oLOTJxJ5M8pny%2BXxevWNgwAevWFik%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "marrakech",
+                     "price": 399
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "kenya",
+                     "price": 619
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "zanzibar",
+                     "price": 449
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "viaggi in america",
+               "text": "Il “Sogno Americano” esiste davvero, non solo quando si dorme! Dalla vita lenta della Repubblica Dominicana alle strade senza tempo di Cuba, l'America è un continente da vivere al 100%."
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "rio de janeiro",
+                     "price": 449
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "cuba",
+                     "price": 559
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "messico",
+                     "price": 559
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "repubblica dominicana",
+                     "price": 399
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "viaggi in asia",
+               "text": "Dicono che l'Asia sia il luogo dove si sorride sempre (a parte quando si ritorna a casa!). Dalla futuristica Dubai alle spiagge paradisiache delle Maldive, questa terra è tutta da scoprire."
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715258919355.webp?sv=2023-08-03&se=2074-04-27T12%3A48%3A40Z&sr=b&sp=rade&sig=SKawJuQ3Ssp4mkJ5MBqUOEnkCIdgUadBY6laTbCQqnI%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "dubai",
+                     "price": 329
+                  }
+               }
+            ]
+         }
+      ]
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+   "departure_next_2_month": {
+      "jumbotron": {
+         "title": "partenze di novembre",
+         "image": "https://images.prismic.io/blind/ZkYxbyol0Zci9N3L_egitto.webp?auto=format%2Ccompress&rect=0%2C487%2C2500%2C2500&w=1920&fit=max&q=100"
+      },
+      "paragraph": {
+         "title": "Vuoi partire a Novembre?",
+         "text": [
+            "È il momento perfetto per buttarti in <b> avventure incredibili </b>, ammirare <b> panorami mozzafiato </b> e raccogliere <b> ricordi indimenticabili </b>. <br>",
+
+            "Sei pronto? Basta scegliere il tuo <b> Club </b> qui sotto e sei a cavallo!"
+         ]
+      },
+      "travels": [
+         {
+            "head": {
+               "title": "viaggi in europa",
+               "text": "Cultura, avventura, arte, tradizioni: l'Europa è tutta da scoprire! Dalla natura incontaminata delle Canarie alla festa scatenata delle Baleari, il Vecchio Continente ti aspetta!"
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "fuerteventura",
+                     "price": 359
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "viaggi in africa",
+               "text": "Chi ha visitato almeno una volta l'Africa lo sa: qui rischi seriamente di lasciarci un pezzo di cuore. Vivi la vera essenza della cultura africana e lasciati conquistare!"
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "sharm el-sheikh",
+                     "price": 259
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "marocco",
+                     "price": 589
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "kenya",
+                     "price": 689
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "zanzibar",
+                     "price": 499
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "viaggi in america",
+               "text": "Il “Sogno Americano” esiste davvero, non solo quando si dorme! Dalla vita lenta della Repubblica Dominicana alle strade senza tempo di Cuba, l'America è un continente da vivere al 100%."
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "rio de janeiro",
+                     "price": 489
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "cuba",
+                     "price": 689
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "messico",
+                     "price": 699
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "repubblica dominicana",
+                     "price": 569
+                  }
+               }
+            ]
+         }
+      ]
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   "christmas_new_year": {
+      "jumbotron": {
+         "title": "offerte lampo",
+         "text": "Con chi vuoi? NOI!",
+         "image": "https://images.prismic.io/blind/Znwkb5bWFbowe4MD_Hero-Rio.webp?auto=format%2Ccompress&fit=max&w=640&q=100"
+      },
+      "paragraph": [
+         "Com'era il detto? Natale con i tuoi, Capodanno con chi vuoi? In Utravel si dice così: a <b> Natale e Capodanno con chi vuoi, noi! </b>",
+
+         "Quest'anno al posto della battaglia Pandoro vs Panettone vi proponiamo Tacos vs Nachos, una Palma come albero di Natale <b> ai Caraibi </b> e la spiaggia di <b> Copacabana </b> come skyline.",
+
+         "E per il cenone di <b> Capodanno? </b>  Niente cotechino e lenticchie, i buoni propositi hanno bisogno di mare, spumante e nuovi incontri, meglio se a  <b> Bali! </b>.",
+
+         "Devi solo scegliere se brindare con Tequila, Cuba Libre, Caipirinha, Mama Juana o Mojito."
+      ],
+      "travels": [
+         {
+            "head": {
+               "title": "Natale in giro per il mondo"
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "messico",
+                     "departure": "Dal 19 Dicembre al 26 Dicembre",
+                     "price": 769,
+                     "deleted_price": 799
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396129265.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A10Z&sr=b&sp=rade&sig=ncSuWpm4SZoRanYkflhvhsy55tOrDNs2iZWxELSzQ4Y%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "thailandia",
+                     "departure": "Dal 20 Dicembre al 27 Dicembre",
+                     "price": 619,
+                     "deleted_price": false
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "kenya",
+                     "departure": "Dal 21 Dicembre al 28 Dicembre",
+                     "price": 989,
+                     "deleted_price": false
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "repubblica dominicana",
+                     "departure": "Dal 21 Dicembre al 28 Dicembre",
+                     "price": 619,
+                     "deleted_price": 659 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "fuerteventura",
+                     "departure": "Dal 21 Dicembre al 28 Dicembre",
+                     "price": 449,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "repubblica dominicana",
+                     "departure": "Dal 22 Dicembre al 29 Dicembre",
+                     "price": 719,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "marocco",
+                     "departure": "Dal 22 Dicembre al 29 Dicembre",
+                     "price": 659,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "sharm el-sheikh",
+                     "departure": "Dal 22 Dicembre al 29 Dicembre",
+                     "price": 339,
+                     "deleted_price": false  
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "zanzibar",
+                     "departure": "Dal 24 Dicembre al 31 Dicembre",
+                     "price": 579,
+                     "deleted_price": false 
+                  }
+               }
+            ]
+         },
+         {
+            "head": {
+               "title": "Un Capodanno indimenticabile"
+            },
+            "cards": [
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "kenya",
+                     "departure": "Dal 25 Dicembre al 1 Gennaio",
+                     "price": 970,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "messico",
+                     "departure": "Dal 26 Dicembre al 2 Gennaio",
+                     "price": 829,
+                     "deleted_price": 859 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1719396129265.webp?sv=2023-08-03&se=2074-06-14T10%3A02%3A10Z&sr=b&sp=rade&sig=ncSuWpm4SZoRanYkflhvhsy55tOrDNs2iZWxELSzQ4Y%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "thailandia",
+                     "departure": "Dal 27 Dicembre al 3 Gennaio",
+                     "price": 669,
+                     "deleted_price": 709
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "repubblica dominicana",
+                     "departure": "Dal 28 Dicembre al 4 Gennaio",
+                     "price": 839,
+                     "deleted_price": 859
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "rio de janeiro",
+                     "departure": "Dal 28 Dicembre al 4 Gennaio",
+                     "price": 749,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "fuerteventura",
+                     "departure": "Dal 28 Dicembre al 4 Gennaio",
+                     "price": 499,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "cuba",
+                     "departure": "Dal 29 Dicembre al 5 Gennaio",
+                     "price": 759,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "marocco",
+                     "departure": "Dal 29 Dicembre al 5 Gennaio",
+                     "price": 759,
+                     "deleted_price": false 
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "sharm el-sheikh",
+                     "departure": "Dal 29 Dicembre al 5 Gennaio",
+                     "price": 479,
+                     "deleted_price": false
+                  }
+               },
+               {
+                  "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+                  "text": {
+                     "name": "zanzibar",
+                     "departure": "Dal 31 Dicembre al 7 Gennaio",
+                     "price": 649,
+                     "deleted_price": false
+                  }
+               }
+            ]
+         }
+      ]
+   },
+
+
+
+
+
+
+
+
+
+
+
    
 
 
@@ -74,509 +790,51 @@
 
 
 
-      "travel_all_budget": {
-         "jumbotron": {
-            "title": "vacanze per ogni tipo di budget!",
-            "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/fa6a98ed-cuba-23_11hc0u01hc0jg00005901o.jpg"
-         },
-         "paragraph": {
-            "title": "unisciti ai club utravel",
-            "text": "Sei pront* a scoprire il mondo e a conoscere nuovi amici? Seleziona la tua meta preferita, fai la valigia e unisciti al Club, insieme a te, tanti altri ragazzi hanno scelto di partire per un'avventura davvero indimenticabile. <b> Posti limitati </b>, Attento al Sold Out!"
-         },
-         "banner": "tutte le nostre destinazioni per fascie di prezzo:",
-         "travels":[
-            {
-               "head": {
-                  "title": "7 notti a meno di",
-                  "price": 400
-               },
-               "cards": [
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/d292f157-dubai-coppia-deserto_108w0bv08w03w00003z01o.jpg",
-                     "text": {
-                        "name": "dubai",
-                        "price": 329
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/0d9ecbe5-sufr-fuertventura_105u03w04c03w00q00001o.jpg",
-                     "text": {
-                        "name": "fuerteventura",
-                        "price": 359
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/46c67f75-egitto-20_104c05s04c03w00000y01o.jpg",
-                     "text": {
-                        "name": "sharm el-sheikh",
-                        "price": 349
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/43d2cca7-rep-dom-14_108w0bv08w03w00003z01o.jpg",
-                     "text": {
-                        "name": "repubblica dominicana",
-                        "price": 399
-                     }
-                  }
-               ]
-            },
-            {
-               "head": {
-                  "title": "7 notti a meno di",
-                  "price": 500
-               },
-               "cards": [
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/e149c305-rio-15_108w0fr08w03w00005x01o.jpg",
-                     "text": {
-                        "name": "rio de janeiro",
-                        "price": 449
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/7fb9e1f2-phuket-09_104c05s04c03w00000y01o.jpg",
-                     "text": {
-                        "name": "thailandia",
-                        "price": 449
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/743fa25a-zanzibar-68_105703w04c03w00f00001o.jpg",
-                     "text": {
-                        "name": "zanzibar",
-                        "price": 449
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/0aa8cf4c-ooh-cuba-2_108w0bv08w03w00003z01o.jpeg",
-                     "text": {
-                        "name": "cuba",
-                        "price": 449
-                     }
-                  }
-               ]
-            },
-            {
-               "head": {
-                  "title": "7 notti a meno di",
-                  "price": 750
-               },
-               "cards": [
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/2278dd8b-malaga_108w0bv08w03w00003z01o.jpg",
-                     "text": {
-                        "name": "andalusia",
-                        "price": 559
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/80c4e2be-messico-20_104c05s04c03w00000y01o.jpg",
-                     "text": {
-                        "name": "messico",
-                        "price": 559
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/11746239-marocco-9_104c05e04c03w00000q01o.jpg",
-                     "text": {
-                        "name": "marocco",
-                        "price": 589
-                     }
-                  },
-                  {
-                     "image": "https://d9hhrg4mnvzow.cloudfront.net/viaggi.utravel.it/destinazioni-fasce-di-prezzo/566f3f73-kenya-47_108w0bv08w03w00003z01o.jpg",
-                     "text": {
-                        "name": "kenya",
-                        "price": 609
-                     }
-                  }
-               ]
-            }
-         ]
+   "time_for_africa": {
+      "jumbotron": {
+         "title": "Viaggi in Africa",
+         "image": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHx6ZWJyYXN8ZW58MHx8fHwxNzE2MzY4NjE0fDA&ixlib=rb-4.0.3&q=100&fit=max&w=640"
       },
+      "paragraph": {
+         "title": "Vuoi partire a Novembre?",
+         "text": [
+            "Che tu sia amante del relax o preferisca <b> safari </b> e gite nel <b> deserto </b> passerai le tue vacanze in compagnia di <b> lemuri e cammelli </b>.",
 
-
-
-
-
-      
-
-
-
-
-
-
-      "last_minute": {
-         "jumbotron": {
-            "title": "partenze last minute",
-            "text": "Tutti i viaggi dei prossimi 30 giorni",
-            "image": "https://images.prismic.io/blind/Zh0AhzjCgu4jz0Wi_last-minute.jpeg?auto=format%2Ccompress&fit=max&w=640&q=100"
-         },
-         "paragraph": [
-            "C'è chi si organizza mesi prima e c'è chi ama il <b> brivido dell'ultimo minuto </b>, tu fai parte di questa seconda categoria, ecco perché abbiamo deciso di semplificarti la vita e di raggrupparti tutte le <b> partenze last minute </b>.Sono gli ultimi posti disponibili, fai attenzione al soldout, prenota ora e inizia ad assaporarti il tuo viaggio, manca pochissimo!"
-         ],
-         "travels": [
-            {
-               "head": "viaggio in affrica",
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "sharm el-sheikh",
-                        "price": 349
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "marocco",
-                        "price": 599
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "kenya",
-                        "price": 619
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "zanzibar",
-                        "price": 449
-                     }
-                  }
-               ]
-            },
-            {
-               "head": "last minute ai caraibi",
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "rio de janeiro",
-                        "price": 449
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "cuba",
-                        "price": 499
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "messico",
-                        "price": 559
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "repubblica dominicana",
-                        "price": 399
-                     }
-                  }
-               ]
-            },
-            {
-               "head": "parti per fuerte",
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "fuerteventura",
-                        "price": 419
-                     }
-                  }
-               ]
-            }
-         ]  
-      },
-
-
-   
-
-
-
-
-
-      "departure_next_month": {
-         "jumbotron": {
-            "title": "partenze di ottobre",
-            "image": "https://images.prismic.io/blind/ZkYxcCol0Zci9N3M_kenya.webp?auto=format%2Ccompress&rect=0%2C160%2C2500%2C2500&w=640&fit=max&q=100"
-         },
-         "paragraph": {
-            "title": "Vuoi partire a Ottobre?",
-            "text": [
-               "È il momento perfetto per buttarti in <b> avventure incredibili </b>, ammirare <b> panorami mozzafiato </b> e raccogliere <b> ricordi indimenticabili </b>. <br>",
-
-               "Sei pronto? Basta scegliere il tuo <b> Club </b> qui sotto e sei a cavallo!"
-            ]
-         },
-         "travels": [
-            {
-               "head": {
-                  "title": "viaggi in europa",
-                  "text": "Cultura, avventura, arte, tradizioni: l'Europa è tutta da scoprire! Dalla natura incontaminata delle Canarie alla festa scatenata delle Baleari, il Vecchio Continente ti aspetta!"
-               },
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716826784073.webp?sv=2023-08-03&se=2074-05-15T16%3A19%3A44Z&sr=b&sp=rade&sig=gq9%2BT1bXZQpNXTcZGYLhv9x3YTqWj02Faq0yYQb%2Bj84%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "andalusia",
-                        "price": 559
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "fuerteventura",
-                        "price": 419
-                     }
-                  }
-               ]
-            },
-            {
-               "head": {
-                  "title": "viaggi in africa",
-                  "text": "Chi ha visitato almeno una volta l'Africa lo sa: qui rischi seriamente di lasciarci un pezzo di cuore. Vivi la vera essenza della cultura africana e lasciati conquistare!"
-               },
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "sharm el-sheikh",
-                        "price": 349
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "marocco",
-                        "price": 589
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1702464687203.jpg?sv=2023-08-03&se=2073-11-30T10%3A51%3A28Z&sr=b&sp=rade&sig=tgF1XHv7QPQVW8oLOTJxJ5M8pny%2BXxevWNgwAevWFik%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "marrakech",
-                        "price": 399
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "kenya",
-                        "price": 619
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "zanzibar",
-                        "price": 449
-                     }
-                  }
-               ]
-            },
-            {
-               "head": {
-                  "title": "viaggi in america",
-                  "text": "Il “Sogno Americano” esiste davvero, non solo quando si dorme! Dalla vita lenta della Repubblica Dominicana alle strade senza tempo di Cuba, l'America è un continente da vivere al 100%."
-               },
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "rio de janeiro",
-                        "price": 449
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "cuba",
-                        "price": 559
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "messico",
-                        "price": 559
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "repubblica dominicana",
-                        "price": 399
-                     }
-                  }
-               ]
-            },
-            {
-               "head": {
-                  "title": "viaggi in asia",
-                  "text": "Dicono che l'Asia sia il luogo dove si sorride sempre (a parte quando si ritorna a casa!). Dalla futuristica Dubai alle spiagge paradisiache delle Maldive, questa terra è tutta da scoprire."
-               },
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715258919355.webp?sv=2023-08-03&se=2074-04-27T12%3A48%3A40Z&sr=b&sp=rade&sig=SKawJuQ3Ssp4mkJ5MBqUOEnkCIdgUadBY6laTbCQqnI%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "dubai",
-                        "price": 329
-                     }
-                  }
-               ]
-            }
+            "L'<b> Africa </b> è la meta ideale per stare senza pensieri, Il mix perfetto tra relax e avventura!"
          ]
+
       },
-
-
-
-
-
-
-
-
-
-
-
-
-      "departure_next_2_month": {
-         "jumbotron": {
-            "title": "partenze di novembre",
-            "image": "https://images.prismic.io/blind/ZkYxbyol0Zci9N3L_egitto.webp?auto=format%2Ccompress&rect=0%2C487%2C2500%2C2500&w=1920&fit=max&q=100"
-         },
-         "paragraph": {
-            "title": "Vuoi partire a Novembre?",
-            "text": [
-               "È il momento perfetto per buttarti in <b> avventure incredibili </b>, ammirare <b> panorami mozzafiato </b> e raccogliere <b> ricordi indimenticabili </b>. <br>",
-
-               "Sei pronto? Basta scegliere il tuo <b> Club </b> qui sotto e sei a cavallo!"
-            ]
-         },
-         "travels": [
-            {
-               "head": {
-                  "title": "viaggi in europa",
-                  "text": "Cultura, avventura, arte, tradizioni: l'Europa è tutta da scoprire! Dalla natura incontaminata delle Canarie alla festa scatenata delle Baleari, il Vecchio Continente ti aspetta!"
-               },
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715260239685.webp?sv=2023-08-03&se=2074-04-27T13%3A10%3A40Z&sr=b&sp=rade&sig=Vj%2FtJ%2FOxWyP15vhGGvHYEa0Hk5Hoh3fWVZKdmPgM9Ig%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "fuerteventura",
-                        "price": 359
-                     }
-                  }
-               ]
-            },
-            {
-               "head": {
-                  "title": "viaggi in africa",
-                  "text": "Chi ha visitato almeno una volta l'Africa lo sa: qui rischi seriamente di lasciarci un pezzo di cuore. Vivi la vera essenza della cultura africana e lasciati conquistare!"
-               },
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "sharm el-sheikh",
-                        "price": 259
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "marocco",
-                        "price": 589
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "kenya",
-                        "price": 689
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "zanzibar",
-                        "price": 499
-                     }
-                  }
-               ]
-            },
-            {
-               "head": {
-                  "title": "viaggi in america",
-                  "text": "Il “Sogno Americano” esiste davvero, non solo quando si dorme! Dalla vita lenta della Repubblica Dominicana alle strade senza tempo di Cuba, l'America è un continente da vivere al 100%."
-               },
-               "cards": [
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827701484.webp?sv=2023-08-03&se=2074-05-15T16%3A35%3A02Z&sr=b&sp=rade&sig=%2FjoT5UahRbuiTuUu7Uc3YFifA91x9mlWhgWtvXsxPWo%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "rio de janeiro",
-                        "price": 489
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716827509206.webp?sv=2023-08-03&se=2074-05-15T16%3A31%3A50Z&sr=b&sp=rade&sig=kyn1b9ufEFtVBd9Wfkpks3TlS9cr%2FaifhFhzkWRREsY%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "cuba",
-                        "price": 689
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1716390108026.webp?sv=2023-08-03&se=2074-05-10T15%3A01%3A48Z&sr=b&sp=rade&sig=xYX0SvQUpja1MIrZqxrhb5IZn9yWA1JnyARcw65i07M%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "messico",
-                        "price": 699
-                     }
-                  },
-                  {
-                     "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715257345241.webp?sv=2023-08-03&se=2074-04-27T12%3A22%3A26Z&sr=b&sp=rade&sig=LouyK1Lij1NBsjm8ei2mL7LT9gh4od8HQTR8JAmdjj4%3D&rsct=image%2Fjpg",
-                     "text": {
-                        "name": "repubblica dominicana",
-                        "price": 569
-                     }
-                  }
-               ]
+      "travels": [
+         {
+            "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715003321309.webp?sv=2023-08-03&se=2074-04-24T13%3A48%3A42Z&sr=b&sp=rade&sig=jDRwcDghfLCOwAVYnMJXZCIKt6qt3LKOND6%2FxxafVtE%3D&rsct=image%2Fjpg",
+            "text": {
+               "name": "kenya",
+               "price": 599
             }
-         ]
-      }
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
+         },
+         {
+            "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1714990944495.webp?sv=2023-08-03&se=2074-04-24T10%3A22%3A25Z&sr=b&sp=rade&sig=Kf%2FosqwqVxcYa6eNoaExeccJZNEtHI%2FGJsz%2Fokw2WI8%3D&rsct=image%2Fjpg",
+            "text": {
+               "name": "marocco",
+               "price": 599
+            }
+         },
+         {
+            "image": "https://utravelprod.blob.core.windows.net/clubs/club/new-club/1718618971236.webp?sv=2023-08-03&se=2074-06-05T10%3A09%3A31Z&sr=b&sp=rade&sig=1KpqW6e7Jrsstot9L3UX5wkBDtZxqq3YBjQRk%2FB0MsQ%3D&rsct=image%2Fjpg",
+            "text": {
+               "name": "sharm el-sheikh",
+               "price": 259
+            }
+         },
+         {
+            "image": "https://utravelprod.blob.core.windows.net/blinds/club/new-club/1715178562158.webp?sv=2023-08-03&se=2074-04-26T14%3A29%3A23Z&sr=b&sp=rade&sig=3rXbUDkK1%2B7Zat%2F0WMeevbHvVIqhkEsn3b%2FSx6St5Ko%3D&rsct=image%2Fjpg",
+            "text": {
+               "name": "zanzibar",
+               "price": 409
+            }
+         }
+      ]  
+   }
 
 
 
