@@ -63,6 +63,12 @@ export default {
     v-if="currentPage === 'instax'"
     :data="dataPage" 
   />
+
+
+
+  
+
+  <Footer />
   
 </template>
 

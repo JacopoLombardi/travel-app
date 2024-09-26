@@ -83,8 +83,32 @@ export default {
       </div>
 
 
+      <!-- info -->
+      <div class="_info round">
+         <h3>{{ data.info.title }}</h3>
 
+         <!-- card -->
+         <div
+           v-for="(item, index) in data.info.cards"
+           :key="item"
+           class="card"
+           :class="[index % 2 === 0 ? 'flex-md-row' : 'flex-md-row-reverse']"
+         >
+            <div class="box_img">
+               <img
+               :src="item.image"
+               alt=""
+               :class="[index % 2 === 0 ? 'rounded-end-0' : 'rounded-start-0']"
+               >
+            </div>
+            <div class="box_text">
+               <h5>{{ item.title }}</h5>
+               <p v-html="item.description"></p>
+               <a :href="item.href" class="btn btn-warning">{{ item.btn_text }}</a>
+            </div>
+         </div>
 
+      </div>
 
    </div>
 </template>
@@ -146,8 +170,8 @@ export default {
    align-items: center;
 
    img {
-      max-width: 400px;
-      margin: 10px 0 10px 0;
+      min-width: 200px;
+      margin-bottom: 10px;
    }
 
    p {
@@ -173,8 +197,6 @@ export default {
          line-height: 19px;
       }
    }
-
-
    .outer_box {
       background-color: rgb(118, 80, 213);
       padding: 20px;
@@ -202,8 +224,6 @@ export default {
       }
 
    }
-
-
    .btn_box {
       text-align: center;
 
@@ -215,6 +235,61 @@ export default {
       }
    }
 }
+
+
+
+
+._info {
+   padding: 50px 1rem;
+   background-color: rgb(246, 246, 246);
+
+   h3 {
+      color: rgb(118, 80, 213);
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 23px;
+   }
+
+   .card {
+      border-radius: 15px;
+      margin-top: 50px;
+
+      .box_img {
+         img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px 15px 0 0;
+         }
+      }
+
+      .box_text {
+         padding: 20px;
+
+         h5 {
+            font-size: 20px;
+            font-weight: 900;
+         }
+
+         p {
+            font-size: 14px;
+            line-height: 19px;
+            margin: 25px 0;
+         }
+
+         a {
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 8px 17px;
+            border-radius: 10px;
+         }
+      }
+   }
+}
+
+
+
 
 
 
@@ -239,8 +314,9 @@ export default {
 
 
 
+
    ._collaboration {
-      padding: 80px 5rem;
+      padding: 60px 5rem 80px 5rem;
       font-size: 17px;
       text-align: center;
 
@@ -250,8 +326,6 @@ export default {
          margin: 0;
       }
    }
-
-
 
 
 
@@ -270,7 +344,6 @@ export default {
             line-height: 24px;
          }
       }
-
 
       .outer_box {
          width: 40%;
@@ -295,7 +368,6 @@ export default {
          }
       }
 
-
       .btn_box {
          text-align: start;
          margin-left: 13px;
@@ -309,6 +381,54 @@ export default {
 
 
 
+
+
+
+   ._info {
+      padding: 70px 5rem;
+
+      h3 {
+         text-align: center;
+         font-size: 30px;
+      }
+
+      .card {
+         height: auto;
+         max-width: 1800px;
+         margin-top: 70px;
+
+         .box_img {
+            width: 50%;
+            position: relative;
+
+            img {
+               height: 100%;
+               max-height: 100%;
+               border-radius: 15px;
+               position: absolute;
+            }
+         }
+
+         .box_text {
+            width: 50%;
+            padding: 30px;
+
+            h5 {
+               font-size: 28px;
+            }
+
+            p {
+               font-size: 15px;
+               line-height: 19px;
+               margin: 25px 0;
+            }
+
+            a {
+               font-size: 17px;
+            }
+         }
+      }
+   }
 }
 
 
@@ -325,16 +445,8 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
 
-
-
-
-
-
    ._discount {
       padding: 80px 20rem;
    }
-
-
-
 }
 </style>

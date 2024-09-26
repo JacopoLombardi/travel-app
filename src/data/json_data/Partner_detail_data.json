@@ -24,19 +24,21 @@
          "code_discount": "UTRAVEL15"
       },
       "info": {
-         "title": "",
+         "title": "Il tuo viaggio Club è ancora più magico con Instax",
          "cards": [
             {
-               "image": "",
-               "title": "",
-               "description": "",
-               "btn_text": ""
+               "image": "https://images.prismic.io/blind/ZpkUFB5LeNNTxRVr_FlatlaySNSAug2022sunnyflowers.jpg?auto=format%2Ccompress&fit=max&w=1080",
+               "title": "Experience Powered by instax ✈️",
+               "description": "E se ti dicessimo che ti ricorderai per sempre il tuo prossimo Club? 👀 In alcune destinazioni, potrai <b> testare in prima persona la magia delle fotografie istantanee instax! </b> Cattura i momenti più iconici del tuo viaggio con le fotocamere istantanee <b> instax SQUARE SQ1 </b> messe a disposizione per tutti gli utravelers nelle experience targate <b> instax </b>: le istantanee saranno tue!",
+               "href": "https://instax.eu/it/fotocamere/square-sq1/?utm_source=social&utm_medium=cpc&utm_campaign=utravel&utm_id=UTRAVEL",
+               "btn_text": "Scopri instax SQUARE SQI"
             },
             {
-               "image": "",
-               "title": "",
-               "description": "",
-               "btn_text": ""
+               "image": "https://images.prismic.io/blind/ZpkQph5LeNNTxRTR_InstaxDay1S1063.jpg?auto=format%2Ccompress&fit=max&w=640",
+               "title": "Portati a casa un pezzo del tuo viaggio 🎁",
+               "description": "Alla fine di <b> ogni Club Utravel </b>, Grazie alla stampante a sviluppo istantaneo <b> instax SQUARE Link </b>, ti <b> regaleremo una foto ricordo! </b> “Una volta che inizi non smetti più”, dicono: non vedrai l'ora di stampare altre fotografie e di riempire il frigorifero con le foto dei tuoi viaggi (che alla fine sono meglio delle calamite, diciamocelo).",
+               "href": "https://instax.eu/it/stampanti/square-link/?utm_source=social&utm_medium=cpc&utm_campaign=utravel&utm_id=UTRAVEL",
+               "btn_text": "Scopri instax SQUARE SQI"
             }
          ]
       }
