@@ -37,12 +37,12 @@ export default {
       </div>
 
 
-      <!-- paragraph -->
+      <!-- collaboration -->
       <div class="_collaboration">
-         <img :src="data._collaboration.image" alt="">
+         <img :src="data.collaboration.image" alt="">
          <div>
             <p 
-               v-for="item in data._collaboration.text"
+               v-for="item in data.collaboration.text"
                :key="item"
                v-html="item"
             ></p>
@@ -124,7 +124,7 @@ export default {
 
       img {
          width: 100%;
-         height: 450px;
+         height: 550px;
          object-fit: cover;
          filter: brightness(65%);
       }
@@ -137,7 +137,7 @@ export default {
          transform: translate(-50%, -50%);
 
          h1 {
-            font-size: clamp(1rem, 6vw, 4rem);
+            font-size: clamp(1.8rem, 6vw, 4rem);
             font-weight: 800;
             text-transform: uppercase;
          }

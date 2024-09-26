@@ -7,7 +7,7 @@
          "title": "Il tuo viaggio in una foto Instax",
          "text": "Porta sempre con te i ricordi migliori del tuo viaggio"
       },
-      "_collaboration": {
+      "collaboration": {
          "image": "/img/logo utravel x instax.svg",
          "text": [
             "Potrai anche acquistare tutte le calamite e le cartoline del mondo, ma alla fine i ricordi più belli di ogni viaggio rimarranno sempre le <b> esperienze che hai vissuto </b>.",
@@ -42,9 +42,60 @@
             }
          ]
       }
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+   "holafly": {
+      "jumbotron": {
+         "image": "https://images.prismic.io/blind/Zth71Lzzk9ZrW_aF_Hero-Holafly.jpg?auto=format%2Ccompress&fit=max&w=640&q=100",
+         "title": "Scopri le eSim Holafly!",
+         "text": "Con le eSim di Holafly, dati illimitati anche in viaggio!"
+      },
+      "collaboration": {
+         "image": "/img/logo utravel x holafly.svg",
+         "text": [
+            "La vita è troppo breve per avere ansia di finire tutti i Giga quando sei in vacanza 😌",
+
+            "Con le eSim di Holafly, navighi in rete con <b> dati illimitati </b> e <b> senza nessun costo di roaming aggiuntivo </b>, anche se sei dall'altra parte del mondo 🌍",
+
+            "Per te, che ami viaggiare e scoprire posti nuovi, abbiamo pensato ad <b> un'offerta esclusiva! </b>",
+
+            "Con il codice <b> UTRAVEL </b>, ottieni subito il <b> 5% di sconto </b> su <b> tutte le eSim di Holafly! </b>"
+         ],
+         "href": "https://esim.holafly.com/it/?ref=mmm0mgm&discount=utravel&utm_source=utravelsrl&utm_medium=affiliation&data=05%7C02%7Cdaniele.faustini%40utravel.it%7Cfcecc259961540eef49908dcc1f34b49%7Cddbb2b91a20949cf942b5fad5bd86741%7C0%7C0%7C638598497917444903%7Cunknown%7Ctwfpbgzsb3d8eyjwijoimc4wljawmdailcjqijoiv2lumziilcjbtii6ik1hawwilcjxvci6mn0%3D%7C0%7C%7C%7C&sdata=azfatxjz1xzjbifs6b6yzdv%2Fh5tamignnlzuxuzygsa%3D&reserved=0"
+      },
+      "how_work": {
+         "title": "Come funziona l'esim holafly",
+         "cards": [
+            {
+               "image": "/img/number1.svg",
+               "text": "Scegli la tua destinazione e il piano dati che ti interessa"
+            },
+            {
+               "image": "/img/number2.svg",
+               "text": "Verifica che l'eSim sia compatibile con il tuo dispositivo"
+            },
+            {
+               "image": "/img/number3.svg",
+               "text": "Installa l'eSim seguendo le istruzioni ricevute via e-mail"
+            },
+            {
+               "image": "/img/number4.svg",
+               "text": "Connettiti in destinazione!"
+            }
+         ]
+      }
    }
-
-
 
 
 

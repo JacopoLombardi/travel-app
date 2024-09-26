@@ -3,12 +3,14 @@
 import Partner_detail_data from '../data/json_data/Partner_detail_data.json'
 
 import Instax from "../components/partials/Partner Detail Section/Instax.vue"
+import Holafly from "../components/partials/Partner Detail Section/Holafly.vue"
 
 import Footer from "../components/Footer.vue";
 
 export default {
   components: {
     Instax,
+    Holafly,
     Footer
   },
   data(){
@@ -22,7 +24,8 @@ export default {
     findSlide() {
       // Usa le chiavi esatte che hai nel JSON
       const sections = {
-        "instax": "instax"
+        "instax": "instax",
+        "holafly": "holafly"
       };
 
       // Normalizza il valore di slideName
@@ -65,9 +68,21 @@ export default {
   />
 
 
+  <Holafly
+    v-if="currentPage === 'holafly'"
+    :data="dataPage" 
+  />
+
+
+
+
+
+
+
+
+
 
   
-
   <Footer />
   
 </template>
