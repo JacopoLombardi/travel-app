@@ -136,9 +136,7 @@ export default {
    padding: 50px 1rem;
    font-size: 14px;
    background-color: rgb(32, 32, 32);
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+   text-align: center;
 
    h3 {
       text-transform: uppercase;
@@ -150,7 +148,6 @@ export default {
       margin-top: 15px;
       line-height: 19px;
    }
-   
 }
 
 
@@ -233,7 +230,6 @@ export default {
    ._collaboration {
       padding: 60px 5rem 80px 5rem;
       font-size: 17px;
-      text-align: center;
 
       img {
          max-width: 100%;

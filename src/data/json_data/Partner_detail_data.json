@@ -78,19 +78,19 @@
          "title": "Come funziona l'esim holafly",
          "cards": [
             {
-               "image": "/img/number1.svg",
+               "image": "/img/number1 holafly.svg",
                "text": "Scegli la tua destinazione e il piano dati che ti interessa"
             },
             {
-               "image": "/img/number2.svg",
+               "image": "/img/number2 holafly.svg",
                "text": "Verifica che l'eSim sia compatibile con il tuo dispositivo"
             },
             {
-               "image": "/img/number3.svg",
+               "image": "/img/number3 holafly.svg",
                "text": "Installa l'eSim seguendo le istruzioni ricevute via e-mail"
             },
             {
-               "image": "/img/number4.svg",
+               "image": "/img/number4 holafly.svg",
                "text": "Connettiti in destinazione!"
             }
          ]
@@ -108,6 +108,56 @@
 
 
 
+
+
+   "scalapay": {
+      "jumbotron": {
+         "image": "https://images.prismic.io/blind/654104610b105250cf53c521_Hero.png?auto=format%2Ccompress&fit=max&w=640&q=100",
+         "title": "Paga il tuo viaggio con Scalapay",
+         "text": "Il tuo viaggio del cuore in 3 rate senza interessi"
+      },
+      "collaboration": {
+         "image": "/img/logo utravel x scalapay.svg",
+         "text": [
+            "In Utravel vogliamo aprire le porte del mondo a tutti i giovani che hanno voglia di esplorare e partire.",
+
+            "Se è vero che certe esperienze non si dimenticano mai, è anche vero che il conto in banca tiene memoria di tutto (e a volte piange pure).",
+
+            "Insieme a <b> Scalapay </b>, rendiamo i tuoi viaggi più facili! Puoi <b> pagare le tue vacanze in 3 comode rate </b> (tutte dello stesso importo) e senza interessi!*",
+
+            "<em>Puoi selezionare Scalapay fino ad un massimo di spesa di 4000€</em>"
+         ]
+      },
+      "how_work": {
+         "title": "Come funziona scalapay",
+         "cards": [
+            {
+               "image": "/img/number1 scalapay.svg",
+               "text": "Scegli il tuo viaggio preferito e seleziona come modalità di pagamento “Paga in 3 rate con Scalapay”."
+            },
+            {
+               "image": "/img/number2 scalapay.svg",
+               "text": "Inserisci i tuoi dati e segui le indicazioni del sito per procedere con il pagamento."
+            },
+            {
+               "image": "/img/number3 scalapay.svg",
+               "text": "Paga subito la prima rata. Le altre 2 ti verranno addebitate nei mesi successivi senza alcun interesse!"
+            },
+            {
+               "image": "/img/number1 scalapay.svg",
+               "text": "Scegli il tuo viaggio preferito e seleziona come modalità di pagamento “Paga in 3 rate con Scalapay”."
+            },
+            {
+               "image": "/img/number2 scalapay.svg",
+               "text": "Inserisci i tuoi dati e segui le indicazioni del sito per procedere con il pagamento."
+            },
+            {
+               "image": "/img/number3 scalapay.svg",
+               "text": "Paga subito la prima rata. Le altre 2 ti verranno addebitate nei mesi successivi senza alcun interesse!"
+            }
+         ]
+      }
+   },
 
 
 
@@ -191,80 +241,89 @@
       "cards": [
          {
             "image": "https://images.prismic.io/blind/65a006267a5e8b1120d57373_Scalapay.png?auto=format%2Ccompress&fit=max&w=1920",
-            "logo": "",
-            "tag": "",
-            "title": "",
-            "description": "",
+            "tag": "Pagamenti",
+            "title": "Scalapay",
+            "name_push": "scalapay",
+            "description": "Paga in 3 rate",
             "href": "",
-            "btn_text": ""
+            "btn_text": "Scopri di più"
          },
          {
             "image": "https://images.prismic.io/blind/6538d6e80b105250cf53a461_kappa-partner.png?auto=format%2Ccompress&fit=max&w=1920",
-            "logo": "",
-            "tag": "",
-            "title": "",
-            "description": "",
+            "tag": "Eventi",
+            "title": "KappaFuturFestival",
+            "name_push": "kappa_futurfestival",
+            "description": "The Future is in Torino!",
             "href": "",
-            "btn_text": ""
+            "btn_text": "Scopri di più"
          },
          {
-            "image": "",
-            "logo": "",
-            "tag": "",
-            "title": "",
-            "description": "",
-            "href": "",
-            "btn_text": ""
+            "image": "https://images.prismic.io/blind/65a8fa5e7a5e8b1120d5a5ac_CreativeHarbour-Card.jpg?auto=format%2Ccompress&fit=max&w=3840",
+            "tag": "Remote working",
+            "title": "Creative Harbour",
+            "name_push": "",
+            "description": "Lavora in giro per il mondo!",
+            "href": "Lavora in giro per il mondo!",
+            "btn_text": "Scopri di più"
          },
          {
-            "image": "",
-            "logo": "",
-            "tag": "",
-            "title": "",
-            "description": "",
+            "image": "https://images.prismic.io/blind/ZsNPVEaF0TcGJED5_Visagov-Partner.png?auto=format%2Ccompress&fit=max&w=3840",
+            "tag": "Visto online",
+            "title": "Visagov",
+            "name_push": "",
+            "description": "Ottieni il tuo visto d'ingresso con Visagov",
             "href": "",
-            "btn_text": ""
+            "btn_text": "Scopri di più"
          },
          {
-            "image": "",
-            "logo": "",
-            "tag": "",
-            "title": "",
-            "description": "",
+            "image": "https://images.prismic.io/blind/ZpktXR5LeNNTxRr6_Instax-Partner.png?auto=format%2Ccompress&fit=max&w=3840",
+            "tag": "Fotografia",
+            "title": "Instax",
+            "name_push": "instax",
+            "description": "I tuoi ricordi di viaggio per sempre con te",
             "href": "",
-            "btn_text": ""
+            "btn_text": "Scopri di più"
          },
          {
-            "image": "",
-            "logo": "",
-            "tag": "",
-            "title": "",
-            "description": "",
+            "image": "https://images.prismic.io/blind/Zth71bzzk9ZrW_aG_Holafly-Partner.png?auto=format%2Ccompress&fit=max&w=3840",
+            "tag": "eSim",
+            "title": "Holafly",
+            "name_push": "holafly",
+            "description": "Con le eSim di Holafly, dati illimitati anche in viaggio!",
             "href": "",
-            "btn_text": ""
+            "btn_text": "Scopri di più"
          }
       ],
       "general_partner": {
-         "title": "",
-         "description": "",
-         "partners_logo": [
-         
-            "",
+         "title": "General partner",
+         "description": "Hanno collaborato con noi",
+         "partner_logo": [
+            "https://images.prismic.io/blind/6538d88c0b105250cf53a462_flibco-logo.png?auto=format%2Ccompress&fit=max&w=384",
 
-            "",
+            "https://images.prismic.io/blind/6538d8b40b105250cf53a463_grimaldi-logo.png?auto=format%2Ccompress&fit=max&w=256",
 
-            "",
+            "https://images.prismic.io/blind/6538d8d00b105250cf53a464_tree-nation-logo.png?auto=format%2Ccompress&fit=max&w=256",
 
-            "",
+            "https://images.prismic.io/blind/6538d8f70b105250cf53a465_decennio-sul-mare.png?auto=format%2Ccompress&fit=max&w=256",
 
-            ""
+            "https://images.prismic.io/blind/6538d9260b105250cf53a466_bestway-logo.png?auto=format%2Ccompress&fit=max&w=640",
+
+            "https://images.prismic.io/blind/6538d93b0b105250cf53a467_tedx-logo.png?auto=format%2Ccompress&fit=max&w=256",
+
+            "https://images.prismic.io/blind/6538d9500b105250cf53a468_dott-logo.png?auto=format%2Ccompress&fit=max&w=256",
+
+            "https://images.prismic.io/blind/6538d9630b105250cf53a469_worldrise-logo.png?auto=format%2Ccompress&fit=max&w=256",
+
+            "https://images.prismic.io/blind/6538d9760b105250cf53a46a_scalapay-logo.png?auto=format%2Ccompress&fit=max&w=256",
+
+            "https://images.prismic.io/blind/6538d98c0b105250cf53a46b_marketing-espresso-logo.png?auto=format%2Ccompress&fit=max&w=256",
+
+            "https://images.prismic.io/blind/6538d9a20b105250cf53a46c_mitt-logo.png?auto=format%2Ccompress&fit=max&w=256",
+
+            "https://blind.cdn.prismic.io/blind/6538d9c80b105250cf53a46d_this-unique-logo.svg?auto=compress%2Cformat&amp;fit=max&amp;w=2048"
          ]
       }
    }
-
-
-
-
 
 
 

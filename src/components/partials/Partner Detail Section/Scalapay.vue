@@ -1,4 +1,3 @@
-
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Pagination } from 'swiper/modules';
@@ -50,6 +49,7 @@ export default {
 
 <template>
   <div v-if="data">
+
     <!-- jumbotron -->
     <div class="_jumbotron">
       <div class="_box">
@@ -61,14 +61,15 @@ export default {
       </div>
     </div>
 
+
     <!-- collaboration -->
     <div class="_collaboration">
       <img :src="data.collaboration.image" alt="">
       <div>
         <p v-for="item in data.collaboration.text" :key="item" v-html="item"></p>
       </div>
-      <a :href="data.collaboration.href" class="btn">Scopri le eSim Holafly</a>
     </div>
+
 
     <!-- how work -->
     <div class="how_work">
@@ -115,6 +116,7 @@ export default {
         </Swiper>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -166,10 +168,9 @@ export default {
 
 
 ._collaboration {
-   color: white;
    padding: 50px 1rem;
    font-size: 14px;
-   background-color: rgb(230, 72, 92);
+   background-color: rgb(247, 202, 205);
 
    img {
       margin: auto;
@@ -265,22 +266,21 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
 
-    ._jumbotron {
+   ._jumbotron {
       ._box {
-        img {
-          height: 550px;
-        }
-  
-        .box_text {
-          width: 90%;
-  
-          p {
-            font-size: 20px;
-            font-weight: 500;
-          }
-        }
+         img {
+            height: 550px;
+         }
+         .box_text {
+            width: 90%;
+
+            p {
+               font-size: 20px;
+               font-weight: 500;
+            }
+         }  
       }
-    }
+   }
 
 
 

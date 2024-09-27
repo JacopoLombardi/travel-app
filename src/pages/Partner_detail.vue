@@ -4,6 +4,7 @@ import Partner_detail_data from '../data/json_data/Partner_detail_data.json'
 
 import Instax from "../components/partials/Partner Detail Section/Instax.vue"
 import Holafly from "../components/partials/Partner Detail Section/Holafly.vue"
+import Scalapay from "../components/partials/Partner Detail Section/Scalapay.vue"
 import Kappa_futurfestival from "../components/partials/Partner Detail Section/Kappa_futurfestival.vue"
 import Our_partner from "../components/partials/Partner Detail Section/Our_partner.vue"
 
@@ -13,6 +14,7 @@ export default {
   components: {
     Instax,
     Holafly,
+    Scalapay,
     Kappa_futurfestival,
     Our_partner,
     Footer
@@ -30,6 +32,7 @@ export default {
       const sections = {
         "instax": "instax",
         "holafly": "holafly",
+        "scalapay": "scalapay",
         "kappa_futurfestival": "kappa_futurfestival",
         "our_partner": "our_partner"
       };
@@ -79,6 +82,11 @@ export default {
     :data="dataPage" 
   />
 
+
+  <Scalapay
+    v-if="currentPage === 'scalapay'"
+    :data="dataPage" 
+  />
 
 
 
