@@ -185,6 +185,7 @@
    "Partner": [
       {
          "name": "instax",
+         "name_push": "instax",
          "description": "I migliori ricordi del tuo viaggio, per sempre con te.",
          "tag": "fotografia",
          "action": "scopri instax",
@@ -192,6 +193,7 @@
       },
       {
          "name": "holafly",
+         "name_push": "holafly",
          "description": "Con le eSim di Holafly, dati illimitati anche in viaggio!",
          "tag": "Sim",
          "action": "scopri HolaFly",
@@ -199,6 +201,7 @@
       },
       {
          "name": "scalapay",
+         "name_push": "scalapay",
          "description": "Paga in 3 rate il tuo viaggio",
          "tag": "Pagamenti",
          "action": "scopri di più",
@@ -206,6 +209,7 @@
       },
       {
          "name": "creative harbour",
+         "name_push": "",
          "description": "Lavora in giro per il mondo!",
          "tag": "Remote working",
          "action": "scopri di più",
@@ -213,6 +217,7 @@
       },
       {
          "name": "kappa FuturFestival",
+         "name_push": "kappa_futurfestival",
          "description": "The Future is in Torino!",
          "tag": "eventi",
          "action": "scopri di più",
@@ -220,6 +225,7 @@
       },
       {
          "name": "tutti i partner",
+         "name_push": "our_partner",
          "description": "Insieme ai nostri partner, ci impegniamo ogni giorno per creare esperienze di viaggio indimenticabili.",
          "tag": "partner",
          "action": "dai un'occhiata",

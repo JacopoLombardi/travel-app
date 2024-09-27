@@ -4,6 +4,8 @@ import Partner_detail_data from '../data/json_data/Partner_detail_data.json'
 
 import Instax from "../components/partials/Partner Detail Section/Instax.vue"
 import Holafly from "../components/partials/Partner Detail Section/Holafly.vue"
+import Kappa_futurfestival from "../components/partials/Partner Detail Section/Kappa_futurfestival.vue"
+import Our_partner from "../components/partials/Partner Detail Section/Our_partner.vue"
 
 import Footer from "../components/Footer.vue";
 
@@ -11,6 +13,8 @@ export default {
   components: {
     Instax,
     Holafly,
+    Kappa_futurfestival,
+    Our_partner,
     Footer
   },
   data(){
@@ -25,7 +29,9 @@ export default {
       // Usa le chiavi esatte che hai nel JSON
       const sections = {
         "instax": "instax",
-        "holafly": "holafly"
+        "holafly": "holafly",
+        "kappa_futurfestival": "kappa_futurfestival",
+        "our_partner": "our_partner"
       };
 
       // Normalizza il valore di slideName
@@ -81,6 +87,17 @@ export default {
 
 
 
+
+  <Kappa_futurfestival
+    v-if="currentPage === 'kappa_futurfestival'"
+    :data="dataPage" 
+  />
+
+
+  <Our_partner
+    v-if="currentPage === 'our_partner'"
+    :data="dataPage" 
+  />
 
   
   <Footer />

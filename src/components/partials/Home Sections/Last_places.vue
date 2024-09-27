@@ -3,7 +3,11 @@
 import HomePage_data from '../../../data/json_data/HomePage_data.json';
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 export default {
    components: {
@@ -12,6 +16,7 @@ export default {
    },
    data() {
       return {
+         modules: [Pagination],
          dataSlide: HomePage_data.last_places,
          currentBackground: 'https://images.prismic.io/blind/ZpZtLh5LeNNTxMe9_Maiorca-Cover.webp?auto=format,compress',
          slidesPerView: 1,
@@ -43,7 +48,7 @@ export default {
 
       saveSlideNameAndNavigate(name) {
          this.$router.push({ name: 'Travel_detail', query: { name: name } });
-      }
+      },
    },
 
    mounted() {
@@ -72,10 +77,9 @@ export default {
            :slides-per-view="slidesPerView"
            :space-between="spaceBetween"
            :loop="false"
-           :pagination="{ clickable: true }"
-           @swiper="onSwiper"
            @slideChange="updateBackground"
-           modules="[Pagination]"
+           :pagination="true"
+           :modules="modules"
          >
             <swiper-slide
               v-for="(slide, index) in dataSlide"

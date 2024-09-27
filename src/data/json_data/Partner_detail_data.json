@@ -95,7 +95,175 @@
             }
          ]
       }
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   "kappa_futurfestival": {
+      "jumbotron": {
+         "image": "https://images.prismic.io/blind/659d17b9531ac2845a273d24_WideKappa2000x842.jpeg?auto=format%2Ccompress&fit=max&w=640&q=100",
+         "title": "Kappa FuturFestival",
+         "text": "The Futur is in Torino!"
+      },
+      "collaboration": {
+         "title": "utravel x kff",
+         "text": [
+            "Dal 5 al 7 luglio torna il Kappa FuturFestival, il festival di musica elettronica più famoso di Italia. Un appuntamento fisso per ragazzi e ragazze provenienti da tutto il mondo per vivere tre giorni all'insegna della musica e del divertimento qui a Torino."
+         ]
+      },
+      "cards": [
+         {
+            "image": "https://images.prismic.io/blind/659d18f5531ac2845a273d2b_BoxKappa1768x461.jpeg?auto=format%2Ccompress&fit=max&w=3840",
+            "title": "La nostra Partnership",
+            "description": "Per il terzo anno di fila siamo orgogliosi di essere l'<b> Official Hospitality Partner </b> di Kappa FuturFestival. Il nostro è un network consolidato: nato dalla voglia di essere punto di aggregazione per i giovani provenienti da tutto il mondo",
+            "btn_text": false
+         },
+         {
+            "image": "https://images.prismic.io/blind/659d1935531ac2845a273d2c_BoxKappa2768x461.jpeg?auto=format%2Ccompress&fit=max&w=3840",
+            "title": "Official Hospitality Partner",
+            "description": "In occasione del Kappa FuturFestival ci occuperemo di fornire la       sistemazioni in hotel per chi dal 5 al 7 luglio parteciperà al festival per ascoltare decine di artisti del calibro di: Tiësto, Skrillex, Carl Cox, Nina Kraviz, Tale Of Us e molti altri.",
+            "href": "https://hotel.kappafuturfestival.it/it?from=2025-07-04&to=2025-07-06&adults=1",
+            "btn_text": "Prenota il tuo hotel"
+         }
+      ]
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+   "our_partner": {
+      "jumbotron": {
+         "image": "https://images.prismic.io/blind/6538d5660b105250cf53a45f_WideScalapay16_9.jpg?auto=format%2Ccompress&fit=max&w=1920&q=100",
+         "title": "I nostri Partner",
+         "text": "Scopri le realtà con cui collaboriamo"
+      },
+      "collaboration": {
+         "title": "“Da soli si va più veloce, ma insieme si va molto più lontano”",
+         "text": [
+            "Nel perseguimento dei <b> nostri obiettivi </b> e tenendo sempre di vista i <b> nostri valori </b>, abbiamo scelto dei <b> partner </b> (o meglio, compagni di viaggio) che, come noi, si impegnano nella realizzazione di progetti fantastici.",
+
+            "Insieme, <b> costruiamo e progettiamo viaggi incredibili </b>, dalla partenza fino al momento in cui si torna a casa."
+         ]
+      },
+      "cards": [
+         {
+            "image": "https://images.prismic.io/blind/65a006267a5e8b1120d57373_Scalapay.png?auto=format%2Ccompress&fit=max&w=1920",
+            "logo": "",
+            "tag": "",
+            "title": "",
+            "description": "",
+            "href": "",
+            "btn_text": ""
+         },
+         {
+            "image": "https://images.prismic.io/blind/6538d6e80b105250cf53a461_kappa-partner.png?auto=format%2Ccompress&fit=max&w=1920",
+            "logo": "",
+            "tag": "",
+            "title": "",
+            "description": "",
+            "href": "",
+            "btn_text": ""
+         },
+         {
+            "image": "",
+            "logo": "",
+            "tag": "",
+            "title": "",
+            "description": "",
+            "href": "",
+            "btn_text": ""
+         },
+         {
+            "image": "",
+            "logo": "",
+            "tag": "",
+            "title": "",
+            "description": "",
+            "href": "",
+            "btn_text": ""
+         },
+         {
+            "image": "",
+            "logo": "",
+            "tag": "",
+            "title": "",
+            "description": "",
+            "href": "",
+            "btn_text": ""
+         },
+         {
+            "image": "",
+            "logo": "",
+            "tag": "",
+            "title": "",
+            "description": "",
+            "href": "",
+            "btn_text": ""
+         }
+      ],
+      "general_partner": {
+         "title": "",
+         "description": "",
+         "partners_logo": [
+         
+            "",
+
+            "",
+
+            "",
+
+            "",
+
+            ""
+         ]
+      }
    }
+
+
+
 
 
 

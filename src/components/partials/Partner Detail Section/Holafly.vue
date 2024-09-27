@@ -1,26 +1,46 @@
 
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 export default {
-   components: {
+  components: {
     Swiper,
     SwiperSlide,
   },
-   props: {
-      data: Object
-   },
-  data(){
-    return{
-
+  props: {
+    data: Object,
+  },
+  data() {
+    return {
+      modules: [Pagination],
+      firstSwiper: null,
+      secondSwiper: null,
     };
   },
-
   methods: {
-    updateActiveIndex(swiper) {
-      this.activeIndex = swiper.realIndex;
+    onSlideChange(swiper) {
+      console.log("First Swiper Index:", swiper.realIndex); // Log l'indice del primo Swiper
+      if (this.secondSwiper) {
+        this.secondSwiper.slideTo(swiper.realIndex); // Cambia slide nel secondo Swiper
+      }
     },
+    getSwiperRefs() {
+      // Questo metodo ottiene i riferimenti solo dopo il montaggio
+      this.firstSwiper = this.$refs.firstSwiper.swiper;
+      this.secondSwiper = this.$refs.secondSwiper.swiper;
+      console.log("First Swiper:", this.firstSwiper); // Controlla se il riferimento è corretto
+      console.log("Second Swiper:", this.secondSwiper); // Controlla se il riferimento è corretto
+    },
+  },
+  mounted() {
+    this.$nextTick(() => {
+      // Aspetta che il DOM sia aggiornato prima di ottenere i riferimenti
+      this.getSwiperRefs();
+    });
   },
 };
 </script>
@@ -29,81 +49,73 @@ export default {
 
 
 <template>
-   <div v-if="data">
-
-      <!-- jumbotron -->
-      <div class="_jumbotron">
-         <div class="_box">
-            <img :src="data.jumbotron.image" alt="jumbotron">
-            <div class="box_text">
-               <h1>{{ data.jumbotron.title }}</h1>
-               <p>{{ data.jumbotron.text }}</p>
-            </div>
-         </div>
+  <div v-if="data">
+    <!-- jumbotron -->
+    <div class="_jumbotron">
+      <div class="_box">
+        <img :src="data.jumbotron.image" alt="jumbotron">
+        <div class="box_text">
+          <h1>{{ data.jumbotron.title }}</h1>
+          <p>{{ data.jumbotron.text }}</p>
+        </div>
       </div>
+    </div>
 
-
-      <!-- collaboration -->
-      <div class="_collaboration">
-         <img :src="data.collaboration.image" alt="">
-         <div>
-            <p v-for="item in data.collaboration.text" :key="item" v-html="item"></p>
-         </div>
-         <a :href="data.collaboration.href" class="btn">Scopri le eSim Holafly</a>
+    <!-- collaboration -->
+    <div class="_collaboration">
+      <img :src="data.collaboration.image" alt="">
+      <div>
+        <p v-for="item in data.collaboration.text" :key="item" v-html="item"></p>
       </div>
+      <a :href="data.collaboration.href" class="btn">Scopri le eSim Holafly</a>
+    </div>
 
-
-
-      <!-- how work -->
-      <div class="how_work">
+    <!-- how work -->
+    <div class="how_work">
       <h3>{{ data.how_work.title }}</h3>
 
       <!-- mobile -->
       <div class="d-lg-none">
-         <!-- First Swiper -->
-         <Swiper
-         ref="firstSwiper"
-         :slides-per-view="3"
-         :space-between="-30"
-         :loop="true"
-         @slideChange="onSlideChange"
-         pagination
-         >
-         <SwiperSlide
+        <!-- First Swiper -->
+        <Swiper
+          ref="firstSwiper"
+          :slides-per-view="3"
+          :space-between="-30"
+          :loop="true"
+          @slideChange="onSlideChange"
+          :pagination="true"
+          :modules="modules"
+        >
+          <SwiperSlide
             v-for="(item, index) in data.how_work.cards"
             :key="index"
             class="swiper-slide-up mt-5"
-         >
+          >
             <div class="slide-content-up">
-               <img :src="item.image" alt="">
+              <img :src="item.image" alt="">
             </div>
-         </SwiperSlide>
-         </Swiper>
+          </SwiperSlide>
+        </Swiper>
 
-         <!-- Second Swiper -->
-         <Swiper
-         ref="secondSwiper"
-         :slides-per-view="1"
-         :space-between="50"
-         :loop="true"
-         pagination
-         >
-         <SwiperSlide
+        <!-- Second Swiper -->
+        <Swiper
+          ref="secondSwiper"
+          :slides-per-view="1"
+          :space-between="50"
+          :loop="true"
+        >
+          <SwiperSlide
             v-for="(item, index) in data.how_work.cards"
             :key="index"
-         >
+          >
             <div class="swiper-slide-down px-5 mt-5">
-               <p>{{ item.text }}</p>
+              <p>{{ item.text }}</p>
             </div>
-         </SwiperSlide>
-         </Swiper>
+          </SwiperSlide>
+        </Swiper>
       </div>
-   </div>
-
-
-
-
-   </div>
+    </div>
+  </div>
 </template>
 
 
@@ -218,8 +230,7 @@ export default {
       }
    }
 
-   .swiper-slide-down,
-   ._desk {
+   .swiper-slide-down {
       h5 {
          color: rgb(90, 61, 255);
          font-size: 30px;
@@ -234,6 +245,11 @@ export default {
    }
 
 }
+
+
+
+
+
 
 
 

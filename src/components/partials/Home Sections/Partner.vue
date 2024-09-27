@@ -69,7 +69,7 @@ export default {
             <div class="card">
                <a
                   href="#"
-                  @click.prevent="saveSlideNameAndNavigate(slide.name)"
+                  @click.prevent="saveSlideNameAndNavigate(slide.name_push)"
                   class="slide-link text-white"
                >
                   <img :src="slide.image" :alt="slide.name">

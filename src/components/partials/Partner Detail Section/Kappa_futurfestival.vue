@@ -48,7 +48,7 @@ export default {
 
       <!-- collaboration -->
       <div class="_collaboration">
-         <img :src="data.collaboration.image" alt="">
+         <h3>{{ data.collaboration.title }}</h3>
          <div>
             <p 
                v-for="item in data.collaboration.text"
@@ -59,64 +59,27 @@ export default {
       </div>
 
 
-      <!-- discount -->
-      <div class="_discount d-md-flex align-items-center">
-         <div class="">
-            <div class="_text">
-               <p
-               v-for="item in data.discount.text"
-               :key="item"
-               v-html="item"
-               ></p>
-            </div>
-
-            <div class="outer_box d-md-none">
-               <p>Usa il codice:</p>
-               <div class="inner_box">
-                  <p>{{ data.discount.code_discount }}</p>
-               </div>
-            </div>
-
-            <div class="btn_box">
-               <a href="https://instaxshop.fujifilm.it/?utm_source=social&utm_medium=cpc&utm_campaign=utravel&utm_id=UTRAVEL" class="btn btn-warning text-white">Scopri Instax!</a>
-            </div>
-         </div>
-      
-         <!-- desktop -->
-         <div class="outer_box d-none d-md-block">
-            <p>Usa il codice:</p>
-            <div class="inner_box">
-               <p>{{ data.discount.code_discount }}</p>
-            </div>
-         </div>
-      </div>
-
-
-      <!-- info -->
-      <div class="_info round">
-         <h3>{{ data.info.title }}</h3>
-
-         <!-- card -->
+      <!-- cards -->
+      <div class="_cards round">
          <div
-           v-for="(item, index) in data.info.cards"
+           v-for="(item, index) in data.cards"
            :key="item"
            class="card"
            :class="[index % 2 === 0 ? 'flex-md-row' : 'flex-md-row-reverse']"
          >
             <div class="box_img">
                <img
-               :src="item.image"
-               alt=""
-               :class="(windowWidth > 768) ? (index % 2 === 0 ? 'rounded-end-0' : 'rounded-start-0') : ''"
+                  :src="item.image"
+                  alt=""
+                  :class="(windowWidth > 768) ? (index % 2 === 0 ? 'rounded-end-0' : 'rounded-start-0') : ''"
                >
             </div>
             <div class="box_text">
                <h5>{{ item.title }}</h5>
                <p v-html="item.description"></p>
-               <a :href="item.href" class="btn btn-warning">{{ item.btn_text }}</a>
+               <a v-if="item.btn_text != false" :href="item.href" class="btn btn-dark">{{ item.btn_text }}</a>
             </div>
          </div>
-
       </div>
 
    </div>
@@ -168,19 +131,19 @@ export default {
 
 
 
-
 ._collaboration {
    color: white;
    padding: 50px 1rem;
    font-size: 14px;
-   background-color: rgb(118, 80, 213);
+   background-color: rgb(32, 32, 32);
    display: flex;
    flex-direction: column;
    align-items: center;
 
-   img {
-      min-width: 200px;
-      margin-bottom: 10px;
+   h3 {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: clamp(1.8rem, 6vw, 3rem);
    }
 
    p {
@@ -193,75 +156,14 @@ export default {
 
 
 
-
-._discount {
-   padding: 50px 1rem;
-
-   ._text {
-      text-align: center;
-      font-size: 14px;
-
-      p {
-         margin: 15px;
-         line-height: 19px;
-      }
-   }
-   .outer_box {
-      background-color: rgb(118, 80, 213);
-      padding: 20px;
-      margin: 20px 0 20px 0;
-      border-radius: 18px;
-
-      p {
-         text-align: center;
-         color: white;
-         font-size: 12px;
-         padding-bottom: 14px;
-      }
-
-      .inner_box {
-         background-color: white;
-         padding: 10px;
-         border-radius: 15px;
-
-         p {
-            color: rgb(118, 80, 213);
-            font-weight: 900;
-            font-size: 25px;
-            padding: 0;
-         }
-      }
-
-   }
-   .btn_box {
-      text-align: center;
-
-      a {
-         font-size: 15px;
-         font-weight: 600;
-         padding: 10px 20px;
-         border-radius: 10px;
-      }
-   }
-}
-
-
-
-
-._info {
+._cards {
    padding: 50px 1rem;
    background-color: rgb(246, 246, 246);
-
-   h3 {
-      color: rgb(118, 80, 213);
-      text-transform: uppercase;
-      font-weight: 900;
-      font-size: 23px;
-   }
 
    .card {
       border-radius: 15px;
       margin-top: 50px;
+      border: none;
       box-shadow: 0px 0px 10px rgb(176, 176, 176);
 
       .box_img {
@@ -343,67 +245,8 @@ export default {
 
 
 
-
-   ._discount {
-      padding: 80px 5rem;
-
-      ._text {
-         width: 80%;
-         text-align: start;
-         font-size: 17px;
-
-         p {
-            margin: 15px;
-            line-height: 24px;
-         }
-      }
-
-      .outer_box {
-         width: 40%;
-         max-width: 350px;
-         height: 150px;
-         padding: 20px;
-         margin: 20px 0 20px 0;
-         border-radius: 18px;
-
-         p {
-            font-size: 12px;
-            padding-bottom: 14px;
-         }
-
-         .inner_box {
-            padding: 10px;
-            border-radius: 15px;
-
-            p {
-               font-size: 25px;
-            }
-         }
-      }
-
-      .btn_box {
-         text-align: start;
-         margin-left: 13px;
-         margin-top: 30px;
-
-         a {
-            font-size: 17px;
-         }
-      }
-   }
-
-
-
-
-
-
-   ._info {
+   ._cards {
       padding: 70px 5rem;
-
-      h3 {
-         text-align: center;
-         font-size: 30px;
-      }
 
       .card {
          height: auto;
@@ -451,10 +294,6 @@ export default {
 
 
 
-
-
-
-
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
 
@@ -462,4 +301,5 @@ export default {
       padding: 80px 20rem;
    }
 }
+
 </style>
