@@ -62,6 +62,13 @@ export default {
   },
   mounted() {
     this.findSlide();
+  },
+
+  // usato perchè al click del btn in our_partner non si caricavano le pagine
+  watch: {
+    '$route.query.name': function() {
+      this.findSlide(); // Ricarica i dati quando `name` cambia
+    }
   }
 };
 </script>
@@ -87,11 +94,6 @@ export default {
     v-if="currentPage === 'scalapay'"
     :data="dataPage" 
   />
-
-
-
-
-
 
 
 

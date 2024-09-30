@@ -10,8 +10,6 @@ import Reviews from '../components/partials/Home Sections/Reviews.vue'
 import Partner from '../components/partials/Home Sections/Partner.vue'
 import Footer from '../components/Footer.vue'
 
-
-
 export default {
   components:{
     Jumbotron_home,
@@ -23,18 +21,9 @@ export default {
     Reviews,
     Partner,
     Footer
-  },
-  data() {
-    return {
-
-    };
-  },
-  methods: {
-
-  },
+  }
 };
 </script>
-
 
 
 

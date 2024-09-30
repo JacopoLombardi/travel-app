@@ -245,7 +245,6 @@
             "title": "Scalapay",
             "name_push": "scalapay",
             "description": "Paga in 3 rate",
-            "href": "",
             "btn_text": "Scopri di più"
          },
          {
@@ -254,7 +253,6 @@
             "title": "KappaFuturFestival",
             "name_push": "kappa_futurfestival",
             "description": "The Future is in Torino!",
-            "href": "",
             "btn_text": "Scopri di più"
          },
          {
@@ -263,7 +261,6 @@
             "title": "Creative Harbour",
             "name_push": "",
             "description": "Lavora in giro per il mondo!",
-            "href": "Lavora in giro per il mondo!",
             "btn_text": "Scopri di più"
          },
          {
@@ -272,7 +269,6 @@
             "title": "Visagov",
             "name_push": "",
             "description": "Ottieni il tuo visto d'ingresso con Visagov",
-            "href": "",
             "btn_text": "Scopri di più"
          },
          {
@@ -281,7 +277,6 @@
             "title": "Instax",
             "name_push": "instax",
             "description": "I tuoi ricordi di viaggio per sempre con te",
-            "href": "",
             "btn_text": "Scopri di più"
          },
          {
@@ -290,7 +285,6 @@
             "title": "Holafly",
             "name_push": "holafly",
             "description": "Con le eSim di Holafly, dati illimitati anche in viaggio!",
-            "href": "",
             "btn_text": "Scopri di più"
          }
       ],

@@ -69,7 +69,7 @@ export default {
                      <p>{{ item.description }}</p>
                   </div>
                   <div class="box_btn mt-3">
-                     <a href="" @click="saveSlideNameAndNavigate(item.name_push)" class="btn btn-warning">{{ item.btn_text }}</a>
+                     <button @click="saveSlideNameAndNavigate(item.name_push)" class="btn btn-warning">{{ item.btn_text }}</button>
                   </div>
                </div>
             </div>
@@ -227,7 +227,7 @@ export default {
             font-size: 14px;
          }
          
-         a {
+         button {
             color: white;
             background-color: rgb(255, 92, 33);
             font-size: 14px;
@@ -414,7 +414,7 @@ export default {
                   line-height: 20px;
                }
                
-               a {
+               button {
                   font-size: 16px;
                }
             }
