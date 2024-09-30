@@ -80,19 +80,19 @@ export default {
   
   <Instax 
     v-if="currentPage === 'instax'"
-    :data="dataPage" 
+    :data="dataPage"
   />
 
 
   <Holafly
     v-if="currentPage === 'holafly'"
-    :data="dataPage" 
+    :data="dataPage"
   />
 
 
   <Scalapay
     v-if="currentPage === 'scalapay'"
-    :data="dataPage" 
+    :data="dataPage"
   />
 
 
@@ -100,13 +100,13 @@ export default {
 
   <Kappa_futurfestival
     v-if="currentPage === 'kappa_futurfestival'"
-    :data="dataPage" 
+    :data="dataPage"
   />
 
 
   <Our_partner
     v-if="currentPage === 'our_partner'"
-    :data="dataPage" 
+    :data="dataPage"
   />
 
   

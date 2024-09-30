@@ -134,7 +134,7 @@ export default {
 ._collaboration {
    color: white;
    padding: 50px 1rem;
-   font-size: 14px;
+   font-size: 13px;
    background-color: rgb(32, 32, 32);
    text-align: center;
 

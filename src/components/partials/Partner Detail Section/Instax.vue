@@ -172,7 +172,7 @@ export default {
 ._collaboration {
    color: white;
    padding: 50px 1rem;
-   font-size: 14px;
+   font-size: 13px;
    background-color: rgb(118, 80, 213);
    display: flex;
    flex-direction: column;

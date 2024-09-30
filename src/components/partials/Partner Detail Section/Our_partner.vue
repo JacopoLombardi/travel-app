@@ -172,7 +172,7 @@ export default {
    p {
       margin-top: 15px;
       line-height: 19px;
-      font-size: 14px;
+      font-size: 13px;
    }
 }
 

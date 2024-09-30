@@ -93,7 +93,11 @@
                "image": "/img/number4 holafly.svg",
                "text": "Connettiti in destinazione!"
             }
-         ]
+         ],
+         "btn": {
+            "href": "https://esim.holafly.com/it/?ref=mmm0mgm&discount=utravel&utm_source=utravelsrl&utm_medium=affiliation&data=05%7C02%7Cdaniele.faustini%40utravel.it%7Cfcecc259961540eef49908dcc1f34b49%7Cddbb2b91a20949cf942b5fad5bd86741%7C0%7C0%7C638598497917444903%7Cunknown%7Ctwfpbgzsb3d8eyjwijoimc4wljawmdailcjqijoiv2lumziilcjbtii6ik1hawwilcjxvci6mn0%3D%7C0%7C%7C%7C&sdata=azfatxjz1xzjbifs6b6yzdv%2Fh5tamignnlzuxuzygsa%3D&reserved=0",
+            "text": "Inizia ora!"
+         }
       }
    },
 
@@ -142,14 +146,6 @@
             {
                "image": "/img/number3 scalapay.svg",
                "text": "Paga subito la prima rata. Le altre 2 ti verranno addebitate nei mesi successivi senza alcun interesse!"
-            },
-            {
-               "image": "/img/number1 scalapay.svg",
-               "text": "Scegli il tuo viaggio preferito e seleziona come modalità di pagamento “Paga in 3 rate con Scalapay”."
-            },
-            {
-               "image": "/img/number2 scalapay.svg",
-               "text": "Inserisci i tuoi dati e segui le indicazioni del sito per procedere con il pagamento."
             },
             {
                "image": "/img/number3 scalapay.svg",
