@@ -1,7 +1,7 @@
 
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Controller } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -16,31 +16,28 @@ export default {
   },
   data() {
     return {
-      modules: [Pagination],
+      modules: [Pagination, Controller],
       firstSwiper: null,
       secondSwiper: null,
+      activeIndex: 0, // Indice della slide attiva
     };
   },
   methods: {
-    onSlideChange(swiper) {
-      console.log("First Swiper Index:", swiper.realIndex); // Log l'indice del primo Swiper
-      if (this.secondSwiper) {
-        this.secondSwiper.slideTo(swiper.realIndex); // Cambia slide nel secondo Swiper
+    setFirstSwiper(swiper) {
+      this.firstSwiper = swiper;
+      if (this.secondSwiper && this.secondSwiper.controller) {
+        this.secondSwiper.controller.control = swiper; 
       }
     },
-    getSwiperRefs() {
-      // Questo metodo ottiene i riferimenti solo dopo il montaggio
-      this.firstSwiper = this.$refs.firstSwiper.swiper;
-      this.secondSwiper = this.$refs.secondSwiper.swiper;
-      console.log("First Swiper:", this.firstSwiper); // Controlla se il riferimento è corretto
-      console.log("Second Swiper:", this.secondSwiper); // Controlla se il riferimento è corretto
+    setSecondSwiper(swiper) {
+      this.secondSwiper = swiper;
+      if (this.firstSwiper && this.firstSwiper.controller) {
+        this.firstSwiper.controller.control = swiper; 
+      }
     },
-  },
-  mounted() {
-    this.$nextTick(() => {
-      // Aspetta che il DOM sia aggiornato prima di ottenere i riferimenti
-      this.getSwiperRefs();
-    });
+    onSlideChange(swiper) {
+      this.activeIndex = swiper.realIndex; // Usa realIndex per ottenere l'indice reale
+    },
   },
 };
 </script>
@@ -50,10 +47,10 @@ export default {
 
 <template>
   <div v-if="data">
-    <!-- jumbotron -->
+    <!-- Jumbotron -->
     <div class="_jumbotron">
       <div class="_box">
-        <img :src="data.jumbotron.image" alt="jumbotron">
+        <img :src="data.jumbotron.image" alt="jumbotron" />
         <div class="box_text">
           <h1>{{ data.jumbotron.title }}</h1>
           <p>{{ data.jumbotron.text }}</p>
@@ -61,48 +58,48 @@ export default {
       </div>
     </div>
 
-    <!-- collaboration -->
+    <!-- Collaboration -->
     <div class="_collaboration">
-      <img :src="data.collaboration.image" alt="">
+      <img :src="data.collaboration.image" alt="" />
       <div>
         <p v-for="item in data.collaboration.text" :key="item" v-html="item"></p>
       </div>
       <a :href="data.collaboration.href" class="btn">Scopri le eSim Holafly</a>
     </div>
 
-    <!-- how work -->
+    <!-- How It Works -->
     <div class="how_work">
       <h3>{{ data.how_work.title }}</h3>
 
-      <!-- mobile -->
+      <!-- Mobile -->
       <div class="d-lg-none">
         <!-- First Swiper -->
         <Swiper
-          ref="firstSwiper"
           :slides-per-view="3"
           :space-between="-30"
           :loop="true"
-          @slideChange="onSlideChange"
           :pagination="true"
           :modules="modules"
+          @swiper="setFirstSwiper"
+          @slideChange="onSlideChange"
         >
           <SwiperSlide
             v-for="(item, index) in data.how_work.cards"
             :key="index"
-            class="swiper-slide-up mt-5"
+            :class="['swiper-slide-up', index === activeIndex ? 'active-slide' : '', 'mt-5']"
           >
             <div class="slide-content-up">
-              <img :src="item.image" alt="">
+              <img :src="item.image" alt=""/>
             </div>
           </SwiperSlide>
         </Swiper>
 
         <!-- Second Swiper -->
         <Swiper
-          ref="secondSwiper"
           :slides-per-view="1"
           :space-between="50"
           :loop="true"
+          @swiper="setSecondSwiper"
         >
           <SwiperSlide
             v-for="(item, index) in data.how_work.cards"
