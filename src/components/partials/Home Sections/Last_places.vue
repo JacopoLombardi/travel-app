@@ -69,7 +69,7 @@ export default {
      class="last_places text-white mb-5"
      :style="{backgroundImage: `url(${currentBackground})`}"
    >
-      <h4 class="col-12">Ultimi posti per la tua estate</h4>
+      <h4>Ultimi posti per la tua estate</h4>
 
       <div class="external_card">
          <swiper
@@ -88,7 +88,7 @@ export default {
 
                <!-- Usa il metodo per salvare i dati e navigare -->
                <div class="_card">
-                  <a href="#" @click.prevent="saveSlideNameAndNavigate(slide.name)" class="slide-link text-white">
+                  <a href="" @click.prevent="saveSlideNameAndNavigate(slide.name)" class="slide-link text-white">
                      <h2>{{ slide.name }}</h2>
                      <p>a Partire da {{ slide.price }} €</p>
                      <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
@@ -108,8 +108,9 @@ export default {
 <style lang="scss" scoped>
 
 .last_places {
+   padding: 50px 0;
    position: relative;
-   height: 600px;
+   height: 500px;
    display: flex;
    justify-content: center;
 
@@ -122,9 +123,6 @@ export default {
       font-weight: 800;
       text-transform: uppercase;
       text-align: center;
-      max-width: 100%;
-      margin: 50px 20px 0 20px;
-      position: absolute;
    }
 
    .external_card {
@@ -188,7 +186,10 @@ export default {
 
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
+
    .last_places {
+      padding: 60px;
+      height: 600px;
 
       h4 {
          font-size: 25px;
@@ -214,7 +215,10 @@ export default {
 
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
+
    .last_places {
+      padding: 80px;
+      height: 700px;
 
       h4 {
          font-size: 30px;

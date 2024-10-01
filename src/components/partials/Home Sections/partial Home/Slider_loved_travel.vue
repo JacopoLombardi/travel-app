@@ -131,6 +131,7 @@ export default {
 
 
 <style lang="scss" scoped>
+
 $border-radius: 20px;
 
 .card {
@@ -242,7 +243,7 @@ $border-radius: 20px;
             right: 7%;
          }
       }
-   }
+    }
 }
 
 </style>

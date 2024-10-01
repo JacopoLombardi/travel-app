@@ -24,7 +24,6 @@ export default {
 
     <div class="_rate d-flex justify-content-between">
       <div class="col-lg-1 d-none d-lg-block">
-
       </div>
 
       <div class="col-lg-1">
@@ -131,6 +130,8 @@ export default {
 @media (min-width: 992px) {
 
   ._reviews {
+    padding: 80px 5rem;
+    
     h4 {
       font-size: 35px;
       text-align: center;

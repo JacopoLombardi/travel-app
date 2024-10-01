@@ -178,6 +178,33 @@
 
 
 
+   "our_philosophy": {
+      "title": "La nostra filosofia di viaggio",
+      "cards": [
+         {
+            "image": "/img/Stay.svg",
+            "title": "stay",
+            "text": "Scopri un meraviglioso luogo d'incontro e di scambio tra viaggiatori come te e le comunità locali."
+         },
+         {
+            "image": "/img/Connect.svg",
+            "title": "connect",
+            "text": "Stringi nuovi legami con luoghi e persone e crea ricordi che dureranno per sempre."
+         },
+         {
+            "image": "/img/Explore.svg",
+            "title": "explore",
+            "text": "Fai del mondo la tua casa e conosci nuovi posti in modo autentico."
+         }
+      ]
+   },
+
+
+
+
+
+
+
 
 
 

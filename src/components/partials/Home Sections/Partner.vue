@@ -99,7 +99,7 @@ export default {
 <style lang="scss" scoped>
 
 ._partner {
-   margin: 50px 0;
+   padding: 50px 0;
 
    h4 {
       font-weight: 800;
@@ -181,7 +181,7 @@ export default {
 @media (min-width: 768px) {
    
    ._partner {
-      margin: 90px 10%;
+      padding: 50px 3rem;
 
       h4 {
          font-size: 32px;
@@ -201,6 +201,8 @@ export default {
 @media (min-width: 992px) {
 
    ._partner {
+      padding: 80px 5rem;
+
       .card {
          .card-body {
             span {

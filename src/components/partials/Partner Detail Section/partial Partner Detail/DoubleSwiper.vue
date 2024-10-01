@@ -68,9 +68,9 @@ export default {
             class="_swiper"
          >
             <SwiperSlide
-            v-for="(item, index) in data.how_work.cards"
-            :key="index"
-            :class="['swiper-slide-up', index === activeIndex ? 'active-slide' : '', 'mt-5']"
+               v-for="(item, index) in data.how_work.cards"
+               :key="index"
+               :class="['swiper-slide-up', index === activeIndex ? 'active-slide' : '', 'mt-5']"
             >
                <div class="slide-content-up">
                   <img :src="item.image" alt=""/>
@@ -86,8 +86,8 @@ export default {
             @swiper="setSecondSwiper"
          >
             <SwiperSlide
-            v-for="(item, index) in data.how_work.cards"
-            :key="index"
+               v-for="(item, index) in data.how_work.cards"
+               :key="index"
             >
                <div class="swiper-slide-down px-5 mt-5">
                   <h4>{{ item.title }}</h4>

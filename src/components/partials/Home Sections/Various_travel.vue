@@ -188,7 +188,6 @@ export default {
 
   /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
   @media (min-width: 768px) {
-    margin: 100px 6rem 50px;
 
     .card {
       flex-wrap: wrap;
@@ -196,7 +195,6 @@ export default {
       margin: 10px;
 
       .card-body {
-
         span {
           font-size: 16px;
           font-weight: 700;
@@ -233,6 +231,21 @@ export default {
       width: calc(50% - 20px);
     }
   }
+}
+
+
+
+
+
+
+/* Media query per dispositivi con larghezza maggiore o uguale a 992px */
+@media (min-width: 992px) {
+
+  .flash-offer {
+    margin: 80px 5rem;
+  }
+
+
 }
 
 </style>

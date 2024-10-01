@@ -118,7 +118,7 @@ export default {
 
 ._university {
    background-color: rgba(176, 199, 255, 0.438);
-   padding: 50px 0 70px;
+   padding: 50px 1rem;
 
    ._title {
       margin-bottom: 40px;
@@ -204,8 +204,6 @@ export default {
 @media (min-width: 768px) {
 
    ._university {
-      padding: 70px 0 70px 25px;
-
       ._title {
          display: flex;
          flex-direction: column;
@@ -290,6 +288,8 @@ export default {
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
    ._university {
+      padding: 80px 5rem;
+      
       .card {
          .card-body {
             .bg_hidden {

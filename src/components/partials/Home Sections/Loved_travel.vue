@@ -55,6 +55,7 @@ export default {
 
 
 <style lang="scss" scoped>
+
 $border-radius: 20px;
 
 ._travel_loved {
@@ -92,7 +93,7 @@ $border-radius: 20px;
 @media (min-width: 992px) {
 
   ._travel_loved {
-    padding-left: 5rem;
+    padding: 80px 0 80px 5rem;
 
     ._title {
       background-color: rgb(255, 255, 255);

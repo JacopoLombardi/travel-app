@@ -1,7 +1,12 @@
 
 <script>
+import HomePage_data from '../../../data/json_data/HomePage_data.json';
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Pagination, Controller } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 export default {
   components: {
@@ -10,26 +15,29 @@ export default {
   },
   data() {
     return {
-      slides: [
-        { icon: 'Stay.svg', name: 'stay', description: 'Scopri un meraviglioso luogo d\'incontro e di scambio tra viaggiatori come te e le comunità locali.' },
-        { icon: 'Connect.svg', name: 'connect', description: 'Stringi nuovi legami con luoghi e persone e crea ricordi che dureranno per sempre.' },
-        { icon: 'Explore.svg', name: 'explore', description: 'Fai del mondo la tua casa e conosci nuovi posti in modo autentico.' },
-        // { icon: 'Stay.svg', name: 'stay', description: 'Scopri un meraviglioso luogo d\'incontro e di scambio tra viaggiatori come te e le comunità locali.' },
-        // { icon: 'Connect.svg', name: 'connect', description: 'Stringi nuovi legami con luoghi e persone e crea ricordi che dureranno per sempre.' },
-        // { icon: 'Explore.svg', name: 'explore', description: 'Fai del mondo la tua casa e conosci nuovi posti in modo autentico.' },
-      ],
-      activeIndex: 0,
+      dataSlide: HomePage_data.our_philosophy,
+      modules: [Pagination, Controller],
+      firstSwiper: null,
+      secondSwiper: null,
+      activeIndex: 0 // Indice della slide attiva
     };
   },
   methods: {
-    updateActiveIndex(swiper) {
-      this.activeIndex = swiper.realIndex;
+    setFirstSwiper(swiper) {
+      this.firstSwiper = swiper;
+      if (this.secondSwiper && this.secondSwiper.controller) {
+        this.secondSwiper.controller.control = swiper; 
+      }
     },
-  },
-  computed: {
-    filteredSlides() {
-      return this.slides.slice(0, 3); // Restituisce solo i primi 3 elementi dell'array
-    }
+    setSecondSwiper(swiper) {
+      this.secondSwiper = swiper;
+      if (this.firstSwiper && this.firstSwiper.controller) {
+        this.firstSwiper.controller.control = swiper; 
+      }
+    },
+    onSlideChange(swiper) {
+      this.activeIndex = swiper.realIndex; // Usa realIndex per ottenere l'indice reale
+    },
   }
 };
 </script>
@@ -37,10 +45,9 @@ export default {
 
 
 
-
 <template>
   <div class="our_philosophy">
-    <h4>La nostra filosofia di viaggio</h4>
+    <h4>{{ dataSlide.title }}</h4>
 
     <!-- mobile -->
     <div class="d-lg-none">
@@ -50,16 +57,19 @@ export default {
         :slides-per-view="3"
         :space-between="-30"
         :loop="true"
-        @slideChange="updateActiveIndex"
+        :pagination="true"
+        :modules="modules"
+        @swiper="setFirstSwiper"
+        @slideChange="onSlideChange"
       >
         <SwiperSlide
-          v-for="(slide, index) in slides"
+          v-for="(item, index) in dataSlide.cards"
           :key="index"
-          :class="{ 'active-slide': index === activeIndex }"
+          :class="['swiper-slide-up', index === activeIndex ? 'active-slide' : '', 'mt-5']"
           class="swiper-slide-up mt-5"
         >
           <div class="slide-content-up">
-            <img :src="`/img/${slide.icon}`" :alt="slide.name">
+            <img :src="item.image" :alt="item.title">
           </div>
         </SwiperSlide>
       </Swiper>
@@ -69,15 +79,15 @@ export default {
         :slides-per-view="1"
         :space-between="50"
         :loop="true"
-        @slideChange="updateActiveIndex"
+        @swiper="setSecondSwiper"
       >
         <SwiperSlide
-          v-for="(slide, index) in slides"
+          v-for="(item, index) in dataSlide.cards"
           :key="index"
         >
           <div class="swiper-slide-down px-5 mt-5">
-            <h5>{{ slide.name }}</h5>
-            <p>{{ slide.description }}</p>
+            <h5>{{ item.title }}</h5>
+            <p>{{ item.text }}</p>
           </div>
         </SwiperSlide>
       </Swiper>
@@ -89,18 +99,17 @@ export default {
     <div class="container d-none d-lg-flex justify-content-center">
       <div
         class="_desk col-3 text-center mx-5 mt-5"
-        v-for="(slide, index) in filteredSlides"
+        v-for="(item, index) in dataSlide.cards"
         :key="index"
       >
-        <img :src="`/img/${slide.icon}`" :alt="slide.name">
-        <h5 class="mt-3">{{ slide.name }}</h5>
-        <p class="fs-6">{{ slide.description }}</p>
+        <img :src="item.image" :alt="item.title">
+        <h5 class="mt-3">{{ item.title }}</h5>
+        <p class="fs-6">{{ item.text }}</p>
       </div>
     </div>
 
   </div>
 </template>
-
 
 
 
@@ -160,22 +169,24 @@ export default {
 
 /* Media query per dispositivi con larghezza minore o uguale a 370px */
 @media (max-width: 370px) {
-  .our_philosophy {
-  .swiper-slide-up {
-    line-height: 70px;
-    height: 75px;
 
-    .slide-content-up {
-      img {
-        width: 45px;
+  .our_philosophy {
+    .swiper-slide-up {
+      line-height: 70px;
+      height: 75px;
+
+      .slide-content-up {
+        img {
+          width: 45px;
+        }
+      }
+
+      &.active-slide img {
+        width: 70px;
       }
     }
+  }
 
-    &.active-slide img {
-      width: 70px;
-    }
-  }
-  }
 }
 
 
@@ -184,6 +195,7 @@ export default {
 @media (min-width: 992px) {
 
   .our_philosophy {
+    padding: 80px 5rem;
     h4 {
       font-size: 32px;
 
