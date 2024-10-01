@@ -1,8 +1,10 @@
 <script>
+import Jumbotron from './partial Partner Detail/Jumbotron.vue';
 import DoubleSwiper from './partial Partner Detail/DoubleSwiper.vue';
 
 export default {
   components: {
+   Jumbotron,
    DoubleSwiper
   },
   props: {
@@ -25,31 +27,25 @@ export default {
 <template>
   <div v-if="data">
 
-    <!-- jumbotron -->
-    <div class="_jumbotron">
-      <div class="_box">
-        <img :src="data.jumbotron.image" alt="jumbotron">
-        <div class="box_text">
-          <h1>{{ data.jumbotron.title }}</h1>
-          <p>{{ data.jumbotron.text }}</p>
-        </div>
-      </div>
-    </div>
+   <!-- componente jumbotron -->
+   <Jumbotron
+      :data="data" 
+   />
 
 
-    <!-- collaboration -->
-    <div class="_collaboration">
+   <!-- collaboration -->
+   <div class="_collaboration">
       <img :src="data.collaboration.image" alt="">
       <div>
-        <p v-for="item in data.collaboration.text" :key="item" v-html="item"></p>
+         <p v-for="item in data.collaboration.text" :key="item" v-html="item"></p>
       </div>
-    </div>
+   </div>
 
 
-    <!-- componente swiper -->
-    <DoubleSwiper
+   <!-- componente swiper -->
+   <DoubleSwiper
       :data="data"
-    />
+   />
 
   </div>
 </template>
@@ -135,31 +131,8 @@ export default {
 
 
 
-
-
-
-
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
-
-   ._jumbotron {
-      ._box {
-         img {
-            height: 550px;
-         }
-         .box_text {
-            width: 90%;
-
-            p {
-               font-size: 20px;
-               font-weight: 500;
-            }
-         }  
-      }
-   }
-
-
-
 
    ._collaboration {
       padding: 60px 5rem 80px 5rem;
@@ -181,10 +154,5 @@ export default {
       }
    }
 
-
-
-
 }
-
-
 </style>
