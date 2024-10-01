@@ -1,9 +1,9 @@
 <script>
-import DubleSwiper from './partial Partner Detail/DubleSwiper.vue';
+import DoubleSwiper from './partial Partner Detail/DoubleSwiper.vue';
 
 export default {
   components: {
-    DubleSwiper
+   DoubleSwiper
   },
   props: {
     data: Object,
@@ -47,7 +47,7 @@ export default {
 
 
     <!-- componente swiper -->
-    <DubleSwiper
+    <DoubleSwiper
       :data="data"
     />
 

@@ -1,10 +1,10 @@
 
 <script>
-import DubleSwiper from './partial Partner Detail/DubleSwiper.vue';
+import DoubleSwiper from './partial Partner Detail/DoubleSwiper.vue';
 
 export default {
   components: {
-    DubleSwiper
+    DoubleSwiper
   },
   props: {
     data: Object,
@@ -16,7 +16,7 @@ export default {
   },
   methods: {
   
-  },
+  }
 };
 </script>
 
@@ -45,12 +45,10 @@ export default {
       <a :href="data.collaboration.href" class="btn">Scopri le eSim Holafly</a>
     </div>
 
-
     <!-- componente swiper -->
-    <DubleSwiper
+    <DoubleSwiper
       :data="data"
     />
-
 
   </div>
 </template>
@@ -135,8 +133,6 @@ export default {
 
 
 
-
-
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
 
@@ -179,9 +175,6 @@ export default {
          font-size: 16px;
       }
    }
-
-
-
 
 
 }

@@ -5,6 +5,7 @@ import Partner_detail_data from '../data/json_data/Partner_detail_data.json'
 import Instax from "../components/partials/Partner Detail Section/Instax.vue"
 import Holafly from "../components/partials/Partner Detail Section/Holafly.vue"
 import Scalapay from "../components/partials/Partner Detail Section/Scalapay.vue"
+import Creative_harbour from "../components/partials/Partner Detail Section/Creative_harbour.vue"
 import Kappa_futurfestival from "../components/partials/Partner Detail Section/Kappa_futurfestival.vue"
 import Our_partner from "../components/partials/Partner Detail Section/Our_partner.vue"
 
@@ -15,6 +16,7 @@ export default {
     Instax,
     Holafly,
     Scalapay,
+    Creative_harbour,
     Kappa_futurfestival,
     Our_partner,
     Footer
@@ -33,6 +35,7 @@ export default {
         "instax": "instax",
         "holafly": "holafly",
         "scalapay": "scalapay",
+        "creative_harbour": "creative_harbour",
         "kappa_futurfestival": "kappa_futurfestival",
         "our_partner": "our_partner"
       };
@@ -96,7 +99,10 @@ export default {
   />
 
 
-
+  <Creative_harbour
+    v-if="currentPage === 'creative_harbour'"
+    :data="dataPage"
+  />
 
   <Kappa_futurfestival
     v-if="currentPage === 'kappa_futurfestival'"

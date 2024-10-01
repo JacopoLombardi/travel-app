@@ -1,7 +1,11 @@
 
 <script>
+import DoubleSwiper from './partial Partner Detail/DoubleSwiper.vue';
 
 export default {
+   components: {
+      DoubleSwiper
+   },
    props: {
       data: Object
    },
@@ -29,59 +33,72 @@ export default {
 
 
 <template>
-   <div v-if="data">
-
-      <!-- jumbotron -->
-      <div class="_jumbotron">
-         <div class="_box">
-            <img
-               :src="data.jumbotron.image"
-               alt="jumbotron">
-            <div class="box_text">
-               <h1>{{ data.jumbotron.title }}</h1>
-               <p>{{ data.jumbotron.text }}</p>
-            </div>
+  <!-- jumbotron -->
+  <div class="_jumbotron">
+      <div class="_box">
+         <img
+            :src="data.jumbotron.image"
+            alt="jumbotron">
+         <div class="box_text">
+            <h1>{{ data.jumbotron.title }}</h1>
+            <p>{{ data.jumbotron.text }}</p>
          </div>
       </div>
-
-
-      <!-- collaboration -->
-      <div class="_collaboration">
-         <h3>{{ data.collaboration.title }}</h3>
-         <div>
-            <p 
-               v-for="item in data.collaboration.text"
-               :key="item"
-               v-html="item"
-            ></p>
-         </div>
-      </div>
-
-
-      <!-- cards -->
-      <div class="_cards round">
-         <div
-           v-for="(item, index) in data.cards"
-           :key="item"
-           class="card"
-           :class="[index % 2 === 0 ? 'flex-md-row' : 'flex-md-row-reverse']"
-         >
-            <div class="box_img">
-               <img
-                  :src="item.image"
-                  alt=""
-                  :class="(windowWidth > 768) ? (index % 2 === 0 ? 'rounded-end-0' : 'rounded-start-0') : ''"
-               >
-            </div>
-            <div class="box_text">
-               <h5>{{ item.title }}</h5>
-               <p v-html="item.description"></p>
-               <a v-if="item.btn_text != false" :href="item.href" class="btn btn-dark">{{ item.btn_text }}</a>
-            </div>
-         </div>
-      </div>
-
    </div>
+
+
+   <!-- collaboration -->
+   <div class="_collaboration">
+      <h3>{{ data.collaboration.title }}</h3>
+      <div>
+         <p 
+            v-for="item in data.collaboration.text"
+            :key="item"
+            v-html="item"
+         ></p>
+      </div>
+
+      <a href="https://creativeharbour.io/" class="btn">Lavora in giro per il mondo!</a>
+   </div>
+
+
+   <!-- componente swiper -->
+   <DoubleSwiper
+      :data="data"
+    />
+
+
+    <!-- cards -->
+    <div class="_cards round">
+      <div
+         v-for="(item, index) in data.cards"
+         :key="item"
+         class="card"
+         :class="[index % 2 === 0 ? 'flex-md-row' : 'flex-md-row-reverse']"
+      >
+         <div class="box_img">
+            <img
+               :src="item.image"
+               alt=""
+               :class="(windowWidth > 768) ? (index % 2 === 0 ? 'rounded-end-0' : 'rounded-start-0') : ''"
+            >
+         </div>
+         <div class="box_text">
+            <h5>{{ item.title }}</h5>
+            <p v-html="item.description"></p>
+            <ul>
+               <li
+                  v-for="item in item.list"
+                  :key="item"
+               >
+                  {{ item }}
+               </li>
+            </ul>
+            <a v-if="item.btn_text != false" :href="item.href" class="btn">{{ item.btn_text }}</a>
+         </div>
+      </div>
+   </div>
+
 </template>
 
 
@@ -134,7 +151,7 @@ export default {
    color: white;
    padding: 50px 1rem;
    font-size: 13px;
-   background-color: rgb(32, 32, 32);
+   background-color: rgb(5, 19, 31);
    text-align: center;
 
    h3 {
@@ -146,6 +163,15 @@ export default {
    p {
       margin-top: 15px;
       line-height: 19px;
+   }
+
+   a {
+      color: white;  
+      background-color: rgb(255, 145, 0);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 15px;
+      margin-top: 40px;
    }
 }
 
@@ -181,13 +207,26 @@ export default {
          }
 
          p {
+            color: rgb(129, 129, 129);
             font-size: 13px;
             line-height: 19px;
             margin: 20px 0;
          }
 
+         ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 20px;
+
+            li {
+               font-size: 14px;
+               color: rgb(129, 129, 129);
+            }
+         }
+
          a {
             color: white;
+            background-color: rgb(255, 136, 0);
             font-size: 15px;
             font-weight: 600;
             padding: 8px 17px;
@@ -275,13 +314,19 @@ export default {
                margin: 25px 0;
             }
 
+            ul {
+               li {
+                  font-size: 16px;
+               }
+            }
+
             a {
                font-size: 17px;
             }
          }
       }
    }
-}
 
+}
 
 </style>

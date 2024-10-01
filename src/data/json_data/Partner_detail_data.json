@@ -52,9 +52,6 @@
 
 
 
-
-
-
    "holafly": {
       "jumbotron": {
          "image": "https://images.prismic.io/blind/Zth71Lzzk9ZrW_aF_Hero-Holafly.jpg?auto=format%2Ccompress&fit=max&w=640&q=100",
@@ -76,6 +73,7 @@
       },
       "how_work": {
          "title": "Come funziona l'esim holafly",
+         "color_title": "rgb(230, 72, 92)",
          "cards": [
             {
                "image": "/img/number1 holafly.svg",
@@ -109,11 +107,6 @@
 
 
 
-
-
-
-
-
    "scalapay": {
       "jumbotron": {
          "image": "https://images.prismic.io/blind/654104610b105250cf53c521_Hero.png?auto=format%2Ccompress&fit=max&w=640&q=100",
@@ -134,6 +127,7 @@
       },
       "how_work": {
          "title": "Come funziona scalapay",
+         "color_title": "rgb(0, 0, 0)",
          "cards": [
             {
                "image": "/img/number1 scalapay.svg",
@@ -142,10 +136,6 @@
             {
                "image": "/img/number2 scalapay.svg",
                "text": "Inserisci i tuoi dati e segui le indicazioni del sito per procedere con il pagamento."
-            },
-            {
-               "image": "/img/number3 scalapay.svg",
-               "text": "Paga subito la prima rata. Le altre 2 ti verranno addebitate nei mesi successivi senza alcun interesse!"
             },
             {
                "image": "/img/number3 scalapay.svg",
@@ -163,11 +153,80 @@
 
 
 
+   "creative_harbour": {
+      "jumbotron": {
+         "image": "https://images.prismic.io/blind/65a8ed9c7a5e8b1120d5a508_CreativeHarbour.jpg?auto=format%2Ccompress&fit=max&w=1920&q=100",
+         "title": "Sei un Remote Worker?",
+         "text": "Lavora in giro per il mondo!"
+      },
+      "collaboration": {
+         "image": "/img/logo utravel x scalapay.svg",
+         "text": [
+            "“Lavorare stanca”, diceva Cesare Pavese. Siamo però convinti che farlo da bordo piscina e in una destinazione da sogno ti possa dare il giusto boost per la tua energia!",
 
+            "Insieme a Creative Harbour, permettiamo ai nomadi digitali di lavorare in giro per il mondo in una delle strutture esclusive Utravel | NaoClub.",
 
+            "La tua prossima riunione potrebbe essere direttamente da Fuerteventura, Marrakech o Sharm El-Sheikh!"
+         ]
+      },
+      "how_work": {
+         "title": "Il cuore di Creative Harbour",
+         "color_title": "rgb(0, 0, 0)",
+         "cards": [
+            {
+               "image": "https://blind.cdn.prismic.io/blind/65a8f06a7a5e8b1120d5a51f_IconaVivi.svg?auto=compress%2Cformat&fit=max&w=1200",
+               "title": "Vivi",
+               "text": "Vivi una vita che meriti di essere vissuta."
+            },
+            {
+               "image": "https://blind.cdn.prismic.io/blind/65a8f0687a5e8b1120d5a51d_IconaLavora.svg?auto=compress%2Cformat&fit=max&w=1200",
+               "title": "Lavora",
+               "text": "Lavora da remoto esplorando il mondo."
+            },
+            {
+               "image": "https://blind.cdn.prismic.io/blind/65a8f0697a5e8b1120d5a51e_IconaViaggia.svg?auto=compress%2Cformat&fit=max&w=1200",
+               "title": "Viaggia",
+               "text": "Esplora luoghi e culture e fatti ispirare."
+            },
+            {
+               "image": "https://blind.cdn.prismic.io/blind/65a8f0677a5e8b1120d5a51c_IconaConnetti.svg?auto=compress%2Cformat&fit=max&w=1200",
+               "title": "Connettiti",
+               "text": "Conosci persone come te, stringi legami che durano nel tempo."
+            },
+            {
+               "image": "https://blind.cdn.prismic.io/blind/65a8f06b7a5e8b1120d5a520_Icona.svg?auto=compress%2Cformat&fit=max&w=1920",
+               "title": "Esplora",
+               "text": "Per scoprire destinazioni da sogno, anche mentre stai lavorando."
+            }
+         ]
+      },
+      "cards": [
+         {
+            "image": "https://images.prismic.io/blind/65a8f1bc7a5e8b1120d5a52d_CreativeHarbour.jpg?auto=format%2Ccompress&fit=max&w=640",
+            "title": "Perché partire con noi?",
+            "description": "<b> Change our mind </b>: lavorare con vista mare è molto meglio di farlo dal divano di casa tua. Oltre ad essere in destinazioni da sogno, le strutture Utravel sono attrezzate per garantire ai remote worker tutto il comfort necessario poter lavorare senza pensieri!",
+            "list": [
+               "Prese e postazioni per PC",
 
+               "Spazi comuni per condividere le pause con altri Remote Workers",
 
+               "Connessione WiFi",
 
+               "Tanta voglia di festeggiare il post-lavoro!"
+            ],
+            "href": "https://creativeharbour.io/",
+            "btn_text": "Scopri Creative Harbour!"
+         },
+         {
+            "image": "https://images.prismic.io/blind/65a8f3ae7a5e8b1120d5a547_CreativeHarbour7.jpg?auto=format%2Ccompress&fit=max&w=640",
+            "title": "Retreat per i tuoi dipendenti: mandali in giro per il mondo!",
+            "description": [
+               "<p> Creative Harbour offre anche <b> retreat aziendali </b> e organizza <b> settimane comunitarie </b> in giro per il mondo. Immagina: una settimana di team building sulla spiaggia di Fuerte o in mezzo al deserto. </p> <p class=\"mt-3\"> Per una volta niente pizzata in ufficio come team building, ma aperitivo sulla spiaggia di Fuerte o passeggiata nel deserto! </p>"
+            ],
+            "btn_text": false
+         }
+      ]
+   },
 
 
 
@@ -201,14 +260,12 @@
          {
             "image": "https://images.prismic.io/blind/659d1935531ac2845a273d2c_BoxKappa2768x461.jpeg?auto=format%2Ccompress&fit=max&w=3840",
             "title": "Official Hospitality Partner",
-            "description": "In occasione del Kappa FuturFestival ci occuperemo di fornire la       sistemazioni in hotel per chi dal 5 al 7 luglio parteciperà al festival per ascoltare decine di artisti del calibro di: Tiësto, Skrillex, Carl Cox, Nina Kraviz, Tale Of Us e molti altri.",
+            "description": "In occasione del Kappa FuturFestival ci occuperemo di fornire la sistemazioni in hotel per chi dal 5 al 7 luglio parteciperà al festival per ascoltare decine di artisti del calibro di: Tiësto, Skrillex, Carl Cox, Nina Kraviz, Tale Of Us e molti altri.",
             "href": "https://hotel.kappafuturfestival.it/it?from=2025-07-04&to=2025-07-06&adults=1",
             "btn_text": "Prenota il tuo hotel"
          }
       ]
    },
-
-
 
 
 
@@ -314,9 +371,6 @@
          ]
       }
    }
-
-
-
 
 
 

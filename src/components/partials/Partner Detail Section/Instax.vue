@@ -199,7 +199,7 @@ export default {
 
    ._text {
       text-align: center;
-      font-size: 14px;
+      font-size: 13px;
 
       p {
          margin: 15px;
@@ -215,7 +215,7 @@ export default {
       p {
          text-align: center;
          color: white;
-         font-size: 12px;
+         font-size: 13px;
          padding-bottom: 14px;
       }
 
