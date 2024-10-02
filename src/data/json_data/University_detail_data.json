@@ -1,0 +1,136 @@
+{
+   "slides": [
+
+
+
+
+
+      {
+         "jumbotron": {
+            "title": "wow",
+            "description": "under 30 exclusive",
+            "image": "https://images.prismic.io/blind/654124c10b105250cf53c57c_HighAngleBoatonBlueOcean.jpg?auto=format%2Ccompress&fit=max&w=1200&q=100",
+            "travel_images": [
+               {
+                  "url_destination": [
+                     "https://images.prismic.io/blind/65357071fbd9a45bcec822aa_madagascar-1200x505.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/6541099e0b105250cf53c530_kenya-gallery3.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65357078fbd9a45bcec822ab_thailand-1200x505.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/6535707efbd9a45bcec822ac_viet-1200x505.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65357086fbd9a45bcec822ad_oman-1200x505.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65357091fbd9a45bcec822ae_zanzibar-1200x505.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/653570a2fbd9a45bcec822af_mauritius-1200x505.jpg?auto=format,compress"
+                  ]
+               }
+            ]
+         }
+
+         
+
+      
+      },
+
+
+
+
+
+
+
+
+
+
+
+      {
+         "jumbotron": {
+            "title": "yeah",
+            "description": "under 30 exclusive",
+            "image": "https://images.prismic.io/blind/653a32860b105250cf53b074_HeroYeah.jpeg?auto=format%2Ccompress&fit=max&w=640&q=100",
+            "travel_images": [
+               {
+                  "url_destination": [
+                     "https://images.unsplash.com/photo-1569700946659-fe1941c71fe4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOXx8c2FvbmElMkJpc2xhbmR8ZW58MHx8fHwxNjk4MzEyMTU3fDA&ixlib=rb-4.0.3&q=85",
+
+                     "https://images.unsplash.com/photo-1532449637670-ba23a300b8ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHxjZW5vdGV8ZW58MHx8fHwxNjk4MzEyMTk2fDA&ixlib=rb-4.0.3&q=85",
+
+                     "https://images.prismic.io/blind/6533fd36fbd9a45bcec82224_capoverde.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/Zmw-Mpm069VX1wnO_CUBA-VARADERO-1-1200x900-Medium.jpg?auto=format,compress",
+
+                     "https://images.unsplash.com/photo-1605216663980-b7ca6e9f2451?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHx0dWx1bXxlbnwwfHx8fDE2OTgzMTIyNTF8MA&ixlib=rb-4.0.3&q=85",
+
+                     "https://images.unsplash.com/photo-1651510709022-e3b9d1e32950?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw3fHxjYXJhaWJpfGVufDB8fHx8MTY5ODMxMjM1Mnww&ixlib=rb-4.0.3&q=85",
+
+                     "https://images.unsplash.com/photo-1611946022552-d2ca5ffba186?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw0fHxjYXJhaWJlfGVufDB8fHx8MTY5ODMxMjQzMnww&ixlib=rb-4.0.3&q=85"
+                  ]
+               }
+            ]
+         }
+
+         
+
+      
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+         "jumbotron": {
+            "title": "mediterraneo",
+            "description": "under 30 exclusive",
+            "image": "https://images.prismic.io/blind/653407bafbd9a45bcec82240_Mediterraneo.jpg?auto=format%2Ccompress&fit=max&w=640&q=100",
+            "travel_images": [
+               {
+                  "url_destination": [
+                     "https://images.prismic.io/blind/65340a87fbd9a45bcec82242_Naxos_1.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65340a8ffbd9a45bcec82243_creta_2.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65340a96fbd9a45bcec82244_creta_2-1.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65340a9efbd9a45bcec82245_rodi_1.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65340aa7fbd9a45bcec82246_copertina.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65340a6efbd9a45bcec82241_minorca_1.jpg?auto=format,compress",
+
+                     "https://images.prismic.io/blind/65340ac1fbd9a45bcec82247_rodi.jpg?auto=format,compress"
+                  ]
+               }
+            ]
+         }
+
+         
+
+      
+      }
+
+
+
+
+
+
+
+
+
+
+
+   ]
+}

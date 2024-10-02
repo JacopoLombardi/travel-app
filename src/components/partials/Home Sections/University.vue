@@ -33,6 +33,10 @@ export default {
         this.spaceBetween = 15;
       }
     },
+    saveSlideNameAndNavigate(name) {
+      // Naviga alla pagina di dettaglio con il parametro 'name'
+      this.$router.push({ name: 'University_detail', query: { name: name } });
+    }
   },
   mounted() {
     this.updateSlidesPerView();
@@ -69,16 +73,22 @@ export default {
             :key="index"
          >
             <div class="card">
-               <img :src="slide.image" class="card-img-top" alt="">
-               <div class="card-body">
-                  <div class="card-body-title">
-                     <h5 class="card-title">{{slide.name}}</h5>
-                     <p class="card-text">da {{slide.price}}€</p>
+               <a
+                  href=""
+                  @click.prevent="saveSlideNameAndNavigate(slide.name)"
+                  class="slide-link text-white"
+               >
+                  <img :src="slide.image" class="card-img-top" alt="">
+                  <div class="card-body">
+                     <div class="card-body-title">
+                        <h5 class="card-title">{{slide.name}}</h5>
+                        <p class="card-text">da {{slide.price}}€</p>
+                     </div>
+                     <button class="btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                     </button>
                   </div>
-                  <button class="btn">
-                     <i class="fa-solid fa-chevron-right"></i>
-                  </button>
-               </div>
+               </a>
             </div>
          </SwiperSlide>
       </Swiper>

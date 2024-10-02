@@ -64,7 +64,7 @@ export default {
         <div class="card">
 
           <a
-            href="#"
+            href=""
             @click.prevent="saveSlideNameAndNavigate(slide.name_push)"
             class="slide-link text-white"
           >

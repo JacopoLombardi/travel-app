@@ -62,7 +62,7 @@ export default {
     width: 100%;
     height: 450px;
     object-fit: cover;
-    filter: brightness(70%);
+    filter: brightness(80%);
   }
 
   ._title {
