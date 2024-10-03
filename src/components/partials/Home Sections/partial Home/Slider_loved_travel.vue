@@ -97,14 +97,14 @@ export default {
 
         <!-- Usa il metodo per salvare i dati e navigare -->
         <a
-          href="#"
+          href=""
           @click.prevent="saveSlideNameAndNavigate(slide.name)"
           class="slide-link text-white"
         >
           <img :src="slide.image" :alt="slide.name">
 
           <!-- mobile / tablet -->
-          <div class="card-body-mobile card-body d-lg-none">
+          <div class="card-body-mobile d-lg-none">
             <h5>{{ slide.name }}</h5>
             <p class="fw-semibold">Da {{ slide.price }}€</p>
             
@@ -136,7 +136,7 @@ $border-radius: 20px;
 
 .card {
    width: 100%;
-   height: 19.6rem;
+   height: 18.9rem;
    color: white;
    margin: 0 10px;
    border: none;
@@ -144,7 +144,7 @@ $border-radius: 20px;
 
    img {
       width: 100%;
-      height: 230px;
+      height: 235px;
       object-fit: cover;
       border-top-left-radius: $border-radius;
       border-top-right-radius: $border-radius;
@@ -155,11 +155,16 @@ $border-radius: 20px;
       background-color: rgb(255, 94, 0);
       border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
+      padding: 13px;
 
       h5 {
          font-size: 15px;
-         font-weight: 800;
+         margin-bottom: 2px;
          text-transform: uppercase;
+      }
+
+      p {
+        font-size: 14px;
       }
 
       button {
@@ -168,7 +173,7 @@ $border-radius: 20px;
          border-radius: 50%;
          padding: 2px 10px;
          position: absolute;
-         bottom: 15%;
+         bottom: 30%;
          right: 7%;
       }
    }
@@ -181,69 +186,70 @@ $border-radius: 20px;
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
 
-   .card {
-      width: 100%;
-      height: 25rem;
-      overflow: hidden;
+  .card {
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
 
-      img {
-         height: 500px;
-         border-radius: $border-radius;
-         filter: brightness(80%);
-         position: relative;
-         transition: all 0.25s ease-in-out;
-      }
-
-      .bg_hidden {
-         transition: all 0.25s ease-in-out;
-         position: absolute;
-         background-color: rgb(255, 94, 0);
-         height: 80px;
-         width: 100%;
-         bottom: -20%;
-
-         p {
-            position: absolute;
-            bottom: 13%;
-            margin-left: 20px;
-         }
-
-      }
-
-      &:hover .bg_hidden {
-         bottom: 0;
-      }
-
-      &:hover img {
-         filter: brightness(100%);
-         transform: translateY(-15%);
-      }
-
-      .card-body-desk {
-         width: 100%;
-         position: absolute;
-         padding-left: 20px;
-         bottom: 0;
-
-         h5 {
-            font-weight: 800;
-            text-transform: uppercase;
-            position: relative;
-            z-index: 10;
-         }
-
-         button {
-            background-color: white;
-            color: rgb(255, 94, 0);
-            border-radius: 50%;
-            padding: 7px 15px;
-            position: absolute;
-            z-index: 12;
-            bottom: 20%;
-            right: 7%;
-         }
-      }
+    img {
+        height: 500px;
+        border-radius: $border-radius;
+        filter: brightness(80%);
+        position: relative;
+        transition: all 0.25s ease-in-out;
     }
+
+    .bg_hidden {
+        transition: all 0.25s ease-in-out;
+        position: absolute;
+        background-color: rgb(255, 94, 0);
+        height: 80px;
+        width: 100%;
+        bottom: -20%;
+
+        p {
+          position: absolute;
+          bottom: 13%;
+          margin-left: 20px;
+          font-size: 15px;
+        }
+    }
+
+    &:hover .bg_hidden {
+        bottom: 0;
+    }
+
+    &:hover img {
+        filter: brightness(100%);
+        transform: translateY(-15%);
+    }
+
+    .card-body-desk {
+        width: 100%;
+        position: absolute;
+        padding-left: 20px;
+        bottom: 0;
+
+        h5 {
+          text-transform: uppercase;
+          position: relative;
+          z-index: 10;
+          margin-bottom: 0;
+        }
+
+        button {
+          background-color: white;
+          color: rgb(255, 94, 0);
+          border-radius: 50%;
+          padding: 7px 15px;
+          position: absolute;
+          z-index: 12;
+          bottom: 25%;
+          right: 5%;
+        }
+    }
+  }
+  
 }
 
 </style>

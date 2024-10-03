@@ -120,7 +120,6 @@ export default {
 
    h4 {
       font-size: 20px;
-      font-weight: 800;
       text-transform: uppercase;
       text-align: center;
    }
@@ -151,14 +150,13 @@ export default {
 
          h2 {
             font-size: 25px;
-            font-weight: 800;
             text-transform: uppercase;
             margin-bottom: 40px;
          }
 
          p {
             font-size: 18px;
-            font-weight: 700;
+            font-weight: 600;
          }
 
          button {

@@ -141,7 +141,6 @@ export default {
       }
 
       h4 {
-         font-weight: 800;
          font-size: 23px;
          text-transform: uppercase;
       }
@@ -182,7 +181,6 @@ export default {
 
             h5 {
                font-size: 16px;
-               font-weight: 800;
                text-transform: uppercase;
                margin: 0;
             }
@@ -224,7 +222,7 @@ export default {
          }
 
          h4 {
-            font-size: 28px;
+            font-size: 30px;
          }
 
          p {

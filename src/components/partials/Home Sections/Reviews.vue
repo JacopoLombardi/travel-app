@@ -70,14 +70,12 @@ export default {
 
   ._reviews {
     color: white;
-    
     padding: 50px 20px;
     background-color: rgb(98, 63, 255);
 
     h4 {
       text-transform: uppercase;
       font-size: 23px;
-      font-weight: 800;
       margin: 0;
     }
 
@@ -133,7 +131,7 @@ export default {
     padding: 80px 5rem;
     
     h4 {
-      font-size: 35px;
+      font-size: 30px;
       text-align: center;
     }
 
@@ -148,9 +146,9 @@ export default {
         margin-left: 30%;
         width: 100%;
 
-      }
-      &:nth-child(2) {
-        text-align: center;
+        &:nth-child(2) {
+          text-align: center;
+        }
       }
     }
 
@@ -175,8 +173,6 @@ export default {
   }
 
 }
-
-
 
 
 </style>

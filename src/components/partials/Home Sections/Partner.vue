@@ -102,7 +102,6 @@ export default {
    padding: 50px 0;
 
    h4 {
-      font-weight: 800;
       font-size: 23px;
       text-transform: uppercase;
       margin-left: 1.5rem;
@@ -134,22 +133,21 @@ export default {
          padding: 20px;
 
          span {
-         display: block;
-         width: fit-content;
-         background-color: rgb(255, 255, 255);
-         color: rgb(255, 123, 0);
-         font-size: 12px;
-         text-transform: capitalize;
-         border-radius: 20px;
-         margin-top: 2px;
-         padding: 7px 14px;
+            display: block;
+            width: fit-content;
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 123, 0);
+            font-size: 12px;
+            text-transform: capitalize;
+            border-radius: 20px;
+            margin-top: 2px;
+            padding: 7px 14px;
          }
 
          .card-body-title {
             h5 {
                font-size: 20px;
                text-transform: uppercase;
-               font-weight: 800;
                margin-top: 17px;
                margin-bottom: 12px;
             }
@@ -184,7 +182,7 @@ export default {
       padding: 50px 3rem;
 
       h4 {
-         font-size: 32px;
+         font-size: 30px;
          text-align: center
       }
 

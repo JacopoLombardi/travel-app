@@ -1,6 +1,6 @@
 <script>
 
-import Jumbotron_home from '../components/partials/Home Sections/Jumbotron_home.vue'
+import Jumbotron from '../components/partials/Home Sections/Jumbotron.vue'
 import Loved_travel from '../components/partials/Home Sections/Loved_travel.vue'
 import Last_places from '../components/partials/Home Sections/Last_places.vue'
 import Various_travel from '../components/partials/Home Sections/Various_travel.vue'
@@ -12,7 +12,7 @@ import Footer from '../components/Footer.vue'
 
 export default {
   components:{
-    Jumbotron_home,
+    Jumbotron,
     Loved_travel,
     Last_places,
     Various_travel,
@@ -30,7 +30,7 @@ export default {
 
 <template>
 
-  <Jumbotron_home/>
+  <Jumbotron/>
 
   <loved_travel/>
 

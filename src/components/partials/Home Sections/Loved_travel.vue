@@ -72,8 +72,7 @@ $border-radius: 20px;
 
     h2 {
       color: rgb(92, 0, 221);
-      font-size: 22px;
-      font-weight: 900;
+      font-size: 20px;
       text-transform: uppercase;
       margin-bottom: 5px;
     }
@@ -93,10 +92,10 @@ $border-radius: 20px;
 @media (min-width: 992px) {
 
   ._travel_loved {
-    padding: 80px 0 80px 5rem;
-
+    padding: 120px 0 80px 5rem;
+    
     ._title {
-      background-color: rgb(255, 255, 255);
+      background-color: white;
       border: 1px solid rgba(217, 217, 217, 0.79);
       border-radius: $border-radius;
       margin-right: 20px;
@@ -106,6 +105,11 @@ $border-radius: 20px;
       justify-content: space-between;
       align-items: end;
       flex-direction: column;
+
+      h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
     }
 
     .button_box {
@@ -122,7 +126,7 @@ $border-radius: 20px;
           background-color: rgb(214, 214, 214);
 
           i {
-            color: rgb(255, 255, 255);
+            color: white;
           }
         }
       }

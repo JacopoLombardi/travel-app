@@ -53,7 +53,7 @@ export default {
   
   <!-- menu a tendina mobile -->
   <div
-      class="accordion accordion-flush d-md-none"
+      class="accordion accordion-flush d-lg-none "
       id="accordionFlushExample"
     >
       <div v-for="item in Items" :key="item.id" class="accordion-item">
@@ -94,7 +94,7 @@ export default {
 
 
     <!-- menu desktop -->
-    <div class="accordion-body-desk d-none d-md-flex">
+    <div class="accordion-body-desk d-none d-lg-flex">
       <div
         class="_list"
         v-for="item in Items"
@@ -116,16 +116,17 @@ export default {
 
 
 <style lang="scss" scoped>
+
 h4 {
    text-transform: uppercase;
    font-weight: 800;
-   font-size: 17px;
+   font-size: 24px;
    margin: 0;
 }
 
 
 .accordion {
-   margin-top: 20px;
+   margin: 30px 0 50px 0;
    --bs-accordion-bg: rgb(33, 33, 33);
    --bs-accordion-btn-focus-border-color: transparent;
    --bs-accordion-btn-icon: none;
@@ -139,8 +140,8 @@ h4 {
          color: white !important;
          padding: 20px 0 10px;
          position: relative;
-         font-size: 22px;
-         font-weight: 800;
+         font-size: 15px;
+         text-transform: uppercase;
 
          &:not(.collapsed) {
             background-color: transparent;
@@ -186,8 +187,10 @@ h4 {
 
 
 
-// Media query per dispositivi con larghezza maggiore o uguale a 768px
-@media (min-width: 768px) {
+
+
+// Media query per dispositivi con larghezza maggiore o uguale a 992px
+@media (min-width: 992px) {
 
    .accordion-body-desk {
       display: flex;
@@ -213,4 +216,5 @@ h4 {
       }
    }
 }
+
 </style>

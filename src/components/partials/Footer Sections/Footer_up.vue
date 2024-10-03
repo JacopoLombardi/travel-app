@@ -16,7 +16,6 @@ export default {
 
 
 
-
 <template>
   <div class="footer_up">
 
@@ -30,12 +29,12 @@ export default {
       </div>
       <p>
         Cliccando su “Invia” esprimi il tuo consenso a ricevere la newsletter di Utravel.
-        <span>Leggi l'informativa privacy Utravel</span>
+        <a href="https://utravel.it/info/privacy/informativa-newsletter">Leggi l'informativa privacy Utravel</a>
       </p>
 
 
       <!-- social desktop-->
-      <div class="_social_desk d-none d-md-block">
+      <div class="_social_desk d-none d-lg-block">
         <h4>Seguici sui nostri social</h4>
         <ul class="d-flex">
           <li> <i class="fa-brands fa-instagram"></i> </li>
@@ -53,7 +52,7 @@ export default {
 
 
     <!-- social mobile-->
-    <div class="_social_mobile d-md-none">
+    <div class="_social_mobile d-lg-none">
       <h4>Seguici sui nostri social</h4>
       <ul class="d-flex">
         <li> <i class="fa-brands fa-instagram"></i> </li>
@@ -70,19 +69,18 @@ export default {
 
 
 
-
 <style lang="scss" scoped>
+
 h4 {
    text-transform: uppercase;
-   font-weight: 800;
-   font-size: 17px;
+   font-size: 18px;
    margin: 0;
 }
 
 .footer_up {
    height: auto;
    background-color: rgb(33, 33, 33);
-   color: white !important;
+   color: white;
    padding: 50px 20px;
 
    ._newsletter {
@@ -107,7 +105,8 @@ h4 {
       p {
          font-size: 13px;
 
-         span {
+         a {
+            color: white;
             text-decoration: underline;
 
             &:hover {
@@ -136,8 +135,13 @@ h4 {
 
 
 
-   // Media query per dispositivi con larghezza maggiore o uguale a 768px
-   @media (min-width: 768px) {
+   // Media query per dispositivi con larghezza maggiore o uguale a 992px
+   @media (min-width: 992px) {
+
+      h4 {
+         font-size: 24px;
+      }
+
       padding: 90px 10% 50px;
       display: flex;
       justify-content: space-between;
@@ -186,5 +190,6 @@ h4 {
          }
       }
    }
+   
 }
 </style>

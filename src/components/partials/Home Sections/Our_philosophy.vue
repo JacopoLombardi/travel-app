@@ -103,7 +103,7 @@ export default {
         :key="index"
       >
         <img :src="item.image" :alt="item.title">
-        <h5 class="mt-3">{{ item.title }}</h5>
+        <h5 class="mt-4">{{ item.title }}</h5>
         <p class="fs-6">{{ item.text }}</p>
       </div>
     </div>
@@ -124,7 +124,6 @@ export default {
     font-size: 23px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 800;
   }
 
   .swiper-slide-up {
@@ -153,8 +152,7 @@ export default {
   ._desk {
     h5 {
       color: rgb(90, 61, 255);
-      font-size: 30px;
-      font-weight: 800;
+      font-size: 20px;
       text-transform: uppercase;
     }
 
@@ -164,6 +162,8 @@ export default {
     }
   }
 }
+
+
 
 
 
@@ -191,14 +191,23 @@ export default {
 
 
 
+
+
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
 
   .our_philosophy {
     padding: 80px 5rem;
-    h4 {
-      font-size: 32px;
 
+    h4 {
+      font-size: 30px;
+    }
+
+    .swiper-slide-down,
+    ._desk {
+      h5 {
+        font-size: 25px;
+      }
     }
   }
 }

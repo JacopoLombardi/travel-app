@@ -40,7 +40,6 @@ export default {
 
 
 
-
 <template>
    <div class="footer_down d-md-flex">
 
@@ -88,7 +87,6 @@ export default {
 
 
 
-
 <style lang="scss" scoped>
 
 .footer_down {
@@ -99,6 +97,7 @@ export default {
 
    h6 {
       margin-bottom: 5px;
+      font-family: poppins;
    }
 
    ._box {
@@ -124,7 +123,6 @@ export default {
    }
 
    ._payment {
-
       h6 {
          margin-bottom: 10px;
       }
@@ -149,6 +147,8 @@ export default {
 
 
 
+
+
 // Media query per dispositivi con larghezza minore o uguale a 415px
 @media (max-width: 415px) {
 
@@ -162,6 +162,8 @@ export default {
       }
    }
 }
+
+
 
 
 
@@ -182,4 +184,5 @@ export default {
       }
    }
 }
+
 </style>

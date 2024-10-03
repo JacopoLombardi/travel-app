@@ -17,7 +17,6 @@ export default {
 
 
 
-
 <template>
    <div class="_jumbotron position-relative">
 
@@ -29,7 +28,7 @@ export default {
       <!-- titolo -->
       <div class="_title text-center text-white position-absolute">
          <h1>Welcome home wherever utravel</h1>
-         <h4>Noi organizziamo, tu parti!</h4>
+         <p>Noi organizziamo, tu parti!</p>
       </div>
 
       <!-- search -->
@@ -53,8 +52,6 @@ export default {
 
 
 
-
-
 <style lang="scss" scoped>
 
 ._jumbotron {
@@ -74,13 +71,13 @@ export default {
 
     h1 {
       font-size: 30px;
-      font-weight: 800;
       text-transform: uppercase;
       margin-bottom: 20px;
     }
 
-    h4 {
-      font-size: 20px;
+    p {
+      font-size: 18px;
+      font-weight: 600;
     }
   }
 }
@@ -121,6 +118,7 @@ export default {
 
 
 
+
 /* Media query per dispositivi con larghezza maggiore o uguale a 576px */
 @media (min-width: 576px) {
 
@@ -128,10 +126,10 @@ export default {
     width: auto;
 
     h1 {
-      font-size: 30px;
+      font-size: 32px;
     }
 
-    h4 {
+    p {
       font-size: 20px;
     }
   }
@@ -139,22 +137,23 @@ export default {
 
 
 
+
+
 /* Media query per dispositivi con larghezza maggiore o uguale a 992px */
 @media (min-width: 992px) {
 
   ._jumbotron {
-
     img {
       height: 550px;
     }
 
     ._title {
       h1 {
-        font-size: 50px;
+        font-size: 60px;
       }
 
-      h4 {
-        font-size: 30px;
+      p {
+        font-size: 25px;
       }
     }
 

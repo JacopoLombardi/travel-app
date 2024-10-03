@@ -163,7 +163,6 @@ export default {
         h5 {
           font-size: 17px;
           text-transform: uppercase;
-          font-weight: 800;
           margin-top: 14px;
         }
 
@@ -197,7 +196,7 @@ export default {
       .card-body {
         span {
           font-size: 16px;
-          font-weight: 700;
+          font-weight: 600;
           padding: 8px 16px;
         }
 
