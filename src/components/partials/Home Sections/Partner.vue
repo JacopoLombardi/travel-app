@@ -24,14 +24,17 @@ export default {
 
       if (width < 450) {
         this.slidesPerView = 1.2;
-        this.spaceBetween = 10;
+        this.spaceBetween = 25;
       } else if (width >= 500 && width < 768) {
         this.slidesPerView = 1.7;
-        this.spaceBetween = 10;
+        this.spaceBetween = 25;
       } else if (width >= 768 && width < 992) {
         this.slidesPerView = 2.5;
-        this.spaceBetween = 20;
-      }
+        this.spaceBetween = 30;
+      } else if (width >= 992) {
+        this.slidesPerView = 2.8;
+        this.spaceBetween = 40;
+      } 
     },
     saveSlideNameAndNavigate(name) {
       // Naviga alla pagina di dettaglio con il parametro 'name'
@@ -59,7 +62,7 @@ export default {
         :slides-per-view="slidesPerView"
         :space-between="spaceBetween"
         :loop="false"
-        class="px-4"
+        class="px-4 py-2"
       >
          <SwiperSlide
             v-for="(slide, index) in dataSlide"
@@ -114,6 +117,7 @@ export default {
       border-radius: 20px;
       border: none;
       position: relative;
+      box-shadow: 0px 0px 10px rgb(176, 176, 176);
 
       img {
          border-radius: 20px;

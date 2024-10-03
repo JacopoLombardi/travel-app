@@ -70,13 +70,13 @@ export default {
     transform: translate(-50%, -50%);
 
     h1 {
-      font-size: 30px;
+      font-size: 23px;
       text-transform: uppercase;
       margin-bottom: 20px;
     }
 
     p {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
     }
   }

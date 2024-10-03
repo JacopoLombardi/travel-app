@@ -67,14 +67,13 @@ $border-radius: 20px;
   }
 
   ._title {
-    padding-bottom: 25px;
-    margin-left: 0.5rem;
+    margin-bottom: 25px;
 
     h2 {
       color: rgb(92, 0, 221);
       font-size: 20px;
       text-transform: uppercase;
-      margin-bottom: 5px;
+      padding-bottom: 5px;
     }
 
     p {
@@ -99,8 +98,9 @@ $border-radius: 20px;
       border: 1px solid rgba(217, 217, 217, 0.79);
       border-radius: $border-radius;
       margin-right: 20px;
+      margin-bottom: 5px;
+      margin-top: 5px;
       padding: 1.5rem 1.5rem 1.5rem 1.5rem !important;
-      width: 17rem;
 
       justify-content: space-between;
       align-items: end;

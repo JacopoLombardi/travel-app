@@ -52,7 +52,7 @@ export default {
 
     <!-- Mobile -->
     <Swiper
-      class="_swiper d-md-none"
+      class="_swiper d-md-none py-2"
       :slides-per-view="slidesPerView"
       :space-between="spaceBetween"
       :loop="false"
@@ -94,7 +94,7 @@ export default {
       >
 
         <a
-          href="#"
+          href=""
           @click.prevent="saveSlideNameAndNavigate(slide.name_push)"
           class="slide-link text-white"
         >
@@ -132,6 +132,7 @@ export default {
     margin: 0 10px;
     border: none;
     position: relative;
+    box-shadow: 0px 0px 10px rgb(176, 176, 176);
 
     img {
       border-radius: 20px;

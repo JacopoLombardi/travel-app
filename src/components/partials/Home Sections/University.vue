@@ -63,7 +63,7 @@ export default {
 
       <!-- swiper mobile -->
       <Swiper
-         class="_swiper d-md-none px-4"
+         class="_swiper d-md-none py-2"
          :slides-per-view="slidesPerView"
          :space-between="spaceBetween"
          :loop="false"
@@ -132,7 +132,6 @@ export default {
 
    ._title {
       margin-bottom: 40px;
-      margin-left: 25px;
 
       h3 {
          color: rgb(131, 158, 255);
@@ -157,6 +156,7 @@ export default {
       border-radius: 20px;
       position: relative;
       border: none;
+      box-shadow: 0px 0px 10px rgb(176, 176, 176);
 
       img {
          width: 100%;

@@ -66,7 +66,7 @@ export default {
 
 <template>
    <div
-     class="last_places text-white mb-5"
+     class="last_places text-white"
      :style="{backgroundImage: `url(${currentBackground})`}"
    >
       <h4>Ultimi posti per la tua estate</h4>
@@ -109,16 +109,17 @@ export default {
 
 .last_places {
    padding: 50px 0;
-   position: relative;
    height: 500px;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   align-items: center;
 
    background-size: cover;
    background-position: center;
    transition: all 0.4s ease;
 
    h4 {
+      width: 90%;
       font-size: 20px;
       text-transform: uppercase;
       text-align: center;
@@ -129,7 +130,7 @@ export default {
       width: 100%;
       display: flex;
       align-items: center;
-      position: absolute;
+      position: relative;
 
       ._card {
          width: 250px;

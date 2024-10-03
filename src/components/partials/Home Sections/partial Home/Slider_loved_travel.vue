@@ -82,7 +82,7 @@ export default {
 <template>
   <!-- slider -->
   <swiper
-    class="_swiper"
+    class="_swiper ps-1 py-2"
     :slides-per-view="slidesPerView"
     :space-between="spaceBetween"
     :loop="true"
@@ -141,6 +141,7 @@ $border-radius: 20px;
    margin: 0 10px;
    border: none;
    border-radius: $border-radius;
+   box-shadow: 0px 0px 10px rgb(176, 176, 176);
 
    img {
       width: 100%;

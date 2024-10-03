@@ -1,14 +1,11 @@
 
 <script>
+
 export default {
   data(){
     return{
 
     };
-  },
-
-  methods:{
-
   },
 };
 </script>
@@ -19,14 +16,13 @@ export default {
 <template>
   
   <div class="_reviews">
-
     <h4>cosa dice chi è partito con noi?</h4>
 
     <div class="_rate d-flex justify-content-between">
       <div class="col-lg-1 d-none d-lg-block">
       </div>
 
-      <div class="col-lg-1">
+      <div class="col-lg-2 text-center">
         <p>4.6</p>
       </div>
 
@@ -81,14 +77,14 @@ export default {
 
     ._rate {
       p {
-        font-size: 80px;
+        font-size: 70px;
         font-weight: 800;
         margin-bottom: 10px;
       }
 
       img {
         margin-top: 35px;
-        max-width: 130px;
+        max-width: 100%;
         max-height: 30px;
       }
     }
@@ -143,8 +139,6 @@ export default {
       }
 
       img {
-        margin-left: 30%;
-        width: 100%;
 
         &:nth-child(2) {
           text-align: center;

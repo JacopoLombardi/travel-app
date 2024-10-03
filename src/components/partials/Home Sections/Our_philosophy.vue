@@ -117,7 +117,7 @@ export default {
 <style lang="scss" scoped>
 
 .our_philosophy {
-  padding: 50px 0;
+  padding: 50px 1rem;
   height: auto;
 
   h4 {
