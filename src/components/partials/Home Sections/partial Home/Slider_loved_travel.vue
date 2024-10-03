@@ -197,11 +197,11 @@ $border-radius: 20px;
         border-radius: $border-radius;
         filter: brightness(80%);
         position: relative;
-        transition: all 0.25s ease-in-out;
+        transition: all 0.20s ease-in-out;
     }
 
     .bg_hidden {
-        transition: all 0.25s ease-in-out;
+        transition: all 0.20s ease-in-out;
         position: absolute;
         background-color: rgb(255, 94, 0);
         height: 80px;

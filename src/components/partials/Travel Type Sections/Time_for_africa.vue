@@ -126,7 +126,6 @@ export default {
       text-align: center;
       width: 100%;
       font-size: clamp(2rem, 6vw, 4rem);
-      font-weight: 800;
       text-transform: uppercase;
       position: absolute;
       top: 50%;
@@ -139,13 +138,11 @@ export default {
 
 
 
-
 ._paragraph {
   padding: 50px 1rem;
 
   h4 {
     font-size: 20px;
-    font-weight: 900;
     text-transform: uppercase;
     color: rgb(86, 0, 177);
     margin-bottom: 15px;
@@ -164,14 +161,6 @@ export default {
 ._travels {
    padding: 0px 1rem 50px 1rem;
 
-   h4 {
-      font-size: 25px;
-      font-weight: 900;
-      text-transform: uppercase;
-      text-align: center;
-      margin-top: 60px;
-   }
-
    .card {
       border-radius: 20px;
 
@@ -189,7 +178,6 @@ export default {
 
          h6 {
             font-size: 18px;
-            font-weight: 900;
             text-transform: uppercase;
             margin-bottom: 3px;
          }
@@ -219,10 +207,6 @@ export default {
 
 
 
-
-
-
-
 .find_what_looking {
    position: relative;
 
@@ -244,7 +228,6 @@ export default {
 
       h5 {
         font-size: 23px;
-        font-weight: 900;
         text-transform: uppercase;
       }
 
@@ -272,7 +255,6 @@ export default {
 
 
 
-
 /* Media query per dispositivi con larghezza minore o uguale a 400px */
 @media (max-width: 400px) {
 
@@ -293,11 +275,6 @@ export default {
 
 
   ._travels {
-    h4 {
-      font-size: 22px;
-      margin-bottom: 0;
-    }
-
     .card {
       .text_mobile {
         padding: 10px;
@@ -340,14 +317,14 @@ export default {
 
   ._jumbotron {
     ._box {
-        .box_text {
-          width: 90%;
+      .box_text {
+        width: 90%;
 
-          p {
-              font-size: 19px;
-              font-weight: 500;
-          }
-        }  
+        p {
+            font-size: 19px;
+            font-weight: 500;
+        }
+      }  
     }
   }
 
@@ -355,18 +332,18 @@ export default {
 
 
   ._paragraph {
-      text-align: center;
-      padding: 80px 5rem;
+    text-align: center;
+    padding: 80px 5rem;
 
-      h4 {
-        font-size: 30px;
-        margin-bottom: 25px;
-      }
-
-      p {
-        font-size: 16px;
-      }
+    h4 {
+      font-size: 30px;
+      margin-bottom: 25px;
     }
+
+    p {
+      font-size: 16px;
+    }
+  }
 
 
 
@@ -391,12 +368,12 @@ export default {
         border-radius: 20px 20px 0 0;
         filter: brightness(80%);
         position: relative;
-        transition: all 0.25s ease-in-out;
+        transition: all 0.20s ease-in-out;
       }
 
       .bg_hidden {
         color: white;
-        transition: all 0.25s ease-in-out;
+        transition: all 0.20s ease-in-out;
         position: absolute;
         background-color: rgb(255, 94, 0);
         height: 80px;
@@ -404,6 +381,7 @@ export default {
         bottom: -20.1%;
 
         p {
+          font-size: 14px;
           position: absolute;
           bottom: 13%;
           margin-left: 20px;
@@ -428,12 +406,11 @@ export default {
 
         h6 {
           font-size: 21px;
-          font-weight: 800;
           width: 80%;
           text-transform: uppercase;
           position: relative;
           z-index: 10;
-          margin-bottom: 4px;
+          margin-bottom: 0;
         }
 
         p {

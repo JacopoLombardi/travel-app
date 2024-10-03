@@ -131,7 +131,6 @@ export default {
 
          h1 {
             font-size: clamp(2rem, 8vw, 4rem);
-            font-weight: 800;
             text-transform: uppercase;
          }
 
@@ -162,13 +161,11 @@ export default {
 
 
 
-
 ._travels {
    padding: 0px 1rem 50px 1rem;
 
    h4 {
       font-size: 25px;
-      font-weight: 900;
       text-transform: uppercase;
       text-align: center;
       margin-top: 60px;
@@ -176,6 +173,7 @@ export default {
 
    .card {
       border-radius: 20px;
+      box-shadow: 0px 0px 10px rgb(176, 176, 176);
 
       img {
          border-radius: 20px 20px 0 0;
@@ -198,6 +196,7 @@ export default {
          
          p {
             font-size: 14px;
+            
             span {
                font-size: 16px;
                font-weight: 700;
@@ -242,7 +241,6 @@ export default {
 
       h5 {
          font-size: 23px;
-         font-weight: 900;
          text-transform: uppercase;
       }
 
@@ -376,12 +374,12 @@ export default {
             border-radius: 20px 20px 0 0;
             filter: brightness(80%);
             position: relative;
-            transition: all 0.25s ease-in-out;
+            transition: all 0.20s ease-in-out;
          }
 
          .bg_hidden {
             color: white;
-            transition: all 0.25s ease-in-out;
+            transition: all 0.20s ease-in-out;
             position: absolute;
             background-color: rgb(255, 94, 0);
             height: 80px;
@@ -389,6 +387,7 @@ export default {
             bottom: -20.1%;
 
             p {
+               font-size: 14px;
                position: absolute;
                bottom: 13%;
                margin-left: 20px;
@@ -413,12 +412,11 @@ export default {
 
             h6 {
                font-size: 21px;
-               font-weight: 800;
                width: 80%;
                text-transform: uppercase;
                position: relative;
                z-index: 10;
-               margin-bottom: 4px;
+               margin-bottom: 0;
             }
 
             p {

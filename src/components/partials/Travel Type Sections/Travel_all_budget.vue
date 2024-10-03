@@ -113,7 +113,6 @@ export default {
       text-align: center;
       width: 60%;
       font-size: clamp(2rem, 7vw, 3.5rem);
-      font-weight: 800;
       text-transform: uppercase;
       position: absolute;
       top: 50%;
@@ -130,7 +129,6 @@ export default {
 
    h2 {
       font-size: 20px;
-      font-weight: 900;
       text-transform: uppercase;
       color: rgb(86, 0, 177);
       margin-bottom: 15px;
@@ -150,7 +148,6 @@ export default {
    
    h3 {
       font-size: 20px;
-      font-weight: 900;
       text-transform: uppercase;
       color: white;
    }
@@ -166,7 +163,6 @@ export default {
 
       h4 {
          font-size: 20px;
-         font-weight: 900;
          text-transform: uppercase;
          color: rgb(69, 0, 172);
          margin: 0;
@@ -197,7 +193,6 @@ export default {
 
             h6 {
                font-size: 16px;
-               font-weight: 900;
                text-transform: uppercase;
                color: rgb(69, 0, 172);
                margin: 0;
@@ -242,7 +237,6 @@ export default {
 
       h5 {
          font-size: 23px;
-         font-weight: 900;
          text-transform: uppercase;
       }
 

@@ -100,21 +100,27 @@ export default {
             v-for="(slide, index) in dataSlide"
             :key="index"
          >
-            <img :src="slide.image" class="card-img-top" alt="" />
+            <a
+               href=""
+               @click.prevent="saveSlideNameAndNavigate(slide.name)"
+               class="slide-link text-white"
+            >
+               <img :src="slide.image" class="card-img-top" alt="" />
 
-            <div class="card-body d-none d-md-flex">
-               <div class="card-body-title">
-                  <h5 class="card-title">{{slide.name}}</h5>
-                  <p class="card-text">da {{slide.price}}€</p>
-               </div>
-               <button class="btn">
-                  <i class="fa-solid fa-chevron-right"></i>
-               </button>
+               <div class="card-body d-none d-md-flex">
+                  <div class="card-body-title">
+                     <h5 class="card-title">{{slide.name}}</h5>
+                     <p class="card-text">da {{slide.price}}€</p>
+                  </div>
+                  <button class="btn">
+                     <i class="fa-solid fa-chevron-right"></i>
+                  </button>
 
-               <div class="bg_hidden">
-                  <p>7 notti / 8 giorni</p>
+                  <div class="bg_hidden">
+                     <p>7 notti / 8 giorni</p>
+                  </div>
                </div>
-            </div>
+            </a>
          </div>
       </div>
 
@@ -237,7 +243,7 @@ export default {
 
          img {
             border-radius: 20px 20px 0 0;
-            transition: all 0.25s ease-in-out;
+            transition: all 0.20s ease-in-out;
          }
 
          .card-body {
@@ -252,7 +258,7 @@ export default {
                width: 100%;
                bottom: -101%;
                left: 0;
-               transition: all 0.25s ease-in-out;
+               transition: all 0.20s ease-in-out;
 
                p {
                   position: absolute;

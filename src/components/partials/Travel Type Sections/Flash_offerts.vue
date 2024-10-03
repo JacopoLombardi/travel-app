@@ -95,7 +95,6 @@ export default {
       text-align: center;
       width: 100%;
       font-size: clamp(2rem, 8vw, 4rem);
-      font-weight: 800;
       text-transform: uppercase;
       position: absolute;
       top: 50%;
@@ -122,14 +121,12 @@ export default {
 
 
 
-
 ._cards {
   padding: 50px 1rem;
 
   h2 {
     color: rgb(105, 13, 226);
     font-size: 20px;
-    font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 30px;
   }
@@ -154,7 +151,8 @@ export default {
 
         h5 {
           font-size: 15px;
-          font-weight: 700;
+          font-weight: 800;
+          font-family: Poppins;
           margin: 0;
         }
 

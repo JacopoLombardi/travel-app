@@ -117,7 +117,6 @@ export default {
 
       h1 {
         font-size: clamp(2rem, 8vw, 4rem);
-        font-weight: 800;
         text-transform: uppercase;
       }
 
@@ -138,7 +137,6 @@ export default {
 
 
 
-
 ._paragraph {
   padding: 50px 1rem;
   font-size: 12px;
@@ -152,14 +150,11 @@ export default {
 
 
 
-
-
 ._travels {
   padding: 50px 1rem;
 
   h4 {
     font-size: 25px;
-    font-weight: 900;
     text-transform: uppercase;
   }
 
@@ -183,7 +178,8 @@ export default {
 
         h5 {
           font-size: 15px;
-          font-weight: 700;
+          font-weight: 800;
+          font-family: Poppins;
           margin: 0;
         }
 

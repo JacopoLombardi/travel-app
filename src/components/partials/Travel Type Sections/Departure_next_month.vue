@@ -103,7 +103,7 @@ export default {
             :slides-per-view="slidesPerView"
             :space-between="spaceBetween"
             :loop="false"
-            class="w-100"
+            class="w-100 py-2"
           >
             <swiper-slide
               v-for="item in item.cards"
@@ -236,6 +236,7 @@ export default {
       .card {
         border-radius: 20px;
         height: 330px;
+        box-shadow: 0px 0px 10px rgb(176, 176, 176);
 
         img {
           width: 100%;
@@ -432,12 +433,12 @@ export default {
             border-radius: 20px 20px 0 0;
             filter: brightness(80%);
             position: relative;
-            transition: all 0.25s ease-in-out;
+            transition: all 0.20s ease-in-out;
           }
 
           .bg_hidden {
             color: white;
-            transition: all 0.25s ease-in-out;
+            transition: all 0.20s ease-in-out;
             position: absolute;
             background-color: rgb(255, 94, 0);
             height: 80px;
@@ -445,6 +446,7 @@ export default {
             bottom: -20.1%;
 
             p {
+              font-size: 14px;
               position: absolute;
               bottom: 13%;
               margin-left: 20px;
@@ -469,12 +471,11 @@ export default {
 
             h6 {
               font-size: 18px;
-              font-weight: 800;
               width: 80%;
               text-transform: uppercase;
               position: relative;
               z-index: 10;
-              margin-bottom: 4px;
+              margin-bottom: 0;
             }
 
             p {
