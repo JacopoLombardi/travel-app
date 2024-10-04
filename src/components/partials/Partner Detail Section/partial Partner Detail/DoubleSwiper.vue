@@ -102,9 +102,10 @@ export default {
          <div
             v-for="item in data.how_work.cards"
             :key="item"
-            class="_box text-center"
+            class="_box text-center col-md-2"
          >
             <img :src="item.image" alt="">
+            <h4>{{ item.title }}</h4>
             <p>{{ item.text }}</p>
          </div>
       </div>
@@ -126,13 +127,9 @@ export default {
    padding: 50px 1rem;
 
    h3 {
-      font-size: 21px;
+      font-size: 23px;
       text-transform: uppercase;
-      font-weight: 900;
    }
-
-   
-
 
    .swiper-slide-up {
       display: flex;
@@ -159,7 +156,6 @@ export default {
    .swiper-slide-down {
       h4 {
          text-transform: uppercase;
-         font-weight: 900;
       }
 
       p {
@@ -177,7 +173,6 @@ export default {
       font-weight: 600;
    }
 }
-
 
 
 
@@ -211,10 +206,24 @@ export default {
          max-width: 1700px;
 
          ._box {
-            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
 
             img {
-               margin-bottom: 30px;
+               min-width: 120px;
+               height: 250px;
+            }
+
+            h4 {
+               text-transform: uppercase;
+               font-size: clamp(1rem, 2vw, 1.5rem);
+
+            }
+
+            p {
+               line-height: 22px;
+               font-size: 17px;
             }
          }
       }

@@ -122,7 +122,6 @@ export default {
    h3 {
       color: rgb(62, 16, 190);
       text-transform: uppercase;
-      font-weight: 900;
       font-size: 23px;
    }
 
@@ -143,7 +142,6 @@ export default {
    h3 {
       color: rgb(62, 16, 190);
       text-transform: uppercase;
-      font-weight: 900;
       font-size: 23px;
    }
 
@@ -175,7 +173,6 @@ export default {
          h4 {
             color: rgb(62, 16, 190);
             text-transform: uppercase;
-            font-weight: 900;
             font-size: 20px;
             margin: 10px 0;
          }
@@ -220,7 +217,6 @@ export default {
 
       h5 {
          font-size: 23px;
-         font-weight: 900;
          text-transform: uppercase;
       }
 
@@ -255,7 +251,6 @@ export default {
 
       h3 {
          font-size: 23px;
-         font-weight: 900;
          text-transform: uppercase;
       }
 

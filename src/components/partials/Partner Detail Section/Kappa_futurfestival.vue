@@ -94,7 +94,6 @@ export default {
 
    h3 {
       text-transform: uppercase;
-      font-weight: 900;
       font-size: clamp(1.8rem, 6vw, 3rem);
    }
 
@@ -132,7 +131,6 @@ export default {
          h5 {
             text-transform: uppercase;
             font-size: 20px;
-            font-weight: 900;
          }
 
          p {
@@ -159,7 +157,6 @@ export default {
 
 
 
-
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
 
@@ -171,6 +168,11 @@ export default {
          max-width: 100%;
          height: 100px;
          margin: 0;
+      }
+
+      p {
+         margin-top: 30px;
+         line-height: 25px;
       }
    }
 
@@ -206,8 +208,8 @@ export default {
             }
 
             p {
-               font-size: 15px;
-               line-height: 19px;
+               font-size: 17px;
+               line-height: 22px;
                margin: 25px 0;
             }
 

@@ -41,6 +41,8 @@ export default {
       }
 
       .box_text {
+         color: white;
+         text-align: center;
          width: 90%;
          position: absolute;
          top: 50%;
@@ -49,19 +51,12 @@ export default {
 
          h1 {
             font-size: clamp(1.8rem, 6vw, 4rem);
-            font-weight: 800;
             text-transform: uppercase;
          }
 
          p {
             font-size: 15px;
             font-weight: 500;
-         }
-
-         h1,
-         p {
-            color: white;
-            text-align: center;
          }
       }  
    }

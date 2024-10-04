@@ -55,47 +55,6 @@ export default {
 
 <style lang="scss" scoped>
 
-._jumbotron {
-   ._box {
-      position: relative;
-
-      img {
-         width: 100%;
-         height: 450px;
-         object-fit: cover;
-         filter: brightness(70%);
-      }
-
-      .box_text {
-         width: 90%;
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-
-         h1 {
-            font-size: clamp(1.8rem, 6vw, 4rem);
-            font-weight: 800;
-            text-transform: uppercase;
-         }
-
-         p {
-            font-size: 15px;
-            font-weight: 500;
-         }
-
-         h1,
-         p {
-            color: white;
-            text-align: center;
-         }
-      }  
-   }
-}
-
-
-
-
 ._collaboration {
    padding: 50px 1rem;
    font-size: 13px;
@@ -123,8 +82,6 @@ export default {
       padding: 10px 15px;
    }
 }
-
-
 
 
 

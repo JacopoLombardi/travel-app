@@ -147,7 +147,6 @@ export default {
 
 
 
-
 ._discount {
    padding: 50px 1rem;
 
@@ -209,7 +208,6 @@ export default {
    h3 {
       color: rgb(118, 80, 213);
       text-transform: uppercase;
-      font-weight: 900;
       font-size: 23px;
    }
 
@@ -232,11 +230,10 @@ export default {
 
          h5 {
             font-size: 20px;
-            font-weight: 900;
          }
 
          p {
-            font-size: 14px;
+            font-size: 13px;
             line-height: 19px;
             margin: 25px 0;
          }

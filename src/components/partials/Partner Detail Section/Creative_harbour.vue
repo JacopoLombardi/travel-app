@@ -126,6 +126,7 @@ export default {
       font-weight: 600;
       padding: 8px 15px;
       margin-top: 40px;
+      border-radius: 10px;
    }
 }
 
@@ -157,7 +158,6 @@ export default {
          h5 {
             text-transform: uppercase;
             font-size: 20px;
-            font-weight: 900;
          }
 
          p {
@@ -209,6 +209,12 @@ export default {
          height: 100px;
          margin: 0;
       }
+
+      a {
+         font-size: 18px;
+         padding: 12px 20px;
+         margin-top: 60px;
+      }
    }
 
 
@@ -239,18 +245,18 @@ export default {
             padding: 30px;
 
             h5 {
-               font-size: 28px;
+               font-size: 27px;
             }
 
             p {
-               font-size: 15px;
-               line-height: 19px;
+               font-size: 17px;
+               line-height: 22px;
                margin: 25px 0;
             }
 
             ul {
                li {
-                  font-size: 16px;
+                  font-size: 17px;
                }
             }
 
