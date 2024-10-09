@@ -137,6 +137,7 @@ export default {
       position: relative;
 
       h3 {
+         font-family: Poppins;
          font-size: 16px;
          font-weight: 700;
          margin-left: 1.5rem;

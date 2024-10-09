@@ -170,8 +170,7 @@ export default {
    }
 
    h2 {
-      font-size: 20px;
-      font-weight: 800;
+      font-size: 23px;
       text-transform: uppercase;
       margin: 20px 0;
    }
@@ -250,6 +249,7 @@ export default {
                align-self: flex-start;
 
                h5 {
+                  font-family: Poppins;
                   font-size: 15px;
                   font-weight: 700;
                   margin: 0;
@@ -311,7 +311,7 @@ export default {
       }
 
       h2 {
-         font-size: 25px;
+         font-size: 30px;
       }
 
       ul {
@@ -361,10 +361,6 @@ export default {
       ._text {
          width: 30%;
          margin-right: 7rem;
-
-         h2 {
-            font-size: 30px;
-         }
 
          ul {
             li {

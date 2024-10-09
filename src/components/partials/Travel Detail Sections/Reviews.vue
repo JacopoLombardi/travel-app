@@ -130,8 +130,7 @@ export default {
       margin-bottom: 40px;
 
       h3 {
-         font-size: 22px;
-         font-weight: 800;
+         font-size: 23px;
          text-transform: uppercase;
          margin-bottom: 20px;
       }
@@ -150,8 +149,9 @@ export default {
       height: 250px;
 
       h5 {
+         font-family: Poppins;
          font-size: 15px;
-         font-weight: 700;
+         font-weight: 800;
          margin: 0;
       }
 
@@ -188,7 +188,7 @@ export default {
 
       ._text {
          h3 {
-            font-size: 25px;
+            font-size: 30px;
          }
 
          p {
@@ -218,19 +218,15 @@ export default {
 @media (min-width: 992px) {
    ._reviews {
       ._text {
-         h3 {
-            font-size: 30px;
-         }
-
          p {
             font-size: 15px;
          }
       }
 
 
-
       .card {
          max-width: 600px;
+
          h5 {
             font-size: 17px;
          }

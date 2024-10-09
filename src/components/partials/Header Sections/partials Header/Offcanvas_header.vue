@@ -110,7 +110,6 @@ export default {
 
    p {
       font-size: 20px;
-      font-weight: 800;
    }
 
    li {

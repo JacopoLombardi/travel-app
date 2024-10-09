@@ -158,6 +158,8 @@ export default {
       }
 
       h4 {
+         font-family: Poppins;
+         font-weight: 700;
          margin-bottom: 5px;
          width: 90%;
       }

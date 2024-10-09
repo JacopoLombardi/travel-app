@@ -123,7 +123,6 @@ export default {
 
     h1 {
       font-size: clamp(2rem, 8vw, 5rem);
-      font-weight: 700;
       text-transform: uppercase;
     }
   

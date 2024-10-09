@@ -166,6 +166,8 @@ export default {
       margin: 0 2rem;
 
       h4 {
+         font-family: Poppins;
+         font-weight: 700;
          font-size: 22px;
          margin-bottom: 10px;
       }

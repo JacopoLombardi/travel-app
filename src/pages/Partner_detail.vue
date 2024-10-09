@@ -1,6 +1,6 @@
 
 <script>
-import Partner_detail_data from '../data/json_data/Partner_detail_data.json'
+import PartnerDetail_data from '../data/json_data/PartnerDetail_data.json'
 
 import Instax from "../components/partials/Partner Detail Section/Instax.vue"
 import Holafly from "../components/partials/Partner Detail Section/Holafly.vue"
@@ -49,7 +49,7 @@ export default {
       console.log("selectedSection:", selectedSection);
 
       if (selectedSection) {
-        this.dataPage = Partner_detail_data[selectedSection];
+        this.dataPage = PartnerDetail_data[selectedSection];
         this.currentPage = selectedSection;
         console.log("dataPage:", this.dataPage);
       } else {

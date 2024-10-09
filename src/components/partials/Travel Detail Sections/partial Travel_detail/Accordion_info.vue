@@ -187,6 +187,14 @@ export default {
 
 <style lang="scss" scoped>
 
+h2,
+h3,
+h4 {
+  font-family: Poppins;
+}
+
+
+
 // mobile
 .accordion {
   --bs-accordion-active-color: black;

@@ -1,6 +1,6 @@
 
 <script>
-import Travel_type_data from "../data/json_data/Travel_type_data.json";
+import TravelType_data from "../data/json_data/TravelType_data.json";
 
 import Flash_offerts from "../components/partials/Travel Type Sections/Flash_offerts.vue";
 import Travel_all_budget from "../components/partials/Travel Type Sections/Travel_all_budget.vue";
@@ -49,7 +49,7 @@ export default {
       console.log("selectedSection:", selectedSection);
 
       if (selectedSection) {
-        this.dataPage = Travel_type_data[selectedSection];
+        this.dataPage = TravelType_data[selectedSection];
         this.currentPage = selectedSection;
         console.log("dataPage:", this.dataPage);
       } else {

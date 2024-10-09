@@ -1,6 +1,6 @@
 
 <script>
-import University_detail_data from '../data/json_data/University_detail_data.json'
+import UniversityDetail_data from '../data/json_data/UniversityDetail_data.json'
 
 import Jumbotron from '../components/partials/University Detail Section/Jumbotron.vue';
 
@@ -13,7 +13,7 @@ export default {
    },
    data() {
     return {
-      slides: University_detail_data.slides, // Dati importati dal JSON
+      slides: UniversityDetail_data.slides, // Dati importati dal JSON
       currentSlide: null, // Slide selezionata
     };
   },

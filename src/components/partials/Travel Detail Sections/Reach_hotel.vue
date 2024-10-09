@@ -60,10 +60,9 @@ export default {
    ._info {
       h3 {
          color: rgb(85, 14, 208);
-         font-weight: 800;
          text-transform: uppercase;
          margin-bottom: 25px;
-         font-size: 22px;
+         font-size: 23px;
       }
 
       ul {
@@ -75,6 +74,7 @@ export default {
                margin-left: 15px;
                
                h6 {
+                  font-family: Poppins;
                   margin-bottom: 5px;
                   font-size: 16px;
                   font-weight: 700;
@@ -103,7 +103,6 @@ export default {
          }
       }
    }
-
 
    ._map {
       display: flex;
@@ -165,7 +164,6 @@ export default {
             }
          }
       }
-
 
       ._map {
          width: 50%;

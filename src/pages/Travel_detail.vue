@@ -1,6 +1,6 @@
 
 <script>
-import Travel_detail_data from '../data/json_data/Travel_detail_data.json'
+import TravelDetail_data from '../data/json_data/TravelDetail_data.json'
 
 import Info from "../components/partials/Travel Detail Sections/Info.vue"
 import YourStay from "../components/partials/Travel Detail Sections/Your_stay.vue"
@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      slides: Travel_detail_data.slides, // Dati importati dal JSON
+      slides: TravelDetail_data.slides, // Dati importati dal JSON
       currentSlide: null, // Slide selezionata
     };
   },

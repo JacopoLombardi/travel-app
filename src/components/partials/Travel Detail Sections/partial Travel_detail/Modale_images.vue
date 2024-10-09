@@ -100,7 +100,9 @@ export default {
 
       ._box {
          margin-top: 30px;
+         
          h3 {
+            font-family: Poppins;
             font-size: 20px;
             font-weight: 700;
             margin-left: 17px;

@@ -187,6 +187,14 @@ export default {
 
 <style lang="scss" scoped>
 
+h2 {
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-size: 23px;
+}
+
+
+
 .your_stay {
   margin: 50px 1rem;
 
@@ -202,9 +210,6 @@ export default {
 
   h2 {
     color: rgb(255, 89, 0);
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 15px 0;
   }
 
   ._paragraph {
@@ -302,8 +307,9 @@ export default {
 
       h3 {
         font-size: 17px;
-        font-weight: 700;
         margin: 20px 0;
+        font-family: Poppins;
+        font-weight: 700;
       }
 
       .badge_service {
@@ -326,6 +332,13 @@ export default {
 
 /* Media query per dispositivi con larghezza maggiore o uguale a 768px */
 @media (min-width: 768px) {
+
+  h2 {
+    font-size: 30px;
+  }
+
+
+
   .your_stay {
     margin: 50px 5rem;
 
@@ -480,7 +493,7 @@ export default {
           margin-top: 40px;
 
           h3 {
-            font-size: 23px;
+            font-size: 25px;
             margin-right: 20px;
           }
 

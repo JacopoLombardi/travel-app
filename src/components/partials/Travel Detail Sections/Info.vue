@@ -168,7 +168,6 @@ export default {
     text-align: center;
     width: 100%;
     font-size: clamp(2rem, 12vw, 5rem);
-    font-weight: 700;
     text-transform: uppercase;
     position: absolute;
     left: 50%;
@@ -181,7 +180,7 @@ export default {
     color: orangered;
     border-radius: 10px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     padding: 8px 14px;
     position: absolute;
     right: 30px;
@@ -198,8 +197,7 @@ export default {
 
   h2 {
     color: orangered;
-    font-weight: 900;
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 20px;
     text-transform: uppercase;
   }
@@ -247,9 +245,10 @@ export default {
       }
 
       h4 {
+        font-family: Poppins;
+        font-weight: 800;
         margin: 0;
         font-size: 18px;
-        font-weight: 700;
       }
     }
 
